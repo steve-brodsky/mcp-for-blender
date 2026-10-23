@@ -40,7 +40,7 @@ A backup of the previous accepted finish is
 
 Godot coordinates are -Z forward, +X starboard and +Y up, at unit scale.
 Bounds: approximately 98.14 m long x 49.10 m wide x 29.89 m high.
-The assembly contains 93,780 triangles, nine meshes, and 23 material surfaces.
+The assembly contains 93,908 triangles, nine meshes, and 24 material surfaces.
 The GLB is approximately 49.2 MB with one embedded 8K basecolor image.
 The geometry remains a refined reconstruction; it is not a new hard-surface model.
 
@@ -141,3 +141,13 @@ The frozen reference is `textures/hull_before_engine_desaturation_8k.png`.
 To reproduce, run `scripts/desaturate_engine_orange.py`, then
 `scripts/bake_detailed_finish.py` and `scripts/export_symmetry_revision.py`.
 See `engine_color_validation.json` and `renders/godot_engines_charcoal.png`.
+
+## Local nozzle bridge removal
+
+Only the small contacts between each upper/lower nozzle pair are cut away. The
+native mirrored hull remains; no replacement engines are added. All 29,998
+untouched source-half faces retain identical UVs, and the hull texture bytes are
+unchanged. Newly exposed interior cut faces use matching dark steel.
+`scripts/remove_nozzle_bridges.py` applies the local cut before the usual export.
+The pre-cut source is `blender/mothership_before_nozzle_bridge_cut.blend`.
+See `nozzle_bridge_validation.json` and `renders/godot_nozzle_bridges_removed.png`.

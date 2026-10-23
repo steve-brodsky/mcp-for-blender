@@ -1,0 +1,51 @@
+{
+  "method": "Tiny local Boolean cut on original nozzle connector, mirrored to port; original engine silhouettes/textures retained.",
+  "cut_box_blender": {
+    "min": [
+      3.4,
+      -46,
+      3.2
+    ],
+    "max": [
+      4.8,
+      -40.5,
+      4.0
+    ]
+  },
+  "source_half_faces_before": 30061,
+  "source_half_faces_after": 30047,
+  "new_or_split_source_half_faces": 49,
+  "hull_atlas_sha256": "5c3eb90ce86f709f2e20f7f1e7b6a66dd09ff41680946e3085eb1cf9227921a4",
+  "source_backup": "blender/mothership_before_nozzle_bridge_cut.blend",
+  "retained_source_half_faces_identical_uvs": 29998,
+  "removed_or_split_source_half_faces": 63,
+  "affected_old_geometry_bounds": [
+    [
+      3.467422,
+      5.271273
+    ],
+    [
+      -43.049107,
+      -39.60268
+    ],
+    [
+      2.811997,
+      4.329151
+    ]
+  ],
+  "texture_bytes_unchanged": true,
+  "gaps_verified_at_both_contacts": true,
+  "gap_rear_wall_hits_blender": [
+    [
+      -4.099999904632568,
+      -40.5,
+      3.5999999046325684
+    ],
+    [
+      4.099999904632568,
+      -40.5,
+      3.5999999046325684
+    ]
+  ],
+  "triangles": 93908
+}

@@ -33,8 +33,8 @@
       "materials": 1
     },
     "Mothership_Hull": {
-      "triangles": 60910,
-      "materials": 1
+      "triangles": 61038,
+      "materials": 2
     }
   },
   "original_triangles": 699864,
@@ -54,5 +54,5 @@
     "Two short hollow forward barrel inserts added; accepted hull geometry and atlas remained unchanged in that revision. Each separate Godot node recoils independently by 0.55 m.",
     "Local ivory plating repair on inward cannon walls and shelves; existing geometry and UVs retained. See inner_panel_validation.json."
   ],
-  "total_triangles": 93780
+  "total_triangles": 93908
 }
