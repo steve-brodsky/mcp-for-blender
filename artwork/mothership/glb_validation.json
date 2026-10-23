@@ -5,8 +5,8 @@
   "meshes": 10,
   "embedded_images": 1,
   "degenerate_triangles": 0,
-  "file_bytes": 49459352,
-  "registered_atlas_sha256": "5c3eb90ce86f709f2e20f7f1e7b6a66dd09ff41680946e3085eb1cf9227921a4",
+  "file_bytes": 49291632,
+  "registered_atlas_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
   "atlas_resolution": [
     8192,
     8192

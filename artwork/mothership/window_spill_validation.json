@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "geometry_unchanged": true,
+  "uvs_unchanged": true,
+  "material_assignments_unchanged": true,
+  "method": "Blue-only mask above the side window apertures; geometry and blue window artwork preserved.",
+  "blue_window_samples": 27,
+  "blue_window_samples_exactly_preserved": 27,
+  "upper_spill_samples": 10,
+  "upper_spill_samples_still_blue": 0
+}

@@ -20,7 +20,7 @@
   ],
   "material": "Smooth paint; constant roughness 0.68, metallic 0.12; no bump/normal map",
   "normal_cleanup": "Removed stale custom split normals after geometric fairing",
-  "texture_cleanup": "Original complete finish retained; only orange pigment within the aft engine region converted to charcoal using native color and position masks. Original engine geometry and all UVs unchanged.",
+  "texture_cleanup": "Accepted full hull finish retained; projected cyan spill on cladding above side windows neutralized with native color/position masks. Window colors, all geometry/UVs and separate engine cut material retained.",
   "assembled_triangles": 92052,
   "godot_scene_checks": "PASS; camera, animated fields, mirrored markers and geometry within 1mm import compression tolerance",
   "godot_corridor_checks": 111,

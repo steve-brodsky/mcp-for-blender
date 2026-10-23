@@ -159,3 +159,17 @@ sloped steel deck plate reuses existing mechanical artwork, with no texture-imag
 changes. `scripts/remove_dorsal_fitting.py` reproduces the edit from
 `blender/mothership_before_dorsal_fitting_removal.blend`. See
 `dorsal_fitting_validation.json` and `renders/godot_dorsal_fitting_removed.png`.
+
+## Side window spill correction
+
+Blue projected onto the cladding above the side windows is neutralized to dark
+steel using native position/color masks. All 27 sampled blue window points remain
+pixel-identical; none of the 10 sampled upper spill points remain blue. Geometry,
+UVs and material assignments are unchanged. The bake keeps separate engine cut
+materials on the original mesh and bakes only the textured hull slot.
+
+The reference is `textures/hull_before_window_spill_fix_8k.png`; the editable
+backup is `blender/mothership_before_window_spill_fix.blend`. Reproduce with
+`scripts/clip_window_spill.py`, then bake and export. See
+`window_spill_validation.json`, `renders/godot_windows_starboard.png` and
+`renders/godot_windows_port.png`.
