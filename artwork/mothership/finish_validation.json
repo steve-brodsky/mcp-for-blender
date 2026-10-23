@@ -1,0 +1,18 @@
+{
+  "material": "Hull_Detailed_Final",
+  "uv": "UV_SURFACE_FINISH",
+  "albedo": "textures/hull_detailed_finish_8k.png",
+  "resolution": [
+    8192,
+    8192
+  ],
+  "sha256": "5c3eb90ce86f709f2e20f7f1e7b6a66dd09ff41680946e3085eb1cf9227921a4",
+  "method": "Original complete finish retained; only orange pigment within the aft engine region converted to charcoal using native color and position masks. Original engine geometry and all UVs unchanged.",
+  "source_material": "Hull_Detailed_Reprojection",
+  "geometry_positions_changed": false,
+  "accepted_top_reference": "textures/hull_top_accepted_8k.png",
+  "side_source": "textures/repaint/starboard_repaint.png",
+  "bottom_source": "textures/repaint/bottom_repaint.png",
+  "inner_panel_reference": "textures/hull_before_inner_panel_8k.png",
+  "engine_color_reference": "textures/hull_before_engine_desaturation_8k.png"
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "hull_positions_unchanged": true,
+  "hull_uvs_unchanged": true,
+  "triangles_unchanged": 93780,
+  "method": "Smooth native material blend of clean approved ivory plating into inward cannon walls, baked to existing 8K UV atlas.",
+  "source_reference": "textures/hull_before_inner_panel_8k.png",
+  "source_backup": "blender/mothership_before_inner_panel_repair.blend",
+  "material_script": "scripts/repair_inner_cannon_panels.py",
+  "top_sample_count": 4288,
+  "top_mean_rgb_difference": 0.03093905472636816,
+  "top_max_rgb_difference": 143,
+  "atlas_sha256": "cdec3afb05bf249a2548f587068634deb22815dec44b290cab32fa58c0a7d5e1",
+  "top_unchanged_sample_count": 4287,
+  "top_changed_sample_count": 1,
+  "note": "The repaired upward-facing cannon shelves are included in the historical top sample set."
+}

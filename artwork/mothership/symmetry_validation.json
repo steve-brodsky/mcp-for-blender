@@ -13,15 +13,16 @@
   "removed_floating_bow_vertices_on_source_half": 130,
   "source_file": "blender/mothership_refined.blend",
   "before_source_file": "blender/mothership_before_symmetry.blend",
-  "clean_albedo": "textures/hull_clean_atlas.png",
+  "clean_albedo": "textures/hull_detailed_finish_8k.png",
   "clean_albedo_resolution": [
-    1254,
-    1254
+    8192,
+    8192
   ],
   "material": "Smooth paint; constant roughness 0.68, metallic 0.12; no bump/normal map",
   "normal_cleanup": "Removed stale custom split normals after geometric fairing",
-  "texture_cleanup": "Built-in imagegen edit preserving atlas layout and ivory/red livery, removing heavy weathering and painted surface chatter",
+  "texture_cleanup": "Original complete finish retained; only orange pigment within the aft engine region converted to charcoal using native color and position masks. Original engine geometry and all UVs unchanged.",
   "assembled_triangles": 92052,
   "godot_scene_checks": "PASS; camera, animated fields, mirrored markers and geometry within 1mm import compression tolerance",
-  "godot_corridor_checks": 111
+  "godot_corridor_checks": 111,
+  "visual_review": "Seven views checked in actual Godot Forward+, plus seven bright inspection views including both sides and underside"
 }

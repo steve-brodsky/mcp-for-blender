@@ -1,0 +1,11 @@
+{
+  "samples": 4288,
+  "mean_rgb_difference_8bit": 0.0,
+  "median_rgb_difference_8bit": 0.0,
+  "p99_rgb_difference_8bit": 0.0,
+  "max_rgb_difference_8bit": 0.0,
+  "bottom_source_size": [
+    1774,
+    887
+  ]
+}

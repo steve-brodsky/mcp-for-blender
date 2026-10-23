@@ -1,0 +1,16 @@
+{
+  "barrels": 2,
+  "segments": 48,
+  "length_m": 2.62,
+  "center_blender": [
+    13.2,
+    49.05,
+    0.4
+  ],
+  "recoil_travel_m": 0.55,
+  "finish": "Existing detailed hull atlas: weathered gunmetal; soot bore",
+  "separate_meshes": [
+    "Cannon_Barrel_Starboard",
+    "Cannon_Barrel_Port"
+  ]
+}

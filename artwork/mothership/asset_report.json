@@ -1,5 +1,13 @@
 {
   "meshes": {
+    "Cannon_Barrel_Starboard": {
+      "triangles": 864,
+      "materials": 2
+    },
+    "Cannon_Barrel_Port": {
+      "triangles": 864,
+      "materials": 2
+    },
     "Hangar_Architecture": {
       "triangles": 12211,
       "materials": 8
@@ -32,11 +40,19 @@
   "original_triangles": 699864,
   "coordinates": "Godot: -Z forward, +X starboard, +Y up",
   "notes": [
-    "Symmetric about X=0; native hull Mirror modifier retained",
-    "Fairing applied to reconstructed armor; obsolete custom split normals cleared",
-    "Both hangars mirror the starboard geometry and share the same elevation",
-    "Cleaned ivory/red albedo atlas; 1254x1254 pixels; uniform roughness 0.68 and metallic 0.12, no normal or bump map",
-    "Prior source retained as blender/mothership_before_symmetry.blend"
+    "Bilateral hull and matching hangars; native Mirror modifier retained",
+    "Top artwork reprojected onto the current smoothed geometry to remove old UV stretching from stripes and plating lines",
+    "Original mechanical artwork, palette and weathering retained; ivory forward cannon housings with dark steel barrels",
+    "New unique UV_SURFACE_FINISH on source half; an 8192x8192 native Blender emission bake supplies the portable final material",
+    "Original UV_REPAINT_ATLAS and Hull_Detailed_Reprojection source material retained for future editing",
+    "No hull/hangar position changes in this finish revision; 92,052 triangles",
+    "Prior detailed finish preserved in blender/mothership_before_straight_finish.blend",
+    "Same detailed finish extended to both sides using the canonical starboard artwork, and to the underside using its registered repaint source.",
+    "Frozen accepted top and cannon finish protected; all 4,288 sampled top points are exactly identical after rebake.",
+    "Geometry, normals, UVs and indices unchanged. Existing 8K bake reused; one basecolor image remains embedded.",
+    "Prior full top revision backed up in blender/mothership_before_side_bottom_finish.blend.",
+    "Two short hollow forward barrel inserts added; accepted hull geometry and atlas remained unchanged in that revision. Each separate Godot node recoils independently by 0.55 m.",
+    "Local ivory plating repair on inward cannon walls and shelves; existing geometry and UVs retained. See inner_panel_validation.json."
   ],
-  "total_triangles": 92052
+  "total_triangles": 93780
 }

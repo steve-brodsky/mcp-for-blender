@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "geometry_unchanged": true,
+  "uvs_unchanged": true,
+  "triangles": 93780,
+  "method": "Orange-only color mask in original aft engine region converted to charcoal grey; existing black/grey texture, all geometry and UVs preserved.",
+  "reference": "textures/hull_before_engine_desaturation_8k.png"
+}

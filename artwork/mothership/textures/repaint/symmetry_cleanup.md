@@ -1,3 +1,10 @@
+# Rejected atlas edit (historical record)
+
+This generated atlas is NOT used by the current model. It moved UV island
+boundaries and caused triangular patches, particularly on the sides and underside.
+The exact registered `../hull_repaint_final_8k.png` is restored; future edits
+must preserve its UV registration. The previous tool/prompt record follows.
+
 # Symmetry revision texture cleanup
 
 Tool: built-in imagegen edit.
