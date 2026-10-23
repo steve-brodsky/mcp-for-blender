@@ -36,3 +36,23 @@ supabase/.temp/
 
 # Local eval harness (see evals/README.md)
 evals/
+
+# Local-only art binaries, tools and Godot caches (too large for GitHub)
+.local_appdata/
+.tools/
+*.blend
+*.blend[0-9]*
+*.glb
+*.gltf
+*.exe
+*.ctex
+*.npy
+*.exr
+*.hdr
+*.fbx
+*.log
+artwork/**/*.png
+artwork/**/*.jpg
+artwork/**/*.res
+artwork/**/*.scn
+/watchtower_*.png
