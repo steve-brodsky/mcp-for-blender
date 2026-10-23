@@ -1,0 +1,49 @@
+{
+  "aim_forward_dot": 1.0,
+  "aim_target_dot_before_after": [
+    0.763779401779175,
+    0.99987131357193
+  ],
+  "animation_lengths": {
+    "aim": 0.666666686534882,
+    "boost": 2.5,
+    "cruise_flight": 2.0,
+    "disabled": 2.0,
+    "fire": 0.400000005960464,
+    "hit_reaction": 0.600000023841858,
+    "hover_idle": 3.0
+  },
+  "body_triangles": 26189,
+  "checks": 79,
+  "failures": [],
+  "height_m": 9.55417919158936,
+  "muzzle_positions": {
+    "aim": [
+      1.2,
+      7.82,
+      -5.93
+    ],
+    "boost": [
+      1.55,
+      6.36,
+      -5.26
+    ],
+    "cruise_flight": [
+      1.58,
+      5.1,
+      -5.65
+    ],
+    "disabled": [
+      1.24,
+      -0.23,
+      4.12
+    ],
+    "hover_idle": [
+      1.85,
+      3.09,
+      -5.68
+    ]
+  },
+  "support_gap_aim": 0.0766932666301727,
+  "support_gap_fire": 0.00799180287867785
+}

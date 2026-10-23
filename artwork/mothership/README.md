@@ -1,5 +1,26 @@
 # Mothership / Ion Bay
 
+## Hangar interior repair
+
+Legacy textured hull surfaces were intersecting the manufactured floor, ceiling,
+and rear lockers inside both hangars. A local curved recess now clears those
+surfaces while retaining the original bay assembly, exterior finish, and native
+mirror. All 29,722 protected source-half exterior faces retain their exact
+geometry and UVs across every layer. The 8K texture bytes are unchanged.
+
+The Blender forcefield now uses blended transparency with reduced opacity and
+emission, avoiding the noisy dithered overlay. Both bays have been reviewed with
+the field on and off in Blender and Godot. No viewport offscreen capture is
+required: Blender 5.1 hit an EEVEE shadow-renderer crash during that capture path;
+the review uses separate CPU background renders instead.
+
+Source: `blender/mothership_refined.blend`. Pre-repair recovered-session backup:
+`blender/mothership_before_hangar_display_repair.blend`. The repaired export is
+`godot/assets/mothership.glb`, also copied into the game prototype. The assembly
+now contains 94,316 triangles and 26 material surfaces. Repair details and 30
+visual-mesh clearance probes are in `hangar_interior_validation.json`.
+The reproducible repair and export tools are in `tools/`.
+
 Open `blender/mothership_refined.blend` for the editable source, or
 `godot/project.godot` for the portable Godot demo.
 
@@ -40,7 +61,7 @@ A backup of the previous accepted finish is
 
 Godot coordinates are -Z forward, +X starboard and +Y up, at unit scale.
 Bounds: approximately 98.14 m long x 49.10 m wide x 29.89 m high.
-The assembly contains 93,740 triangles, ten meshes, and 25 material surfaces.
+The assembly contains 94,316 triangles, ten meshes, and 26 material surfaces.
 The GLB is approximately 49.2 MB with one embedded 8K basecolor image.
 The geometry remains a refined reconstruction; it is not a new hard-surface model.
 

@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "asset": "asteroid_01",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_02",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_03",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_04",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_05",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_06",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_07",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_08",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_09",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_10",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_11",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_12",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_13",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_14",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_15",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_16",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_17",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_18",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_19",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_20",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_21",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_22",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_23",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_24",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_25",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_26",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_27",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    },
+    {
+      "asset": "asteroid_28",
+      "standalone_reopened": true,
+      "packed_images": true,
+      "closed_mesh": true,
+      "glb_roundtrip": true
+    }
+  ]
+}

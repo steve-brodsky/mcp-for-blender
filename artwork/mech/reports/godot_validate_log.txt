@@ -1,0 +1,83 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ok   combat_mech.tscn loads
+ok   skeleton with 18 bones
+ok   animation present: hover_idle
+ok   animation has real keys: hover_idle (3.00s, 77 keys)
+ok   animation present: cruise_flight
+ok   animation has real keys: cruise_flight (2.00s, 40 keys)
+ok   animation present: boost
+ok   animation has real keys: boost (2.50s, 66 keys)
+ok   animation present: aim
+ok   animation has real keys: aim (0.67s, 19 keys)
+ok   animation present: fire
+ok   animation has real keys: fire (0.40s, 11 keys)
+ok   animation present: hit_reaction
+ok   animation has real keys: hit_reaction (0.60s, 18 keys)
+ok   animation present: disabled
+ok   animation has real keys: disabled (2.00s, 53 keys)
+ok   hover_idle loops
+ok   cruise_flight loops
+ok   body mesh with 3 surfaces
+ok   material on surface 0
+ok   material on surface 1
+ok   material on surface 2
+ok   triangle budget (26189)
+ok   approximately 10 m tall (9.55)
+ok   AnimationTree active
+ok   rifle mounted
+ok   muzzle belongs to rifle
+ok   weapon socket on hand.R
+ok   state machine reaches hover_idle
+ok   weapon socket follows hand in hover_idle (0.0000 m)
+ok   rifle on grip in hover_idle
+ok   arm sockets stay on the torso in hover_idle (0.000 m)
+ok   state machine reaches cruise_flight
+ok   weapon socket follows hand in cruise_flight (0.0000 m)
+ok   rifle on grip in cruise_flight
+ok   arm sockets stay on the torso in cruise_flight (0.000 m)
+ok   state machine reaches boost
+ok   weapon socket follows hand in boost (0.0000 m)
+ok   rifle on grip in boost
+ok   arm sockets stay on the torso in boost (0.100 m)
+ok   state machine reaches aim
+ok   weapon socket follows hand in aim (0.0000 m)
+ok   rifle on grip in aim
+ok   arm sockets stay on the torso in aim (0.000 m)
+ok   state machine reaches disabled
+ok   weapon socket follows hand in disabled (0.0000 m)
+ok   rifle on grip in disabled
+ok   arm sockets stay on the torso in disabled (0.098 m)
+ok   muzzle moves with animation (4.78 m)
+ok   aim clip points rifle forward (dot 1.000)
+ok   left hand supports the underbarrel in aim (0.077 m)
+ok   left hand stays on the underbarrel with procedural aim (0.077 m)
+ok   arm sockets stay on the torso with procedural aim (0.000 m)
+ok   procedural aim turns rifle toward target (0.764 -> 1.000)
+ok   weapon_fired signal
+ok   beam visible while firing
+ok   fire one-shot playing
+ok   left hand stays on the underbarrel while firing (0.008 m)
+ok   beam endpoint uses aim target
+ok   beam ends after its duration
+ok   configurable beam endpoint
+ok   hit_reaction one-shot playing
+ok   8 thruster mounts (8)
+ok   idle main thrusters low (0.30)
+ok   leg jets off at idle
+ok   boost drives main thrusters (1.00)
+ok   boost drives leg jets (0.60)
+ok   manoeuvre jet pulse
+ok   other manoeuvre jet stays off
+ok   manoeuvre jet ends
+ok   thrusters can be switched off
+ok   disabled state cuts thrusters
+ok   calf thruster mounted on shin.L attachment
+ok   thruster attachment follows bone
+ok   11 bone hitboxes (11)
+ok   instances animate independently
+ok   each instance has its own rifle
+ok   per-instance emissive materials
+ok   weapon can be replaced at runtime
+
+79 checks, 0 failures

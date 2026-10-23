@@ -1,0 +1,304 @@
+{
+ "source": {
+  "file": "blender/mech_original.blend",
+  "object": "Mesh_0",
+  "triangles": 699710,
+  "vertices": 447526,
+  "welded_islands": [
+   "mech shell (fused, watertight)",
+   "beam rifle"
+  ],
+  "textures": [
+   "4096 basecolor",
+   "4096 ORM",
+   "2048 normal"
+  ],
+  "orientation_fix": "rotated so the mech faces -Y (Blender), up +Z; scaled x14.397 to 10 m"
+ },
+ "symmetry": {
+  "method": "per-part mirror-plane fit, bisect and mirror; right limbs mirrored to left",
+  "fits_deg_offset_m": {
+   "torso": [
+    4.19,
+    0.25
+   ],
+   "head": [
+    3.88,
+    0.34
+   ],
+   "thruster_pack": [
+    8.5,
+    0.97
+   ],
+   "pelvis_legs": [
+    0.06,
+    0.0
+   ]
+  },
+  "shield": "registered onto the mirrored left forearm with ICP (median error 0.035 m)"
+ },
+ "segmentation": {
+  "parts": [
+   "pelvis",
+   "torso",
+   "head",
+   "backpack",
+   "shoulder armour L/R",
+   "upper arm L/R",
+   "forearm L/R",
+   "hand L/R",
+   "thigh L/R",
+   "shin L/R",
+   "foot L/R",
+   "shield"
+  ],
+  "joint_hardware": 15,
+  "method": "capsule face labelling with joint-plane constraints, boundary relaxation, capped cuts"
+ },
+ "game_mesh": {
+  "body_triangles": 26189,
+  "rifle_triangles": 4000,
+  "height_m": 9.55,
+  "materials": [
+   "M_Mech_Armor",
+   "M_Mech_Thruster",
+   "M_Mech_Visor",
+   "M_Rifle_Metal",
+   "M_Rifle_Energy"
+  ],
+  "atlas": "2048 basecolor/ORM/normal (mech), 1024 (rifle)",
+  "skin": "18 joints, every vertex 100% on one bone"
+ },
+ "animations_s": {
+  "aim": 0.666666686534882,
+  "boost": 2.5,
+  "cruise_flight": 2.0,
+  "disabled": 2.0,
+  "fire": 0.400000005960464,
+  "hit_reaction": 0.600000023841858,
+  "hover_idle": 3.0
+ },
+ "glb": [
+  {
+   "file": "godot/assets/ships/combat_mech/combat_mech.glb",
+   "meshes": [
+    {
+     "name": "CombatMech_Body",
+     "primitives": [
+      {
+       "material": "M_Mech_Armor",
+       "verts": 20364,
+       "tris": 25591,
+       "attrs": [
+        "JOINTS_0",
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "WEIGHTS_0"
+       ],
+       "weight_sum_range": [
+        1.0,
+        1.0
+       ],
+       "rigid_vertices_pct": 100.0
+      },
+      {
+       "material": "M_Mech_Thruster",
+       "verts": 617,
+       "tris": 582,
+       "attrs": [
+        "JOINTS_0",
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "WEIGHTS_0"
+       ],
+       "weight_sum_range": [
+        1.0,
+        1.0
+       ],
+       "rigid_vertices_pct": 100.0
+      },
+      {
+       "material": "M_Mech_Visor",
+       "verts": 25,
+       "tris": 16,
+       "attrs": [
+        "JOINTS_0",
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "WEIGHTS_0"
+       ],
+       "weight_sum_range": [
+        1.0,
+        1.0
+       ],
+       "rigid_vertices_pct": 100.0
+      }
+     ]
+    }
+   ],
+   "skins": [
+    {
+     "joints": [
+      "root",
+      "pelvis",
+      "torso",
+      "head",
+      "shoulder.R",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "shoulder.L",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L"
+     ]
+    }
+   ],
+   "animations": [
+    {
+     "name": "aim",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 0.667,
+     "max_keys": 21
+    },
+    {
+     "name": "boost",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 2.5,
+     "max_keys": 76
+    },
+    {
+     "name": "cruise_flight",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 2.0,
+     "max_keys": 61
+    },
+    {
+     "name": "disabled",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 2.0,
+     "max_keys": 61
+    },
+    {
+     "name": "fire",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 0.4,
+     "max_keys": 13
+    },
+    {
+     "name": "hit_reaction",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 0.6,
+     "max_keys": 19
+    },
+    {
+     "name": "hover_idle",
+     "channels": 54,
+     "bones": 18,
+     "start": 0.0,
+     "end": 3.0,
+     "max_keys": 91
+    }
+   ],
+   "materials": [
+    "M_Mech_Armor",
+    "M_Mech_Thruster",
+    "M_Mech_Visor"
+   ],
+   "images": 3,
+   "nodes": 29,
+   "problems": [],
+   "triangles": 26189,
+   "named_nodes": [
+    "socket_weapon.R",
+    "thruster_shoulder.R",
+    "thruster_shoulder.L",
+    "thruster_pack.L",
+    "thruster_pack.R",
+    "thruster_calf.R",
+    "thruster_heel.R",
+    "thruster_calf.L",
+    "thruster_heel.L"
+   ]
+  },
+  {
+   "file": "godot/assets/ships/combat_mech/beam_rifle.glb",
+   "meshes": [
+    {
+     "name": "BeamRifle",
+     "primitives": [
+      {
+       "material": "M_Rifle_Metal",
+       "verts": 2647,
+       "tris": 3665,
+       "attrs": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0"
+       ]
+      },
+      {
+       "material": "M_Rifle_Energy",
+       "verts": 317,
+       "tris": 335,
+       "attrs": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0"
+       ]
+      }
+     ]
+    }
+   ],
+   "skins": [],
+   "animations": [],
+   "materials": [
+    "M_Rifle_Metal",
+    "M_Rifle_Energy"
+   ],
+   "images": 3,
+   "nodes": 3,
+   "problems": [],
+   "triangles": 4000,
+   "named_nodes": [
+    "Muzzle",
+    "SupportGrip"
+   ]
+  }
+ ],
+ "godot_runtime": {
+  "checks": 70,
+  "failures": [],
+  "aim_forward_dot": 1.0,
+  "aim_target_dot_before_after": [
+   0.766056299209595,
+   0.99994558095932
+  ]
+ }
+}

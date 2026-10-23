@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/asteroids/asteroid_07_lod0_asteroid_07_albedo.png" id="1_6c1em"]
+[ext_resource type="Texture2D" path="res://assets/environment/asteroids/asteroid_07_lod0_asteroid_07_normal.png" id="2_pfis5"]
+
+[resource]
+resource_name = "asteroid_07_rock"
+albedo_texture = ExtResource("1_6c1em")
+roughness = 0.91
+normal_enabled = true
+normal_texture = ExtResource("2_pfis5")
+texture_filter = 5
+metadata/_gltf_primary_texture_coord = 0

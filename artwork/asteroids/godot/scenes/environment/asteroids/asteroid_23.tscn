@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/asteroids/asteroid_23_rock.tres" id="1_rs6u2"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_23_lod0.res" id="2_yulyv"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_23_lod1.res" id="3_wiwm3"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_23_lod2.res" id="4_pxx48"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_w4vn4"]
+points = PackedVector3Array(0.12824789, 0.12895973, -4.313516, -1.4110512, -1.4667436, -4.125966, 0.02793361, 4.271488, -1.0933602, 0.3336334, 3.4573655, -3.6868935, 0.81702304, 4.6919413, 1.8300946, 0.24988206, -4.2965374, -3.0418124, 0.91914636, -4.5714498, 2.0258763, -2.8760893, -3.5042317, 1.2641913, -2.7695558, -0.16740455, 0.0010278139, -0.83053875, -4.3099127, 1.0704752, -2.3585577, -0.42963746, -2.403956, -0.8955749, -4.088866, -1.0965172, -1.4841437, -3.488942, -3.2000487, -2.7869618, -3.3768814, -1.5649823, -2.3345678, -3.482596, 2.9469845, -2.964697, -1.1868877, 0.82828414, -0.5852622, -1.2132713, 4.332721, -1.4089566, 2.0962539, 2.241843, 0.536345, 2.4414308, 3.9906585, 1.5557039, 2.9633667, 2.6473498, 0.96251893, -3.5429544, 4.015635, 3.130637, -1.4475433, 0.4732203, 2.64178, -2.2970126, 3.7254405, 2.480351, -3.9085364, 1.8422284, -0.8600899, -4.14054, 2.7076347, 3.0324466, -2.4238312, -1.9311795, -2.0371115, -1.3939046, 3.82395, 1.8354172, -4.1203327, -1.0166512, -2.394876, -0.14105868, 2.309527, 2.3825681, -2.843998, -3.3470888, -1.2304711, 2.4363704, -2.4495213, 2.099212, 1.997597, -2.0047643, 1.432466, 1.905042, -3.7984862, 0.5657273, 4.0770354, -2.577085)
+
+[node name="Asteroid23" type="StaticBody3D" unique_id=918399365 groups=["asteroids"]]
+metadata/asset_id = "asteroid_23"
+metadata/diameter_m = 9.157925
+
+[node name="LOD0" type="MeshInstance3D" parent="." unique_id=799102149]
+material_override = ExtResource("1_rs6u2")
+visibility_range_end = 45.789623
+visibility_range_end_margin = 2.7473774
+mesh = ExtResource("2_yulyv")
+
+[node name="LOD1" type="MeshInstance3D" parent="." unique_id=1938038709]
+material_override = ExtResource("1_rs6u2")
+visibility_range_begin = 45.789623
+visibility_range_begin_margin = 2.7473774
+visibility_range_end = 128.21094
+visibility_range_end_margin = 7.6926565
+mesh = ExtResource("3_wiwm3")
+
+[node name="LOD2" type="MeshInstance3D" parent="." unique_id=1763080223]
+material_override = ExtResource("1_rs6u2")
+visibility_range_begin = 128.21094
+visibility_range_begin_margin = 7.6926565
+mesh = ExtResource("4_pxx48")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1458442595]
+shape = SubResource("ConvexPolygonShape3D_w4vn4")

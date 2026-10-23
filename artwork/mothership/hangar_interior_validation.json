@@ -1,0 +1,12 @@
+{
+  "method": "Local curved recess removes buried hull artwork; original manufactured bay geometry/materials unchanged",
+  "protected_exterior_faces_and_all_uv_layers_unchanged": 29722,
+  "interior_clearance_rays": 30,
+  "native_mirror_retained": true,
+  "hull_texture_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
+  "blender_forcefield": {
+    "method": "BLENDED",
+    "alpha": 0.1,
+    "emission_strength": 0.65
+  }
+}

@@ -1,0 +1,1462 @@
+{
+  "count": 112,
+  "rocks": [
+    {
+      "asset": "asteroid_23",
+      "clearance_radius_m": 30.9444866660364,
+      "diameter_m": 36.8314344168214,
+      "name": "Rock001_asteroid_23",
+      "position": [
+        -134.282424926758,
+        -33.4167137145996,
+        -136.371124267578
+      ],
+      "scale": 4.02181016070897,
+      "spin_degrees_per_second": 4.0
+    },
+    {
+      "asset": "asteroid_12",
+      "clearance_radius_m": 27.174300954642,
+      "diameter_m": 33.9489482633062,
+      "name": "Rock002_asteroid_12",
+      "position": [
+        106.999290466309,
+        -40.7820281982422,
+        -176.122024536133
+      ],
+      "scale": 2.31750156890059,
+      "spin_degrees_per_second": 5.9
+    },
+    {
+      "asset": "asteroid_03",
+      "clearance_radius_m": 20.7013167428344,
+      "diameter_m": 27.466197275741,
+      "name": "Rock003_asteroid_03",
+      "position": [
+        38.0184783935547,
+        8.83715057373047,
+        -233.955688476563
+      ],
+      "scale": 1.06847856656246,
+      "spin_degrees_per_second": 0.791685251024869
+    },
+    {
+      "asset": "asteroid_20",
+      "clearance_radius_m": 4.1042540942689,
+      "diameter_m": 4.94900860082427,
+      "name": "Rock004_asteroid_20",
+      "position": [
+        -90.3319702148438,
+        70.8311920166016,
+        211.882553100586
+      ],
+      "scale": 0.750028673800105,
+      "spin_degrees_per_second": 2.9359425685885
+    },
+    {
+      "asset": "asteroid_22",
+      "clearance_radius_m": 17.706310449986,
+      "diameter_m": 21.7704199471112,
+      "name": "Rock005_asteroid_22",
+      "position": [
+        36.1283531188965,
+        54.814208984375,
+        180.965866088867
+      ],
+      "scale": 3.78501274368833,
+      "spin_degrees_per_second": 6.5
+    },
+    {
+      "asset": "asteroid_22",
+      "clearance_radius_m": 8.3405289146138,
+      "diameter_m": 10.2549211234636,
+      "name": "Rock006_asteroid_22",
+      "position": [
+        211.740509033203,
+        13.3695602416992,
+        -71.1883010864258
+      ],
+      "scale": 1.78292413431276,
+      "spin_degrees_per_second": 1.00361086159873
+    },
+    {
+      "asset": "asteroid_15",
+      "clearance_radius_m": 5.01773566701881,
+      "diameter_m": 7.07187604071915,
+      "name": "Rock007_asteroid_15",
+      "position": [
+        231.346328735352,
+        -22.8380508422852,
+        1.10712504386902
+      ],
+      "scale": 0.333072256987723,
+      "spin_degrees_per_second": 1.66013204616466
+    },
+    {
+      "asset": "asteroid_12",
+      "clearance_radius_m": 32.7386000384408,
+      "diameter_m": 40.9004463729634,
+      "name": "Rock008_asteroid_12",
+      "position": [
+        -168.520584106445,
+        -52.8097648620605,
+        38.6637191772461
+      ],
+      "scale": 2.79204079911152,
+      "spin_degrees_per_second": 7.1
+    },
+    {
+      "asset": "asteroid_14",
+      "clearance_radius_m": 3.34320678342579,
+      "diameter_m": 4.05986964813589,
+      "name": "Rock009_asteroid_14",
+      "position": [
+        176.519958496094,
+        78.2690582275391,
+        157.858825683594
+      ],
+      "scale": 0.277000119475639,
+      "spin_degrees_per_second": 2.06627918979203
+    },
+    {
+      "asset": "asteroid_25",
+      "clearance_radius_m": 14.9206444647163,
+      "diameter_m": 20.217788789452,
+      "name": "Rock010_asteroid_25",
+      "position": [
+        172.21630859375,
+        16.2495727539063,
+        -16.0686531066895
+      ],
+      "scale": 1.75220428443388,
+      "spin_degrees_per_second": 1.19179999854318
+    },
+    {
+      "asset": "asteroid_21",
+      "clearance_radius_m": 27.4094169043571,
+      "diameter_m": 30.4055312975144,
+      "name": "Rock011_asteroid_21",
+      "position": [
+        169.761489868164,
+        -4.58267974853516,
+        -126.213676452637
+      ],
+      "scale": 4.31629191835573,
+      "spin_degrees_per_second": 7.7
+    },
+    {
+      "asset": "asteroid_21",
+      "clearance_radius_m": 3.62331292535771,
+      "diameter_m": 4.01937607564134,
+      "name": "Rock012_asteroid_21",
+      "position": [
+        -211.714660644531,
+        -25.4223556518555,
+        48.7802696228027
+      ],
+      "scale": 0.570580408622602,
+      "spin_degrees_per_second": 3.0310711372796
+    },
+    {
+      "asset": "asteroid_17",
+      "clearance_radius_m": 13.6172715394014,
+      "diameter_m": 17.0493254831322,
+      "name": "Rock013_asteroid_17",
+      "position": [
+        -84.6232604980469,
+        -23.5091857910156,
+        161.628479003906
+      ],
+      "scale": 1.23296640477205,
+      "spin_degrees_per_second": 0.380847670512564
+    },
+    {
+      "asset": "asteroid_27",
+      "clearance_radius_m": 8.78753773151739,
+      "diameter_m": 12.4415866972824,
+      "name": "Rock014_asteroid_27",
+      "position": [
+        69.1857833862305,
+        -60.5703010559082,
+        -128.765533447266
+      ],
+      "scale": 0.953708006652562,
+      "spin_degrees_per_second": 8.3
+    },
+    {
+      "asset": "asteroid_14",
+      "clearance_radius_m": 4.72094079964261,
+      "diameter_m": 5.73294010951831,
+      "name": "Rock015_asteroid_14",
+      "position": [
+        53.2433891296387,
+        -7.49539184570313,
+        -120.877281188965
+      ],
+      "scale": 0.391151744493177,
+      "spin_degrees_per_second": 2.36461221369668
+    },
+    {
+      "asset": "asteroid_11",
+      "clearance_radius_m": 9.14849897438009,
+      "diameter_m": 10.5936160407099,
+      "name": "Rock016_asteroid_11",
+      "position": [
+        229.302993774414,
+        80.6373291015625,
+        1.00079703330994
+      ],
+      "scale": 0.796551597712637,
+      "spin_degrees_per_second": 1.77102402766548
+    },
+    {
+      "asset": "asteroid_15",
+      "clearance_radius_m": 7.46397946128889,
+      "diameter_m": 10.5195532454322,
+      "name": "Rock017_asteroid_15",
+      "position": [
+        -208.278503417969,
+        42.1600952148438,
+        102.333793640137
+      ],
+      "scale": 0.495451464616217,
+      "spin_degrees_per_second": 8.9
+    },
+    {
+      "asset": "asteroid_08",
+      "clearance_radius_m": 32.5808067259769,
+      "diameter_m": 40.7953565528749,
+      "name": "Rock018_asteroid_08",
+      "position": [
+        113.902305603027,
+        -38.6530609130859,
+        131.745666503906
+      ],
+      "scale": 2.95807183626077,
+      "spin_degrees_per_second": 0.758883879470518
+    },
+    {
+      "asset": "asteroid_09",
+      "clearance_radius_m": 32.4013091168604,
+      "diameter_m": 41.3977541479687,
+      "name": "Rock019_asteroid_09",
+      "position": [
+        -211.476898193359,
+        5.13754272460938,
+        -55.230899810791
+      ],
+      "scale": 3.05250719962385,
+      "spin_degrees_per_second": 0.392739325254489
+    },
+    {
+      "asset": "asteroid_06",
+      "clearance_radius_m": 4.81896289786965,
+      "diameter_m": 6.94399598245977,
+      "name": "Rock020_asteroid_06",
+      "position": [
+        -55.2154655456543,
+        -68.2558135986328,
+        -183.487823486328
+      ],
+      "scale": 0.348541578632022,
+      "spin_degrees_per_second": 4.4
+    },
+    {
+      "asset": "asteroid_27",
+      "clearance_radius_m": 12.2940640774727,
+      "diameter_m": 17.4062028243957,
+      "name": "Rock021_asteroid_27",
+      "position": [
+        -211.662368774414,
+        80.9838562011719,
+        -73.317741394043
+      ],
+      "scale": 1.33426992898507,
+      "spin_degrees_per_second": 1.36384757443212
+    },
+    {
+      "asset": "asteroid_26",
+      "clearance_radius_m": 26.5811467562995,
+      "diameter_m": 30.9410282959173,
+      "name": "Rock022_asteroid_26",
+      "position": [
+        -178.523422241211,
+        25.2610473632813,
+        -143.406661987305
+      ],
+      "scale": 3.65767168509272,
+      "spin_degrees_per_second": 1.38028764226431
+    },
+    {
+      "asset": "asteroid_09",
+      "clearance_radius_m": 7.81572926940766,
+      "diameter_m": 9.98581994372741,
+      "name": "Rock023_asteroid_09",
+      "position": [
+        -155.905517578125,
+        39.1118927001953,
+        -84.2812347412109
+      ],
+      "scale": 0.736314998234536,
+      "spin_degrees_per_second": 5.0
+    },
+    {
+      "asset": "asteroid_01",
+      "clearance_radius_m": 12.0470626645542,
+      "diameter_m": 16.7472614190387,
+      "name": "Rock024_asteroid_01",
+      "position": [
+        -113.704139709473,
+        -12.8630142211914,
+        74.5797576904297
+      ],
+      "scale": 0.418464037745168,
+      "spin_degrees_per_second": 0.324249604487526
+    },
+    {
+      "asset": "asteroid_18",
+      "clearance_radius_m": 20.6169619899277,
+      "diameter_m": 25.1198770637423,
+      "name": "Rock025_asteroid_18",
+      "position": [
+        -34.9665870666504,
+        31.8236083984375,
+        153.794128417969
+      ],
+      "scale": 1.93139158668719,
+      "spin_degrees_per_second": 1.00151989119213
+    },
+    {
+      "asset": "asteroid_04",
+      "clearance_radius_m": 17.5301305854697,
+      "diameter_m": 20.8566273144038,
+      "name": "Rock026_asteroid_04",
+      "position": [
+        -83.9917373657227,
+        -64.2173233032227,
+        -119.20059967041
+      ],
+      "scale": 1.10000226555828,
+      "spin_degrees_per_second": 5.6
+    },
+    {
+      "asset": "asteroid_25",
+      "clearance_radius_m": 3.28073738888146,
+      "diameter_m": 4.44546854252283,
+      "name": "Rock027_asteroid_25",
+      "position": [
+        -140.233459472656,
+        -89.4290008544922,
+        46.9377403259277
+      ],
+      "scale": 0.385273043834962,
+      "spin_degrees_per_second": 1.81126864809317
+    },
+    {
+      "asset": "asteroid_22",
+      "clearance_radius_m": 8.27804580555079,
+      "diameter_m": 10.1780963367445,
+      "name": "Rock028_asteroid_22",
+      "position": [
+        94.3597717285156,
+        10.2736358642578,
+        -120.844734191895
+      ],
+      "scale": 1.7695673503155,
+      "spin_degrees_per_second": 1.84795911087442
+    },
+    {
+      "asset": "asteroid_10",
+      "clearance_radius_m": 11.2745446082312,
+      "diameter_m": 15.8159541995997,
+      "name": "Rock029_asteroid_10",
+      "position": [
+        -36.7889404296875,
+        55.0504302978516,
+        -112.802314758301
+      ],
+      "scale": 1.01550957438832,
+      "spin_degrees_per_second": 6.2
+    },
+    {
+      "asset": "asteroid_23",
+      "clearance_radius_m": 27.538604522132,
+      "diameter_m": 32.7776097026335,
+      "name": "Rock030_asteroid_23",
+      "position": [
+        233.956344604492,
+        -68.2789077758789,
+        -2.5534656047821
+      ],
+      "scale": 3.57915258618323,
+      "spin_degrees_per_second": 1.02850322937903
+    },
+    {
+      "asset": "asteroid_07",
+      "clearance_radius_m": 7.43263097163247,
+      "diameter_m": 10.0234086180973,
+      "name": "Rock031_asteroid_07",
+      "position": [
+        117.096282958984,
+        -36.2593727111816,
+        -111.716896057129
+      ],
+      "scale": 0.605760779699801,
+      "spin_degrees_per_second": 1.10624398990546
+    },
+    {
+      "asset": "asteroid_24",
+      "clearance_radius_m": 10.416313174473,
+      "diameter_m": 12.6029358792252,
+      "name": "Rock032_asteroid_24",
+      "position": [
+        -110.956558227539,
+        -70.4500122070313,
+        -73.3488464355469
+      ],
+      "scale": 1.18742762000034,
+      "spin_degrees_per_second": 6.800000000000001
+    },
+    {
+      "asset": "asteroid_08",
+      "clearance_radius_m": 24.2950262261908,
+      "diameter_m": 30.4204946702154,
+      "name": "Rock033_asteroid_08",
+      "position": [
+        320.227203369141,
+        -70.2537689208984,
+        -312.203521728516
+      ],
+      "scale": 2.20579046569808,
+      "spin_degrees_per_second": 1.03550126076631
+    },
+    {
+      "asset": "asteroid_08",
+      "clearance_radius_m": 3.5835267715926,
+      "diameter_m": 4.48703599003685,
+      "name": "Rock034_asteroid_08",
+      "position": [
+        -202.620544433594,
+        30.4272613525391,
+        172.725128173828
+      ],
+      "scale": 0.325355038218954,
+      "spin_degrees_per_second": 2.92092861411017
+    },
+    {
+      "asset": "asteroid_17",
+      "clearance_radius_m": 33.3368796056359,
+      "diameter_m": 41.7390010431899,
+      "name": "Rock035_asteroid_17",
+      "position": [
+        300.375274658203,
+        2.07976531982422,
+        -292.523284912109
+      ],
+      "scale": 3.01846463696841,
+      "spin_degrees_per_second": 7.4
+    },
+    {
+      "asset": "asteroid_11",
+      "clearance_radius_m": 32.9659877259837,
+      "diameter_m": 38.1733678223965,
+      "name": "Rock036_asteroid_11",
+      "position": [
+        291.521636962891,
+        37.10595703125,
+        64.1540145874023
+      ],
+      "scale": 2.87031897438529,
+      "spin_degrees_per_second": 1.37351393926663
+    },
+    {
+      "asset": "asteroid_07",
+      "clearance_radius_m": 14.9165753248947,
+      "diameter_m": 20.1160168229378,
+      "name": "Rock037_asteroid_07",
+      "position": [
+        222.489547729492,
+        -76.8690032958984,
+        353.672302246094
+      ],
+      "scale": 1.21570360936061,
+      "spin_degrees_per_second": 1.04872644983277
+    },
+    {
+      "asset": "asteroid_23",
+      "clearance_radius_m": 10.0312033734994,
+      "diameter_m": 11.9395617435901,
+      "name": "Rock038_asteroid_23",
+      "position": [
+        113.266883850098,
+        31.9766387939453,
+        153.907577514648
+      ],
+      "scale": 1.30374098905179,
+      "spin_degrees_per_second": 8.0
+    },
+    {
+      "asset": "asteroid_16",
+      "clearance_radius_m": 9.30762257815193,
+      "diameter_m": 11.1392033960936,
+      "name": "Rock039_asteroid_16",
+      "position": [
+        283.970916748047,
+        38.8723602294922,
+        156.054733276367
+      ],
+      "scale": 0.744373566234391,
+      "spin_degrees_per_second": 0.797014202710364
+    },
+    {
+      "asset": "asteroid_28",
+      "clearance_radius_m": 3.8450983095433,
+      "diameter_m": 4.35785655695461,
+      "name": "Rock040_asteroid_28",
+      "position": [
+        -86.9761962890625,
+        2.80721282958984,
+        93.451042175293
+      ],
+      "scale": 0.846057173821236,
+      "spin_degrees_per_second": 3.67959434721016
+    },
+    {
+      "asset": "asteroid_09",
+      "clearance_radius_m": 27.5188711946136,
+      "diameter_m": 35.1596739513042,
+      "name": "Rock041_asteroid_09",
+      "position": [
+        -336.935607910156,
+        61.0456848144531,
+        -248.830688476563
+      ],
+      "scale": 2.59253575662991,
+      "spin_degrees_per_second": 8.600000000000001
+    },
+    {
+      "asset": "asteroid_15",
+      "clearance_radius_m": 4.37100869738113,
+      "diameter_m": 6.16039459470968,
+      "name": "Rock042_asteroid_15",
+      "position": [
+        -72.0946578979492,
+        75.7741851806641,
+        -368.679260253906
+      ],
+      "scale": 0.290143169900114,
+      "spin_degrees_per_second": 1.57050585163964
+    },
+    {
+      "asset": "asteroid_12",
+      "clearance_radius_m": 14.4604529694302,
+      "diameter_m": 18.0654939585226,
+      "name": "Rock043_asteroid_12",
+      "position": [
+        238.796005249023,
+        31.2706069946289,
+        145.198974609375
+      ],
+      "scale": 1.23322850142878,
+      "spin_degrees_per_second": 1.52188099909879
+    },
+    {
+      "asset": "asteroid_03",
+      "clearance_radius_m": 6.6038637264985,
+      "diameter_m": 8.76190757077818,
+      "name": "Rock044_asteroid_03",
+      "position": [
+        -136.838043212891,
+        -55.8452453613281,
+        -186.422546386719
+      ],
+      "scale": 0.340852078924175,
+      "spin_degrees_per_second": 4.1
+    },
+    {
+      "asset": "asteroid_27",
+      "clearance_radius_m": 13.4468818061614,
+      "diameter_m": 19.0383871922879,
+      "name": "Rock045_asteroid_27",
+      "position": [
+        -242.739166259766,
+        38.7823333740234,
+        -226.880096435547
+      ],
+      "scale": 1.45938478273053,
+      "spin_degrees_per_second": 1.15175364044418
+    },
+    {
+      "asset": "asteroid_07",
+      "clearance_radius_m": 17.8889835675725,
+      "diameter_m": 24.1245115954983,
+      "name": "Rock046_asteroid_07",
+      "position": [
+        40.0738868713379,
+        66.1165161132813,
+        405.189880371094
+      ],
+      "scale": 1.45795542322607,
+      "spin_degrees_per_second": 1.64357446059512
+    },
+    {
+      "asset": "asteroid_11",
+      "clearance_radius_m": 5.04908434013169,
+      "diameter_m": 5.84664883346515,
+      "name": "Rock047_asteroid_11",
+      "position": [
+        299.095397949219,
+        23.4313507080078,
+        360.177734375
+      ],
+      "scale": 0.439619243482538,
+      "spin_degrees_per_second": 4.7
+    },
+    {
+      "asset": "asteroid_21",
+      "clearance_radius_m": 6.10941233745425,
+      "diameter_m": 6.77723020099549,
+      "name": "Rock048_asteroid_21",
+      "position": [
+        -100.202102661133,
+        25.3657989501953,
+        -122.067893981934
+      ],
+      "scale": 0.962078368542917,
+      "spin_degrees_per_second": 2.2788905375319
+    },
+    {
+      "asset": "asteroid_03",
+      "clearance_radius_m": 4.30202638579709,
+      "diameter_m": 5.70786423229075,
+      "name": "Rock049_asteroid_03",
+      "position": [
+        -226.342712402344,
+        53.5086212158203,
+        233.863143920898
+      ],
+      "scale": 0.222044957000208,
+      "spin_degrees_per_second": 1.7473621662838
+    },
+    {
+      "asset": "asteroid_18",
+      "clearance_radius_m": 27.9655169883753,
+      "diameter_m": 34.0734172723984,
+      "name": "Rock050_asteroid_18",
+      "position": [
+        -249.365936279297,
+        29.4662322998047,
+        -145.835662841797
+      ],
+      "scale": 2.61980228974051,
+      "spin_degrees_per_second": 5.3
+    },
+    {
+      "asset": "asteroid_24",
+      "clearance_radius_m": 3.90415144205222,
+      "diameter_m": 4.72372224824724,
+      "name": "Rock051_asteroid_24",
+      "position": [
+        -116.383605957031,
+        -15.460693359375,
+        -87.154426574707
+      ],
+      "scale": 0.445061239740569,
+      "spin_degrees_per_second": 0.520969449453373
+    },
+    {
+      "asset": "asteroid_16",
+      "clearance_radius_m": 3.62857316920482,
+      "diameter_m": 4.34261426373885,
+      "name": "Rock052_asteroid_16",
+      "position": [
+        -189.790283203125,
+        -64.7941513061523,
+        116.374267578125
+      ],
+      "scale": 0.290193755454115,
+      "spin_degrees_per_second": 3.39581226608557
+    },
+    {
+      "asset": "asteroid_22",
+      "clearance_radius_m": 10.6671488620491,
+      "diameter_m": 13.1155675272451,
+      "name": "Rock053_asteroid_22",
+      "position": [
+        174.908157348633,
+        -63.9826927185059,
+        -404.022521972656
+      ],
+      "scale": 2.28027710774201,
+      "spin_degrees_per_second": 5.9
+    },
+    {
+      "asset": "asteroid_01",
+      "clearance_radius_m": 12.9698894400472,
+      "diameter_m": 18.0301319148602,
+      "name": "Rock054_asteroid_01",
+      "position": [
+        -379.425720214844,
+        -55.8221664428711,
+        291.213745117188
+      ],
+      "scale": 0.450519139421394,
+      "spin_degrees_per_second": 0.422568673799686
+    },
+    {
+      "asset": "asteroid_24",
+      "clearance_radius_m": 29.3622135474596,
+      "diameter_m": 35.5260146668425,
+      "name": "Rock055_asteroid_24",
+      "position": [
+        -188.434356689453,
+        20.1385498046875,
+        49.9777565002441
+      ],
+      "scale": 3.34720190979336,
+      "spin_degrees_per_second": 1.14814431373841
+    },
+    {
+      "asset": "asteroid_02",
+      "clearance_radius_m": 9.7786538346804,
+      "diameter_m": 13.0318665223025,
+      "name": "Rock056_asteroid_02",
+      "position": [
+        332.488403320313,
+        13.0107879638672,
+        -213.035186767578
+      ],
+      "scale": 0.466080473332737,
+      "spin_degrees_per_second": 6.5
+    },
+    {
+      "asset": "asteroid_05",
+      "clearance_radius_m": 2.80216322916954,
+      "diameter_m": 4.0538658432637,
+      "name": "Rock057_asteroid_05",
+      "position": [
+        241.609939575195,
+        -1.718017578125,
+        -363.273071289063
+      ],
+      "scale": 0.186274308702496,
+      "spin_degrees_per_second": 3.89165445237348
+    },
+    {
+      "asset": "asteroid_14",
+      "clearance_radius_m": 17.323603551275,
+      "diameter_m": 21.037158874777,
+      "name": "Rock058_asteroid_14",
+      "position": [
+        205.86979675293,
+        -88.2626876831055,
+        46.5419273376465
+      ],
+      "scale": 1.43534054705841,
+      "spin_degrees_per_second": 0.907600046290572
+    },
+    {
+      "asset": "asteroid_16",
+      "clearance_radius_m": 13.1460927666336,
+      "diameter_m": 15.7330188199919,
+      "name": "Rock059_asteroid_16",
+      "position": [
+        -347.002868652344,
+        44.4033203125,
+        285.553497314453
+      ],
+      "scale": 1.05135375576113,
+      "spin_degrees_per_second": 7.1
+    },
+    {
+      "asset": "asteroid_19",
+      "clearance_radius_m": 20.0416131436475,
+      "diameter_m": 24.7305845565559,
+      "name": "Rock060_asteroid_19",
+      "position": [
+        358.626098632813,
+        55.0177307128906,
+        193.94416809082
+      ],
+      "scale": 1.99788234050355,
+      "spin_degrees_per_second": 1.2254684946897
+    },
+    {
+      "asset": "asteroid_05",
+      "clearance_radius_m": 3.11526341724246,
+      "diameter_m": 4.50682523718325,
+      "name": "Rock061_asteroid_05",
+      "position": [
+        220.830657958984,
+        42.1385955810547,
+        -54.17919921875
+      ],
+      "scale": 0.207087700470966,
+      "spin_degrees_per_second": 1.29380035117278
+    },
+    {
+      "asset": "asteroid_02",
+      "clearance_radius_m": 3.09635496921342,
+      "diameter_m": 4.12646621371848,
+      "name": "Rock062_asteroid_02",
+      "position": [
+        -82.9027557373047,
+        46.2856597900391,
+        437.068420410156
+      ],
+      "scale": 0.147581723829815,
+      "spin_degrees_per_second": 7.7
+    },
+    {
+      "asset": "asteroid_04",
+      "clearance_radius_m": 33.9099894843331,
+      "diameter_m": 40.3447087551253,
+      "name": "Rock063_asteroid_04",
+      "position": [
+        178.352142333984,
+        19.9704513549805,
+        434.504516601563
+      ],
+      "scale": 2.12782586392949,
+      "spin_degrees_per_second": 0.351456436738604
+    },
+    {
+      "asset": "asteroid_06",
+      "clearance_radius_m": 5.6468478584333,
+      "diameter_m": 8.13695595370883,
+      "name": "Rock064_asteroid_06",
+      "position": [
+        -49.6238098144531,
+        48.0735015869141,
+        471.018524169922
+      ],
+      "scale": 0.408420091331948,
+      "spin_degrees_per_second": 0.927421764728487
+    },
+    {
+      "asset": "asteroid_19",
+      "clearance_radius_m": 22.5795530852638,
+      "diameter_m": 27.8623054352965,
+      "name": "Rock065_asteroid_19",
+      "position": [
+        -96.7016296386719,
+        68.7335357666016,
+        388.306579589844
+      ],
+      "scale": 2.25088120612735,
+      "spin_degrees_per_second": 8.3
+    },
+    {
+      "asset": "asteroid_05",
+      "clearance_radius_m": 4.26589531481795,
+      "diameter_m": 6.17143467149281,
+      "name": "Rock066_asteroid_05",
+      "position": [
+        87.7187805175781,
+        -6.13210296630859,
+        300.968566894531
+      ],
+      "scale": 0.283576164476482,
+      "spin_degrees_per_second": 2.49491507073901
+    },
+    {
+      "asset": "asteroid_11",
+      "clearance_radius_m": 22.3949736751315,
+      "diameter_m": 25.9325330877271,
+      "name": "Rock067_asteroid_11",
+      "position": [
+        -285.219665527344,
+        -36.8481140136719,
+        -292.672058105469
+      ],
+      "scale": 1.94991026523749,
+      "spin_degrees_per_second": 1.37377108890453
+    },
+    {
+      "asset": "asteroid_06",
+      "clearance_radius_m": 22.1054282896864,
+      "diameter_m": 31.8533278813983,
+      "name": "Rock068_asteroid_06",
+      "position": [
+        -74.5526657104492,
+        33.9042663574219,
+        300.902496337891
+      ],
+      "scale": 1.59882137209031,
+      "spin_degrees_per_second": 8.9
+    },
+    {
+      "asset": "asteroid_01",
+      "clearance_radius_m": 14.2541378321116,
+      "diameter_m": 19.8154337886659,
+      "name": "Rock069_asteroid_01",
+      "position": [
+        232.783615112305,
+        -80.7578582763672,
+        -242.994995117188
+      ],
+      "scale": 0.495128500439513,
+      "spin_degrees_per_second": 1.21452442783203
+    },
+    {
+      "asset": "asteroid_16",
+      "clearance_radius_m": 17.8058622128485,
+      "diameter_m": 21.3097511385253,
+      "name": "Rock070_asteroid_16",
+      "position": [
+        276.590942382813,
+        -20.9216766357422,
+        -41.2503318786621
+      ],
+      "scale": 1.42401704022338,
+      "spin_degrees_per_second": 0.718499595791042
+    },
+    {
+      "asset": "asteroid_13",
+      "clearance_radius_m": 14.833503512164,
+      "diameter_m": 21.0621553201243,
+      "name": "Rock071_asteroid_13",
+      "position": [
+        -203.264007568359,
+        33.3669891357422,
+        -415.02001953125
+      ],
+      "scale": 1.21301492646175,
+      "spin_degrees_per_second": 4.4
+    },
+    {
+      "asset": "asteroid_18",
+      "clearance_radius_m": 7.870576633456,
+      "diameter_m": 9.58957568771607,
+      "name": "Rock072_asteroid_18",
+      "position": [
+        -156.095993041992,
+        50.8596801757813,
+        376.156799316406
+      ],
+      "scale": 0.737313552775629,
+      "spin_degrees_per_second": 2.33266334805953
+    },
+    {
+      "asset": "asteroid_10",
+      "clearance_radius_m": 14.433844931351,
+      "diameter_m": 20.2478271443184,
+      "name": "Rock073_asteroid_10",
+      "position": [
+        -32.6885261535645,
+        -40.3456954956055,
+        -439.127258300781
+      ],
+      "scale": 1.30007093256096,
+      "spin_degrees_per_second": 0.521776791012598
+    },
+    {
+      "asset": "asteroid_25",
+      "clearance_radius_m": 3.18402140584945,
+      "diameter_m": 4.31441634017799,
+      "name": "Rock074_asteroid_25",
+      "position": [
+        -217.751266479492,
+        37.7175216674805,
+        381.088104248047
+      ],
+      "scale": 0.373915212727688,
+      "spin_degrees_per_second": 5.0
+    },
+    {
+      "asset": "asteroid_09",
+      "clearance_radius_m": 24.403255144612,
+      "diameter_m": 31.1789858009505,
+      "name": "Rock075_asteroid_09",
+      "position": [
+        250.590759277344,
+        88.3713989257813,
+        150.684234619141
+      ],
+      "scale": 2.29901550442057,
+      "spin_degrees_per_second": 1.46615091843641
+    },
+    {
+      "asset": "asteroid_23",
+      "clearance_radius_m": 13.0528961314975,
+      "diameter_m": 15.5361080313054,
+      "name": "Rock076_asteroid_23",
+      "position": [
+        -348.16162109375,
+        -82.944221496582,
+        105.370887756348
+      ],
+      "scale": 1.69646602494633,
+      "spin_degrees_per_second": 0.980550693974263
+    },
+    {
+      "asset": "asteroid_20",
+      "clearance_radius_m": 3.97492666897002,
+      "diameter_m": 4.79306247141178,
+      "name": "Rock077_asteroid_20",
+      "position": [
+        422.687469482422,
+        -34.3497314453125,
+        42.0861892700195
+      ],
+      "scale": 0.726394835578844,
+      "spin_degrees_per_second": 5.6
+    },
+    {
+      "asset": "asteroid_10",
+      "clearance_radius_m": 5.70961868612568,
+      "diameter_m": 8.00946475221845,
+      "name": "Rock078_asteroid_10",
+      "position": [
+        225.122024536133,
+        -64.591796875,
+        -290.963500976563
+      ],
+      "scale": 0.514271098597988,
+      "spin_degrees_per_second": 2.96565655084879
+    },
+    {
+      "asset": "asteroid_13",
+      "clearance_radius_m": 27.450285913727,
+      "diameter_m": 38.9767788184785,
+      "name": "Rock079_asteroid_13",
+      "position": [
+        249.768005371094,
+        -79.807487487793,
+        244.08967590332
+      ],
+      "scale": 2.24475671048909,
+      "spin_degrees_per_second": 1.19925663721278
+    },
+    {
+      "asset": "asteroid_19",
+      "clearance_radius_m": 7.33088764749018,
+      "diameter_m": 9.04603514404888,
+      "name": "Rock080_asteroid_19",
+      "position": [
+        471.309783935547,
+        52.4234466552734,
+        15.1638078689575
+      ],
+      "scale": 0.730792020889725,
+      "spin_degrees_per_second": 6.2
+    },
+    {
+      "asset": "asteroid_17",
+      "clearance_radius_m": 10.999824955516,
+      "diameter_m": 13.7721859611471,
+      "name": "Rock081_asteroid_17",
+      "position": [
+        350.577789306641,
+        -29.974796295166,
+        -209.753768920898
+      ],
+      "scale": 0.995971519645599,
+      "spin_degrees_per_second": 0.978563481130442
+    },
+    {
+      "asset": "asteroid_01",
+      "clearance_radius_m": 3.33583855364121,
+      "diameter_m": 4.63732628152678,
+      "name": "Rock082_asteroid_01",
+      "position": [
+        -348.916320800781,
+        14.1007461547852,
+        -99.2252807617188
+      ],
+      "scale": 0.115872931791905,
+      "spin_degrees_per_second": 0.844148509296673
+    },
+    {
+      "asset": "asteroid_04",
+      "clearance_radius_m": 7.69314737621044,
+      "diameter_m": 9.15298987181536,
+      "name": "Rock083_asteroid_04",
+      "position": [
+        -9.87165927886963,
+        41.9306488037109,
+        -189.151168823242
+      ],
+      "scale": 0.48273910464304,
+      "spin_degrees_per_second": 6.800000000000001
+    },
+    {
+      "asset": "asteroid_06",
+      "clearance_radius_m": 28.1508440551493,
+      "diameter_m": 40.5646094740063,
+      "name": "Rock084_asteroid_06",
+      "position": [
+        123.802810668945,
+        -39.7805023193359,
+        -238.480484008789
+      ],
+      "scale": 2.03606872157972,
+      "spin_degrees_per_second": 1.31067643371921
+    },
+    {
+      "asset": "asteroid_25",
+      "clearance_radius_m": 19.5697408177426,
+      "diameter_m": 26.5174126662605,
+      "name": "Rock085_asteroid_25",
+      "position": [
+        304.494445800781,
+        -72.8949661254883,
+        181.261260986328
+      ],
+      "scale": 2.29817041664636,
+      "spin_degrees_per_second": 1.4640958598854
+    },
+    {
+      "asset": "asteroid_26",
+      "clearance_radius_m": 17.1546514281588,
+      "diameter_m": 19.9683843632317,
+      "name": "Rock086_asteroid_26",
+      "position": [
+        -349.485443115234,
+        56.1145324707031,
+        213.277313232422
+      ],
+      "scale": 2.36054837557155,
+      "spin_degrees_per_second": 7.4
+    },
+    {
+      "asset": "asteroid_10",
+      "clearance_radius_m": 29.3399313127072,
+      "diameter_m": 41.1581155590442,
+      "name": "Rock087_asteroid_10",
+      "position": [
+        -16.8046760559082,
+        -79.2078628540039,
+        340.879211425781
+      ],
+      "scale": 2.64267712757085,
+      "spin_degrees_per_second": 1.30893466656539
+    },
+    {
+      "asset": "asteroid_13",
+      "clearance_radius_m": 21.1342679831193,
+      "diameter_m": 30.0086378428781,
+      "name": "Rock088_asteroid_13",
+      "position": [
+        -116.991806030273,
+        24.6623306274414,
+        -235.32389831543
+      ],
+      "scale": 1.72826213998222,
+      "spin_degrees_per_second": 0.760569598336838
+    },
+    {
+      "asset": "asteroid_24",
+      "clearance_radius_m": 4.93566667997613,
+      "diameter_m": 5.97177615986137,
+      "name": "Rock089_asteroid_24",
+      "position": [
+        147.080825805664,
+        -40.8964920043945,
+        255.775146484375
+      ],
+      "scale": 0.562650799832117,
+      "spin_degrees_per_second": 8.0
+    },
+    {
+      "asset": "asteroid_28",
+      "clearance_radius_m": 4.45725979386788,
+      "diameter_m": 5.0516520658387,
+      "name": "Rock090_asteroid_28",
+      "position": [
+        403.428039550781,
+        57.0711059570313,
+        -254.972869873047
+      ],
+      "scale": 0.980754280021203,
+      "spin_degrees_per_second": 2.52249463533782
+    },
+    {
+      "asset": "asteroid_12",
+      "clearance_radius_m": 5.42107921189403,
+      "diameter_m": 6.77257302784222,
+      "name": "Rock091_asteroid_12",
+      "position": [
+        381.466705322266,
+        34.9131774902344,
+        36.1661415100098
+      ],
+      "scale": 0.462325032745789,
+      "spin_degrees_per_second": 0.569301377253026
+    },
+    {
+      "asset": "asteroid_18",
+      "clearance_radius_m": 13.125473598406,
+      "diameter_m": 15.9921856263998,
+      "name": "Rock092_asteroid_18",
+      "position": [
+        -441.236236572266,
+        82.3271942138672,
+        174.756713867188
+      ],
+      "scale": 1.2295909208947,
+      "spin_degrees_per_second": 8.600000000000001
+    },
+    {
+      "asset": "asteroid_04",
+      "clearance_radius_m": 19.2873413908643,
+      "diameter_m": 22.9472843521407,
+      "name": "Rock093_asteroid_04",
+      "position": [
+        235.686111450195,
+        7.75569152832031,
+        242.060928344727
+      ],
+      "scale": 1.21026589751318,
+      "spin_degrees_per_second": 5.4
+    },
+    {
+      "asset": "asteroid_26",
+      "clearance_radius_m": 22.7490306861869,
+      "diameter_m": 26.4803625148033,
+      "name": "Rock094_asteroid_26",
+      "position": [
+        -288.828704833984,
+        54.5315551757813,
+        244.368286132813
+      ],
+      "scale": 3.13035724782835,
+      "spin_degrees_per_second": 0.903774626067131
+    },
+    {
+      "asset": "asteroid_28",
+      "clearance_radius_m": 5.42411180178695,
+      "diameter_m": 6.14743740684218,
+      "name": "Rock095_asteroid_28",
+      "position": [
+        -415.64013671875,
+        34.0025024414063,
+        71.888671875
+      ],
+      "scale": 1.19349580480696,
+      "spin_degrees_per_second": 4.1
+    },
+    {
+      "asset": "asteroid_05",
+      "clearance_radius_m": 12.0807124511656,
+      "diameter_m": 17.477064525818,
+      "name": "Rock096_asteroid_05",
+      "position": [
+        -131.430801391602,
+        -39.8356628417969,
+        128.077239990234
+      ],
+      "scale": 0.803067550472934,
+      "spin_degrees_per_second": 6.0
+    },
+    {
+      "asset": "asteroid_27",
+      "clearance_radius_m": 4.22120265501229,
+      "diameter_m": 5.97647036106274,
+      "name": "Rock097_asteroid_27",
+      "position": [
+        61.9368782043457,
+        -40.9957122802734,
+        350.787017822266
+      ],
+      "scale": 0.45812546048586,
+      "spin_degrees_per_second": 3.51891590065561
+    },
+    {
+      "asset": "asteroid_26",
+      "clearance_radius_m": 33.7648282347395,
+      "diameter_m": 39.3029885202478,
+      "name": "Rock098_asteroid_26",
+      "position": [
+        -284.084716796875,
+        -79.6194000244141,
+        320.619018554688
+      ],
+      "scale": 4.64617487418812,
+      "spin_degrees_per_second": 4.7
+    },
+    {
+      "asset": "asteroid_02",
+      "clearance_radius_m": 4.44273897668593,
+      "diameter_m": 5.92077215498386,
+      "name": "Rock099_asteroid_02",
+      "position": [
+        273.009704589844,
+        39.3475952148438,
+        291.654479980469
+      ],
+      "scale": 0.2117544930166,
+      "spin_degrees_per_second": 6.6
+    },
+    {
+      "asset": "asteroid_19",
+      "clearance_radius_m": 13.4327195981307,
+      "diameter_m": 16.5754625371248,
+      "name": "Rock100_asteroid_19",
+      "position": [
+        293.999847412109,
+        41.0797882080078,
+        -248.451110839844
+      ],
+      "scale": 1.3390635313479,
+      "spin_degrees_per_second": 0.932897060751641
+    },
+    {
+      "asset": "asteroid_21",
+      "clearance_radius_m": 3.81608880132651,
+      "diameter_m": 4.23322421953393,
+      "name": "Rock101_asteroid_21",
+      "position": [
+        95.639533996582,
+        -33.721435546875,
+        85.3350296020508
+      ],
+      "scale": 0.600937747430703,
+      "spin_degrees_per_second": 5.3
+    },
+    {
+      "asset": "asteroid_20",
+      "clearance_radius_m": 13.5810456259607,
+      "diameter_m": 16.3763524546204,
+      "name": "Rock102_asteroid_20",
+      "position": [
+        214.053161621094,
+        40.9338836669922,
+        108.048515319824
+      ],
+      "scale": 2.48185745952761,
+      "spin_degrees_per_second": 7.2
+    },
+    {
+      "asset": "asteroid_08",
+      "clearance_radius_m": 7.58122510201835,
+      "diameter_m": 9.49266799148511,
+      "name": "Rock103_asteroid_08",
+      "position": [
+        -181.571441650391,
+        -88.5721588134766,
+        -310.234252929688
+      ],
+      "scale": 0.688313479995982,
+      "spin_degrees_per_second": 2.31997241084238
+    },
+    {
+      "asset": "asteroid_03",
+      "clearance_radius_m": 23.8876516413001,
+      "diameter_m": 31.6937787380715,
+      "name": "Rock104_asteroid_03",
+      "position": [
+        319.493255615234,
+        -47.2151412963867,
+        -243.088592529297
+      ],
+      "scale": 1.23293817979354,
+      "spin_degrees_per_second": 5.9
+    },
+    {
+      "asset": "asteroid_17",
+      "clearance_radius_m": 5.97745911538123,
+      "diameter_m": 7.48399895862909,
+      "name": "Rock105_asteroid_17",
+      "position": [
+        116.911201477051,
+        29.7519836425781,
+        -274.830932617188
+      ],
+      "scale": 0.541224888836099,
+      "spin_degrees_per_second": 7.800000000000001
+    },
+    {
+      "asset": "asteroid_28",
+      "clearance_radius_m": 4.60563764378053,
+      "diameter_m": 5.21981665724689,
+      "name": "Rock106_asteroid_28",
+      "position": [
+        150.332382202148,
+        -20.1570510864258,
+        -389.186096191406
+      ],
+      "scale": 1.01340263755297,
+      "spin_degrees_per_second": 2.48045058586744
+    },
+    {
+      "asset": "asteroid_07",
+      "clearance_radius_m": 20.5919304187587,
+      "diameter_m": 27.7696193461511,
+      "name": "Rock107_asteroid_07",
+      "position": [
+        268.92236328125,
+        50.4386901855469,
+        -379.321441650391
+      ],
+      "scale": 1.67824608454248,
+      "spin_degrees_per_second": 6.5
+    },
+    {
+      "asset": "asteroid_02",
+      "clearance_radius_m": 13.744445675343,
+      "diameter_m": 18.3170183229992,
+      "name": "Rock108_asteroid_02",
+      "position": [
+        -89.89697265625,
+        -61.8503799438477,
+        -321.643341064453
+      ],
+      "scale": 0.655102210831999,
+      "spin_degrees_per_second": 8.4
+    },
+    {
+      "asset": "asteroid_20",
+      "clearance_radius_m": 8.93613451179971,
+      "diameter_m": 10.7754065760145,
+      "name": "Rock109_asteroid_20",
+      "position": [
+        450.242950439453,
+        -63.5415191650391,
+        132.707901000977
+      ],
+      "scale": 1.63302684552195,
+      "spin_degrees_per_second": 1.34742029063194
+    },
+    {
+      "asset": "asteroid_15",
+      "clearance_radius_m": 2.83828004085037,
+      "diameter_m": 4.00020366749739,
+      "name": "Rock110_asteroid_15",
+      "position": [
+        -282.968109130859,
+        -82.5739288330078,
+        -194.577285766602
+      ],
+      "scale": 0.188402180167235,
+      "spin_degrees_per_second": 7.1
+    },
+    {
+      "asset": "asteroid_14",
+      "clearance_radius_m": 23.6086393324546,
+      "diameter_m": 28.6694794754526,
+      "name": "Rock111_asteroid_14",
+      "position": [
+        -206.681564331055,
+        86.0940551757813,
+        -321.479125976563
+      ],
+      "scale": 1.95608478307945,
+      "spin_degrees_per_second": 9.0
+    },
+    {
+      "asset": "asteroid_13",
+      "clearance_radius_m": 28.5233960515207,
+      "diameter_m": 40.5004925102085,
+      "name": "Rock112_asteroid_13",
+      "position": [
+        236.343170166016,
+        85.0386047363281,
+        344.903289794922
+      ],
+      "scale": 2.33251066651261,
+      "spin_degrees_per_second": 0.800769289718681
+    }
+  ],
+  "seed": 20261023
+}

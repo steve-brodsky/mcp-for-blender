@@ -1,11 +1,11 @@
 {
   "valid": true,
-  "triangles": 93740,
-  "surfaces": 25,
+  "triangles": 94316,
+  "surfaces": 26,
   "meshes": 10,
   "embedded_images": 1,
   "degenerate_triangles": 0,
-  "file_bytes": 49291632,
+  "file_bytes": 49327912,
   "registered_atlas_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
   "atlas_resolution": [
     8192,

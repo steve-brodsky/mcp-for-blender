@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/asteroids/asteroid_18_rock.tres" id="1_vf5v7"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_18_lod0.res" id="2_5j6mx"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_18_lod1.res" id="3_0tr2l"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/asteroids/asteroid_18_lod2.res" id="4_o26jf"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2gftp"]
+points = PackedVector3Array(0.5667761, 1.3409829, -3.1127777, -2.8660016, -0.103518635, -3.427891, -2.6561103, 1.877871, -4.579247, -1.615365, 3.0553987, -2.901865, -5.082995, 3.487501, -3.797353, -6.2018986, 5.7008543, -2.880337, -3.5756953, 3.9097261, -3.5114462, -4.8172207, 1.1361636, -2.2730427, -2.6455712, -1.2816371, 2.2201097, 2.112164, -0.051349677, 2.082482, -6.5515137, 4.679474, -2.5919242, -2.983976, 4.9871197, -1.4796602, 0.00016149801, -1.2148564, 4.5772038, -4.8436995, 4.6170363, 0.15575413, -5.333817, 1.25888, 0.8261121, -5.8909636, 2.7537096, -1.3610778, -2.591506, 2.977309, 2.6495514, -0.10345483, 1.533006, 2.790258, -5.017503, 2.1913629, 2.193706, 1.9259803, 1.6178309, -0.92680776, -2.4824111, 0.09847161, 4.021475, 4.29538, -3.9548144, 3.0264904, -6.250392, 3.8861575, -0.3260168, 6.5122437, -5.117964, 0.98305327, 6.098416, -5.660994, 1.3910441, 3.6061811, -1.3483417, -1.0704865, 2.4495122, -2.8710349, 4.005572, 3.5718372, -2.5815854, -2.2512672, 6.293086, -5.0314956, 1.923697, 5.094247, -3.758141, -0.70377076, 4.55254, -1.542573, 0.9952533, 1.7188071, -3.6224387, 3.357099, 4.4324527, -4.951208, 2.4722009, 3.3824615, -5.468387, 0.8742998, 4.64776, -4.6713443, -0.434462, 2.42034, -3.2330072, -2.2372828, -0.48230898, -3.3146071, 1.1619532, -0.3203545, -2.390377, 3.3667672, -1.5011805, -3.01974, 0.3328152, -1.069765, -2.5210888, -2.0375168, 0.048693843, -0.68286747, -4.007148, 0.74163103, -0.09539878, -3.8716044, -1.4873745, 3.5428462, 0.2884914)
+
+[node name="Asteroid18" type="StaticBody3D" unique_id=1764783658 groups=["asteroids"]]
+metadata/asset_id = "asteroid_18"
+metadata/diameter_m = 13.006103
+
+[node name="LOD0" type="MeshInstance3D" parent="." unique_id=421108853]
+material_override = ExtResource("1_vf5v7")
+visibility_range_end = 65.03051
+visibility_range_end_margin = 3.9018307
+mesh = ExtResource("2_5j6mx")
+
+[node name="LOD1" type="MeshInstance3D" parent="." unique_id=1241634070]
+material_override = ExtResource("1_vf5v7")
+visibility_range_begin = 65.03051
+visibility_range_begin_margin = 3.9018307
+visibility_range_end = 182.08543
+visibility_range_end_margin = 10.925126
+mesh = ExtResource("3_0tr2l")
+
+[node name="LOD2" type="MeshInstance3D" parent="." unique_id=1281782214]
+material_override = ExtResource("1_vf5v7")
+visibility_range_begin = 182.08543
+visibility_range_begin_margin = 10.925126
+mesh = ExtResource("4_o26jf")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1122616679]
+shape = SubResource("ConvexPolygonShape3D_2gftp")

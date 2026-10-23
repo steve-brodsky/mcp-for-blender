@@ -1,0 +1,680 @@
+{
+	"checks": 84,
+	"failures": [],
+	"measurements": [
+		{
+			"asset": "asteroid_01",
+			"distance": 120.062370300293,
+			"expected_triangles": 10000,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 10000
+		},
+		{
+			"asset": "asteroid_01",
+			"distance": 380.197505950928,
+			"expected_triangles": 4000,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 4000
+		},
+		{
+			"asset": "asteroid_01",
+			"distance": 728.378379821777,
+			"expected_triangles": 1200,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 1200
+		},
+		{
+			"asset": "asteroid_02",
+			"distance": 83.8816509246826,
+			"expected_triangles": 10000,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 10000
+		},
+		{
+			"asset": "asteroid_02",
+			"distance": 265.625227928162,
+			"expected_triangles": 4000,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 4000
+		},
+		{
+			"asset": "asteroid_02",
+			"distance": 508.882015609741,
+			"expected_triangles": 1200,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 1200
+		},
+		{
+			"asset": "asteroid_03",
+			"distance": 77.1176834106445,
+			"expected_triangles": 9506,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 9506
+		},
+		{
+			"asset": "asteroid_03",
+			"distance": 244.205997467041,
+			"expected_triangles": 3802,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 3802
+		},
+		{
+			"asset": "asteroid_03",
+			"distance": 467.84727935791,
+			"expected_triangles": 1140,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 1140
+		},
+		{
+			"asset": "asteroid_04",
+			"distance": 56.8815937042236,
+			"expected_triangles": 7436,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 7436
+		},
+		{
+			"asset": "asteroid_04",
+			"distance": 180.125046730042,
+			"expected_triangles": 2974,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 2974
+		},
+		{
+			"asset": "asteroid_04",
+			"distance": 345.08166847229,
+			"expected_triangles": 892,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 892
+		},
+		{
+			"asset": "asteroid_05",
+			"distance": 65.288646697998,
+			"expected_triangles": 5608,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 5608
+		},
+		{
+			"asset": "asteroid_05",
+			"distance": 206.747381210327,
+			"expected_triangles": 2242,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 2242
+		},
+		{
+			"asset": "asteroid_05",
+			"distance": 396.084456634521,
+			"expected_triangles": 672,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 672
+		},
+		{
+			"asset": "asteroid_06",
+			"distance": 59.7690181732178,
+			"expected_triangles": 4680,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 4680
+		},
+		{
+			"asset": "asteroid_06",
+			"distance": 189.268557548523,
+			"expected_triangles": 1872,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1872
+		},
+		{
+			"asset": "asteroid_06",
+			"distance": 362.598710250854,
+			"expected_triangles": 560,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 560
+		},
+		{
+			"asset": "asteroid_07",
+			"distance": 49.6404304504395,
+			"expected_triangles": 3866,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 3866
+		},
+		{
+			"asset": "asteroid_07",
+			"distance": 157.194696426392,
+			"expected_triangles": 1546,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1546
+		},
+		{
+			"asset": "asteroid_07",
+			"distance": 301.151944732666,
+			"expected_triangles": 462,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 462
+		},
+		{
+			"asset": "asteroid_08",
+			"distance": 41.3735961914063,
+			"expected_triangles": 3554,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 3554
+		},
+		{
+			"asset": "asteroid_08",
+			"distance": 131.016387939453,
+			"expected_triangles": 1420,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1420
+		},
+		{
+			"asset": "asteroid_08",
+			"distance": 250.999816894531,
+			"expected_triangles": 426,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 426
+		},
+		{
+			"asset": "asteroid_09",
+			"distance": 40.6856575012207,
+			"expected_triangles": 2824,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2824
+		},
+		{
+			"asset": "asteroid_09",
+			"distance": 128.837915420532,
+			"expected_triangles": 1128,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1128
+		},
+		{
+			"asset": "asteroid_09",
+			"distance": 246.826322174072,
+			"expected_triangles": 338,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 338
+		},
+		{
+			"asset": "asteroid_10",
+			"distance": 46.7232055664063,
+			"expected_triangles": 2240,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2240
+		},
+		{
+			"asset": "asteroid_10",
+			"distance": 147.956817626953,
+			"expected_triangles": 896,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 896
+		},
+		{
+			"asset": "asteroid_10",
+			"distance": 283.454113769531,
+			"expected_triangles": 268,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 268
+		},
+		{
+			"asset": "asteroid_11",
+			"distance": 39.8980407714844,
+			"expected_triangles": 4178,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 4178
+		},
+		{
+			"asset": "asteroid_11",
+			"distance": 126.343795776367,
+			"expected_triangles": 1670,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1670
+		},
+		{
+			"asset": "asteroid_11",
+			"distance": 242.048114013672,
+			"expected_triangles": 500,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 500
+		},
+		{
+			"asset": "asteroid_12",
+			"distance": 43.9468288421631,
+			"expected_triangles": 3974,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 3974
+		},
+		{
+			"asset": "asteroid_12",
+			"distance": 139.164958000183,
+			"expected_triangles": 1588,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1588
+		},
+		{
+			"asset": "asteroid_12",
+			"distance": 266.610761642456,
+			"expected_triangles": 476,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 476
+		},
+		{
+			"asset": "asteroid_13",
+			"distance": 52.0904273986816,
+			"expected_triangles": 4468,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 4468
+		},
+		{
+			"asset": "asteroid_13",
+			"distance": 164.953020095825,
+			"expected_triangles": 1786,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1786
+		},
+		{
+			"asset": "asteroid_13",
+			"distance": 316.015259552002,
+			"expected_triangles": 536,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 536
+		},
+		{
+			"asset": "asteroid_14",
+			"distance": 43.9696884155273,
+			"expected_triangles": 5266,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 5266
+		},
+		{
+			"asset": "asteroid_14",
+			"distance": 139.23734664917,
+			"expected_triangles": 2106,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 2106
+		},
+		{
+			"asset": "asteroid_14",
+			"distance": 266.749443054199,
+			"expected_triangles": 630,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 630
+		},
+		{
+			"asset": "asteroid_15",
+			"distance": 63.6967735290527,
+			"expected_triangles": 5706,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 5706
+		},
+		{
+			"asset": "asteroid_15",
+			"distance": 201.706449508667,
+			"expected_triangles": 2282,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 2282
+		},
+		{
+			"asset": "asteroid_15",
+			"distance": 386.42709274292,
+			"expected_triangles": 684,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 684
+		},
+		{
+			"asset": "asteroid_16",
+			"distance": 44.8936014175415,
+			"expected_triangles": 5070,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 5070
+		},
+		{
+			"asset": "asteroid_16",
+			"distance": 142.163071155548,
+			"expected_triangles": 2028,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 2028
+		},
+		{
+			"asset": "asteroid_16",
+			"distance": 272.354515266418,
+			"expected_triangles": 608,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 608
+		},
+		{
+			"asset": "asteroid_17",
+			"distance": 41.4836740493774,
+			"expected_triangles": 3106,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 3106
+		},
+		{
+			"asset": "asteroid_17",
+			"distance": 131.364967823029,
+			"expected_triangles": 1242,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1242
+		},
+		{
+			"asset": "asteroid_17",
+			"distance": 251.667622566223,
+			"expected_triangles": 372,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 372
+		},
+		{
+			"asset": "asteroid_18",
+			"distance": 39.0183076858521,
+			"expected_triangles": 2474,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2474
+		},
+		{
+			"asset": "asteroid_18",
+			"distance": 123.557974338531,
+			"expected_triangles": 988,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 988
+		},
+		{
+			"asset": "asteroid_18",
+			"distance": 236.711066627502,
+			"expected_triangles": 296,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 296
+		},
+		{
+			"asset": "asteroid_19",
+			"distance": 37.135196685791,
+			"expected_triangles": 2768,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2768
+		},
+		{
+			"asset": "asteroid_19",
+			"distance": 117.594789505005,
+			"expected_triangles": 1106,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 1106
+		},
+		{
+			"asset": "asteroid_19",
+			"distance": 225.286859893799,
+			"expected_triangles": 332,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 332
+		},
+		{
+			"asset": "asteroid_20",
+			"distance": 21.0,
+			"expected_triangles": 932,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 932
+		},
+		{
+			"asset": "asteroid_20",
+			"distance": 67.5,
+			"expected_triangles": 372,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 372
+		},
+		{
+			"asset": "asteroid_20",
+			"distance": 130.0,
+			"expected_triangles": 110,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 110
+		},
+		{
+			"asset": "asteroid_21",
+			"distance": 21.1330919265747,
+			"expected_triangles": 1262,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 1262
+		},
+		{
+			"asset": "asteroid_21",
+			"distance": 67.6109099388123,
+			"expected_triangles": 504,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 504
+		},
+		{
+			"asset": "asteroid_21",
+			"distance": 130.0,
+			"expected_triangles": 150,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 150
+		},
+		{
+			"asset": "asteroid_22",
+			"distance": 21.0,
+			"expected_triangles": 900,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 900
+		},
+		{
+			"asset": "asteroid_22",
+			"distance": 67.5,
+			"expected_triangles": 360,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 360
+		},
+		{
+			"asset": "asteroid_22",
+			"distance": 130.0,
+			"expected_triangles": 108,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 108
+		},
+		{
+			"asset": "asteroid_23",
+			"distance": 27.4737739562988,
+			"expected_triangles": 1902,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 1902
+		},
+		{
+			"asset": "asteroid_23",
+			"distance": 87.0002841949463,
+			"expected_triangles": 760,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 760
+		},
+		{
+			"asset": "asteroid_23",
+			"distance": 166.674228668213,
+			"expected_triangles": 228,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 228
+		},
+		{
+			"asset": "asteroid_24",
+			"distance": 31.8409366607666,
+			"expected_triangles": 2242,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2242
+		},
+		{
+			"asset": "asteroid_24",
+			"distance": 100.829632759094,
+			"expected_triangles": 896,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 896
+		},
+		{
+			"asset": "asteroid_24",
+			"distance": 193.168349075317,
+			"expected_triangles": 268,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 268
+		},
+		{
+			"asset": "asteroid_25",
+			"distance": 34.6154651641846,
+			"expected_triangles": 2078,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2078
+		},
+		{
+			"asset": "asteroid_25",
+			"distance": 109.615639686584,
+			"expected_triangles": 830,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 830
+		},
+		{
+			"asset": "asteroid_25",
+			"distance": 210.00048866272,
+			"expected_triangles": 248,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 248
+		},
+		{
+			"asset": "asteroid_26",
+			"distance": 25.3776426315308,
+			"expected_triangles": 1860,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 1860
+		},
+		{
+			"asset": "asteroid_26",
+			"distance": 80.3625349998474,
+			"expected_triangles": 744,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 744
+		},
+		{
+			"asset": "asteroid_26",
+			"distance": 153.957698631287,
+			"expected_triangles": 222,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 222
+		},
+		{
+			"asset": "asteroid_27",
+			"distance": 39.1364650726318,
+			"expected_triangles": 2430,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 2430
+		},
+		{
+			"asset": "asteroid_27",
+			"distance": 123.932139396667,
+			"expected_triangles": 972,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 972
+		},
+		{
+			"asset": "asteroid_27",
+			"distance": 237.4278881073,
+			"expected_triangles": 290,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 290
+		},
+		{
+			"asset": "asteroid_28",
+			"distance": 21.0,
+			"expected_triangles": 900,
+			"level": 0,
+			"rendered_objects": 1,
+			"rendered_triangles": 900
+		},
+		{
+			"asset": "asteroid_28",
+			"distance": 67.5,
+			"expected_triangles": 360,
+			"level": 1,
+			"rendered_objects": 1,
+			"rendered_triangles": 360
+		},
+		{
+			"asset": "asteroid_28",
+			"distance": 130.0,
+			"expected_triangles": 108,
+			"level": 2,
+			"rendered_objects": 1,
+			"rendered_triangles": 108
+		}
+	],
+	"passed": true,
+	"renderer": "forward_plus"
+}

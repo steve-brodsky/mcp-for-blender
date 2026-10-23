@@ -1,0 +1,929 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "asteroid_01_lod0.glb",
+      "triangles": 10000,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1857960,
+      "sha256": "87c638e2101b5012d4e0c22ef6b781eed85e4fcbff851f4f258986c4c09618b5",
+      "passed": true
+    },
+    {
+      "file": "asteroid_01_lod1.glb",
+      "triangles": 4000,
+      "image_dimensions": [],
+      "bytes": 139828,
+      "sha256": "acc79275e048657764d1ac2a0fe2d4fe7681c0ccb9182e2d50dfa936fa55cb76",
+      "passed": true
+    },
+    {
+      "file": "asteroid_01_lod2.glb",
+      "triangles": 1200,
+      "image_dimensions": [],
+      "bytes": 52400,
+      "sha256": "5c36ab941539b3e9c2dab40c519800bb26fd217a3dc51695a3c6b4430b8ffe02",
+      "passed": true
+    },
+    {
+      "file": "asteroid_02_lod0.glb",
+      "triangles": 10000,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1919540,
+      "sha256": "6e9808b76484e85c1c808dbb23450b8ed7318c04be8ffbeb8846e4335333a425",
+      "passed": true
+    },
+    {
+      "file": "asteroid_02_lod1.glb",
+      "triangles": 4000,
+      "image_dimensions": [],
+      "bytes": 123828,
+      "sha256": "55153a8273048cffaaf5b107547b67b90622e4d0dfd14e68a5fd8ca4c66f1422",
+      "passed": true
+    },
+    {
+      "file": "asteroid_02_lod2.glb",
+      "triangles": 1200,
+      "image_dimensions": [],
+      "bytes": 45968,
+      "sha256": "fa92c946e8057a53a431a031d9c68b5efb6c0d5b78251c93bf6299992aeba657",
+      "passed": true
+    },
+    {
+      "file": "asteroid_03_lod0.glb",
+      "triangles": 9506,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1785940,
+      "sha256": "da0a81e4e1295fcecb39a3159454523c227dcce2f02fc651b475ec5ea1456be6",
+      "passed": true
+    },
+    {
+      "file": "asteroid_03_lod1.glb",
+      "triangles": 3802,
+      "image_dimensions": [],
+      "bytes": 130704,
+      "sha256": "442ff712ba85e5ae834edc0e31e148372c53913456f5be880e90ba39dea72278",
+      "passed": true
+    },
+    {
+      "file": "asteroid_03_lod2.glb",
+      "triangles": 1140,
+      "image_dimensions": [],
+      "bytes": 49832,
+      "sha256": "ac4c3bb32670c6095b00313cf68267017cfaa706fb147ee9478b0b2abde0bd57",
+      "passed": true
+    },
+    {
+      "file": "asteroid_04_lod0.glb",
+      "triangles": 7436,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1931720,
+      "sha256": "847441510ec42d97089971fa6b22cab98b103913311fe903864c8fa19f8906c8",
+      "passed": true
+    },
+    {
+      "file": "asteroid_04_lod1.glb",
+      "triangles": 2974,
+      "image_dimensions": [],
+      "bytes": 95712,
+      "sha256": "b536a956e8f71821924e38d45487bec6fddc578b097b0270075a941a99b7b996",
+      "passed": true
+    },
+    {
+      "file": "asteroid_04_lod2.glb",
+      "triangles": 892,
+      "image_dimensions": [],
+      "bytes": 35312,
+      "sha256": "732a4bc2f466d90201a77b69a3702557d01e58701a98860ff2e7dee8274bbc8e",
+      "passed": true
+    },
+    {
+      "file": "asteroid_05_lod0.glb",
+      "triangles": 5608,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1672228,
+      "sha256": "d39f7d05638bfbfa3702d3c5f37fbb3d92befec21dca351fd1e338f4412dcf33",
+      "passed": true
+    },
+    {
+      "file": "asteroid_05_lod1.glb",
+      "triangles": 2242,
+      "image_dimensions": [],
+      "bytes": 63356,
+      "sha256": "3458c86998f34e9c209c7a4880136e7dae969c0dff06764c49f53f4202c5a8ff",
+      "passed": true
+    },
+    {
+      "file": "asteroid_05_lod2.glb",
+      "triangles": 672,
+      "image_dimensions": [],
+      "bytes": 22888,
+      "sha256": "1b2843b939c8e49868e275c430e6c245594157956f03d18d2af1645c20822e69",
+      "passed": true
+    },
+    {
+      "file": "asteroid_06_lod0.glb",
+      "triangles": 4680,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1828128,
+      "sha256": "e90a5b6eda2105d87e0c3b6d7494e94fd1454a463643967272cfdf41a5e20109",
+      "passed": true
+    },
+    {
+      "file": "asteroid_06_lod1.glb",
+      "triangles": 1872,
+      "image_dimensions": [],
+      "bytes": 55660,
+      "sha256": "fd94ef3826f0bea7608fe8ef495a888e78904bc4951d24c829138108433c69af",
+      "passed": true
+    },
+    {
+      "file": "asteroid_06_lod2.glb",
+      "triangles": 560,
+      "image_dimensions": [],
+      "bytes": 19944,
+      "sha256": "4c3371271203a6b0bd998739d681b3b9ea87ba3d3293f72e2a92e6bc57d72186",
+      "passed": true
+    },
+    {
+      "file": "asteroid_07_lod0.glb",
+      "triangles": 3866,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1755708,
+      "sha256": "3efb7943e0c44419f311ddcddec996221b52a8efa315e0cdf53359f6abdd0bd3",
+      "passed": true
+    },
+    {
+      "file": "asteroid_07_lod1.glb",
+      "triangles": 1546,
+      "image_dimensions": [],
+      "bytes": 51848,
+      "sha256": "0e0cc443a62d43d23202c365c35fc81eee34a18e6f5066933f856faf8f587d11",
+      "passed": true
+    },
+    {
+      "file": "asteroid_07_lod2.glb",
+      "triangles": 462,
+      "image_dimensions": [],
+      "bytes": 19196,
+      "sha256": "ff152e38adf523b9bdd6954a1f592bb429b230f7ac9209cfb874f9f6a9a927b1",
+      "passed": true
+    },
+    {
+      "file": "asteroid_08_lod0.glb",
+      "triangles": 3554,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1774368,
+      "sha256": "7a9062e643efb29ac27d24cc85270d01f02e96286a9b3fe173217d317e8efab0",
+      "passed": true
+    },
+    {
+      "file": "asteroid_08_lod1.glb",
+      "triangles": 1420,
+      "image_dimensions": [],
+      "bytes": 49108,
+      "sha256": "e379d30300e17fcca15eb75285b3cde6c55950e628ed3d1377ab7eb362697a3e",
+      "passed": true
+    },
+    {
+      "file": "asteroid_08_lod2.glb",
+      "triangles": 426,
+      "image_dimensions": [],
+      "bytes": 19492,
+      "sha256": "ad492ca1dd85e1fb41c82377839924b79aa77bfffd9b621e8b9810309d87df08",
+      "passed": true
+    },
+    {
+      "file": "asteroid_09_lod0.glb",
+      "triangles": 2824,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1701612,
+      "sha256": "b6d9b7a58b0ec73ac0a04f83066c9a972ea260921855e106d6a651b0d934bc55",
+      "passed": true
+    },
+    {
+      "file": "asteroid_09_lod1.glb",
+      "triangles": 1128,
+      "image_dimensions": [],
+      "bytes": 34844,
+      "sha256": "39e733bc9ee357f3dadfa1ee32a199686f59d8e1d6a330082976b62f56acd4c8",
+      "passed": true
+    },
+    {
+      "file": "asteroid_09_lod2.glb",
+      "triangles": 338,
+      "image_dimensions": [],
+      "bytes": 13524,
+      "sha256": "200c47286818b3e1006c10d2826b834c2029a8cc64806290e77632d14b48803b",
+      "passed": true
+    },
+    {
+      "file": "asteroid_10_lod0.glb",
+      "triangles": 2240,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1353772,
+      "sha256": "1058437d318aaad0095b4aa7f222dad52eb586b0362b6d6c96b0205e82c27487",
+      "passed": true
+    },
+    {
+      "file": "asteroid_10_lod1.glb",
+      "triangles": 896,
+      "image_dimensions": [],
+      "bytes": 27976,
+      "sha256": "e9398166dfbc7e22761908e669ed850ed547040500d0bea07d0f90a0f7de33d9",
+      "passed": true
+    },
+    {
+      "file": "asteroid_10_lod2.glb",
+      "triangles": 268,
+      "image_dimensions": [],
+      "bytes": 10664,
+      "sha256": "a774c5e2f7ee0d778d38c269bb9d149d1cc575fa733e7ad39385ba493c8a388e",
+      "passed": true
+    },
+    {
+      "file": "asteroid_11_lod0.glb",
+      "triangles": 4178,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1813348,
+      "sha256": "5d651213b27e8f820a9f3ed2630efe87f8e02847cf81746e9c6af4c2d029e0c3",
+      "passed": true
+    },
+    {
+      "file": "asteroid_11_lod1.glb",
+      "triangles": 1670,
+      "image_dimensions": [],
+      "bytes": 56692,
+      "sha256": "c199b8ae81eca2ab8672125c7da9260284ec9640e99284f099577b8d026b97ed",
+      "passed": true
+    },
+    {
+      "file": "asteroid_11_lod2.glb",
+      "triangles": 500,
+      "image_dimensions": [],
+      "bytes": 21916,
+      "sha256": "a4343fbd14fc476653ce97fca81f2d69338713f732529bde02977e73bc199a1c",
+      "passed": true
+    },
+    {
+      "file": "asteroid_12_lod0.glb",
+      "triangles": 3974,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1784000,
+      "sha256": "603863ee6510ec9695c754e515ae496112c23983a892f0b6345a33168d861eea",
+      "passed": true
+    },
+    {
+      "file": "asteroid_12_lod1.glb",
+      "triangles": 1588,
+      "image_dimensions": [],
+      "bytes": 49156,
+      "sha256": "50c440d38ae2f953a4271d0735952a89d7ce67a8a9f79917e5045fbe9b57ffa3",
+      "passed": true
+    },
+    {
+      "file": "asteroid_12_lod2.glb",
+      "triangles": 476,
+      "image_dimensions": [],
+      "bytes": 18704,
+      "sha256": "0a3994af0271eb04b443f3cfa84f802edf107e35bfed942c2fd165b039006f36",
+      "passed": true
+    },
+    {
+      "file": "asteroid_13_lod0.glb",
+      "triangles": 4468,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1877644,
+      "sha256": "70105afa453cc17f4f243dd0b9e0e4b35d7a4b9b20ae66e8d7bae695c6b22e29",
+      "passed": true
+    },
+    {
+      "file": "asteroid_13_lod1.glb",
+      "triangles": 1786,
+      "image_dimensions": [],
+      "bytes": 54412,
+      "sha256": "a4cc70bd59554b32ebdb31d2754edb1d0134e39cf25409214b7d2780b77de62d",
+      "passed": true
+    },
+    {
+      "file": "asteroid_13_lod2.glb",
+      "triangles": 536,
+      "image_dimensions": [],
+      "bytes": 20472,
+      "sha256": "d8913d11868145296692d7839c62cb1d925463324415df11e7677439eb2e530d",
+      "passed": true
+    },
+    {
+      "file": "asteroid_14_lod0.glb",
+      "triangles": 5266,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1807740,
+      "sha256": "50806af770c867d85756e435323467227f3bcdfb31353cc54a548fab57ee41a0",
+      "passed": true
+    },
+    {
+      "file": "asteroid_14_lod1.glb",
+      "triangles": 2106,
+      "image_dimensions": [],
+      "bytes": 74380,
+      "sha256": "035d8a7dbd1e7f1b8bc445f09ca3e2572cf3d96557418cdac101f3d2ecd17c93",
+      "passed": true
+    },
+    {
+      "file": "asteroid_14_lod2.glb",
+      "triangles": 630,
+      "image_dimensions": [],
+      "bytes": 29580,
+      "sha256": "f06130c9c7406bc98e287f7e75ed39bf14f16c64ef31251b690d427d1f8f0718",
+      "passed": true
+    },
+    {
+      "file": "asteroid_15_lod0.glb",
+      "triangles": 5706,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1816736,
+      "sha256": "e2d819358fcc90615f82bbe2708833cebfb344456a682cc15167c3b80079ec16",
+      "passed": true
+    },
+    {
+      "file": "asteroid_15_lod1.glb",
+      "triangles": 2282,
+      "image_dimensions": [],
+      "bytes": 73708,
+      "sha256": "bdfe1c56e408da061dc53ef77aeb28e7f1f12af1a5adf04aecc43104e2ab06f8",
+      "passed": true
+    },
+    {
+      "file": "asteroid_15_lod2.glb",
+      "triangles": 684,
+      "image_dimensions": [],
+      "bytes": 28016,
+      "sha256": "e64764fe101ee55cd10e03447b1bd3257da27495e237181d68ffa9c0e5b0ea02",
+      "passed": true
+    },
+    {
+      "file": "asteroid_16_lod0.glb",
+      "triangles": 5070,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1881232,
+      "sha256": "128e457784bc2f71437d4bc5b0b204d4f53a01c5b8f5e25782a7bcf9b4b21cff",
+      "passed": true
+    },
+    {
+      "file": "asteroid_16_lod1.glb",
+      "triangles": 2028,
+      "image_dimensions": [],
+      "bytes": 68120,
+      "sha256": "f45e4f00707939a356d8fa5cd1b56c84020e44098c9729c83f10c88ef050b04a",
+      "passed": true
+    },
+    {
+      "file": "asteroid_16_lod2.glb",
+      "triangles": 608,
+      "image_dimensions": [],
+      "bytes": 26180,
+      "sha256": "56a02d716658759d95015e575c4978396b0abcd083f645cefc02f8b1e9f78877",
+      "passed": true
+    },
+    {
+      "file": "asteroid_17_lod0.glb",
+      "triangles": 3106,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1571524,
+      "sha256": "bce298b0121f535f34292fb913bdf3b9bae8c79deb6b7f256d3320b1ce3f028a",
+      "passed": true
+    },
+    {
+      "file": "asteroid_17_lod1.glb",
+      "triangles": 1242,
+      "image_dimensions": [],
+      "bytes": 36424,
+      "sha256": "70d06dbd7782d8a4fbb5075cd63bc9959ef3fb4bc203fb9a88ffeccabe5d88e3",
+      "passed": true
+    },
+    {
+      "file": "asteroid_17_lod2.glb",
+      "triangles": 372,
+      "image_dimensions": [],
+      "bytes": 13568,
+      "sha256": "4e2fc775c4f4c3501bbe1fa39fe6461fdaafae515edb20874457681348a92b1c",
+      "passed": true
+    },
+    {
+      "file": "asteroid_18_lod0.glb",
+      "triangles": 2474,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1460732,
+      "sha256": "4acdf748ace5c8e524217de46dad3a46cccb77c813fa2ad9a976202da4253fc4",
+      "passed": true
+    },
+    {
+      "file": "asteroid_18_lod1.glb",
+      "triangles": 988,
+      "image_dimensions": [],
+      "bytes": 30480,
+      "sha256": "f60d1af1ba366ec36f318f7c4a06f94a6cb04cb56f82dded6797a7d413ade15d",
+      "passed": true
+    },
+    {
+      "file": "asteroid_18_lod2.glb",
+      "triangles": 296,
+      "image_dimensions": [],
+      "bytes": 11604,
+      "sha256": "1323e6fee546e0e19c4df88d7e368e83cd5bb6d53b18b94ef8e86d1d9e4ed334",
+      "passed": true
+    },
+    {
+      "file": "asteroid_19_lod0.glb",
+      "triangles": 2768,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1691900,
+      "sha256": "2796068c136ebe7fa8493c1c3206de554dd482815d1c1c104d48d2e0fc26e3ca",
+      "passed": true
+    },
+    {
+      "file": "asteroid_19_lod1.glb",
+      "triangles": 1106,
+      "image_dimensions": [],
+      "bytes": 41112,
+      "sha256": "466ba5a1b796174b97104a751d47904c859d8dae25c1f10fb277e0118c37ca2a",
+      "passed": true
+    },
+    {
+      "file": "asteroid_19_lod2.glb",
+      "triangles": 332,
+      "image_dimensions": [],
+      "bytes": 16428,
+      "sha256": "a0385ca36f943237824e261dbd9b0d3fdd13b025976a0ae678bc2da1a5da197f",
+      "passed": true
+    },
+    {
+      "file": "asteroid_20_lod0.glb",
+      "triangles": 932,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 585848,
+      "sha256": "008dc142f912322c9a7d9dabf27ab36150efcfd3a86fab861c452a79341f2765",
+      "passed": true
+    },
+    {
+      "file": "asteroid_20_lod1.glb",
+      "triangles": 372,
+      "image_dimensions": [],
+      "bytes": 13924,
+      "sha256": "2f890ab1a1be918a715fcfc9e4fd0280d71ebfa976d9578bbad8edd109d21754",
+      "passed": true
+    },
+    {
+      "file": "asteroid_20_lod2.glb",
+      "triangles": 110,
+      "image_dimensions": [],
+      "bytes": 6072,
+      "sha256": "47432d4336c7eb74e13d702f9f311d83b8bea83f8a8d0fb0b43055f3e21390f8",
+      "passed": true
+    },
+    {
+      "file": "asteroid_21_lod0.glb",
+      "triangles": 1262,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 543496,
+      "sha256": "a968c91ad29273918250335bc75e6c8cb9c3f62fb5de4673dc38df0e99318f2f",
+      "passed": true
+    },
+    {
+      "file": "asteroid_21_lod1.glb",
+      "triangles": 504,
+      "image_dimensions": [],
+      "bytes": 17820,
+      "sha256": "d62dc4c0323d98e48e605e39620a0c84f259de59d4e8d9caee5dd6e3415d08dd",
+      "passed": true
+    },
+    {
+      "file": "asteroid_21_lod2.glb",
+      "triangles": 150,
+      "image_dimensions": [],
+      "bytes": 7368,
+      "sha256": "57acff6014f3ff12e16184283ec3087409e95ac8d48914e0659dac7824dfd607",
+      "passed": true
+    },
+    {
+      "file": "asteroid_22_lod0.glb",
+      "triangles": 900,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 524992,
+      "sha256": "dfba30c67c79e6aef94fd9b0c540a7722d771a4a93da255760ed88cc846e14a2",
+      "passed": true
+    },
+    {
+      "file": "asteroid_22_lod1.glb",
+      "triangles": 360,
+      "image_dimensions": [],
+      "bytes": 12916,
+      "sha256": "fd6a0212c2025b0e603fb0fcea8840ae4324f8dd06efe161e08c5ef66fc35367",
+      "passed": true
+    },
+    {
+      "file": "asteroid_22_lod2.glb",
+      "triangles": 108,
+      "image_dimensions": [],
+      "bytes": 5512,
+      "sha256": "3384e3c671627008b4be8f4c4e9b79637d93509d5dc78335be31d42382d3d3aa",
+      "passed": true
+    },
+    {
+      "file": "asteroid_23_lod0.glb",
+      "triangles": 1902,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 576848,
+      "sha256": "8ba9c9dbdcc61b762e62477f80ad663b617c15aae0aa867f40c7e8a06892c398",
+      "passed": true
+    },
+    {
+      "file": "asteroid_23_lod1.glb",
+      "triangles": 760,
+      "image_dimensions": [],
+      "bytes": 24980,
+      "sha256": "880464cd0d12537f5441ee04fb789d1888f5a9fce59bd022f04df08eacb58450",
+      "passed": true
+    },
+    {
+      "file": "asteroid_23_lod2.glb",
+      "triangles": 228,
+      "image_dimensions": [],
+      "bytes": 10136,
+      "sha256": "79139a189fb1d29c189552802994e7dbfc30490d6adbfacffb31a45d5c97460f",
+      "passed": true
+    },
+    {
+      "file": "asteroid_24_lod0.glb",
+      "triangles": 2242,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1574732,
+      "sha256": "473c027a1e1dee76f8aaa776bf0f865ee9130296a0d80579c335279d2f43592e",
+      "passed": true
+    },
+    {
+      "file": "asteroid_24_lod1.glb",
+      "triangles": 896,
+      "image_dimensions": [],
+      "bytes": 27872,
+      "sha256": "f8ff0d0dffdb42ee6f43b9b5863c7218852fe67b084465642642d6592c9aec17",
+      "passed": true
+    },
+    {
+      "file": "asteroid_24_lod2.glb",
+      "triangles": 268,
+      "image_dimensions": [],
+      "bytes": 10764,
+      "sha256": "94635bdca7776290bc33d3650ada4e11617b674f43a8f190d1e0850bdab192e5",
+      "passed": true
+    },
+    {
+      "file": "asteroid_25_lod0.glb",
+      "triangles": 2078,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1610808,
+      "sha256": "2531e57e1d6b3a0c47eae6570cfd6af1d0b4690b1629310812fef4e9f655cbe1",
+      "passed": true
+    },
+    {
+      "file": "asteroid_25_lod1.glb",
+      "triangles": 830,
+      "image_dimensions": [],
+      "bytes": 25404,
+      "sha256": "a1d4004471bbcf17bbc58b054ea6db35e13040bdfd1d1b8fc61f5b217e2a7a10",
+      "passed": true
+    },
+    {
+      "file": "asteroid_25_lod2.glb",
+      "triangles": 248,
+      "image_dimensions": [],
+      "bytes": 9620,
+      "sha256": "87edd003699b0c68314a41b25b21d48444ad4ae94081e0d0765b89d16157069d",
+      "passed": true
+    },
+    {
+      "file": "asteroid_26_lod0.glb",
+      "triangles": 1860,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 636408,
+      "sha256": "d9d1aa263bdb62b477d4e7de822aff1373de508e14fd969c6c0a78f9c44f435a",
+      "passed": true
+    },
+    {
+      "file": "asteroid_26_lod1.glb",
+      "triangles": 744,
+      "image_dimensions": [],
+      "bytes": 27640,
+      "sha256": "bf4ef8a5234a1613e4cb74b65c9f3a142b031a9e68fb40ea480365b86bcf6f4f",
+      "passed": true
+    },
+    {
+      "file": "asteroid_26_lod2.glb",
+      "triangles": 222,
+      "image_dimensions": [],
+      "bytes": 11640,
+      "sha256": "c7b39ac7395f6c4b10b96c6c401f7cebd4acfc36c09a4db33ef10257351e7927",
+      "passed": true
+    },
+    {
+      "file": "asteroid_27_lod0.glb",
+      "triangles": 2430,
+      "image_dimensions": [
+        [
+          1024,
+          1024
+        ],
+        [
+          1024,
+          1024
+        ]
+      ],
+      "bytes": 1686996,
+      "sha256": "92fcaf1b71f7f9d4abc7c1b11e4d71d1b5a97a49f5cf072313c9a6949d2e3447",
+      "passed": true
+    },
+    {
+      "file": "asteroid_27_lod1.glb",
+      "triangles": 972,
+      "image_dimensions": [],
+      "bytes": 31024,
+      "sha256": "3a177aede32a3e31c13da0bf8e2860b568453a03244251d8a37ee453461c4cff",
+      "passed": true
+    },
+    {
+      "file": "asteroid_27_lod2.glb",
+      "triangles": 290,
+      "image_dimensions": [],
+      "bytes": 12304,
+      "sha256": "c08d6a0917e318affff08d27d9a14dabb5c98e11be7b30ea7b62b4f5c42c4319",
+      "passed": true
+    },
+    {
+      "file": "asteroid_28_lod0.glb",
+      "triangles": 900,
+      "image_dimensions": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 531184,
+      "sha256": "7ac4f44595c6cb152c4797153173fc3bf7055123900a3a575202e627803acc36",
+      "passed": true
+    },
+    {
+      "file": "asteroid_28_lod1.glb",
+      "triangles": 360,
+      "image_dimensions": [],
+      "bytes": 13528,
+      "sha256": "4ec14d4bd3093bac102bace6a4c7989c725487d84ab03d33ef1b1c85f7451fb1",
+      "passed": true
+    },
+    {
+      "file": "asteroid_28_lod2.glb",
+      "triangles": 108,
+      "image_dimensions": [],
+      "bytes": 5904,
+      "sha256": "b1c7b474abae78a177cc04c07f2570cea5a2a88e2287fae9cbf0badf0c6d7888",
+      "passed": true
+    }
+  ]
+}

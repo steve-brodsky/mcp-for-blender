@@ -1,0 +1,1718 @@
+[
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0.glb",
+    "sha256": "87c638e2101b5012d4e0c22ef6b781eed85e4fcbff851f4f258986c4c09618b5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0.glb.import",
+    "sha256": "fcbed4d891d35cb7ff459e291fb21e5ef0f8e4aba96c9fadda0344dc7049ac04"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0.res",
+    "sha256": "96c962bb97779c676fa38f039128f30e4d6863353de4e5f3456d565cd555bdcc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0_asteroid_01_albedo.png",
+    "sha256": "78f0129c501e53c81fd1f31e9800323a7643249ee4fe4833553848cc4d257912"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0_asteroid_01_albedo.png.import",
+    "sha256": "fdb6000f34d1684c479690009fba462a9442fdab652c5b312af943cb90ae053a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0_asteroid_01_normal.png",
+    "sha256": "6b355f1deb8c4db176e7f45e23e53a5abf40593a5a04d6cfb29261ddd5aac023"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod0_asteroid_01_normal.png.import",
+    "sha256": "45e00ad601dcea6d5f07b24869c39a933381fcf95673754a692b9d653ac1dc14"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod1.glb",
+    "sha256": "acc79275e048657764d1ac2a0fe2d4fe7681c0ccb9182e2d50dfa936fa55cb76"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod1.glb.import",
+    "sha256": "40a7548b72179c85e589767c6efdb385a1d3eb93dbb27f99038b16b9149457f8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod1.res",
+    "sha256": "ee93501d822c853fe39abb19258b65eb3fcce43930cbb6739ea9687fbd596c6e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod2.glb",
+    "sha256": "5c36ab941539b3e9c2dab40c519800bb26fd217a3dc51695a3c6b4430b8ffe02"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod2.glb.import",
+    "sha256": "7eda5308356114c982d889d5a5961e5bac2cfa12a4d6c658dd3703f7d1734e65"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_lod2.res",
+    "sha256": "859836406fe2fdaaf9f04e585c27dd837063696dc2739eb55ad3e72477ba29aa"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_01_rock.tres",
+    "sha256": "3d7fc2b3ae6382599dde6abe069440d37c2e5f7b964d93949eee408f4b0337c8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0.glb",
+    "sha256": "6e9808b76484e85c1c808dbb23450b8ed7318c04be8ffbeb8846e4335333a425"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0.glb.import",
+    "sha256": "241c448d2596e7f615e07f5be214aa40cbe2542ac62b8cbe6e06bbc0dc6aa264"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0.res",
+    "sha256": "458be45e3142f7cfab49704d2a9ffd2b7f19d1844a89fdbed327b16b6622824c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0_asteroid_02_albedo.png",
+    "sha256": "bee7b66968a2d4992a5fc5f738f3a2b22c29b80161512d1cf952afa0e81d1280"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0_asteroid_02_albedo.png.import",
+    "sha256": "ac5b1ce2e097dd32770ee9d67dfd82dc40efb25340500210b6e2ff27055e6d18"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0_asteroid_02_normal.png",
+    "sha256": "a92d7bb2a76b26242cbb17e95f8caacbdee9cb035beba3508a9b90bf074b639d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod0_asteroid_02_normal.png.import",
+    "sha256": "1cbd1608e2f87465ef65555a7059521cf6562f555d50b14f3576f95fd3913910"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod1.glb",
+    "sha256": "55153a8273048cffaaf5b107547b67b90622e4d0dfd14e68a5fd8ca4c66f1422"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod1.glb.import",
+    "sha256": "5ed1475e127d63dd1b2421b25d14ccd9d027729cb2feffa5335cd33f5ae54bbe"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod1.res",
+    "sha256": "20777240ddaea0146b019fabf4280fed2a39ef981ca5f267d0b986275b781322"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod2.glb",
+    "sha256": "fa92c946e8057a53a431a031d9c68b5efb6c0d5b78251c93bf6299992aeba657"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod2.glb.import",
+    "sha256": "1bae58abc03658d5e5a99a3e04f81eb65378d62d5eae92d5a0b20ccec8846306"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_lod2.res",
+    "sha256": "1ecf1290d186bf0cd4a03012705ce7b3d26f67fb183bc152ec10445bc5675395"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_02_rock.tres",
+    "sha256": "f4bbf8d156e9e753596c327bffdbc52cbdbfcc2f67e48064f6d1fac1f2e7dfe5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0.glb",
+    "sha256": "da0a81e4e1295fcecb39a3159454523c227dcce2f02fc651b475ec5ea1456be6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0.glb.import",
+    "sha256": "35b1de566e69fffa37d6f2a5a643cb47773de850714c5feab2b36956692b748f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0.res",
+    "sha256": "3fdde345ddcd9f68dca1ffc3a8a2cfbd7fdf0bd6dd3a15eb90bee51ba7d8edfb"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0_asteroid_03_albedo.png",
+    "sha256": "4dfeb22db2e99de76049113bae3a944b0a38d0f6beacb0e9d72e589f3218ef1c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0_asteroid_03_albedo.png.import",
+    "sha256": "d9bd277c1cb46fe22d105f50e74d84314dd0bc7d855af814636d39ad4d19a227"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0_asteroid_03_normal.png",
+    "sha256": "e2a253ac35246ad589556c95846c4a53b469154cd9f07ebbf5691ad392940796"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod0_asteroid_03_normal.png.import",
+    "sha256": "2230ebe099d865912b49384f6a7600808d1aa1f692968a613ee0d506e75faacc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod1.glb",
+    "sha256": "442ff712ba85e5ae834edc0e31e148372c53913456f5be880e90ba39dea72278"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod1.glb.import",
+    "sha256": "5deb564b1d4a5aaf5bb74a6d8af2757fc33c375dd53dec650b1d43479f67eb9f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod1.res",
+    "sha256": "3bc5172226a7b592745877e03024ce371b9ff6c385dbc7a8ebe8860e7498442e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod2.glb",
+    "sha256": "ac4c3bb32670c6095b00313cf68267017cfaa706fb147ee9478b0b2abde0bd57"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod2.glb.import",
+    "sha256": "e955990431d7d744ba33a33028c0c9682d1206139d0bc3dbbf44bd9b34f5f9d2"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_lod2.res",
+    "sha256": "680441150db88f53724eee61e78c11ef65c4f16e21c40d3678f2783a4b3f365a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_03_rock.tres",
+    "sha256": "6414d81d60a40a7a7f8e117c90b83428e01824f84042479f079323517ab353e2"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0.glb",
+    "sha256": "847441510ec42d97089971fa6b22cab98b103913311fe903864c8fa19f8906c8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0.glb.import",
+    "sha256": "7eb8ceda0c517455b16c376cb05b3d4eddf5a7b605246ad0967556ce3f2f8509"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0.res",
+    "sha256": "372cc10bfd33d4155eaf8ef60269e870faec6a8416572cb32dc945b48da4ab90"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0_asteroid_04_albedo.png",
+    "sha256": "e17bdff15a7b8cb68e8e08799fa8f186645c2c13a58789c9d2db3e463dca0d3e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0_asteroid_04_albedo.png.import",
+    "sha256": "fad8f52efacc5b34603bc259285e03be85096ae3b6cc7ee912d6ab5b954ea2ff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0_asteroid_04_normal.png",
+    "sha256": "f76a5af1f5c746cf2e52e7f6fa574a593fdda953483466d3934e30a6b388dede"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod0_asteroid_04_normal.png.import",
+    "sha256": "8e5c8081904a856faf29159fd34da912c74239af558136efa8f62c8a923bf533"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod1.glb",
+    "sha256": "b536a956e8f71821924e38d45487bec6fddc578b097b0270075a941a99b7b996"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod1.glb.import",
+    "sha256": "6e4ff793e0fbab11e2392a1484ca38751bda1af5526156b255648e108b2788e5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod1.res",
+    "sha256": "c0351fc814095dfbb612387db9d546b1cec3a988e782e17ff76795bbc2a8aad1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod2.glb",
+    "sha256": "732a4bc2f466d90201a77b69a3702557d01e58701a98860ff2e7dee8274bbc8e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod2.glb.import",
+    "sha256": "51f9036c5b7e278ca899dd4f34c1d89105bfe7601a110bf9e8e3997063d35330"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_lod2.res",
+    "sha256": "983ee70268a6e952ea3e60d3610aed394cac8f5ca490b5931e9532a327671c12"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_04_rock.tres",
+    "sha256": "40501db40d361310233ce690a6638a0072f0c7f8812e3191e6eac49ad867d73b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0.glb",
+    "sha256": "d39f7d05638bfbfa3702d3c5f37fbb3d92befec21dca351fd1e338f4412dcf33"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0.glb.import",
+    "sha256": "b2ef0e457eb297348aac678f351728c69927c473b05972f68cb769fa6fb336dc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0.res",
+    "sha256": "d40f8b5155ecb2f5e5a22775e1baea3464882776470c138db412c2eab57466ec"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0_asteroid_05_albedo.png",
+    "sha256": "89571de9d9c36c7959782d09e76adff547142d5c9b1344523292bbe4358a49fc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0_asteroid_05_albedo.png.import",
+    "sha256": "ebb8b32fbefbfa298210ee2e82f36506947cf441868db24890553a61a7c31808"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0_asteroid_05_normal.png",
+    "sha256": "2833ef74f77ae2620a00eb09f7c949e5e3123614018132ba5e2c17a26516a656"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod0_asteroid_05_normal.png.import",
+    "sha256": "b55f0dd0fbbfe3df3eed323da17b138df876357d79f1d98a592ceb891ab21b3a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod1.glb",
+    "sha256": "3458c86998f34e9c209c7a4880136e7dae969c0dff06764c49f53f4202c5a8ff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod1.glb.import",
+    "sha256": "a046134663664594e367a7b46399fecfc78b28875ed5423715a49b88edae2c65"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod1.res",
+    "sha256": "5d0ff4c45fc188966d8ac77ad605116ab112883d2d22587a85e101d8eda0b603"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod2.glb",
+    "sha256": "1b2843b939c8e49868e275c430e6c245594157956f03d18d2af1645c20822e69"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod2.glb.import",
+    "sha256": "c35e14bf06b2ee99e9c7eb17cbe0b0ce54a0b3e2cd55f0e0742ccedbaccec1bc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_lod2.res",
+    "sha256": "dae431cf23d15b855bd7eb08025dd0d77702b94f4f9b135c43ced60ab2abfe5b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_05_rock.tres",
+    "sha256": "94d1242473ad8d36e08a90eb96e98806255bdd49ade37d2802e23b30208b7b19"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0.glb",
+    "sha256": "e90a5b6eda2105d87e0c3b6d7494e94fd1454a463643967272cfdf41a5e20109"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0.glb.import",
+    "sha256": "a90c06f2a6942be1ed0c18cdbfc7172505575fbae602befd8984ef92dc0357eb"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0.res",
+    "sha256": "462ca898d891af53bc19b9cd101c69158f03b67c6e70cef403db6d218fc1e84e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0_asteroid_06_albedo.png",
+    "sha256": "8a1b77ac039afce943bb365df76c6c1ece25ec2a0cf5a98611c82931ae9d0c5d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0_asteroid_06_albedo.png.import",
+    "sha256": "d4278c406c78200b1cbf5f2f176f27868808279b07536aa0a72a3c315d8b83f0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0_asteroid_06_normal.png",
+    "sha256": "37aca2fd481230f134ca6f9125f455600ab027c603c85ce1d6dbbaa52966d4e9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod0_asteroid_06_normal.png.import",
+    "sha256": "ab65db8e746deb4472fb7391636277d1d717db93f9a6d57dc343eb25cdd72990"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod1.glb",
+    "sha256": "fd94ef3826f0bea7608fe8ef495a888e78904bc4951d24c829138108433c69af"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod1.glb.import",
+    "sha256": "bf9cc25a4369bdcd08942469d23adcc78d611e85a502df7069dda100780e48b5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod1.res",
+    "sha256": "accfcba942151b270b26ed9456f3c537c7b1b10bbe8b0efed2fec945cbbb3e23"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod2.glb",
+    "sha256": "4c3371271203a6b0bd998739d681b3b9ea87ba3d3293f72e2a92e6bc57d72186"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod2.glb.import",
+    "sha256": "8e671ad94eb47813784e9b08ec56e0979f1965c675d779b5982c7923ccf8d65f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_lod2.res",
+    "sha256": "9d8119b9194b2916c81d0e9d7e7a3da59ee8774cb7cba8c0a9daa8796c21758b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_06_rock.tres",
+    "sha256": "d7487530b2d97701784175f78f3581ea6fec5cbe4c019121978125e7fd2434c3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0.glb",
+    "sha256": "3efb7943e0c44419f311ddcddec996221b52a8efa315e0cdf53359f6abdd0bd3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0.glb.import",
+    "sha256": "94c222aa71bdaf938b28cbfcb7334a86194eb58a5998835b24dd56ff1657ce23"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0.res",
+    "sha256": "a7313434db88df85769c91b8db5cbdee71e3336402e2941360fde8ee5474151c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0_asteroid_07_albedo.png",
+    "sha256": "34785633d6ed64256ab7c42f484f472d4179705966335342c314383f27cfd616"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0_asteroid_07_albedo.png.import",
+    "sha256": "13d12742874290750726dfbbebfa9a928c00812469c8e4a4ae3e8605696e6619"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0_asteroid_07_normal.png",
+    "sha256": "38c728d4f850a828d8eabcd69e14d6ae0cc914a86f92379c576825dd4445e584"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod0_asteroid_07_normal.png.import",
+    "sha256": "9c195c0c26c22b7949a20a37c273c047478fe9956fb66142a86b3bc7acee282f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod1.glb",
+    "sha256": "0e0cc443a62d43d23202c365c35fc81eee34a18e6f5066933f856faf8f587d11"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod1.glb.import",
+    "sha256": "de2e6c5804abcf86cc91571a6c3acc544272bddeb861d1a76fad6562d7311018"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod1.res",
+    "sha256": "80d4590d15c1999a8b477bedf522cdfed670f307a3e850e7856ac3cfe5854234"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod2.glb",
+    "sha256": "ff152e38adf523b9bdd6954a1f592bb429b230f7ac9209cfb874f9f6a9a927b1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod2.glb.import",
+    "sha256": "90174bdfde5fea46c231c8e9b29b41b78c3a9ed315751770d48aab357ef8532f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_lod2.res",
+    "sha256": "bb559ab3713a2edbd1df71caaebc3d6eae10d3cc74cb300459e09f521fdc186a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_07_rock.tres",
+    "sha256": "62e64a4938d89b27c76fb6ab4cc29877a975877ab10a73cd63cb8c8360aeb434"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0.glb",
+    "sha256": "7a9062e643efb29ac27d24cc85270d01f02e96286a9b3fe173217d317e8efab0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0.glb.import",
+    "sha256": "7c52aee18a1af9e4a798ba2fbe5acdf4f21418099cab0eb230ac84147c225ea9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0.res",
+    "sha256": "7ebe60f596d9c042b41a6fde42f984184bc3923ac380dd1aa925ed79286e4075"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0_asteroid_08_albedo.png",
+    "sha256": "8f68dbfdf9c8cc477dccd3e8b22ea4f05debd448be2248bed8845335b5c2a2a2"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0_asteroid_08_albedo.png.import",
+    "sha256": "3afa0130527643b75eb0a7c829dbb20697bfd6c0f859baa1d69ed40e8efe14bd"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0_asteroid_08_normal.png",
+    "sha256": "ed4f9992bfb4589bb84de9659418aab672d19666c8777ff3d2454468add716a7"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod0_asteroid_08_normal.png.import",
+    "sha256": "5bfb6f039c887b8177fa0547b440f5b0ad27ade5ef46f1471e1d8c447e84a5f7"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod1.glb",
+    "sha256": "e379d30300e17fcca15eb75285b3cde6c55950e628ed3d1377ab7eb362697a3e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod1.glb.import",
+    "sha256": "ccb65e1ac0d1c91bd27dec859fa31af510b310561063553aa6920f989b7421df"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod1.res",
+    "sha256": "c1673cdd4fa0198b989aacff7361fbe10b194d6c71bd56424e99f530ffa08e72"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod2.glb",
+    "sha256": "ad492ca1dd85e1fb41c82377839924b79aa77bfffd9b621e8b9810309d87df08"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod2.glb.import",
+    "sha256": "8d905a379b23c6b5943767c8a557644e32f0ab50e7393a13a2435b05386069b6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_lod2.res",
+    "sha256": "70b48dbe7c2a70baee517770f764ed22cf4445b51db36dec5a1e57e93b31db9e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_08_rock.tres",
+    "sha256": "25350c66bb62738ef95e61e56ddd38bc93cea20b4544f3fb084b7aba7ee14a41"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0.glb",
+    "sha256": "b6d9b7a58b0ec73ac0a04f83066c9a972ea260921855e106d6a651b0d934bc55"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0.glb.import",
+    "sha256": "c54b254716e63ae9078eeebb4a534a332dbcc872c6f840397323d5f4f248da95"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0.res",
+    "sha256": "e861fbde68ee5b6bdf29e483258fb97f7f98e32aaf1fdd527842c2da89c033db"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0_asteroid_09_albedo.png",
+    "sha256": "07625ebba84756ba10dc7d08061648d05747bf91a7f10b180ecae63605fcfa7c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0_asteroid_09_albedo.png.import",
+    "sha256": "0f9e4f45e9022a157b4c024d40b7fcf8a9b3f1ba604c47d991384f3d0eaae566"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0_asteroid_09_normal.png",
+    "sha256": "3979526b340c57707733cf1ea49f30fd0e69ee87fc6f6120651b3cad72027e82"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod0_asteroid_09_normal.png.import",
+    "sha256": "3529cfd5da45dd4d010b99c2e1b9fa6cf8ae79758939f571279b1ccfa97ab5df"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod1.glb",
+    "sha256": "39e733bc9ee357f3dadfa1ee32a199686f59d8e1d6a330082976b62f56acd4c8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod1.glb.import",
+    "sha256": "3025ee24878332e32a4e1fb5e29d81594aadfb44ecaf7b8116457d734ea6732a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod1.res",
+    "sha256": "d83ef81fce93fd742498e75a5b2366810ff6c30b680355bcdd362e09664977d9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod2.glb",
+    "sha256": "200c47286818b3e1006c10d2826b834c2029a8cc64806290e77632d14b48803b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod2.glb.import",
+    "sha256": "cde815cb986d75743fc9df0a0bcdf19a50374eb536d6a3851fb83a621b54d288"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_lod2.res",
+    "sha256": "e79a1415259dc0780f73890f8f41c49ac7ba33aef6cc55d3fbc17d9d21b5854b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_09_rock.tres",
+    "sha256": "19327672e6408c9c0c9e8d116693d9c9a725db3af3f1a01150541060893a0fa5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0.glb",
+    "sha256": "1058437d318aaad0095b4aa7f222dad52eb586b0362b6d6c96b0205e82c27487"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0.glb.import",
+    "sha256": "050f7efd30569a8c7a6de6f55f220b22b9cef6322b81088722712fe0e0f3e180"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0.res",
+    "sha256": "2e1dc164cfa445302bd1470f821a0b42bef92efc6d91a2f96acc5ca2ba31b719"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0_asteroid_10_albedo.png",
+    "sha256": "e99ad4be00365807d1fb283b73e76e67244d9885b092821f751fc1e4f83b8615"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0_asteroid_10_albedo.png.import",
+    "sha256": "c4e54df207467e9a3cc35baac845d4529295552142ab565ffdbab3b68dfe7b44"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0_asteroid_10_normal.png",
+    "sha256": "27ec329563cf9471954df9e1b0a9e7e7cd248a6927b54907d65cbaa0f5378c03"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod0_asteroid_10_normal.png.import",
+    "sha256": "5c6c91f4719aa734f666e00b2e4c8d4205ddb8e9d76db0bced8528e1c57b24af"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod1.glb",
+    "sha256": "e9398166dfbc7e22761908e669ed850ed547040500d0bea07d0f90a0f7de33d9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod1.glb.import",
+    "sha256": "c2585795462fac323213b87e5110d0183253d9ce1439134f3db6e7b9a36c6003"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod1.res",
+    "sha256": "7e69101cb933142a2ed8a98f47b1891c2a5ec712944d7aa232e20ac9c4c44651"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod2.glb",
+    "sha256": "a774c5e2f7ee0d778d38c269bb9d149d1cc575fa733e7ad39385ba493c8a388e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod2.glb.import",
+    "sha256": "0ae69478fc5b2ec57b16f2dec0d0c67c8f4660cf25c59cc59e280de292069321"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_lod2.res",
+    "sha256": "084ff5467a6138dfbf118ae6b57315bd2e235eee7b64b425412236e5e15a664c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_10_rock.tres",
+    "sha256": "c2866ef1f9f30ef9457c6d875954fdad70486a71d2613e85ee2c6541de523145"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0.glb",
+    "sha256": "5d651213b27e8f820a9f3ed2630efe87f8e02847cf81746e9c6af4c2d029e0c3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0.glb.import",
+    "sha256": "a4eebfe970b4a04434ed030aa863962da57b9cea60061654a183d2ff65153a4f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0.res",
+    "sha256": "b1341f7c34144bfe0d035d491a649ab43696261401f20e8a723e13a08b8f0437"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0_asteroid_11_albedo.png",
+    "sha256": "d946b836f96ce448b6f0e00b7c4106498b5aa3f7daeaa152bb6bc2fd76aa015c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0_asteroid_11_albedo.png.import",
+    "sha256": "6d8df60c9c9ed99cf54bcbcd2707084010b4254ff2ca9eddbdf95f302a056873"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0_asteroid_11_normal.png",
+    "sha256": "613d18446dd2eba7f40d725ea9e2e2b7a5f7e283b542982707930cfe1abd9ba9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod0_asteroid_11_normal.png.import",
+    "sha256": "919f4a7ba5008174ba36e95d5902320f493c347ab7209fe13197acbda29488ac"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod1.glb",
+    "sha256": "c199b8ae81eca2ab8672125c7da9260284ec9640e99284f099577b8d026b97ed"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod1.glb.import",
+    "sha256": "823f7ff4303516c29a919757559e024443d5b6cad78f6a34aa673810530be16a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod1.res",
+    "sha256": "c8363089336f2adc5e890cfa71fc1544c754048327841095eef6bce65ae03c54"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod2.glb",
+    "sha256": "a4343fbd14fc476653ce97fca81f2d69338713f732529bde02977e73bc199a1c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod2.glb.import",
+    "sha256": "a45e73c6e6764ddc9a5d3bfd7f429ecb3d6f4b09896d9300f2c6c3fa66bbb35f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_lod2.res",
+    "sha256": "dd60bd52b07d88cad84e236ef7f9d44278d25378d21614b199f3ba709abb568a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_11_rock.tres",
+    "sha256": "a8753f3f8896a79cb65ce60a7c77130e60a4ec438300ffce46dce69f964b0ca2"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0.glb",
+    "sha256": "603863ee6510ec9695c754e515ae496112c23983a892f0b6345a33168d861eea"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0.glb.import",
+    "sha256": "6683acc49f0d479f8132de3f706456d48ecac2fc92eaec0338e6cf2bd5eba348"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0.res",
+    "sha256": "b04617725d71e75e6feb0ef2606466d2282d8fe3277dcb513cbc7a6fa7d65326"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0_asteroid_12_albedo.png",
+    "sha256": "d0b6ffecfd5d200f8408bd45ab65b8b249dc4cf4a24c82fde8d2da270a864e41"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0_asteroid_12_albedo.png.import",
+    "sha256": "6e71d44f4b43e26eae56cfb3d32168e78b259a3dbd47718a46660a33e9a464ff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0_asteroid_12_normal.png",
+    "sha256": "be4bf7d343a1abaf0503fbe56243894701dfa5446ec1e32af83e31c4f21fc0a5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod0_asteroid_12_normal.png.import",
+    "sha256": "9432ab6196080873848a1acdb638172e47866a099476147506adbf0a36fd116a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod1.glb",
+    "sha256": "50c440d38ae2f953a4271d0735952a89d7ce67a8a9f79917e5045fbe9b57ffa3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod1.glb.import",
+    "sha256": "40e7ff8eafa4b5d7acae616ea6d118e45f2e3eeb5fac6f058ca189a179e95b57"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod1.res",
+    "sha256": "dbea2f38c5f649d84c4ddd6793e464ac1a1e3e27da536527b88ad1923add952d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod2.glb",
+    "sha256": "0a3994af0271eb04b443f3cfa84f802edf107e35bfed942c2fd165b039006f36"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod2.glb.import",
+    "sha256": "3e16f263bc1c59b035b32d1053a05994554298aecc83a0d3873927bb40b776e0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_lod2.res",
+    "sha256": "c19122d2c3b324938909a0bff251518cb80b49e09172d439dfdc39fd4a803c91"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_12_rock.tres",
+    "sha256": "58cbf613bfecfa9fae7cb827a8afda9077074a7e2ae68662537821802a6caa09"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0.glb",
+    "sha256": "70105afa453cc17f4f243dd0b9e0e4b35d7a4b9b20ae66e8d7bae695c6b22e29"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0.glb.import",
+    "sha256": "3d9201c120651c1648653389373da302edc2f1c4790247cd6b209ed844e45f62"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0.res",
+    "sha256": "fe273c567afb53a06b0225100276ed40dfa490c804a0a8d107a2687df9b0e09a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0_asteroid_13_albedo.png",
+    "sha256": "45dd5123242b216c2199f29ad47413ad0b00a4b284d8ffb76f9e820f3456eca1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0_asteroid_13_albedo.png.import",
+    "sha256": "a2b52e51b5069c1b1293bdcf8ccae171afe52ddd452cfd1e1d468ade5a37b1ab"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0_asteroid_13_normal.png",
+    "sha256": "bac4d74209846f2e83a15300e102b7363eb4d3eb4ea6e0fd39f2be98334ccb12"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod0_asteroid_13_normal.png.import",
+    "sha256": "4055afe1427cfcec9c40c8d2e39e6c7dcd4d24a1804186d7d82ac73f02831725"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod1.glb",
+    "sha256": "a4cc70bd59554b32ebdb31d2754edb1d0134e39cf25409214b7d2780b77de62d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod1.glb.import",
+    "sha256": "50180c97aafb3b40e1d789dd32c4adf9a3d04b19e2d8a3c9a70272b5c56ebe39"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod1.res",
+    "sha256": "0277c34556fc10442e7b3514565f52e636e6a53a2b7b4bb6a8cfb8c3480293d4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod2.glb",
+    "sha256": "d8913d11868145296692d7839c62cb1d925463324415df11e7677439eb2e530d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod2.glb.import",
+    "sha256": "fb8a7c4890463f167d51831c58c6efc2612cc24bc962547baf7692709a0f0f72"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_lod2.res",
+    "sha256": "9f540c3c60bef6c10a6cba2139cef4c213ac275afbb0b6799c9d8361db109874"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_13_rock.tres",
+    "sha256": "8025e584267808b6e217cbfc96772de0e88b3d4e38f6501a42a22316764aa071"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0.glb",
+    "sha256": "50806af770c867d85756e435323467227f3bcdfb31353cc54a548fab57ee41a0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0.glb.import",
+    "sha256": "0ae087ce3e1afda765d4326918f7dc8ec3e499a7132dce611e147d0ad4c6a466"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0.res",
+    "sha256": "ff95c367a933e6c1fe9cdba5e55eaf25992e79bf37b4ece149806645a28a2835"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0_asteroid_14_albedo.png",
+    "sha256": "8c0a1ea78804078300242d28a30843e0c8b6c15cdca5724566c77d000ea2943b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0_asteroid_14_albedo.png.import",
+    "sha256": "3082b11e8302cce360100dfe66e93ecd9db56a2231b23471e837c39365a31c4c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0_asteroid_14_normal.png",
+    "sha256": "20f3cddfa5e336129b142db4b1012f04d7d193a026ec8765319121fca9b5f3bb"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod0_asteroid_14_normal.png.import",
+    "sha256": "e859e595640170dfa816005588157d1248668075523feb14465e96abc1b51124"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod1.glb",
+    "sha256": "035d8a7dbd1e7f1b8bc445f09ca3e2572cf3d96557418cdac101f3d2ecd17c93"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod1.glb.import",
+    "sha256": "56d094dc7503b9e5d4bef136795501ffb89d79178d69d4ff984a56276acc4e28"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod1.res",
+    "sha256": "e200e41d765151b6f86b928297bb52dcd939eb22f52fba7edda6eabf63270d95"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod2.glb",
+    "sha256": "f06130c9c7406bc98e287f7e75ed39bf14f16c64ef31251b690d427d1f8f0718"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod2.glb.import",
+    "sha256": "c1877b38d2f1e00752d5c7c83bf7f2f6c1cada2c9b0e4662803d9477949e07b3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_lod2.res",
+    "sha256": "8d5ade5b50daf52aa02608697d519d498a031a42dbd27a3c7e7d046181e03404"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_14_rock.tres",
+    "sha256": "d113df240d31057b1029351243db9f718e91006351b766f408936142d8d17606"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0.glb",
+    "sha256": "e2d819358fcc90615f82bbe2708833cebfb344456a682cc15167c3b80079ec16"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0.glb.import",
+    "sha256": "5901d91cac4af102c40ef06bab0eb0e212273aeacdef1ab40b7b9a2f6d472641"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0.res",
+    "sha256": "e67c1a916937b0f2f6c65b28a189743eb7a327b9d142fa60d12dcd4fc0d84026"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0_asteroid_15_albedo.png",
+    "sha256": "641b3e75956ff2117402b6ae2569ab9899db54703ffe304702cc0d058b050b09"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0_asteroid_15_albedo.png.import",
+    "sha256": "05a0b07215285b59f094fb705b21d095cd22b64602aaae9f69ea5392da8c946f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0_asteroid_15_normal.png",
+    "sha256": "43c0df6c5eaeae8fc38a24a1a0ac3e5a807a27667abe3b56d6eec15caf1b046a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod0_asteroid_15_normal.png.import",
+    "sha256": "24d95e0d1c33680f5239df74f8519ca0ddad38c0a75d784867f06a43db3764e3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod1.glb",
+    "sha256": "bdfe1c56e408da061dc53ef77aeb28e7f1f12af1a5adf04aecc43104e2ab06f8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod1.glb.import",
+    "sha256": "174b5c2509aac8ed57ee4580fa1b13575004f45be3609f26bd5ae9159700cd13"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod1.res",
+    "sha256": "a43ef1983acb0163c3e8e688f7bdc831bb02b1889e638e0383a96fe3119fe5cc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod2.glb",
+    "sha256": "e64764fe101ee55cd10e03447b1bd3257da27495e237181d68ffa9c0e5b0ea02"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod2.glb.import",
+    "sha256": "c71d03c59affe0bb5148670fe7ec734fbcbdb6683495a9aa33f63b5d4cd09d00"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_lod2.res",
+    "sha256": "3b9ac5736e4796080bba7e7831c479e0530b18585f67e3c13a0c4d0017899683"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_15_rock.tres",
+    "sha256": "6d2bacbe3985fe078c587b0a455fe98907694c5a38cc3d52f147659b1ed7ed64"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0.glb",
+    "sha256": "128e457784bc2f71437d4bc5b0b204d4f53a01c5b8f5e25782a7bcf9b4b21cff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0.glb.import",
+    "sha256": "519b4cd21b1399c23741306346f79119b37e6c3657a431c8940be7ca11ff0982"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0.res",
+    "sha256": "a7df963becaab59431366f42297cac7c78685a07e13b482f05fed614cf4b3c7e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0_asteroid_16_albedo.png",
+    "sha256": "5e48d6180b6d5fe77c7eb63b9496d855fe47cc96a982b81172421493b1ab2f22"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0_asteroid_16_albedo.png.import",
+    "sha256": "af6d38542b4233224ca390b8bd7896f9238d742eb34fc7a6f8c081a151b9142f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0_asteroid_16_normal.png",
+    "sha256": "47c95b137430d2e2e12c525b48b0aa90ba01d73cbf238eb95917d59947f99a0c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod0_asteroid_16_normal.png.import",
+    "sha256": "0547f3abb62c28c5c2ec4361401eaf27f2128af7f4afc52d8a9a5d002f65c0e6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod1.glb",
+    "sha256": "f45e4f00707939a356d8fa5cd1b56c84020e44098c9729c83f10c88ef050b04a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod1.glb.import",
+    "sha256": "d07d45d04d2bfafba745df7768c2222c3e9a5b333c06c0207178dcc0af2567d3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod1.res",
+    "sha256": "8eff409f79eeb40a5796722e2f878e722a4f5d89502c7dd3aaed3fc55d7f6b0a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod2.glb",
+    "sha256": "56a02d716658759d95015e575c4978396b0abcd083f645cefc02f8b1e9f78877"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod2.glb.import",
+    "sha256": "da55973013a4a633d6a63d3bf9839a4c41a64589dd5597d503c246f8a6294d03"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_lod2.res",
+    "sha256": "1737641919a3d33ccb413594d09c8d39afc9a97fc3df59641ac7eaed8eaeab93"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_16_rock.tres",
+    "sha256": "374dc8dc60c6002259b437dadd05e0cd4745a93910f215660ea0df59763b58cf"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0.glb",
+    "sha256": "bce298b0121f535f34292fb913bdf3b9bae8c79deb6b7f256d3320b1ce3f028a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0.glb.import",
+    "sha256": "3d8af5621c3a5050ffafea14c15a680d2a20016502bd142090174719a3d292a8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0.res",
+    "sha256": "0d9d698dd936d0727d14b312ab1e83b94d2df856ca0d7ee2ec206c2433711d0b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0_asteroid_17_albedo.png",
+    "sha256": "87078772f164c882aca5c79f3cb361d3a59c568e72944f4855bb0e655b5b9c70"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0_asteroid_17_albedo.png.import",
+    "sha256": "0e700548056a4607f0faadc62dd56821223507afda4e9726f6898e787ad843f1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0_asteroid_17_normal.png",
+    "sha256": "404a1293bb1c9db9dd3b23937a6c9ec88b6a5b87288cd4b745ae241016f6ad05"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod0_asteroid_17_normal.png.import",
+    "sha256": "0f6cf96a8ea9a166476d5d128ca5ea74b88ce99aff6a36781e6b4df883ad3919"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod1.glb",
+    "sha256": "70d06dbd7782d8a4fbb5075cd63bc9959ef3fb4bc203fb9a88ffeccabe5d88e3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod1.glb.import",
+    "sha256": "f4a8cab80f475cc97afc28ea0bbb5cf191e4573ad101d92fa3ed7703075e57bd"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod1.res",
+    "sha256": "56feddf0c694f996b918c7b604874e8be1c82483a94267418c1c18f29234416f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod2.glb",
+    "sha256": "4e2fc775c4f4c3501bbe1fa39fe6461fdaafae515edb20874457681348a92b1c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod2.glb.import",
+    "sha256": "eee1b0d42dcd4f7bfe338a2cc0bda41d5161030411acadfe5ca83e83cdfe9d16"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_lod2.res",
+    "sha256": "2d47cefa255914cbde71fdd2396b607a9977a838c8b0aad7a5c409d270699c83"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_17_rock.tres",
+    "sha256": "b8a588327f3ef3289482b4cf2c8e399dfa89c0763b54d8d2c76dab51a73a94bc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0.glb",
+    "sha256": "4acdf748ace5c8e524217de46dad3a46cccb77c813fa2ad9a976202da4253fc4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0.glb.import",
+    "sha256": "d8411083d0e3875e9f181ea6958367cd52fb1f74ba8a35f02cf7bf74eb7b2572"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0.res",
+    "sha256": "cdbd29b1141c0dc5db34f43f7c59ef05c619c20f502ccc78815a87e60c1365d7"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0_asteroid_18_albedo.png",
+    "sha256": "5d9ed4d5fd329bfcea34ad45a777761aa5ba5a59aeb1e615dad01539c6c8eb01"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0_asteroid_18_albedo.png.import",
+    "sha256": "453a64d0c179718425693c38c798c38e8ba66e881a49ab5c4c1af9d74753c53b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0_asteroid_18_normal.png",
+    "sha256": "33dabdd790fdb6ffdd6506e13a4a20668272968412af1067c6cd7a42763bdb65"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod0_asteroid_18_normal.png.import",
+    "sha256": "ae0b9c629c9c5e2c8658cf528e28a5869cc8f4973a08f38e5db4d17fad802d76"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod1.glb",
+    "sha256": "f60d1af1ba366ec36f318f7c4a06f94a6cb04cb56f82dded6797a7d413ade15d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod1.glb.import",
+    "sha256": "a699182b9cbb71085d283cf554a9f39644c70178cda0f128b46b4b24bb996027"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod1.res",
+    "sha256": "ca49fe80440a04836e6dbb2557da4b7f37c38c80b221dd0f841bde90c6e227ff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod2.glb",
+    "sha256": "1323e6fee546e0e19c4df88d7e368e83cd5bb6d53b18b94ef8e86d1d9e4ed334"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod2.glb.import",
+    "sha256": "3cacd38dfe2675e3ac1ece899fe316b10dabe9c5046459c2783ccd5427526bfd"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_lod2.res",
+    "sha256": "5a00d45f40fab31d602099d6324fc1f6e4bcd0ba6aba7688f9d656352648f2c8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_18_rock.tres",
+    "sha256": "7d32ad1f9d6225dc3251ac17eba51ae74243bc86eb064499ac24b37f2810218e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0.glb",
+    "sha256": "2796068c136ebe7fa8493c1c3206de554dd482815d1c1c104d48d2e0fc26e3ca"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0.glb.import",
+    "sha256": "88113381aa65055f140b58a8680da6400651cd1bedc7809374c04b401c3dc0f5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0.res",
+    "sha256": "87a7cb9caf68a97bb707fa9726fb7de18d570358f377c4bf4999990880a893b7"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0_asteroid_19_albedo.png",
+    "sha256": "d7a423a1300aa430e57a44f77f73acb2b8b86993c5698c795ebaede8d7a11988"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0_asteroid_19_albedo.png.import",
+    "sha256": "5d0502cc9d03030368915ba561d3469680e667e8d59220e934fe348345f448ae"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0_asteroid_19_normal.png",
+    "sha256": "bcaba830019c8d30bf4a2ac91459de9f7bccf0e1d4d7eed1333ec4e32ebb93c8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod0_asteroid_19_normal.png.import",
+    "sha256": "2ebb7f1d5201079d835fb12a6a6c423f79c73587612ad5abc47d7d3c820a99aa"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod1.glb",
+    "sha256": "466ba5a1b796174b97104a751d47904c859d8dae25c1f10fb277e0118c37ca2a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod1.glb.import",
+    "sha256": "9cb90911cb01ee89c8eb3eadb39fa8a4b561686d7dbcbf66bdb8dc7aa2a904ae"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod1.res",
+    "sha256": "3ea4a9ca3f273d5aa37b40a47f64aa0ccd9f30ea379fcfa1581aaa38b89d5271"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod2.glb",
+    "sha256": "a0385ca36f943237824e261dbd9b0d3fdd13b025976a0ae678bc2da1a5da197f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod2.glb.import",
+    "sha256": "cefa512cd27fd0c9ea267dc95729dcfa4f1180f3b708c2ac3f24b8b71336dcc1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_lod2.res",
+    "sha256": "8d14e1697726571f6244865468804ac7c05c9244f4bfc9553a57d57dcfa7bfd5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_19_rock.tres",
+    "sha256": "d30d608dbbba494259b164195c8e1231e932f52fefdaf3f9f0e66629f858e1a9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0.glb",
+    "sha256": "008dc142f912322c9a7d9dabf27ab36150efcfd3a86fab861c452a79341f2765"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0.glb.import",
+    "sha256": "6c1d37e18eedbc7cc3b5ec1333354ed3926dabfc574584901fb1c77eac2c03b5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0.res",
+    "sha256": "b07b8605a392da6c180e66cd1cbaddb72e25f961df0ce2628ee07ee6cd509b09"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0_asteroid_20_albedo.png",
+    "sha256": "c92498c156d264ba7dd2e5bc351564fcf12c3eed2ef3d1cdab33ab0f9aec7bfd"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0_asteroid_20_albedo.png.import",
+    "sha256": "fa5376a13a62b3f922f92c5d465be5b62938715f4e5418aeef65881240a90e7e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0_asteroid_20_normal.png",
+    "sha256": "f13b42cd057e7ebbfba7b99c7e719f6e0df79e29b9d7f3f126d5214fc7d122b8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod0_asteroid_20_normal.png.import",
+    "sha256": "f9b9b850482e7e64f107475a4a7ce1211af8bf2967afe3301c1c8865c7705f4e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod1.glb",
+    "sha256": "2f890ab1a1be918a715fcfc9e4fd0280d71ebfa976d9578bbad8edd109d21754"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod1.glb.import",
+    "sha256": "6f6b82127dc344a628d67829184347f22145b3533604513bc1142e2519d314c0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod1.res",
+    "sha256": "9212e3edc5760e446e4a9fd2d1b9458737de6a1c6ada5b810dad52e10e1f900e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod2.glb",
+    "sha256": "47432d4336c7eb74e13d702f9f311d83b8bea83f8a8d0fb0b43055f3e21390f8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod2.glb.import",
+    "sha256": "db4d0e156843786a1f4554fa4ce09cea4d3db94e33e46b02e650921f88fe9efa"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_lod2.res",
+    "sha256": "cab1fe6d23b07495ff2943cd49f459872a6d3eb856566ffcf744374c2ebb4091"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_20_rock.tres",
+    "sha256": "d4e67af6cef4b37935da7895602217f610943b576f979e126668eda5c2e08e53"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0.glb",
+    "sha256": "a968c91ad29273918250335bc75e6c8cb9c3f62fb5de4673dc38df0e99318f2f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0.glb.import",
+    "sha256": "c03699076926b18aa51855b618d879d06b90d991949b2cee52b8cf0f6d0d1b35"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0.res",
+    "sha256": "3d24898fb70b05102f7d25e8bc7d792ab9b9b1d018c6292f70e5828fdc0c5d57"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0_asteroid_21_albedo.png",
+    "sha256": "b7554e7cbab15a68c00c642ee4e6387d81bca2391dfdc4bb8519740f70a0a521"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0_asteroid_21_albedo.png.import",
+    "sha256": "9beb779c55e7558ada7dc8a296f0b6de3f121270a635bc41db4e5bf6bb0e813d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0_asteroid_21_normal.png",
+    "sha256": "5cc3ede9f9f5ec17771d617105e3e874ef0e43da397a3fb3d0d7b3e3e774611f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod0_asteroid_21_normal.png.import",
+    "sha256": "7f2dc00196b835e4d6433d7893b2173d2e5d6d06a8222a3c9e48e2faf79989d1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod1.glb",
+    "sha256": "d62dc4c0323d98e48e605e39620a0c84f259de59d4e8d9caee5dd6e3415d08dd"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod1.glb.import",
+    "sha256": "c6e064eaa6621bc76cc7ba399d4b8d2c13539bd61223d57f16fd85da3a1e4b41"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod1.res",
+    "sha256": "6a45135a9c52742695af43bf7423adb4d55f88d76425b11addeef6a76bc3619c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod2.glb",
+    "sha256": "57acff6014f3ff12e16184283ec3087409e95ac8d48914e0659dac7824dfd607"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod2.glb.import",
+    "sha256": "8b62babd1c7bea4854675772f4457d3131a06ddd4366212c66bdca8e0f3f0424"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_lod2.res",
+    "sha256": "64f38701ac671f2139795dacdff81db98a610c4d3339e9de71e79836f79a49f4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_21_rock.tres",
+    "sha256": "e7c3262ea88d6b2391873e2f3071eef180fbedcf75efe8abdf99b06feff7d369"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0.glb",
+    "sha256": "dfba30c67c79e6aef94fd9b0c540a7722d771a4a93da255760ed88cc846e14a2"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0.glb.import",
+    "sha256": "31ad643005017b30be393c44d7b44baa3f097afb5c79382befe61fc58e748189"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0.res",
+    "sha256": "c45cb5e3dbfca88df427310f88be3e04631233292156e0ae08916d38d97db23e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0_asteroid_22_albedo.png",
+    "sha256": "dbc9122ce65bbe898314cbebd1c1beba4c144452c0656894895dc2b9c5158255"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0_asteroid_22_albedo.png.import",
+    "sha256": "226fbc14d58f697adbe3ee814d361455fbab953b6e6c0850d7c85127a2e6014e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0_asteroid_22_normal.png",
+    "sha256": "0d5fc34593e8083f8db79bfc46795677ea26023196618c65f8d0fb39057e7dfb"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod0_asteroid_22_normal.png.import",
+    "sha256": "51656acfbaede0b98baeee0424837ad596a4138cb751a07e25a0d6a8f6a7316a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod1.glb",
+    "sha256": "fd6a0212c2025b0e603fb0fcea8840ae4324f8dd06efe161e08c5ef66fc35367"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod1.glb.import",
+    "sha256": "ccc20a6221e6e9869ac068a7e0cdb90fa2f344492d95c48a71997c2fc864bc32"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod1.res",
+    "sha256": "d9e7e34adb30d7fdd4fa13f22a51d09197cae8d1d85702f9b32eea6b1ebbbae0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod2.glb",
+    "sha256": "3384e3c671627008b4be8f4c4e9b79637d93509d5dc78335be31d42382d3d3aa"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod2.glb.import",
+    "sha256": "850c0a3c05220cf1717879c36d6ccf390e867759eb2db203f3a5d4b2801de19f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_lod2.res",
+    "sha256": "1c89b396272014c0ce803ceaf280cf0c905e5a9f334fc78fa0502d229611ce67"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_22_rock.tres",
+    "sha256": "e6f27a03bc709e845ad9335333924c563f1c65a2b2b21fb5db761e533833d308"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0.glb",
+    "sha256": "8ba9c9dbdcc61b762e62477f80ad663b617c15aae0aa867f40c7e8a06892c398"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0.glb.import",
+    "sha256": "1da1416664b8e5b64e892af85eb22f9c124c13c52d3703f6b1e4e8adf47ad0de"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0.res",
+    "sha256": "26e2713b279d2fb2776ba3098c0e363d8c0f46c590ac39228c1a3fff3d3f5aad"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0_asteroid_23_albedo.png",
+    "sha256": "67e8e04aa7907396383ce0f67cde671b9fe27a1924adcdc0fd197bd19bceed6f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0_asteroid_23_albedo.png.import",
+    "sha256": "1acd19b2a9b0139206d4bca7e5a0b8574f290d68b0120f6d21a8a14f73456b8a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0_asteroid_23_normal.png",
+    "sha256": "c66e1e6a13346a582228447c492976deb51024b57d0bc2be8c5020e7b4732c05"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod0_asteroid_23_normal.png.import",
+    "sha256": "b58b6bd0eb17e0d197071c1b1d40040ebb67a458ccdb4372c73aede0ee5de9d4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod1.glb",
+    "sha256": "880464cd0d12537f5441ee04fb789d1888f5a9fce59bd022f04df08eacb58450"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod1.glb.import",
+    "sha256": "dae8ccf24410bc0188ca118803bd722266e6142753e9cbebf1e7b70222c3bc54"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod1.res",
+    "sha256": "8aaec7239ed8aa8e600d52a04edcd6bfbbc1abc6b1541eef0f410bcf7c71dcbe"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod2.glb",
+    "sha256": "79139a189fb1d29c189552802994e7dbfc30490d6adbfacffb31a45d5c97460f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod2.glb.import",
+    "sha256": "3062f7591b677d1f471f8eb8ec8fa61d5813f46999fb47088b9e549198600b0e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_lod2.res",
+    "sha256": "11a0dcac3ff040df387c3a92b82ed9685551fdf8892bd83b78301bb8a5b6ddf8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_23_rock.tres",
+    "sha256": "7463fc9dd3568cd273cc719706325e7ad290c51fe7d87ad2c73fbcef3225c5d6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0.glb",
+    "sha256": "473c027a1e1dee76f8aaa776bf0f865ee9130296a0d80579c335279d2f43592e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0.glb.import",
+    "sha256": "bce172b5198fbb852f1e91e6291bba33cb7b9f503a5845e4544ed9d10cec0e40"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0.res",
+    "sha256": "d9f49038c038b6e3da95bfed793bd5f870030d1c5f4331d7973a70c74526473f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0_asteroid_24_albedo.png",
+    "sha256": "f88b97a9ed7e02a9a6f70300bf213e8a8c2de3680acb5a83da3724fce351fc05"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0_asteroid_24_albedo.png.import",
+    "sha256": "1aeb0e671e11b88f5390294a65c1ae0524c06a05f9d8d2f582accbd9a71409a5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0_asteroid_24_normal.png",
+    "sha256": "4108e84078af624c20ad6503c46a0649c43579ca4303cffaaa4db25fe9f7e89e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod0_asteroid_24_normal.png.import",
+    "sha256": "bc932210c71705283e4f1e1a68f1c1a8a60ad7a7086a1a76a6aa31f9b8233118"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod1.glb",
+    "sha256": "f8ff0d0dffdb42ee6f43b9b5863c7218852fe67b084465642642d6592c9aec17"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod1.glb.import",
+    "sha256": "2b3fc13046bed2030c1b8f9b1c680540cad642ac96b22bcd908fcf7d44a3d795"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod1.res",
+    "sha256": "a3ee66efb0de29a45cb340f48a2fe0be8dbe3cceebb4281590898400e4de6198"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod2.glb",
+    "sha256": "94635bdca7776290bc33d3650ada4e11617b674f43a8f190d1e0850bdab192e5"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod2.glb.import",
+    "sha256": "3b27b53edfe2a0397275b10f40b8155040670667170a35d84a748959784be28d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_lod2.res",
+    "sha256": "8d81757f5a836fc91f8de712477d28a6544a47527437c15418b430801e89f346"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_24_rock.tres",
+    "sha256": "544fca8671820b240ed540dfe51206f08854989575bd009adad75f8402bccbfc"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0.glb",
+    "sha256": "2531e57e1d6b3a0c47eae6570cfd6af1d0b4690b1629310812fef4e9f655cbe1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0.glb.import",
+    "sha256": "787a140e032143781c9c6e19121c2866a20cc7cff6cb3439926f6d4650fcb7d0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0.res",
+    "sha256": "9631927183e0112072e604a8bdffd05e68ccbfeee66f85edb2cb8b7e43345184"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0_asteroid_25_albedo.png",
+    "sha256": "00f8cc9cb5a35c40f71bd5c94380d6032f4b7f400311f644ee25e19d9d06ace8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0_asteroid_25_albedo.png.import",
+    "sha256": "9bc23fac30fd6177d0c061618bf0c3e3c88c9e80342381f9f576bf8fa9c97f75"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0_asteroid_25_normal.png",
+    "sha256": "5b28739f0ca36b220881dd0a746f4f7ae33b0638b79c553f189abb81b2fa2dab"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod0_asteroid_25_normal.png.import",
+    "sha256": "a81f969e828d39d9162adf502a250117680666ea7cdbc7784db64cf356aff0c9"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod1.glb",
+    "sha256": "a1d4004471bbcf17bbc58b054ea6db35e13040bdfd1d1b8fc61f5b217e2a7a10"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod1.glb.import",
+    "sha256": "0371b1ee13023df28819f3f0c2e048f8627393fd4fccc51943b3da1cea4fe25d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod1.res",
+    "sha256": "b6e69c39904b79d08910f4669028173d666724c9d03f02e024032f4922e65298"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod2.glb",
+    "sha256": "87edd003699b0c68314a41b25b21d48444ad4ae94081e0d0765b89d16157069d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod2.glb.import",
+    "sha256": "bc12be7e9d07d1b66a31c633c33d38d68020c9ac2963f79bea26b20eb686c0e8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_lod2.res",
+    "sha256": "26263ed4da5d1a2e85b0bbd3aa668f499528ea23a16e9223794443b988fe3eca"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_25_rock.tres",
+    "sha256": "6384eff3d99480823cd00c0586f219b39dc85d92da0f2ddba2abf51423eeba86"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0.glb",
+    "sha256": "d9d1aa263bdb62b477d4e7de822aff1373de508e14fd969c6c0a78f9c44f435a"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0.glb.import",
+    "sha256": "dfb71635328f04bc4a155e9e83032d401011c649a24bc9bba0b44fec038814a3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0.res",
+    "sha256": "1f6618b2df348cdd9adae190b217b84c82e61ba5cdf6f2a1568d1b481014a6a4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0_asteroid_26_albedo.png",
+    "sha256": "cc872614febdc358c06f50caf6ae8bc4d35b7dcfb7dbe53163e1e3de8530473e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0_asteroid_26_albedo.png.import",
+    "sha256": "90f0e1a51b535b1aea07776ed2fd9fabb99bf1cc1730f44fc36dcf7ec92d9b7b"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0_asteroid_26_normal.png",
+    "sha256": "05871cea6e5f4ad180b051eb5b76ade68faa986a077dc8c9741acc96c4c2cb2c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod0_asteroid_26_normal.png.import",
+    "sha256": "dfbb51524be5d7618ee1212a6dc2078f9416a8972b09986c28dd1c8031d606f4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod1.glb",
+    "sha256": "bf4ef8a5234a1613e4cb74b65c9f3a142b031a9e68fb40ea480365b86bcf6f4f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod1.glb.import",
+    "sha256": "5e9a525807e38612d31dc9e8e949fc02cbb3e8503456aa0dd4b529059e9bf89d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod1.res",
+    "sha256": "e6ced438ea7967e88a5f3c1342ca00c6f19662dbaab15253d6898b962720e486"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod2.glb",
+    "sha256": "c7b39ac7395f6c4b10b96c6c401f7cebd4acfc36c09a4db33ef10257351e7927"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod2.glb.import",
+    "sha256": "ce7bb3cb43242e4a76924aedcbc6490dcd71cca8745c8674f2ad2a5281d4ea16"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_lod2.res",
+    "sha256": "5077e568c8a59bf3f97d2a36f332fc65852cfb16f6abcc542890c5ddf2739336"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_26_rock.tres",
+    "sha256": "cb9504c109ccafb411aa15eb55c0767f5c5277696a4b24d55061068c027449e6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0.glb",
+    "sha256": "92fcaf1b71f7f9d4abc7c1b11e4d71d1b5a97a49f5cf072313c9a6949d2e3447"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0.glb.import",
+    "sha256": "f1dc371913511f928fbaa746d7caae9f2e0595c000133655f7ed1035f996a0f3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0.res",
+    "sha256": "3fe813a1e4b047e9d9bf0f4c746fdea07cac949c6cd6b2541a9652a04fb04a5c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0_asteroid_27_albedo.png",
+    "sha256": "2caada951b0dd1931704be7ad65c2caa358d8d8557f3e14c9efc0a23ddf65999"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0_asteroid_27_albedo.png.import",
+    "sha256": "8e3c83da7e2b9d8b7ccc55756ae4fd90cf746529a826428936b16e31a4319549"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0_asteroid_27_normal.png",
+    "sha256": "13a8fae77633d9f608ba55ac4936e5aadc280b08cdc7fcebc34a1772600ece2f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod0_asteroid_27_normal.png.import",
+    "sha256": "d7c3a394fe0e4d0553536627462055d45da0787c2587dc732dd62be09bb02689"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod1.glb",
+    "sha256": "3a177aede32a3e31c13da0bf8e2860b568453a03244251d8a37ee453461c4cff"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod1.glb.import",
+    "sha256": "9f81be516cb149552b4851e5945b9d820849d731f6356876794aad7b119993a4"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod1.res",
+    "sha256": "acab1260c71e156af44157c6adbeb0747e6039d820f1d193cf8cd76e0a21284e"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod2.glb",
+    "sha256": "c08d6a0917e318affff08d27d9a14dabb5c98e11be7b30ea7b62b4f5c42c4319"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod2.glb.import",
+    "sha256": "1327c1f0d7a24e88ac9ba917495a25ecfb464d840bc8201bd3cc24f1ea211488"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_lod2.res",
+    "sha256": "5f72f57c518298478345c3ffc6ffa3b192f8745407ae89e5c85b9ec498238238"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_27_rock.tres",
+    "sha256": "f51023cdc54a40f796ee31da1343f7c1b203d1d945998872a2aea0d59cae0bc0"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0.glb",
+    "sha256": "7ac4f44595c6cb152c4797153173fc3bf7055123900a3a575202e627803acc36"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0.glb.import",
+    "sha256": "aa2026c5c001c99d89cd019b1941ab6b12557e23cc4b8396245387e67927042f"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0.res",
+    "sha256": "386aeec0e34075d9405efd9990fdaced130543ea49ccfd326fc234313e216ef3"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0_asteroid_28_albedo.png",
+    "sha256": "4bd18b64069022976575f1e03dcc803c08dcbf206ef4b135f04fd4100f3278ac"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0_asteroid_28_albedo.png.import",
+    "sha256": "8376eeaae36094240d38de060f6933556474656364ce84b8bee7b23143ff652d"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0_asteroid_28_normal.png",
+    "sha256": "c4ff13cea0a550030648cfee58467458734412cfb82e185f2ee54250eef524aa"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod0_asteroid_28_normal.png.import",
+    "sha256": "d944d7e63accff125a00e55418d6c36603ef1593470dc690ad5fec5c6f1f7c12"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod1.glb",
+    "sha256": "4ec14d4bd3093bac102bace6a4c7989c725487d84ab03d33ef1b1c85f7451fb1"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod1.glb.import",
+    "sha256": "f8c9634403d030a9e75a7a9c5ec70a0706cb7a3dcc993daf9a036fd770401469"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod1.res",
+    "sha256": "6b0aded106ce23428030803eb4ec32968452fe63e5c21d30646cf3d1f283b8b6"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod2.glb",
+    "sha256": "b1c7b474abae78a177cc04c07f2570cea5a2a88e2287fae9cbf0badf0c6d7888"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod2.glb.import",
+    "sha256": "2ca2160ccfbca7ed7ab95449f7492aa3317e73cdfe9cbb6fe00781f1a9b92ad8"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_lod2.res",
+    "sha256": "535d3ae2d85b666432bdce1ec883a0337c5f06cbff0dce3c21f87ea790dcc61c"
+  },
+  {
+    "path": "assets/environment/asteroids/asteroid_28_rock.tres",
+    "sha256": "0550beaf151a6a0d3713706482063f61da18a2d1db4edf8ef1471a2573cb6195"
+  },
+  {
+    "path": "assets/environment/asteroids/catalog.json",
+    "sha256": "a28aa265880a3ba2f7d8ea01d582d41b62f5f2c95b8750493a469179fc81620e"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_01.tscn",
+    "sha256": "7613cf5c2c25c139104585245f2407eedd5b5c2c9ebd5c7051818af5671e1ad8"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_02.tscn",
+    "sha256": "520642e40441542dd0d45c2c261e35f97186a302f972fe98982e9d334fee6928"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_03.tscn",
+    "sha256": "ccc21193de50fd3e2c63ad93116429978c4b640b1acbc6cf13847b5d4f585c86"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_04.tscn",
+    "sha256": "dab2cc504a3f5c290ec032927e467a47c0f47d83933a8054a76bb3b9b46009dc"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_05.tscn",
+    "sha256": "01a6f8e375429ebab4d55eb3d2fa27a56fb3ccf69530b0b1a65ae9acab9d31e0"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_06.tscn",
+    "sha256": "7e3adf3ff8315b7db7a3dd0cd91ea5d39c5f292045fe9637ee00bd85c577652f"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_07.tscn",
+    "sha256": "d29c15a92ba60168caacbbed9fadb3159ef33438338e8a3ebb45004c504dc119"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_08.tscn",
+    "sha256": "89ea86f18c297683ba0c9cec4a19885c37d1d2cf7a4f952d9cfda595d1e07132"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_09.tscn",
+    "sha256": "08dfba349242f342ed3667da3ae964243059e441714b6a189f04f92ccb173e9f"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_10.tscn",
+    "sha256": "dabb36efefd705913bd031058baa5550f2ff2f5848f487e3886b83f3673bf603"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_11.tscn",
+    "sha256": "4654166eb905653bdf82d2d35e4a2b5560c61a6d2fabb1811bc5f0fe7ee360d0"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_12.tscn",
+    "sha256": "7998c9dab4439ec3144d6842d398bc6e89e3407f4042054ba1fec713001869d0"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_13.tscn",
+    "sha256": "394c8cd86711fce3ec0eb6293ff3089eeac4d628a280c1c1f66d5fc33b8c9fb9"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_14.tscn",
+    "sha256": "4f7f7d92bdb9db5eaef6676c25ae99e3c7cdb6df50f42cf3cbee64f71b704555"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_15.tscn",
+    "sha256": "37d5698c7b235722cd47939a569550b1222a4610b554766a04af43ca7c05c785"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_16.tscn",
+    "sha256": "48433ef2749888e63280d5949720b31a994de82bda323ac243c775fc57cfbd5e"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_17.tscn",
+    "sha256": "79102b4dc789ca8de0f8a93eb824e00dd8b3318c976c9fbbec782e9022b9b376"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_18.tscn",
+    "sha256": "fa85e7c5601e89abf1e7dcd254568013547e3328e3d7cd5472d007bbef18dc0b"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_19.tscn",
+    "sha256": "e0016cc6505049d3de196a4f71322583db73f6a0e9b74d3602d0a2335ed8362c"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_20.tscn",
+    "sha256": "67e828636cfa2f67e4d4351f613fda4f7dc10dbfd7242d80953304bc20ce6f58"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_21.tscn",
+    "sha256": "c02d47c153aeed2ac9f3815df693a512e91a688b030dc1982b294bc59cd01592"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_22.tscn",
+    "sha256": "ef141442cff69f685c93ab4eb36a5b89285ff6f5c8aa279e9a4e46ead0197dea"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_23.tscn",
+    "sha256": "01e2c0d52bb7b02c0c6920928d63a9690b6cfe8f8b3d7d3abda6435129166f17"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_24.tscn",
+    "sha256": "e8c4389053d45fff55b2cb12250928d90b4401a4f39c9ac5cd3c27eadfd6b7a0"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_25.tscn",
+    "sha256": "42929604e7d8df48dd9c4b2b09ca6e65760217341481203c423345c074e913a7"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_26.tscn",
+    "sha256": "a3c56af096c7da30051f2ac27bf60fee27f19e2a4e166013bf3e62c34ba7e6fe"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_27.tscn",
+    "sha256": "4c60be1d935fe252307ac6a1a5e083a243d22b263cedc520bf0896a187944283"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_28.tscn",
+    "sha256": "022cda533c3d8dd2ea669069d6cce0d35409103a5dc7db27dc6ec020e4a24fdf"
+  },
+  {
+    "path": "scenes/environment/asteroids/asteroid_gallery.tscn",
+    "sha256": "e9e3d90c056913470ff5d3ff62e516dfb14dcc72aa46033191cc88c821c4163f"
+  },
+  {
+    "path": "scripts/environment/asteroid_gallery.gd",
+    "sha256": "8d602e657aff58bdb6d7ad2a178ffeaa484daf12ad9ecc9b47ddcfbbe954e357"
+  },
+  {
+    "path": "scripts/environment/asteroid_gallery.gd.uid",
+    "sha256": "e139ff8f16c024d530b17f087641f3ed339f890013bd8f99b2d87d2bc2d4f836"
+  },
+  {
+    "path": "tests/capture_asteroids.gd",
+    "sha256": "f6db3dc3fda98ffcad183e09935727597072a23373f4ea2fe82dbe5d611faaa7"
+  },
+  {
+    "path": "tests/capture_asteroids.gd.uid",
+    "sha256": "16f9391d3b0c3407f46fad1c155e58fbefbcfef1cf47f93528ace69076093f48"
+  },
+  {
+    "path": "tests/render_asteroid_lods.gd",
+    "sha256": "ce74000c93923527ac5b86147da14b21f2fc147d628befe787da6984a9198a1f"
+  },
+  {
+    "path": "tests/validate_asteroids.gd",
+    "sha256": "c954bd6d7d8571cef6ccc90c82d5429861aeda52016b654de464e7faae60049e"
+  },
+  {
+    "path": "tests/validate_asteroids.gd.uid",
+    "sha256": "50812d0afb6de81a33618b72f1dedacb876a02a23e41d429d5f8ecd35f30008c"
+  }
+]

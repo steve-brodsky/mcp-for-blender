@@ -1,0 +1,436 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/environment/asteroid_gallery.gd" id="1_xs7id"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_01.tscn" id="2_sflhu"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_02.tscn" id="3_ikgm0"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_03.tscn" id="4_5l0s5"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_04.tscn" id="5_mol3r"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_05.tscn" id="6_ljk8b"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_06.tscn" id="7_ki0va"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_07.tscn" id="8_drcqi"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_08.tscn" id="9_ghor7"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_09.tscn" id="10_hqvv8"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_10.tscn" id="11_ltrba"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_11.tscn" id="12_rwa0v"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_12.tscn" id="13_jj5qc"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_13.tscn" id="14_xenu6"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_14.tscn" id="15_o1j2y"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_15.tscn" id="16_yjscg"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_16.tscn" id="17_dsv8f"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_17.tscn" id="18_ffwc0"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_18.tscn" id="19_mu82i"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_19.tscn" id="20_441bt"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_20.tscn" id="21_0asu5"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_21.tscn" id="22_7bbxd"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_22.tscn" id="23_nh0ko"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_23.tscn" id="24_is6hb"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_24.tscn" id="25_vx7ma"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_25.tscn" id="26_cmbwt"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_26.tscn" id="27_qusah"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_27.tscn" id="28_r5wgo"]
+[ext_resource type="PackedScene" path="res://scenes/environment/asteroids/asteroid_28.tscn" id="29_7p303"]
+
+[sub_resource type="Environment" id="Environment_fwsf0"]
+background_mode = 1
+background_color = Color(0.014, 0.021, 0.031, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.8, 0.83, 0.87, 1)
+ambient_light_energy = 0.35
+tonemap_mode = 2
+
+[node name="AsteroidGallery" type="Node3D" unique_id=535151353]
+script = ExtResource("1_xs7id")
+
+[node name="Collection" type="Node3D" parent="." unique_id=2099538154]
+
+[node name="Asteroid01" type="StaticBody3D" parent="Collection" unique_id=2064648864 groups=["asteroids"] instance=ExtResource("2_sflhu")]
+transform = Transform3D(0.24987014, 0, 0, 0, 0.24987014, 0, 0, 0, 0.24987014, -45, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_01"
+metadata/diameter_m = 40.02079
+
+[node name="Caption0" type="Label3D" parent="Collection" unique_id=1863202462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "01  /  40.0 m"
+font_size = 40
+
+[node name="Asteroid02" type="StaticBody3D" parent="Collection" unique_id=1725540653 groups=["asteroids"] instance=ExtResource("3_ikgm0")]
+transform = Transform3D(0.35764676, 0, 0, 0, 0.35764676, 0, 0, 0, 0.35764676, -30, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_02"
+metadata/diameter_m = 27.96055
+
+[node name="Caption1" type="Label3D" parent="Collection" unique_id=1887863337]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "02  /  28.0 m"
+font_size = 40
+
+[node name="Asteroid03" type="StaticBody3D" parent="Collection" unique_id=888406036 groups=["asteroids"] instance=ExtResource("4_5l0s5")]
+transform = Transform3D(0.38901582, 0, 0, 0, 0.38901582, 0, 0, 0, 0.38901582, -15, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_03"
+metadata/diameter_m = 25.705894
+
+[node name="Caption2" type="Label3D" parent="Collection" unique_id=2058653481]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "03  /  25.7 m"
+font_size = 40
+
+[node name="Asteroid04" type="StaticBody3D" parent="Collection" unique_id=872009715 groups=["asteroids"] instance=ExtResource("5_mol3r")]
+transform = Transform3D(0.5274114, 0, 0, 0, 0.5274114, 0, 0, 0, 0.5274114, 0, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_04"
+metadata/diameter_m = 18.960531
+
+[node name="Caption3" type="Label3D" parent="Collection" unique_id=2133412321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "04  /  19.0 m"
+font_size = 40
+
+[node name="Asteroid05" type="StaticBody3D" parent="Collection" unique_id=957998472 groups=["asteroids"] instance=ExtResource("6_ljk8b")]
+transform = Transform3D(0.45949796, 0, 0, 0, 0.45949796, 0, 0, 0, 0.45949796, 15, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_05"
+metadata/diameter_m = 21.762882
+
+[node name="Caption4" type="Label3D" parent="Collection" unique_id=1243119243]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "05  /  21.8 m"
+font_size = 40
+
+[node name="Asteroid06" type="StaticBody3D" parent="Collection" unique_id=493896981 groups=["asteroids"] instance=ExtResource("7_ki0va")]
+transform = Transform3D(0.50193226, 0, 0, 0, 0.50193226, 0, 0, 0, 0.50193226, 30, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_06"
+metadata/diameter_m = 19.923006057739254
+
+[node name="Caption5" type="Label3D" parent="Collection" unique_id=1768435776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "06  /  19.9 m"
+font_size = 40
+
+[node name="Asteroid07" type="StaticBody3D" parent="Collection" unique_id=446354852 groups=["asteroids"] instance=ExtResource("8_drcqi")]
+transform = Transform3D(0.6043461, 0, 0, 0, 0.6043461, 0, 0, 0, 0.6043461, 45, 21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_07"
+metadata/diameter_m = 16.54681
+
+[node name="Caption6" type="Label3D" parent="Collection" unique_id=550322719]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 14.9, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "07  /  16.5 m"
+font_size = 40
+
+[node name="Asteroid08" type="StaticBody3D" parent="Collection" unique_id=1301885009 groups=["asteroids"] instance=ExtResource("9_ghor7")]
+transform = Transform3D(0.72510016, 0, 0, 0, 0.72510016, 0, 0, 0, 0.72510016, -45, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_08"
+metadata/diameter_m = 13.791199
+
+[node name="Caption7" type="Label3D" parent="Collection" unique_id=877502961]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "08  /  13.8 m"
+font_size = 40
+
+[node name="Asteroid09" type="StaticBody3D" parent="Collection" unique_id=855452686 groups=["asteroids"] instance=ExtResource("10_hqvv8")]
+transform = Transform3D(0.7373606, 0, 0, 0, 0.7373606, 0, 0, 0, 0.7373606, -30, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_09"
+metadata/diameter_m = 13.561886
+
+[node name="Caption8" type="Label3D" parent="Collection" unique_id=1938235498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "09  /  13.6 m"
+font_size = 40
+
+[node name="Asteroid10" type="StaticBody3D" parent="Collection" unique_id=1511807030 groups=["asteroids"] instance=ExtResource("11_ltrba")]
+transform = Transform3D(0.64207923, 0, 0, 0, 0.64207923, 0, 0, 0, 0.64207923, -15, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_10"
+metadata/diameter_m = 15.574402
+
+[node name="Caption9" type="Label3D" parent="Collection" unique_id=308181743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "10  /  15.6 m"
+font_size = 40
+
+[node name="Asteroid11" type="StaticBody3D" parent="Collection" unique_id=2041924942 groups=["asteroids"] instance=ExtResource("12_rwa0v")]
+transform = Transform3D(0.75191665, 0, 0, 0, 0.75191665, 0, 0, 0, 0.75191665, 0, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_11"
+metadata/diameter_m = 13.299346923828123
+
+[node name="Caption10" type="Label3D" parent="Collection" unique_id=958358419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "11  /  13.3 m"
+font_size = 40
+
+[node name="Asteroid12" type="StaticBody3D" parent="Collection" unique_id=1806387803 groups=["asteroids"] instance=ExtResource("13_jj5qc")]
+transform = Transform3D(0.6826431, 0, 0, 0, 0.6826431, 0, 0, 0, 0.6826431, 15, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_12"
+metadata/diameter_m = 14.648943
+
+[node name="Caption11" type="Label3D" parent="Collection" unique_id=1324868810]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "12  /  14.6 m"
+font_size = 40
+
+[node name="Asteroid13" type="StaticBody3D" parent="Collection" unique_id=1573262669 groups=["asteroids"] instance=ExtResource("14_xenu6")]
+transform = Transform3D(0.57592154, 0, 0, 0, 0.57592154, 0, 0, 0, 0.57592154, 30, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_13"
+metadata/diameter_m = 17.363476
+
+[node name="Caption12" type="Label3D" parent="Collection" unique_id=587200150]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "13  /  17.4 m"
+font_size = 40
+
+[node name="Asteroid14" type="StaticBody3D" parent="Collection" unique_id=1144572153 groups=["asteroids"] instance=ExtResource("15_o1j2y")]
+transform = Transform3D(0.6822882, 0, 0, 0, 0.6822882, 0, 0, 0, 0.6822882, 45, 7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_14"
+metadata/diameter_m = 14.65656280517578
+
+[node name="Caption13" type="Label3D" parent="Collection" unique_id=2075097461]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0.9000001, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "14  /  14.7 m"
+font_size = 40
+
+[node name="Asteroid15" type="StaticBody3D" parent="Collection" unique_id=2061856223 groups=["asteroids"] instance=ExtResource("16_yjscg")]
+transform = Transform3D(0.47098148, 0, 0, 0, 0.47098148, 0, 0, 0, 0.47098148, -45, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_15"
+metadata/diameter_m = 21.232257843017575
+
+[node name="Caption14" type="Label3D" parent="Collection" unique_id=190754342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "15  /  21.2 m"
+font_size = 40
+
+[node name="Asteroid16" type="StaticBody3D" parent="Collection" unique_id=1179492932 groups=["asteroids"] instance=ExtResource("17_dsv8f")]
+transform = Transform3D(0.6682467, 0, 0, 0, 0.6682467, 0, 0, 0, 0.6682467, -30, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_16"
+metadata/diameter_m = 14.964534
+
+[node name="Caption15" type="Label3D" parent="Collection" unique_id=1174097482]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "16  /  15.0 m"
+font_size = 40
+
+[node name="Asteroid17" type="StaticBody3D" parent="Collection" unique_id=1609060708 groups=["asteroids"] instance=ExtResource("18_ffwc0")]
+transform = Transform3D(0.72317606, 0, 0, 0, 0.72317606, 0, 0, 0, 0.72317606, -15, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_17"
+metadata/diameter_m = 13.827891
+
+[node name="Caption16" type="Label3D" parent="Collection" unique_id=367596010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "17  /  13.8 m"
+font_size = 40
+
+[node name="Asteroid18" type="StaticBody3D" parent="Collection" unique_id=1764783658 groups=["asteroids"] instance=ExtResource("19_mu82i")]
+transform = Transform3D(0.7688698, 0, 0, 0, 0.7688698, 0, 0, 0, 0.7688698, 0, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_18"
+metadata/diameter_m = 13.006103
+
+[node name="Caption17" type="Label3D" parent="Collection" unique_id=254210926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "18  /  13.0 m"
+font_size = 40
+
+[node name="Asteroid19" type="StaticBody3D" parent="Collection" unique_id=1998420482 groups=["asteroids"] instance=ExtResource("20_441bt")]
+transform = Transform3D(0.80785894, 0, 0, 0, 0.80785894, 0, 0, 0, 0.80785894, 15, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_19"
+metadata/diameter_m = 12.378399
+
+[node name="Caption18" type="Label3D" parent="Collection" unique_id=574757034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "19  /  12.4 m"
+font_size = 40
+
+[node name="Asteroid20" type="StaticBody3D" parent="Collection" unique_id=917964062 groups=["asteroids"] instance=ExtResource("21_0asu5")]
+transform = Transform3D(1.515513, 0, 0, 0, 1.515513, 0, 0, 0, 1.515513, 30, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_20"
+metadata/diameter_m = 6.598426
+
+[node name="Caption19" type="Label3D" parent="Collection" unique_id=478755809]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "20  /  6.6 m"
+font_size = 40
+
+[node name="Asteroid21" type="StaticBody3D" parent="Collection" unique_id=630548180 groups=["asteroids"] instance=ExtResource("22_7bbxd")]
+transform = Transform3D(1.4195746, 0, 0, 0, 1.4195746, 0, 0, 0, 1.4195746, 45, -7, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_21"
+metadata/diameter_m = 7.044364
+
+[node name="Caption20" type="Label3D" parent="Collection" unique_id=307154003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, -13.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "21  /  7.0 m"
+font_size = 40
+
+[node name="Asteroid22" type="StaticBody3D" parent="Collection" unique_id=296406639 groups=["asteroids"] instance=ExtResource("23_nh0ko")]
+transform = Transform3D(1.7386035, 0, 0, 0, 1.7386035, 0, 0, 0, 1.7386035, -45, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_22"
+metadata/diameter_m = 5.751743
+
+[node name="Caption21" type="Label3D" parent="Collection" unique_id=726733827]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "22  /  5.8 m"
+font_size = 40
+
+[node name="Asteroid23" type="StaticBody3D" parent="Collection" unique_id=918399365 groups=["asteroids"] instance=ExtResource("24_is6hb")]
+transform = Transform3D(1.0919504, 0, 0, 0, 1.0919504, 0, 0, 0, 1.0919504, -30, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_23"
+metadata/diameter_m = 9.157925
+
+[node name="Caption22" type="Label3D" parent="Collection" unique_id=482396590]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "23  /  9.2 m"
+font_size = 40
+
+[node name="Asteroid24" type="StaticBody3D" parent="Collection" unique_id=1812499580 groups=["asteroids"] instance=ExtResource("25_vx7ma")]
+transform = Transform3D(0.9421833, 0, 0, 0, 0.9421833, 0, 0, 0, 0.9421833, -15, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_24"
+metadata/diameter_m = 10.613646
+
+[node name="Caption23" type="Label3D" parent="Collection" unique_id=2111674392]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "24  /  10.6 m"
+font_size = 40
+
+[node name="Asteroid25" type="StaticBody3D" parent="Collection" unique_id=1924058971 groups=["asteroids"] instance=ExtResource("26_cmbwt")]
+transform = Transform3D(0.86666465, 0, 0, 0, 0.86666465, 0, 0, 0, 0.86666465, 0, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_25"
+metadata/diameter_m = 11.538488
+
+[node name="Caption24" type="Label3D" parent="Collection" unique_id=45230208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "25  /  11.5 m"
+font_size = 40
+
+[node name="Asteroid26" type="StaticBody3D" parent="Collection" unique_id=407047348 groups=["asteroids"] instance=ExtResource("27_qusah")]
+transform = Transform3D(1.1821429, 0, 0, 0, 1.1821429, 0, 0, 0, 1.1821429, 15, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_26"
+metadata/diameter_m = 8.459214
+
+[node name="Caption25" type="Label3D" parent="Collection" unique_id=1731833968]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "26  /  8.5 m"
+font_size = 40
+
+[node name="Asteroid27" type="StaticBody3D" parent="Collection" unique_id=842969452 groups=["asteroids"] instance=ExtResource("28_r5wgo")]
+transform = Transform3D(0.7665485, 0, 0, 0, 0.7665485, 0, 0, 0, 0.7665485, 30, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_27"
+metadata/diameter_m = 13.045488357543944
+
+[node name="Caption26" type="Label3D" parent="Collection" unique_id=545720383]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "27  /  13.0 m"
+font_size = 40
+
+[node name="Asteroid28" type="StaticBody3D" parent="Collection" unique_id=1218157709 groups=["asteroids"] instance=ExtResource("29_7p303")]
+transform = Transform3D(1.9414525, 0, 0, 0, 1.9414525, 0, 0, 0, 1.9414525, 45, -21, 0)
+collision_layer = 0
+metadata/asset_id = "asteroid_28"
+metadata/diameter_m = 5.1507826
+
+[node name="Caption27" type="Label3D" parent="Collection" unique_id=296720509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, -27.1, 4)
+pixel_size = 0.03
+modulate = Color(0.66, 0.72, 0.77, 1)
+text = "28  /  5.2 m"
+font_size = 40
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=860475436]
+environment = SubResource("Environment_fwsf0")
+
+[node name="Key" type="DirectionalLight3D" parent="." unique_id=1946805324]
+transform = Transform3D(0.81915206, 0.3039492, -0.48642042, 0, 0.8480481, 0.52991927, 0.57357645, -0.43408445, 0.69468033, 0, 0, 0)
+light_color = Color(1, 0.98, 0.95, 1)
+light_energy = 1.3
+
+[node name="Fill" type="DirectionalLight3D" parent="." unique_id=590840887]
+transform = Transform3D(-0.57357645, 0.3461886, 0.7424038, 0, 0.90630776, -0.42261827, -0.819152, -0.24240388, -0.5198368, 0, 0, 0)
+light_color = Color(0.8, 0.86, 1, 1)
+light_energy = 0.3
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1773340708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 100)
+current = true
+fov = 42.0
+far = 2000.0
+
+[node name="Interface" type="CanvasLayer" parent="." unique_id=1807991001]
+
+[node name="Help" type="Label" parent="Interface" unique_id=2051959065]
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 24.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 18

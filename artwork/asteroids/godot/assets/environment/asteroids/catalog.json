@@ -1,0 +1,534 @@
+[
+  {
+    "id": "asteroid_01",
+    "dimensions_godot": [
+      40.020790100097656,
+      24.147789001464844,
+      23.55911636352539
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      200.10395050048828,
+      560.2910614013672
+    ],
+    "lod_triangles": [
+      10000,
+      4000,
+      1200
+    ],
+    "collision_point_count": 35
+  },
+  {
+    "id": "asteroid_02",
+    "dimensions_godot": [
+      27.96055030822754,
+      21.810760498046875,
+      14.059127807617188
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      139.8027515411377,
+      391.44770431518555
+    ],
+    "lod_triangles": [
+      10000,
+      4000,
+      1200
+    ],
+    "collision_point_count": 40
+  },
+  {
+    "id": "asteroid_03",
+    "dimensions_godot": [
+      25.705894470214844,
+      20.593568801879883,
+      12.490724563598633
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      128.52947235107422,
+      359.8825225830078
+    ],
+    "lod_triangles": [
+      9506,
+      3802,
+      1140
+    ],
+    "collision_point_count": 31
+  },
+  {
+    "id": "asteroid_04",
+    "dimensions_godot": [
+      18.96053123474121,
+      17.83025360107422,
+      12.733887672424316
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      94.80265617370605,
+      265.44743728637695
+    ],
+    "lod_triangles": [
+      7436,
+      2974,
+      892
+    ],
+    "collision_point_count": 35
+  },
+  {
+    "id": "asteroid_05",
+    "dimensions_godot": [
+      12.752103805541992,
+      21.762882232666016,
+      10.576091766357422
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      108.81441116333008,
+      304.6803512573242
+    ],
+    "lod_triangles": [
+      5608,
+      2242,
+      672
+    ],
+    "collision_point_count": 33
+  },
+  {
+    "id": "asteroid_06",
+    "dimensions_godot": [
+      19.923006057739258,
+      9.200634956359863,
+      12.26203441619873
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      99.61503028869629,
+      278.9220848083496
+    ],
+    "lod_triangles": [
+      4680,
+      1872,
+      560
+    ],
+    "collision_point_count": 40
+  },
+  {
+    "id": "asteroid_07",
+    "dimensions_godot": [
+      16.546810150146484,
+      11.549962997436523,
+      9.51260757446289
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      82.73405075073242,
+      231.65534210205078
+    ],
+    "lod_triangles": [
+      3866,
+      1546,
+      462
+    ],
+    "collision_point_count": 28
+  },
+  {
+    "id": "asteroid_08",
+    "dimensions_godot": [
+      13.79119873046875,
+      11.45516586303711,
+      8.922764778137207
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      68.95599365234375,
+      193.0767822265625
+    ],
+    "lod_triangles": [
+      3554,
+      1420,
+      426
+    ],
+    "collision_point_count": 38
+  },
+  {
+    "id": "asteroid_09",
+    "dimensions_godot": [
+      13.561885833740234,
+      11.598686218261719,
+      7.349249839782715
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      67.80942916870117,
+      189.86640167236328
+    ],
+    "lod_triangles": [
+      2824,
+      1128,
+      338
+    ],
+    "collision_point_count": 36
+  },
+  {
+    "id": "asteroid_10",
+    "dimensions_godot": [
+      15.57440185546875,
+      10.356772422790527,
+      7.592999458312988
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      77.87200927734375,
+      218.0416259765625
+    ],
+    "lod_triangles": [
+      2240,
+      896,
+      268
+    ],
+    "collision_point_count": 46
+  },
+  {
+    "id": "asteroid_11",
+    "dimensions_godot": [
+      13.299346923828125,
+      12.44820785522461,
+      10.209296226501465
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      66.49673461914062,
+      186.19085693359375
+    ],
+    "lod_triangles": [
+      4178,
+      1670,
+      500
+    ],
+    "collision_point_count": 35
+  },
+  {
+    "id": "asteroid_12",
+    "dimensions_godot": [
+      14.648942947387695,
+      11.300834655761719,
+      10.593292236328125
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      73.24471473693848,
+      205.08520126342773
+    ],
+    "lod_triangles": [
+      3974,
+      1588,
+      476
+    ],
+    "collision_point_count": 33
+  },
+  {
+    "id": "asteroid_13",
+    "dimensions_godot": [
+      17.363475799560547,
+      10.284904479980469,
+      9.331399917602539
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      86.81737899780273,
+      243.08866119384766
+    ],
+    "lod_triangles": [
+      4468,
+      1786,
+      536
+    ],
+    "collision_point_count": 32
+  },
+  {
+    "id": "asteroid_14",
+    "dimensions_godot": [
+      14.656562805175781,
+      11.470582008361816,
+      11.625860214233398
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      73.2828140258789,
+      205.19187927246094
+    ],
+    "lod_triangles": [
+      5266,
+      2106,
+      630
+    ],
+    "collision_point_count": 34
+  },
+  {
+    "id": "asteroid_15",
+    "dimensions_godot": [
+      21.232257843017578,
+      10.220857620239258,
+      13.963804244995117
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      106.16128921508789,
+      297.2516098022461
+    ],
+    "lod_triangles": [
+      5706,
+      2282,
+      684
+    ],
+    "collision_point_count": 27
+  },
+  {
+    "id": "asteroid_16",
+    "dimensions_godot": [
+      12.982664108276367,
+      14.964533805847168,
+      11.152130126953125
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      74.82266902923584,
+      209.50347328186035
+    ],
+    "lod_triangles": [
+      5070,
+      2028,
+      608
+    ],
+    "collision_point_count": 34
+  },
+  {
+    "id": "asteroid_17",
+    "dimensions_godot": [
+      13.82789134979248,
+      12.602733612060547,
+      7.293150424957275
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      69.1394567489624,
+      193.59047889709473
+    ],
+    "lod_triangles": [
+      3106,
+      1242,
+      372
+    ],
+    "collision_point_count": 42
+  },
+  {
+    "id": "asteroid_18",
+    "dimensions_godot": [
+      13.006102561950684,
+      11.21204948425293,
+      9.045469284057617
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      65.03051280975342,
+      182.08543586730957
+    ],
+    "lod_triangles": [
+      2474,
+      988,
+      296
+    ],
+    "collision_point_count": 43
+  },
+  {
+    "id": "asteroid_19",
+    "dimensions_godot": [
+      12.378398895263672,
+      11.557320594787598,
+      6.772242546081543
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      61.89199447631836,
+      173.2975845336914
+    ],
+    "lod_triangles": [
+      2768,
+      1106,
+      332
+    ],
+    "collision_point_count": 30
+  },
+  {
+    "id": "asteroid_20",
+    "dimensions_godot": [
+      5.908173561096191,
+      4.532477378845215,
+      6.59842586517334
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      35,
+      100
+    ],
+    "lod_triangles": [
+      932,
+      372,
+      110
+    ],
+    "collision_point_count": 33
+  },
+  {
+    "id": "asteroid_21",
+    "dimensions_godot": [
+      7.044363975524902,
+      6.366927146911621,
+      6.568566799163818
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      35.22181987762451,
+      100
+    ],
+    "lod_triangles": [
+      1262,
+      504,
+      150
+    ],
+    "collision_point_count": 44
+  },
+  {
+    "id": "asteroid_22",
+    "dimensions_godot": [
+      5.751742839813232,
+      3.7299818992614746,
+      5.034642219543457
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      35,
+      100
+    ],
+    "lod_triangles": [
+      900,
+      360,
+      108
+    ],
+    "collision_point_count": 39
+  },
+  {
+    "id": "asteroid_23",
+    "dimensions_godot": [
+      6.146581172943115,
+      9.15792465209961,
+      8.605533599853516
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      45.78962326049805,
+      128.21094512939453
+    ],
+    "lod_triangles": [
+      1902,
+      760,
+      228
+    ],
+    "collision_point_count": 34
+  },
+  {
+    "id": "asteroid_24",
+    "dimensions_godot": [
+      10.613645553588867,
+      8.738454818725586,
+      8.085363388061523
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      53.068227767944336,
+      148.59103775024414
+    ],
+    "lod_triangles": [
+      2242,
+      896,
+      268
+    ],
+    "collision_point_count": 40
+  },
+  {
+    "id": "asteroid_25",
+    "dimensions_godot": [
+      11.538488388061523,
+      5.737794399261475,
+      8.581828117370605
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      57.69244194030762,
+      161.53883743286133
+    ],
+    "lod_triangles": [
+      2078,
+      830,
+      248
+    ],
+    "collision_point_count": 39
+  },
+  {
+    "id": "asteroid_26",
+    "dimensions_godot": [
+      7.994546890258789,
+      6.254295825958252,
+      8.459214210510254
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      42.29607105255127,
+      118.42899894714355
+    ],
+    "lod_triangles": [
+      1860,
+      744,
+      222
+    ],
+    "collision_point_count": 31
+  },
+  {
+    "id": "asteroid_27",
+    "dimensions_godot": [
+      13.045488357543945,
+      6.247026443481445,
+      8.452714920043945
+    ],
+    "texture_size": 1024,
+    "lod_distances": [
+      65.22744178771973,
+      182.63683700561523
+    ],
+    "lod_triangles": [
+      2430,
+      972,
+      290
+    ],
+    "collision_point_count": 34
+  },
+  {
+    "id": "asteroid_28",
+    "dimensions_godot": [
+      5.150782585144043,
+      3.9545655250549316,
+      5.109825611114502
+    ],
+    "texture_size": 512,
+    "lod_distances": [
+      35,
+      100
+    ],
+    "lod_triangles": [
+      900,
+      360,
+      108
+    ],
+    "collision_point_count": 34
+  }
+]
