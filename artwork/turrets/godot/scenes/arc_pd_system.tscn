@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/arc_pd_system.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/turret.gd" id="2"]
+
+[sub_resource type="BoxShape3D" id="BodyShape"]
+size = Vector3(2.616320, 0.953689, 1.817547)
+
+[node name="arc_pd_system" type="Node3D"]
+script = ExtResource("2")
+asset_id = "arc_pd_system"
+
+[node name="YawPivot" type="Node3D" parent="."]
+
+[node name="Visual" parent="YawPivot" instance=ExtResource("1")]
+
+[node name="HitBody" type="StaticBody3D" parent="YawPivot"]
+collision_layer = 2
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="YawPivot/HitBody"]
+position = Vector3(0.000000, 0.622662, -0.179529)
+shape = SubResource("BodyShape")
+
+[node name="Muzzles" type="Node3D" parent="YawPivot"]
+
+[node name="Muzzle01" type="Marker3D" parent="YawPivot/Muzzles"]
+position = Vector3(-1.133614, 0.567498, -2.300000)
+
+[node name="Muzzle02" type="Marker3D" parent="YawPivot/Muzzles"]
+position = Vector3(1.133614, 0.567498, -2.300000)

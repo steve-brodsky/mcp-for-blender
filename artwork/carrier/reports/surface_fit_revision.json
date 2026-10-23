@@ -1,0 +1,21 @@
+{
+  "components": {
+    "ENGINEERING_TRIMS": 68,
+    "HULL_GUIDANCE_AND_WINDOWS": 18,
+    "SEGMENTED_ARMOR": 20,
+    "SECONDARY_ARCHITECTURE": 4,
+    "STATUS_LIGHTS": 4,
+    "INTEGRATED_MOUNTING_PLATFORMS": 2,
+    "ENGINE_ASSEMBLY": 16,
+    "ENGINE_EMISSION": 4,
+    "STRUCTURAL_RIBS_AND_SERVICE": 44
+  },
+  "engine_centers_z": [
+    -4.2,
+    4.9
+  ],
+  "IDENTIFICATION_previous_clearance_m": 0.5440001487731934,
+  "ASTERION_previous_clearance_m": 0.5440020561218262,
+  "surface_clipped_paint_faces": 34,
+  "engine_collar_clearance_m": 0.6600000000000001
+}

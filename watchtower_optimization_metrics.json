@@ -1,0 +1,50 @@
+{
+  "Foundation": {
+    "source_objects": 6,
+    "objects": 1,
+    "triangles": 244,
+    "materials": 3,
+    "vertices": 528,
+    "removed_triangles": 20
+  },
+  "Masonry": {
+    "source_objects": 225,
+    "objects": 1,
+    "triangles": 8874,
+    "materials": 5,
+    "vertices": 19322,
+    "removed_triangles": 1026
+  },
+  "Doorway": {
+    "source_objects": 22,
+    "objects": 1,
+    "triangles": 1004,
+    "materials": 3,
+    "vertices": 2168,
+    "removed_triangles": 40
+  },
+  "Windows": {
+    "source_objects": 16,
+    "objects": 1,
+    "triangles": 704,
+    "materials": 2,
+    "vertices": 1536,
+    "removed_triangles": 0
+  },
+  "Lookout": {
+    "source_objects": 57,
+    "objects": 1,
+    "triangles": 1640,
+    "materials": 6,
+    "vertices": 3496,
+    "removed_triangles": 868
+  },
+  "Roof": {
+    "source_objects": 193,
+    "objects": 1,
+    "triangles": 2376,
+    "materials": 6,
+    "vertices": 4804,
+    "removed_triangles": 184
+  }
+}

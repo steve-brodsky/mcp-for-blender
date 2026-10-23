@@ -1,0 +1,30 @@
+{
+  "arc_pd_system": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 2
+  },
+  "m23_light_blaster": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 2
+  },
+  "scatter_gun": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 1
+  },
+  "assault_gun": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 3
+  },
+  "nano_scatter_cannon": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 2
+  },
+  "m3_plasma_gun": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 1
+  },
+  "heavy_assault_beam": {
+    "detached_vertices_removed": 0,
+    "socket_sweep_count": 2
+  }
+}

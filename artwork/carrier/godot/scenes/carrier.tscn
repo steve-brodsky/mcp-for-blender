@@ -1,0 +1,282 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/carrier.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/carrier_hull.glb" id="2"]
+
+[sub_resource type="Animation" id="Animation_open"]
+resource_name = "hangar_open"
+length = 2.0
+
+tracks/0/type = "value"
+tracks/0/path = NodePath("Hangar/Doors/HANGAR_DOOR_A:position")
+tracks/0/interp = 1
+tracks/0/enabled = true
+tracks/0/keys = {"times": PackedFloat32Array(0, 2), "transitions": PackedFloat32Array(1, 1), "update": 0, "values": [Vector3(30.65, 0, 5.9), Vector3(30.65, 0, 17.8)]}
+
+tracks/1/type = "value"
+tracks/1/path = NodePath("Hangar/Doors/HANGAR_DOOR_B:position")
+tracks/1/interp = 1
+tracks/1/enabled = true
+tracks/1/keys = {"times": PackedFloat32Array(0, 2), "transitions": PackedFloat32Array(1, 1), "update": 0, "values": [Vector3(30.65, 0, -5.9), Vector3(30.65, 0, -17.8)]}
+
+[sub_resource type="Animation" id="Animation_close"]
+resource_name = "hangar_close"
+length = 2.0
+
+tracks/0/type = "value"
+tracks/0/path = NodePath("Hangar/Doors/HANGAR_DOOR_A:position")
+tracks/0/interp = 1
+tracks/0/enabled = true
+tracks/0/keys = {"times": PackedFloat32Array(0, 2), "transitions": PackedFloat32Array(1, 1), "update": 0, "values": [Vector3(30.65, 0, 17.8), Vector3(30.65, 0, 5.9)]}
+
+tracks/1/type = "value"
+tracks/1/path = NodePath("Hangar/Doors/HANGAR_DOOR_B:position")
+tracks/1/interp = 1
+tracks/1/enabled = true
+tracks/1/keys = {"times": PackedFloat32Array(0, 2), "transitions": PackedFloat32Array(1, 1), "update": 0, "values": [Vector3(30.65, 0, -17.8), Vector3(30.65, 0, -5.9)]}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hangar"]
+_data = {"hangar_open": SubResource("Animation_open"), "hangar_close": SubResource("Animation_close")}
+
+[sub_resource type="BoxShape3D" id="Box_0"]
+size = Vector3(23, 9, 70)
+
+[sub_resource type="BoxShape3D" id="Box_1"]
+size = Vector3(14, 8, 25)
+
+[sub_resource type="BoxShape3D" id="Box_2"]
+size = Vector3(14, 8, 25)
+
+[sub_resource type="BoxShape3D" id="Box_3"]
+size = Vector3(12, 8, 7)
+
+[sub_resource type="BoxShape3D" id="Box_4"]
+size = Vector3(12, 8, 7)
+
+[sub_resource type="BoxShape3D" id="Box_5"]
+size = Vector3(13, 8, 32)
+
+[sub_resource type="BoxShape3D" id="Box_6"]
+size = Vector3(13, 8, 32)
+
+[sub_resource type="BoxShape3D" id="Box_7"]
+size = Vector3(13, 1.2, 23)
+
+[sub_resource type="BoxShape3D" id="Box_8"]
+size = Vector3(13, 2, 23)
+
+[sub_resource type="BoxShape3D" id="Box_9"]
+size = Vector3(2, 7, 23)
+
+[sub_resource type="BoxShape3D" id="Box_10"]
+size = Vector3(7, 8, 23)
+
+[sub_resource type="BoxShape3D" id="Box_11"]
+size = Vector3(12.9, 8.1, 4.7)
+
+[sub_resource type="BoxShape3D" id="Box_12"]
+size = Vector3(12.9, 8.1, 4.7)
+
+[node name="Carrier" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Hull" parent="." instance=ExtResource("2")]
+
+[node name="WeaponSockets" type="Node3D" parent="."]
+
+[node name="SystemSockets" type="Node3D" parent="."]
+
+[node name="Hangar" type="Node3D" parent="."]
+
+[node name="Doors" type="Node3D" parent="Hangar"]
+
+[node name="Modules" type="Node3D" parent="."]
+
+[node name="Collision" type="StaticBody3D" parent="."]
+
+[node name="Animations" type="AnimationPlayer" parent="."]
+libraries = {&"": SubResource("AnimationLibrary_hangar")}
+
+[node name="SOCKET_WEAPON_HEAVY_01" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-4, 10, 0)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "HEAVY"
+metadata/compatible = ["heavy_kinetic", "heavy_beam"]
+
+[node name="SOCKET_WEAPON_HEAVY_02" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(4, 9, 24)
+rotation_degrees = Vector3(0, -180, 0)
+metadata/socket_type = "HEAVY"
+metadata/compatible = ["heavy_kinetic", "heavy_beam"]
+
+[node name="SOCKET_WEAPON_MEDIUM_01" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-21, 8.5, 19)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MEDIUM"
+metadata/compatible = ["medium_assault"]
+
+[node name="SOCKET_WEAPON_MEDIUM_02" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(21, 8.5, 19)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MEDIUM"
+metadata/compatible = ["medium_assault"]
+
+[node name="SOCKET_WEAPON_MEDIUM_03" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-21, 7, -5)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MEDIUM"
+metadata/compatible = ["medium_assault"]
+
+[node name="SOCKET_WEAPON_MEDIUM_04" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(21, 7, -5)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MEDIUM"
+metadata/compatible = ["medium_assault"]
+
+[node name="SOCKET_WEAPON_PD_01" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-25, 8.6, 29)
+rotation_degrees = Vector3(0, -180.0, 0)
+metadata/socket_type = "PD"
+metadata/compatible = ["point_defense"]
+
+[node name="SOCKET_WEAPON_PD_02" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(25, 8.6, 29)
+rotation_degrees = Vector3(0, -180.0, 0)
+metadata/socket_type = "PD"
+metadata/compatible = ["point_defense"]
+
+[node name="SOCKET_WEAPON_PD_03" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-17, 7.2, -43)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "PD"
+metadata/compatible = ["point_defense"]
+
+[node name="SOCKET_WEAPON_PD_04" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(17, 7.2, -43)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "PD"
+metadata/compatible = ["point_defense"]
+
+[node name="SOCKET_WEAPON_MISSILE_01" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(-20, 7.1, -20)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MISSILE"
+metadata/compatible = ["missile_launcher"]
+
+[node name="SOCKET_WEAPON_MISSILE_02" type="Marker3D" parent="WeaponSockets"]
+position = Vector3(20, 7.1, -20)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "MISSILE"
+metadata/compatible = ["missile_launcher"]
+
+[node name="SOCKET_SYSTEM_01" type="Marker3D" parent="SystemSockets"]
+position = Vector3(-18, 8.6, 35)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_02" type="Marker3D" parent="SystemSockets"]
+position = Vector3(-23, 8.6, 35)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_03" type="Marker3D" parent="SystemSockets"]
+position = Vector3(18, 8.6, 35)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_04" type="Marker3D" parent="SystemSockets"]
+position = Vector3(23, 8.6, 35)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_05" type="Marker3D" parent="SystemSockets"]
+position = Vector3(-3, 5, 33)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_06" type="Marker3D" parent="SystemSockets"]
+position = Vector3(3, 5, 33)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_07" type="Marker3D" parent="SystemSockets"]
+position = Vector3(-3, 5.5, -12)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="SOCKET_SYSTEM_08" type="Marker3D" parent="SystemSockets"]
+position = Vector3(3, 5.5, -12)
+rotation_degrees = Vector3(0, -0.0, 0)
+metadata/socket_type = "SYSTEM"
+metadata/compatible = ["shield_generator", "sensor_array", "fire_control", "fighter_operations", "aux_reactor"]
+
+[node name="Spawn" type="Marker3D" parent="Hangar"]
+position = Vector3(23, -1.3, 0)
+rotation_degrees = Vector3(0, -90, 0)
+
+[node name="Exit" type="Marker3D" parent="Hangar"]
+position = Vector3(42, -1.3, 0)
+rotation_degrees = Vector3(0, -90, 0)
+
+[node name="Approach" type="Marker3D" parent="Hangar"]
+position = Vector3(65, -1.3, 0)
+rotation_degrees = Vector3(0, -90, 0)
+
+[node name="Keel" type="CollisionShape3D" parent="Collision"]
+position = Vector3(0, 0, 7)
+shape = SubResource("Box_0")
+
+[node name="AftStarboard" type="CollisionShape3D" parent="Collision"]
+position = Vector3(22, 0, 29)
+shape = SubResource("Box_1")
+
+[node name="AftPort" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-22, 0, 29)
+shape = SubResource("Box_2")
+
+[node name="ForeStarboard" type="CollisionShape3D" parent="Collision"]
+position = Vector3(22, 0, -16)
+shape = SubResource("Box_3")
+
+[node name="ForePort" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-22, 0, -16)
+shape = SubResource("Box_4")
+
+[node name="BowStarboard" type="CollisionShape3D" parent="Collision"]
+position = Vector3(18.5, 0, -37)
+shape = SubResource("Box_5")
+
+[node name="BowPort" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-18.5, 0, -37)
+shape = SubResource("Box_6")
+
+[node name="BayFloor" type="CollisionShape3D" parent="Collision"]
+position = Vector3(24, -4.5, 0)
+shape = SubResource("Box_7")
+
+[node name="BayCeiling" type="CollisionShape3D" parent="Collision"]
+position = Vector3(24, 5, 0)
+shape = SubResource("Box_8")
+
+[node name="BayBack" type="CollisionShape3D" parent="Collision"]
+position = Vector3(16.5, 0, 0)
+shape = SubResource("Box_9")
+
+[node name="PortCargo" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-25, 0, 0)
+shape = SubResource("Box_10")
+
+[node name="PortSideClosure" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-23.45, -0.15, 13.85)
+shape = SubResource("Box_11")
+
+[node name="StarboardSideClosure" type="CollisionShape3D" parent="Collision"]
+position = Vector3(23.45, -0.15, 13.85)
+shape = SubResource("Box_12")

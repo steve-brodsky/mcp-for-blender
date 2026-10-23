@@ -1,0 +1,22 @@
+{
+  "source_integrity_checked_objects": 519,
+  "source_integrity_errors": {},
+  "image_comparisons": {
+    "front_source_game": {
+      "mean_abs_normalized_rgb": 3.5400629949606496e-05,
+      "rms_normalized_rgb": 0.0005896376349506584,
+      "max_abs_normalized_rgb": 0.1098039448261261
+    },
+    "front_game_roundtrip": {
+      "mean_abs_normalized_rgb": 1.7848786047885936e-05,
+      "rms_normalized_rgb": 0.00027677136160951087,
+      "max_abs_normalized_rgb": 0.0313725471496582
+    },
+    "rear_source_game": {
+      "mean_abs_normalized_rgb": 3.912765209113254e-05,
+      "rms_normalized_rgb": 0.000589691869194794,
+      "max_abs_normalized_rgb": 0.07450979948043823
+    }
+  },
+  "source_integrity_note": "Compared original editable vertices, polygons, UVs, material slots/indices, local transforms and editable modifier settings. World matrices of unlinked library objects are not evaluated and were excluded."
+}

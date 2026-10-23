@@ -1,0 +1,52 @@
+[
+  {
+    "module": "heavy_kinetic",
+    "meshes": 3,
+    "objects": 7
+  },
+  {
+    "module": "heavy_beam",
+    "meshes": 4,
+    "objects": 9
+  },
+  {
+    "module": "medium_assault",
+    "meshes": 3,
+    "objects": 8
+  },
+  {
+    "module": "point_defense",
+    "meshes": 3,
+    "objects": 9
+  },
+  {
+    "module": "missile_launcher",
+    "meshes": 3,
+    "objects": 14
+  },
+  {
+    "module": "shield_generator",
+    "meshes": 2,
+    "objects": 4
+  },
+  {
+    "module": "sensor_array",
+    "meshes": 2,
+    "objects": 4
+  },
+  {
+    "module": "fire_control",
+    "meshes": 2,
+    "objects": 4
+  },
+  {
+    "module": "fighter_operations",
+    "meshes": 2,
+    "objects": 4
+  },
+  {
+    "module": "aux_reactor",
+    "meshes": 2,
+    "objects": 4
+  }
+]

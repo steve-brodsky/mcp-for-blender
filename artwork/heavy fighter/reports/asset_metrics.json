@@ -1,0 +1,30 @@
+{
+  "source_triangles": 699856,
+  "lod0_triangles": 90974,
+  "length_m": 16,
+  "scale_assumption": "16 metres chosen because source has no physical dimensions",
+  "forward_godot": "-Z",
+  "up_godot": "+Y",
+  "source_connected_components_after_weld": 1,
+  "removed_design_parts": [],
+  "smoothing_max_move_m": 0.3409056362763358,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "revision": "Closed hull, surface smoothing and six-view albedo repaint; upper exhaust armor-projection bleed repaired; exact bilateral hull and mirrored paint",
+  "normal_strength": 0,
+  "hull_roughness": 0.68,
+  "hull_metallic": 0.12,
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm": "retired source map, not used by revised material",
+    "normal": "retired source map, not used by revised material"
+  },
+  "uv_atlas": "GameUV atlas with intentionally shared mirrored halves",
+  "lod1_triangles": 36386,
+  "lod2_triangles": 13644,
+  "symmetry_report": "reports/symmetry.json",
+  "engine_texture_report": "reports/engine_texture_correction.json"
+}

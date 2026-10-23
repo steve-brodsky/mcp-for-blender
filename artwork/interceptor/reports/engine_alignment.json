@@ -1,0 +1,118 @@
+{
+  "method": "Least-squares exhaust rim plane normal, rigidly rotated around the front mount",
+  "target_blender": [
+    0,
+    1,
+    0
+  ],
+  "target_godot": [
+    0,
+    0,
+    -1
+  ],
+  "engines": [
+    {
+      "side": "positive_x",
+      "vertices": 3010,
+      "pivot_blender": [
+        2.4800000190734863,
+        -4.21999979019165,
+        -0.05999999865889549
+      ],
+      "before": {
+        "yaw_degrees": -2.9493483924410273,
+        "pitch_degrees": -0.9988388395471025,
+        "axis_blender": [
+          -0.051445312798023224,
+          0.9985240697860718,
+          -0.017409060150384903
+        ],
+        "axis_godot": [
+          -0.051445312798023224,
+          -0.017409060150384903,
+          -0.9985240697860718
+        ]
+      },
+      "after_same_rim": {
+        "yaw_degrees": 5.048098530440292e-07,
+        "pitch_degrees": -3.7437176878040453e-07,
+        "axis_blender": [
+          8.810594032127028e-09,
+          1.0,
+          -6.5340199917329755e-09
+        ],
+        "axis_godot": [
+          8.810594032127028e-09,
+          -6.5340199917329755e-09,
+          -1.0
+        ]
+      },
+      "after_reselected_rim": {
+        "yaw_degrees": -1.2137274894278074,
+        "pitch_degrees": -0.3478094458709858,
+        "axis_blender": [
+          -0.021181566640734673,
+          0.9997572302818298,
+          -0.006069020833820105
+        ],
+        "axis_godot": [
+          -0.021181566640734673,
+          -0.006069020833820105,
+          -0.9997572302818298
+        ]
+      }
+    },
+    {
+      "side": "negative_x",
+      "vertices": 2995,
+      "pivot_blender": [
+        -2.4800000190734863,
+        -4.21999979019165,
+        -0.05999999865889549
+      ],
+      "before": {
+        "yaw_degrees": 2.950412982002775,
+        "pitch_degrees": -1.2159624939988958,
+        "axis_blender": [
+          0.051460105925798416,
+          0.9984501600265503,
+          -0.02119283936917782
+        ],
+        "axis_godot": [
+          0.051460105925798416,
+          -0.02119283936917782,
+          -0.9984501600265503
+        ]
+      },
+      "after_same_rim": {
+        "yaw_degrees": 7.444539616285754e-07,
+        "pitch_degrees": 3.8051871231330055e-07,
+        "axis_blender": [
+          1.2993172759934168e-08,
+          1.0,
+          6.641304395316183e-09
+        ],
+        "axis_godot": [
+          1.2993172759934168e-08,
+          6.641304395316183e-09,
+          -1.0
+        ]
+      },
+      "after_reselected_rim": {
+        "yaw_degrees": 1.172283421779753,
+        "pitch_degrees": -0.3867165126355165,
+        "axis_blender": [
+          0.020458312705159187,
+          0.9997679591178894,
+          -0.006748012732714415
+        ],
+        "axis_godot": [
+          0.020458312705159187,
+          -0.006748012732714415,
+          -0.9997679591178894
+        ]
+      }
+    }
+  ],
+  "validation": "Before/after axis comparison uses the identical physical rim vertices. Reselecting by a world-space Y cutoff changes the sampled part of the band and biases the diagnostic fit."
+}

@@ -1,0 +1,798 @@
+{
+  "design": "Asterion CV-74",
+  "units": "meters",
+  "godot_forward": [
+    0,
+    0,
+    -1
+  ],
+  "sockets": [
+    {
+      "id": "SOCKET_WEAPON_HEAVY_01",
+      "type": "HEAVY",
+      "position": [
+        -4,
+        10,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 3.2,
+      "compatible": [
+        "heavy_kinetic",
+        "heavy_beam"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_HEAVY_02",
+      "type": "HEAVY",
+      "position": [
+        4,
+        9,
+        24
+      ],
+      "rotation_degrees": [
+        0,
+        -180,
+        0
+      ],
+      "clearance_radius_m": 3.2,
+      "compatible": [
+        "heavy_kinetic",
+        "heavy_beam"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MEDIUM_01",
+      "type": "MEDIUM",
+      "position": [
+        -21,
+        8.5,
+        19
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "medium_assault"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MEDIUM_02",
+      "type": "MEDIUM",
+      "position": [
+        21,
+        8.5,
+        19
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "medium_assault"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MEDIUM_03",
+      "type": "MEDIUM",
+      "position": [
+        -21,
+        7,
+        -5
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "medium_assault"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MEDIUM_04",
+      "type": "MEDIUM",
+      "position": [
+        21,
+        7,
+        -5
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "medium_assault"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_PD_01",
+      "type": "PD",
+      "position": [
+        -25,
+        8.6,
+        29
+      ],
+      "rotation_degrees": [
+        0,
+        -180.0,
+        0
+      ],
+      "clearance_radius_m": 1.2,
+      "compatible": [
+        "point_defense"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_PD_02",
+      "type": "PD",
+      "position": [
+        25,
+        8.6,
+        29
+      ],
+      "rotation_degrees": [
+        0,
+        -180.0,
+        0
+      ],
+      "clearance_radius_m": 1.2,
+      "compatible": [
+        "point_defense"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_PD_03",
+      "type": "PD",
+      "position": [
+        -17,
+        7.2,
+        -43
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.2,
+      "compatible": [
+        "point_defense"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_PD_04",
+      "type": "PD",
+      "position": [
+        17,
+        7.2,
+        -43
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.2,
+      "compatible": [
+        "point_defense"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MISSILE_01",
+      "type": "MISSILE",
+      "position": [
+        -20,
+        7.1,
+        -20
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "missile_launcher"
+      ]
+    },
+    {
+      "id": "SOCKET_WEAPON_MISSILE_02",
+      "type": "MISSILE",
+      "position": [
+        20,
+        7.1,
+        -20
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 2.3,
+      "compatible": [
+        "missile_launcher"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_01",
+      "type": "SYSTEM",
+      "position": [
+        -18,
+        8.6,
+        35
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_02",
+      "type": "SYSTEM",
+      "position": [
+        -23,
+        8.6,
+        35
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_03",
+      "type": "SYSTEM",
+      "position": [
+        18,
+        8.6,
+        35
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_04",
+      "type": "SYSTEM",
+      "position": [
+        23,
+        8.6,
+        35
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_05",
+      "type": "SYSTEM",
+      "position": [
+        -3,
+        5,
+        33
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_06",
+      "type": "SYSTEM",
+      "position": [
+        3,
+        5,
+        33
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_07",
+      "type": "SYSTEM",
+      "position": [
+        -3,
+        5.5,
+        -12
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    },
+    {
+      "id": "SOCKET_SYSTEM_08",
+      "type": "SYSTEM",
+      "position": [
+        3,
+        5.5,
+        -12
+      ],
+      "rotation_degrees": [
+        0,
+        -0.0,
+        0
+      ],
+      "clearance_radius_m": 1.7,
+      "compatible": [
+        "shield_generator",
+        "sensor_array",
+        "fire_control",
+        "fighter_operations",
+        "aux_reactor"
+      ]
+    }
+  ],
+  "modules": {
+    "heavy_kinetic": {
+      "type": "HEAVY",
+      "glb": "exports/weapons/heavy_kinetic.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "heavy_beam": {
+      "type": "HEAVY",
+      "glb": "exports/weapons/heavy_beam.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "medium_assault": {
+      "type": "MEDIUM",
+      "glb": "exports/weapons/medium_assault.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "point_defense": {
+      "type": "PD",
+      "glb": "exports/weapons/point_defense.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "missile_launcher": {
+      "type": "MISSILE",
+      "glb": "exports/weapons/missile_launcher.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "shield_generator": {
+      "type": "SYSTEM",
+      "glb": "exports/subsystems/shield_generator.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "sensor_array": {
+      "type": "SYSTEM",
+      "glb": "exports/subsystems/sensor_array.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "fire_control": {
+      "type": "SYSTEM",
+      "glb": "exports/subsystems/fire_control.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "fighter_operations": {
+      "type": "SYSTEM",
+      "glb": "exports/subsystems/fighter_operations.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "aux_reactor": {
+      "type": "SYSTEM",
+      "glb": "exports/subsystems/aux_reactor.glb",
+      "mount_origin": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ]
+    }
+  },
+  "hangar": {
+    "opening_width_m": 22,
+    "opening_height_m": 7.2,
+    "bay_depth_m": 12,
+    "fighter_dimensions_m": [
+      7,
+      2.5,
+      9
+    ],
+    "points": {
+      "HANGAR_SPAWN": {
+        "position": [
+          23,
+          -1.3,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          -90,
+          0
+        ]
+      },
+      "HANGAR_EXIT": {
+        "position": [
+          42,
+          -1.3,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          -90,
+          0
+        ]
+      },
+      "HANGAR_APPROACH": {
+        "position": [
+          65,
+          -1.3,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          -90,
+          0
+        ]
+      }
+    },
+    "doors": {
+      "closed_offset_m": 5.9,
+      "open_offset_m": 17.8,
+      "leaf_width_m": 11.8,
+      "leaf_height_m": 8.4,
+      "center_overlap_m": 0,
+      "second_leaf_depth_offset_m": 0,
+      "recessed_seal_width_m": 0.6,
+      "seal_design": "coplanar exterior leaves with recessed center gasket"
+    }
+  },
+  "default_loadout": {
+    "SOCKET_WEAPON_HEAVY_01": "heavy_kinetic",
+    "SOCKET_WEAPON_HEAVY_02": "heavy_beam",
+    "SOCKET_WEAPON_MEDIUM_01": "medium_assault",
+    "SOCKET_WEAPON_MEDIUM_02": "medium_assault",
+    "SOCKET_WEAPON_MEDIUM_03": "medium_assault",
+    "SOCKET_WEAPON_MEDIUM_04": "medium_assault",
+    "SOCKET_WEAPON_PD_01": "point_defense",
+    "SOCKET_WEAPON_PD_02": "point_defense",
+    "SOCKET_WEAPON_PD_03": "point_defense",
+    "SOCKET_WEAPON_PD_04": "point_defense",
+    "SOCKET_WEAPON_MISSILE_01": "missile_launcher",
+    "SOCKET_WEAPON_MISSILE_02": "missile_launcher",
+    "SOCKET_SYSTEM_01": "shield_generator",
+    "SOCKET_SYSTEM_02": "sensor_array",
+    "SOCKET_SYSTEM_03": "fire_control",
+    "SOCKET_SYSTEM_04": "fighter_operations",
+    "SOCKET_SYSTEM_05": "aux_reactor",
+    "SOCKET_SYSTEM_06": "shield_generator",
+    "SOCKET_SYSTEM_07": "sensor_array",
+    "SOCKET_SYSTEM_08": "fire_control"
+  },
+  "collision_boxes": [
+    {
+      "name": "Keel",
+      "position": [
+        0,
+        0,
+        7
+      ],
+      "size": [
+        23,
+        9,
+        70
+      ]
+    },
+    {
+      "name": "AftStarboard",
+      "position": [
+        22,
+        0,
+        29
+      ],
+      "size": [
+        14,
+        8,
+        25
+      ]
+    },
+    {
+      "name": "AftPort",
+      "position": [
+        -22,
+        0,
+        29
+      ],
+      "size": [
+        14,
+        8,
+        25
+      ]
+    },
+    {
+      "name": "ForeStarboard",
+      "position": [
+        22,
+        0,
+        -16
+      ],
+      "size": [
+        12,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "ForePort",
+      "position": [
+        -22,
+        0,
+        -16
+      ],
+      "size": [
+        12,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "BowStarboard",
+      "position": [
+        18.5,
+        0,
+        -37
+      ],
+      "size": [
+        13,
+        8,
+        32
+      ]
+    },
+    {
+      "name": "BowPort",
+      "position": [
+        -18.5,
+        0,
+        -37
+      ],
+      "size": [
+        13,
+        8,
+        32
+      ]
+    },
+    {
+      "name": "BayFloor",
+      "position": [
+        24,
+        -4.5,
+        0
+      ],
+      "size": [
+        13,
+        1.2,
+        23
+      ]
+    },
+    {
+      "name": "BayCeiling",
+      "position": [
+        24,
+        5,
+        0
+      ],
+      "size": [
+        13,
+        2,
+        23
+      ]
+    },
+    {
+      "name": "BayBack",
+      "position": [
+        16.5,
+        0,
+        0
+      ],
+      "size": [
+        2,
+        7,
+        23
+      ]
+    },
+    {
+      "name": "PortCargo",
+      "position": [
+        -25,
+        0,
+        0
+      ],
+      "size": [
+        7,
+        8,
+        23
+      ]
+    },
+    {
+      "name": "PortSideClosure",
+      "position": [
+        -23.45,
+        -0.15,
+        13.85
+      ],
+      "size": [
+        12.9,
+        8.1,
+        4.7
+      ]
+    },
+    {
+      "name": "StarboardSideClosure",
+      "position": [
+        23.45,
+        -0.15,
+        13.85
+      ],
+      "size": [
+        12.9,
+        8.1,
+        4.7
+      ]
+    }
+  ]
+}

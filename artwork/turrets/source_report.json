@@ -1,0 +1,100 @@
+{
+  "interception_missile": {
+    "source_triangles": 38584,
+    "body_triangles": 4500,
+    "dimensions": [
+      2.824216842651367,
+      2.2437801361083984,
+      2.7418980598449707
+    ]
+  },
+  "arc_pd_system": {
+    "source_triangles": 23474,
+    "body_triangles": 4500,
+    "dimensions": [
+      2.960818290710449,
+      2.830371379852295,
+      1.1878244876861572
+    ]
+  },
+  "m23_light_blaster": {
+    "source_triangles": 20952,
+    "body_triangles": 4200,
+    "dimensions": [
+      2.9049527645111084,
+      2.9094247817993164,
+      1.1225358247756958
+    ]
+  },
+  "assault_gun": {
+    "source_triangles": 88482,
+    "body_triangles": 8000,
+    "dimensions": [
+      4.224761009216309,
+      6.83233118057251,
+      2.0473928451538086
+    ]
+  },
+  "scatter_gun": {
+    "source_triangles": 22070,
+    "body_triangles": 3500,
+    "dimensions": [
+      2.3021798133850098,
+      3.0699291229248047,
+      1.8009566068649292
+    ]
+  },
+  "nano_scatter_cannon": {
+    "source_triangles": 60433,
+    "body_triangles": 6999,
+    "dimensions": [
+      3.660916566848755,
+      5.827441692352295,
+      1.6277546882629395
+    ]
+  },
+  "m3_plasma_gun": {
+    "source_triangles": 44292,
+    "body_triangles": 5500,
+    "dimensions": [
+      3.1538357734680176,
+      5.36025857925415,
+      1.8033647537231445
+    ]
+  },
+  "kinetic_siege_cannon": {
+    "source_triangles": 242248,
+    "body_triangles": 14500,
+    "dimensions": [
+      6.183202266693115,
+      12.17993450164795,
+      3.0229368209838867
+    ]
+  },
+  "heavy_assault_beam": {
+    "source_triangles": 159424,
+    "body_triangles": 11999,
+    "dimensions": [
+      5.090938568115234,
+      9.657596588134766,
+      2.598738670349121
+    ]
+  },
+  "basis": {
+    "right": [
+      -0.3410039246082306,
+      0.7783524990081787,
+      0.5271468758583069
+    ],
+    "forward": [
+      -0.9336051940917969,
+      -0.21479550004005432,
+      -0.2867823839187622
+    ],
+    "up": [
+      -0.1099889948964119,
+      -0.5899409651756287,
+      0.7999200224876404
+    ]
+  }
+}

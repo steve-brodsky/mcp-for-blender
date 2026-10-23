@@ -1,0 +1,8 @@
+{
+  "method": "Restore original detailed engine UV mapping from aligned prepared mesh and bake to current mirrored atlas",
+  "port_faces_rebaked": 15051,
+  "max_surface_correspondence_distance_m": 0.021236294880509377,
+  "geometry_modified": false,
+  "symmetry": "Shared mirrored UVs",
+  "flat_refinish": "reverted"
+}

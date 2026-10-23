@@ -1,0 +1,11 @@
+{
+  "checks": 111,
+  "dimensions_m": [
+    46.14892578125,
+    30.0639953613281,
+    101.332656860352
+  ],
+  "engine": "4.7.2-stable (official)",
+  "failures": [],
+  "triangles": 90304
+}

@@ -1,0 +1,86 @@
+{
+  "heavy_fighter.glb": {
+    "triangles": 90974,
+    "bytes": 13346936,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {
+      "heavy_fighter_emission_2k": [
+        2048,
+        2048
+      ],
+      "heavy_fighter_repaint_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "uv_bounds": [
+      [
+        [
+          0.003434771439060569,
+          0.004639267921447754
+        ],
+        [
+          0.9965407848358154,
+          0.9965652823448181
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "heavy_fighter_lod1.glb": {
+    "triangles": 36386,
+    "bytes": 2315380,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.0034348005428910255,
+          0.00465017557144165
+        ],
+        [
+          0.9965333938598633,
+          0.9965802431106567
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "heavy_fighter_lod2.glb": {
+    "triangles": 13644,
+    "bytes": 1044972,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.003434816375374794,
+          0.00465017557144165
+        ],
+        [
+          0.9965333938598633,
+          0.9965802431106567
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  }
+}

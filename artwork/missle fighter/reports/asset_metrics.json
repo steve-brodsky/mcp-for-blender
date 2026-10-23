@@ -1,0 +1,29 @@
+{
+  "source_triangles": 699874,
+  "lod0_triangles": 97088,
+  "length_m": 15.52193,
+  "scale_assumption": "Original nominal 16 m source scale retained; mirroring the port half produces 15.52 m final length",
+  "forward_godot": "-Z",
+  "up_godot": "+Y",
+  "removed_design_parts": [],
+  "smoothing_max_move_m": 0.3515716744085393,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "revision": "Closed hull, surface smoothing and six-view albedo repaint; exact bilateral hull and mirrored paint",
+  "normal_strength": 0,
+  "hull_roughness": 0.68,
+  "hull_metallic": 0.12,
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm": "retired source map, not used by revised material",
+    "normal": "retired source map, not used by revised material"
+  },
+  "uv_atlas": "GameUV atlas with intentionally shared mirrored halves",
+  "lod1_triangles": 38806,
+  "lod2_triangles": 14534,
+  "removed_isolated_debris_faces": 1,
+  "symmetry_report": "reports/symmetry.json"
+}

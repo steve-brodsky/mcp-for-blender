@@ -1,0 +1,162 @@
+{
+  "mts8_nuclear_missile": {
+    "source_triangles": 523182,
+    "triangles": 10752,
+    "dimensions_m_godot": [
+      2.393152952194214,
+      2.393152952194214,
+      7.997591018676758
+    ],
+    "min_blender": [
+      -1.196576476097107,
+      -3.998795509338379,
+      -1.196576476097107
+    ],
+    "max_blender": [
+      1.196576476097107,
+      3.998795509338379,
+      1.196576476097107
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "source_forward": [
+      -0.4423280954360962,
+      -0.709965705871582,
+      -0.5479913949966431
+    ],
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "lod_triangles": [
+      10752,
+      5376,
+      2688
+    ],
+    "revision": "precision_v2",
+    "has_recessed_nozzle": true,
+    "nose_centerline_error_m": 0.0,
+    "display_name": "MTS 8 Nuclear Missile",
+    "role": "nuclear"
+  },
+  "kr45_fusion_torpedo": {
+    "source_triangles": 121410,
+    "triangles": 7296,
+    "dimensions_m_godot": [
+      0.8260213136672974,
+      0.8260213136672974,
+      6.437681198120117
+    ],
+    "min_blender": [
+      -0.4130106568336487,
+      -3.2188405990600586,
+      -0.4130106568336487
+    ],
+    "max_blender": [
+      0.4130106568336487,
+      3.2188405990600586,
+      0.4130106568336487
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "source_forward": [
+      -0.5435632467269897,
+      -0.7126087546348572,
+      -0.4435400366783142
+    ],
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "lod_triangles": [
+      7296,
+      3648,
+      1824
+    ],
+    "revision": "precision_v2",
+    "has_recessed_nozzle": true,
+    "nose_centerline_error_m": 0.0,
+    "display_name": "KR 45 Fusion Torpedo",
+    "role": "fusion"
+  },
+  "vn113_tactical_missile": {
+    "source_triangles": 46820,
+    "triangles": 4992,
+    "dimensions_m_godot": [
+      0.43734079599380493,
+      0.43734079599380493,
+      3.7175116539001465
+    ],
+    "min_blender": [
+      -0.21867039799690247,
+      -1.8587558269500732,
+      -0.21867039799690247
+    ],
+    "max_blender": [
+      0.21867039799690247,
+      1.8587558269500732,
+      0.21867039799690247
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "source_forward": [
+      -0.5750029683113098,
+      -0.749073326587677,
+      -0.32903000712394714
+    ],
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "lod_triangles": [
+      4992,
+      2496,
+      1248
+    ],
+    "revision": "precision_v2",
+    "has_recessed_nozzle": true,
+    "nose_centerline_error_m": 0.0,
+    "display_name": "VN 113 Tactical Missile",
+    "role": "tactical"
+  },
+  "st25_scatter_missile": {
+    "source_triangles": 8572,
+    "triangles": 2624,
+    "dimensions_m_godot": [
+      0.1599999964237213,
+      0.1599999964237213,
+      1.6781330108642578
+    ],
+    "min_blender": [
+      -0.07999999821186066,
+      -0.8390665054321289,
+      -0.07999999821186066
+    ],
+    "max_blender": [
+      0.07999999821186066,
+      0.8390665054321289,
+      0.07999999821186066
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "source_forward": [
+      -0.5881379246711731,
+      -0.762496292591095,
+      -0.2696166932582855
+    ],
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "lod_triangles": [
+      2624,
+      1312,
+      656
+    ],
+    "revision": "precision_v2",
+    "has_recessed_nozzle": true,
+    "nose_centerline_error_m": 0.0,
+    "display_name": "ST 25 Interceptor Missile",
+    "role": "missile_interceptor"
+  }
+}

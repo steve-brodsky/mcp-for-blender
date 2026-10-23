@@ -1,0 +1,26 @@
+{
+  "top": {
+    "visible_weighted_vertices": 12099,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\top_clean_paint.png"
+  },
+  "bottom": {
+    "visible_weighted_vertices": 10406,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\bottom_clean_paint.png"
+  },
+  "port": {
+    "visible_weighted_vertices": 3092,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\port_clean_paint.png"
+  },
+  "starboard": {
+    "visible_weighted_vertices": 3064,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\starboard_clean_paint.png"
+  },
+  "front": {
+    "visible_weighted_vertices": 1689,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\front_clean_paint.png"
+  },
+  "rear": {
+    "visible_weighted_vertices": 3486,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\missle fighter\\textures\\repaint\\rear_clean_paint.png"
+  }
+}

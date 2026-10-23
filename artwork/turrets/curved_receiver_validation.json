@@ -1,0 +1,72 @@
+{
+  "arc_pd_system": {
+    "curved_hull_sample_count": 96,
+    "transition_bands": 12,
+    "body_albedo": "arc_pd_system_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      1824,
+      224
+    ],
+    "rear_cap_removed": true
+  },
+  "m23_light_blaster": {
+    "curved_hull_sample_count": 96,
+    "transition_bands": 12,
+    "body_albedo": "m23_light_blaster_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      1248,
+      32
+    ],
+    "rear_cap_removed": true
+  },
+  "scatter_gun": {
+    "curved_hull_sample_count": 48,
+    "transition_bands": 12,
+    "body_albedo": "scatter_gun_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      352,
+      160
+    ],
+    "rear_cap_removed": true
+  },
+  "assault_gun": {
+    "curved_hull_sample_count": 144,
+    "transition_bands": 12,
+    "body_albedo": "assault_gun_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      160,
+      192
+    ],
+    "rear_cap_removed": true
+  },
+  "nano_scatter_cannon": {
+    "curved_hull_sample_count": 96,
+    "transition_bands": 12,
+    "body_albedo": "nano_scatter_cannon_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      448,
+      320
+    ],
+    "rear_cap_removed": true
+  },
+  "m3_plasma_gun": {
+    "curved_hull_sample_count": 48,
+    "transition_bands": 12,
+    "body_albedo": "m3_plasma_gun_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      256,
+      1216
+    ],
+    "rear_cap_removed": true
+  },
+  "heavy_assault_beam": {
+    "curved_hull_sample_count": 96,
+    "transition_bands": 12,
+    "body_albedo": "heavy_assault_beam_Albedo_2K.001",
+    "barrel_patch_pixels": [
+      96,
+      608
+    ],
+    "rear_cap_removed": true
+  }
+}

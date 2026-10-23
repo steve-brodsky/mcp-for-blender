@@ -1,0 +1,18 @@
+{
+  "source_hull_meshes": 19,
+  "source_hull_evaluated_triangles": 126303,
+  "source_scene_meshes_including_linked_preview": 99,
+  "source_unique_mesh_datablocks": 46,
+  "source_socket_empties": 20,
+  "root_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "source_door_actions": [
+    "hangar_close_HANGAR_DOOR_A",
+    "hangar_close_HANGAR_DOOR_B",
+    "hangar_open_HANGAR_DOOR_A",
+    "hangar_open_HANGAR_DOOR_B"
+  ]
+}

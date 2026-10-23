@@ -1,0 +1,230 @@
+{
+  "hull_lod0": {
+    "triangles": 34461,
+    "meshes": 4,
+    "materials": 4
+  },
+  "modules": {
+    "heavy_kinetic": {
+      "triangles": 1444,
+      "meshes": 3
+    },
+    "heavy_beam": {
+      "triangles": 2316,
+      "meshes": 3
+    },
+    "medium_assault": {
+      "triangles": 1908,
+      "meshes": 3
+    },
+    "point_defense": {
+      "triangles": 966,
+      "meshes": 3
+    },
+    "missile_launcher": {
+      "triangles": 1448,
+      "meshes": 3
+    },
+    "shield_generator": {
+      "triangles": 1336,
+      "meshes": 2
+    },
+    "sensor_array": {
+      "triangles": 1644,
+      "meshes": 2
+    },
+    "fire_control": {
+      "triangles": 372,
+      "meshes": 2
+    },
+    "fighter_operations": {
+      "triangles": 364,
+      "meshes": 2
+    },
+    "aux_reactor": {
+      "triangles": 776,
+      "meshes": 2
+    }
+  },
+  "lods": {
+    "LOD1": {
+      "triangles": 19213,
+      "ratio_requested": 0.55
+    },
+    "LOD2": {
+      "triangles": 7831,
+      "ratio_requested": 0.22
+    }
+  },
+  "collision_boxes": [
+    {
+      "name": "Keel",
+      "position": [
+        0,
+        0,
+        7
+      ],
+      "size": [
+        23,
+        9,
+        70
+      ]
+    },
+    {
+      "name": "AftStarboard",
+      "position": [
+        22,
+        0,
+        29
+      ],
+      "size": [
+        14,
+        8,
+        25
+      ]
+    },
+    {
+      "name": "AftPort",
+      "position": [
+        -22,
+        0,
+        29
+      ],
+      "size": [
+        14,
+        8,
+        25
+      ]
+    },
+    {
+      "name": "ForeStarboard",
+      "position": [
+        22,
+        0,
+        -16
+      ],
+      "size": [
+        12,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "ForePort",
+      "position": [
+        -22,
+        0,
+        -16
+      ],
+      "size": [
+        12,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "BowStarboard",
+      "position": [
+        18.5,
+        0,
+        -37
+      ],
+      "size": [
+        13,
+        8,
+        32
+      ]
+    },
+    {
+      "name": "BowPort",
+      "position": [
+        -18.5,
+        0,
+        -37
+      ],
+      "size": [
+        13,
+        8,
+        32
+      ]
+    },
+    {
+      "name": "BayFloor",
+      "position": [
+        24,
+        -4.5,
+        0
+      ],
+      "size": [
+        13,
+        1.2,
+        23
+      ]
+    },
+    {
+      "name": "BayCeiling",
+      "position": [
+        24,
+        5,
+        0
+      ],
+      "size": [
+        13,
+        2,
+        23
+      ]
+    },
+    {
+      "name": "BayBack",
+      "position": [
+        16.5,
+        0,
+        0
+      ],
+      "size": [
+        2,
+        7,
+        23
+      ]
+    },
+    {
+      "name": "PortCargo",
+      "position": [
+        -25,
+        0,
+        0
+      ],
+      "size": [
+        7,
+        8,
+        23
+      ]
+    },
+    {
+      "name": "PortSideClosure",
+      "position": [
+        -23.45,
+        -0.15,
+        13.85
+      ],
+      "size": [
+        12.9,
+        8.1,
+        4.7
+      ]
+    },
+    {
+      "name": "StarboardSideClosure",
+      "position": [
+        23.45,
+        -0.15,
+        13.85
+      ],
+      "size": [
+        12.9,
+        8.1,
+        4.7
+      ]
+    }
+  ]
+}

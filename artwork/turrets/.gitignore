@@ -1,0 +1,5 @@
+.appdata/
+godot/.godot/
+*.blend1
+*.zip
+*.log

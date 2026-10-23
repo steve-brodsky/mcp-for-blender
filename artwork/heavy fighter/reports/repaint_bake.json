@@ -1,0 +1,26 @@
+{
+  "top": {
+    "visible_weighted_vertices": 11323,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\top_clean_paint.png"
+  },
+  "bottom": {
+    "visible_weighted_vertices": 8810,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\bottom_clean_paint.png"
+  },
+  "port": {
+    "visible_weighted_vertices": 2422,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\port_clean_paint.png"
+  },
+  "starboard": {
+    "visible_weighted_vertices": 2329,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\starboard_clean_paint.png"
+  },
+  "front": {
+    "visible_weighted_vertices": 1967,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\front_clean_paint.png"
+  },
+  "rear": {
+    "visible_weighted_vertices": 2749,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\heavy fighter\\textures\\repaint\\rear_clean_paint.png"
+  }
+}

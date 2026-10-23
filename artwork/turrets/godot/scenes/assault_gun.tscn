@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/assault_gun.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/turret.gd" id="2"]
+
+[sub_resource type="BoxShape3D" id="BodyShape"]
+size = Vector3(3.661478, 1.677714, 4.031296)
+
+[node name="assault_gun" type="Node3D"]
+script = ExtResource("2")
+asset_id = "assault_gun"
+
+[node name="YawPivot" type="Node3D" parent="."]
+
+[node name="Visual" parent="YawPivot" instance=ExtResource("1")]
+
+[node name="HitBody" type="StaticBody3D" parent="YawPivot"]
+collision_layer = 2
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="YawPivot/HitBody"]
+position = Vector3(-0.104020, 1.096964, -0.246822)
+shape = SubResource("BodyShape")
+
+[node name="Muzzles" type="Node3D" parent="YawPivot"]
+
+[node name="Muzzle01" type="Marker3D" parent="YawPivot/Muzzles"]
+position = Vector3(-0.969174, 1.063532, -4.950000)
+
+[node name="Muzzle02" type="Marker3D" parent="YawPivot/Muzzles"]
+position = Vector3(0.000000, 1.063532, -4.350000)
+
+[node name="Muzzle03" type="Marker3D" parent="YawPivot/Muzzles"]
+position = Vector3(0.969174, 1.063532, -4.950000)

@@ -1,0 +1,51 @@
+{
+  "arc_pd_system": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 21,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 1,
+    "collar_rear_overlap_m": 0.7
+  },
+  "m23_light_blaster": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 11,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 3,
+    "collar_rear_overlap_m": 0.7
+  },
+  "scatter_gun": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 31,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 0,
+    "collar_rear_overlap_m": 0.7
+  },
+  "assault_gun": {
+    "mirror_error_m": 1.1102230246251565e-16,
+    "front_skin_boundary_edges_before": 182,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 2,
+    "collar_rear_overlap_m": 0.7
+  },
+  "nano_scatter_cannon": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 118,
+    "front_skin_boundary_edges_after": 2,
+    "filled_receiver_faces": 2,
+    "collar_rear_overlap_m": 0.7
+  },
+  "m3_plasma_gun": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 86,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 2,
+    "collar_rear_overlap_m": 0.7
+  },
+  "heavy_assault_beam": {
+    "mirror_error_m": 0.0,
+    "front_skin_boundary_edges_before": 83,
+    "front_skin_boundary_edges_after": 0,
+    "filled_receiver_faces": 5,
+    "collar_rear_overlap_m": 0.7
+  }
+}

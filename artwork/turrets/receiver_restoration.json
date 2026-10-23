@@ -1,0 +1,37 @@
+{
+  "arc_pd_system": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 2,
+    "global_front_cap": false
+  },
+  "m23_light_blaster": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 2,
+    "global_front_cap": false
+  },
+  "scatter_gun": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 1,
+    "global_front_cap": false
+  },
+  "assault_gun": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 3,
+    "global_front_cap": false
+  },
+  "nano_scatter_cannon": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 2,
+    "global_front_cap": false
+  },
+  "m3_plasma_gun": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 1,
+    "global_front_cap": false
+  },
+  "heavy_assault_beam": {
+    "restored_textured_housing": true,
+    "local_socket_cuts": 2,
+    "global_front_cap": false
+  }
+}

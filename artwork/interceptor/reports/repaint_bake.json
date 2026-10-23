@@ -1,0 +1,18 @@
+{
+  "top": {
+    "visible_weighted_vertices": 7761,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\interceptor\\textures\\repaint\\top_clean_paint.png"
+  },
+  "bottom": {
+    "visible_weighted_vertices": 6347,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\interceptor\\textures\\repaint\\bottom_clean_paint.png"
+  },
+  "port": {
+    "visible_weighted_vertices": 1990,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\interceptor\\textures\\repaint\\port_clean_paint.png"
+  },
+  "starboard": {
+    "visible_weighted_vertices": 2011,
+    "image": "C:\\Dev\\BlenderMCP\\artwork\\interceptor\\textures\\repaint\\starboard_clean_paint.png"
+  }
+}

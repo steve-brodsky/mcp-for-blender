@@ -1,0 +1,14 @@
+{
+  "plane": "Blender X=0 / Godot X=0",
+  "retained_half": "port (negative X)",
+  "method": "Bisect centerline and mirror geometry with existing UV coordinates",
+  "paint": "Mirrored UVs intentionally share the retained half of the atlas",
+  "before_triangles": 90980,
+  "after_triangles": 90974,
+  "max_reflected_vertex_error_m": 0.0,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "backup": "blender/previous/heavy_fighter_before_symmetry.blend"
+}

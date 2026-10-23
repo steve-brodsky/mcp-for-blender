@@ -1,0 +1,15 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792729130
+::res://assets/::1792729524
+missile_fighter.glb::PackedScene::9012353786361787184::1792729500::1792729523::1::::<><><>0<>0<>1f29d6296b83f128634f6f42d06ebba5<>res://.godot/imported/missile_fighter.glb-7aefe665b09595e99e93ff8736c8fff2.scn::uid://bt56tgmxsl7av::::res://assets/missile_fighter_missile_fighter_repaint_basecolor_4k.png<>uid://csbxesyn24u7y::::res://assets/missile_fighter_missile_fighter_emission_2k.png
+missile_fighter_lod1.glb::PackedScene::9198372086337578483::1792729500::1792729524::1::::<><><>0<>0<>cfbe29ee866c4c6b3fa91a9a530478f3<>res://.godot/imported/missile_fighter_lod1.glb-cbf82ab01f39d0b455de3993c8fa5565.scn::
+missile_fighter_lod2.glb::PackedScene::6085279832409408385::1792729501::1792729524::1::::<><><>0<>0<>59b478eb7ebb5e6fd266be19643d1690<>res://.godot/imported/missile_fighter_lod2.glb-81b0150b5f748e5c8764a45af4605ae1.scn::
+missile_fighter_missile_fighter_emission_2k.png::CompressedTexture2D::6039709547757607264::1792729132::1792729518::1::::<><><>0<>0<>344e7414dcd38845954041cb22cc0658<>res://.godot/imported/missile_fighter_missile_fighter_emission_2k.png-7e7e70b882b7c3dc619ce2c7f806986b.ctex::
+missile_fighter_missile_fighter_repaint_basecolor_4k.png::CompressedTexture2D::3783856537044755053::1792729132::1792729522::1::::<><><>0<>0<>b99be9a33a2a024b49d3d61f6b304ca6<>res://.godot/imported/missile_fighter_missile_fighter_repaint_basecolor_4k.png-9e6755779855de7183466fba818101f7.ctex::
+::res://scenes/::1792729056
+missile_fighter.tscn::PackedScene::-1::1792729515::0::1::::<><><>0<>0<><>::res://assets/missile_fighter.glb<>res://assets/missile_fighter_lod1.glb<>res://assets/missile_fighter_lod2.glb<>res://scripts/missile_fighter.gd
+preview.tscn::PackedScene::-1::1792728731::0::1::::<><><>0<>0<><>::res://scripts/preview.gd
+::res://scripts/::1792729132
+missile_fighter.gd::GDScript::8077201958139970525::1792729036::0::1::::<>CharacterBody3D<><>0<>0<><>::
+preview.gd::GDScript::7333099744225805895::1792729036::0::1::::<>Node3D<><>0<>0<><>::
+validate.gd::GDScript::6447322041410186070::1792729036::0::1::::<>SceneTree<><>0<>0<><>::

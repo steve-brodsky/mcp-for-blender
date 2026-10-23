@@ -1,0 +1,22 @@
+{
+  "source": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  },
+  "game": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  }
+}

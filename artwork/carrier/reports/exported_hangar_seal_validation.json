@@ -1,0 +1,42 @@
+{
+  "exports/carrier_hull.glb": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  },
+  "exports/lods/carrier_lod0.glb": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  },
+  "exports/lods/carrier_lod1.glb": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  },
+  "exports/lods/carrier_lod2.glb": {
+    "closed": {
+      "ray_count": 225,
+      "failures": []
+    },
+    "open": {
+      "ray_count": 225,
+      "failures": []
+    }
+  }
+}

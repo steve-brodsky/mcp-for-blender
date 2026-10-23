@@ -1,0 +1,17 @@
+{
+  "method": "Evaluated actual-hull triangle BVH overlap with all six fighter envelope faces",
+  "fighter_blender_dimensions": [
+    9,
+    7,
+    2.5
+  ],
+  "center_z": -1.3,
+  "samples": 81,
+  "path_x": [
+    23,
+    42
+  ],
+  "open_hangar_intersections": [],
+  "passed": true,
+  "limitation": "Surface-intersection sweep; Godot separately tests the complete volume against solid collision proxies."
+}

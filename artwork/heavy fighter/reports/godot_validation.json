@@ -1,0 +1,27 @@
+{
+	"collisions": 3,
+	"engine": "4.7.2-stable (official)",
+	"lods": [
+		{
+			"bounds": "[P: (-5.019279, -2.256929, -7.999525), S: (10.03856, 4.519346, 16.00148)]",
+			"surfaces": 1,
+			"triangles": 90974
+		},
+		{
+			"bounds": "[P: (-5.020557, -2.25857, -7.992381), S: (10.04111, 4.523168, 15.99877)]",
+			"surfaces": 1,
+			"triangles": 36386
+		},
+		{
+			"bounds": "[P: (-5.009576, -2.270591, -7.992381), S: (10.01915, 4.524585, 16.00016)]",
+			"surfaces": 1,
+			"triangles": 13644
+		}
+	],
+	"material": {
+		"albedo_size": "(4096.0, 4096.0)",
+		"emission_enabled": true,
+		"emission_size": "(2048.0, 2048.0)"
+	},
+	"physics_ray_hit": true
+}

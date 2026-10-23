@@ -1,0 +1,518 @@
+{
+  "file": "C:\\Dev\\BlenderMCP\\medieval_watchtower.blend",
+  "version": "5.1.0",
+  "components": {
+    "EXCLUDE_RIG": {
+      "objects": 4,
+      "base_triangles": 0,
+      "evaluated_triangles": 0,
+      "modifiers": 0
+    },
+    "EXCLUDE_SET": {
+      "objects": 12,
+      "base_triangles": 240,
+      "evaluated_triangles": 400,
+      "modifiers": 10
+    },
+    "Foundation": {
+      "objects": 6,
+      "base_triangles": 72,
+      "evaluated_triangles": 264,
+      "modifiers": 12
+    },
+    "Masonry": {
+      "objects": 225,
+      "base_triangles": 2700,
+      "evaluated_triangles": 9900,
+      "modifiers": 450
+    },
+    "Doorway": {
+      "objects": 22,
+      "base_triangles": 372,
+      "evaluated_triangles": 1044,
+      "modifiers": 42
+    },
+    "Windows": {
+      "objects": 16,
+      "base_triangles": 192,
+      "evaluated_triangles": 704,
+      "modifiers": 32
+    },
+    "Lookout": {
+      "objects": 57,
+      "base_triangles": 684,
+      "evaluated_triangles": 2508,
+      "modifiers": 114
+    },
+    "Roof": {
+      "objects": 193,
+      "base_triangles": 472,
+      "evaluated_triangles": 2560,
+      "modifiers": 198
+    }
+  },
+  "materials": {
+    "Earth": {
+      "objects": 1,
+      "asset_objects": 0
+    },
+    "Meadow": {
+      "objects": 1,
+      "asset_objects": 0
+    },
+    "Backdrop": {
+      "objects": 1,
+      "asset_objects": 0
+    },
+    "Limestone 3": {
+      "objects": 53,
+      "asset_objects": 51
+    },
+    "Dressed sandstone": {
+      "objects": 19,
+      "asset_objects": 19
+    },
+    "Limestone 0": {
+      "objects": 51,
+      "asset_objects": 50
+    },
+    "Limestone 4": {
+      "objects": 48,
+      "asset_objects": 45
+    },
+    "Limestone 1": {
+      "objects": 40,
+      "asset_objects": 39
+    },
+    "Limestone 2": {
+      "objects": 46,
+      "asset_objects": 44
+    },
+    "Door oak": {
+      "objects": 6,
+      "asset_objects": 6
+    },
+    "Forged iron": {
+      "objects": 15,
+      "asset_objects": 15
+    },
+    "Dark oak": {
+      "objects": 58,
+      "asset_objects": 58
+    },
+    "Cedar 0": {
+      "objects": 42,
+      "asset_objects": 42
+    },
+    "Cedar 1": {
+      "objects": 39,
+      "asset_objects": 39
+    },
+    "Cedar 2": {
+      "objects": 32,
+      "asset_objects": 32
+    },
+    "Cedar 3": {
+      "objects": 39,
+      "asset_objects": 39
+    },
+    "Cedar 4": {
+      "objects": 40,
+      "asset_objects": 40
+    }
+  },
+  "modifiers": {
+    "BEVEL": 339,
+    "WEIGHTED_NORMAL": 339,
+    "SOLIDIFY": 180
+  },
+  "unapplied_scale": [
+    "Meadow rock",
+    "Meadow rock.001",
+    "Meadow rock.002",
+    "Meadow rock.003"
+  ],
+  "shared_meshes": [],
+  "identical_local_geometry_groups": [
+    {
+      "count": 151,
+      "examples": [
+        "Masonry block",
+        "Masonry block.003",
+        "Masonry block.005",
+        "Masonry block.008",
+        "Masonry block.010"
+      ]
+    },
+    {
+      "count": 6,
+      "examples": [
+        "Masonry block.001",
+        "Masonry block.002",
+        "Masonry block.011",
+        "Masonry block.012",
+        "Masonry block.021"
+      ]
+    },
+    {
+      "count": 40,
+      "examples": [
+        "Masonry block.004",
+        "Masonry block.009",
+        "Masonry block.014",
+        "Masonry block.019",
+        "Masonry block.024"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Masonry block.006",
+        "Masonry block.007",
+        "Masonry block.016",
+        "Masonry block.017"
+      ]
+    },
+    {
+      "count": 16,
+      "examples": [
+        "Masonry block.032",
+        "Masonry block.033",
+        "Masonry block.044",
+        "Masonry block.045",
+        "Masonry block.089"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "Masonry block.038",
+        "Masonry block.039",
+        "Masonry block.095",
+        "Masonry block.096",
+        "Masonry block.152"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "Door jamb",
+        "Door jamb.001",
+        "Door jamb.002",
+        "Door jamb.003",
+        "Door jamb.004"
+      ]
+    },
+    {
+      "count": 6,
+      "examples": [
+        "Door board",
+        "Door board.001",
+        "Door board.002",
+        "Door board.003",
+        "Door board.004"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "Iron door strap",
+        "Iron door strap.001"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Door rivet",
+        "Door rivet.001",
+        "Door rivet.002",
+        "Door rivet.003"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "Window sill",
+        "Window lintel",
+        "Window sill.001",
+        "Window lintel.001",
+        "Window sill.002"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "Window bar",
+        "Window bar.001",
+        "Window bar.002",
+        "Window bar.003",
+        "Window bar.004"
+      ]
+    },
+    {
+      "count": 12,
+      "examples": [
+        "Lookout floor plank",
+        "Lookout floor plank.001",
+        "Lookout floor plank.002",
+        "Lookout floor plank.003",
+        "Lookout floor plank.004"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Lookout post",
+        "Lookout post.001",
+        "Lookout post.002",
+        "Lookout post.003"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "Diagonal brace",
+        "Diagonal brace.001",
+        "Diagonal brace.002",
+        "Diagonal brace.003",
+        "Diagonal brace.004"
+      ]
+    },
+    {
+      "count": 12,
+      "examples": [
+        "Lookout rail",
+        "Lookout rail.001",
+        "Lookout rail.002",
+        "Lookout rail.003",
+        "Lookout rail.004"
+      ]
+    },
+    {
+      "count": 20,
+      "examples": [
+        "Railing upright",
+        "Railing upright.001",
+        "Railing upright.002",
+        "Railing upright.003",
+        "Railing upright.004"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Eave fascia",
+        "Eave fascia.001",
+        "Eave fascia.002",
+        "Eave fascia.003"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Hip ridge cap",
+        "Hip ridge cap.001",
+        "Hip ridge cap.002",
+        "Hip ridge cap.003"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "Meadow rock",
+        "Meadow rock.001",
+        "Meadow rock.002",
+        "Meadow rock.003"
+      ]
+    }
+  ],
+  "missing_uv_count": 184,
+  "unapplied_rotation_count": 239,
+  "unapplied_rotation_examples": [
+    "Masonry block.054",
+    "Masonry block.055",
+    "Masonry block.056",
+    "Masonry block.057",
+    "Masonry block.058",
+    "Masonry block.059",
+    "Masonry block.060",
+    "Masonry block.061",
+    "Masonry block.062",
+    "Masonry block.063",
+    "Masonry block.064",
+    "Masonry block.065"
+  ],
+  "missing_uv_examples": [
+    "Roof backing",
+    "Cedar roof shingle",
+    "Cedar roof shingle.001",
+    "Cedar roof shingle.002",
+    "Cedar roof shingle.003",
+    "Cedar roof shingle.004",
+    "Cedar roof shingle.005",
+    "Cedar roof shingle.006",
+    "Cedar roof shingle.007",
+    "Cedar roof shingle.008",
+    "Cedar roof shingle.009",
+    "Cedar roof shingle.010"
+  ],
+  "asset_triangles": 16980,
+  "full_triangles": 17380,
+  "asset_objects": 519,
+  "asset_modifiers": 848,
+  "bounds": {
+    "min": [
+      -3.0350000858306885,
+      -3.240000009536743,
+      0.06000000238418579
+    ],
+    "max": [
+      3.0350000858306885,
+      3.0350000858306885,
+      10.15999984741211
+    ]
+  },
+  "material_properties": {
+    "Limestone 3": {
+      "color": [
+        0.38999998569488525,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Dressed sandstone": {
+      "color": [
+        0.6600000262260437,
+        0.6100000143051147,
+        0.4699999988079071,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Limestone 4": {
+      "color": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.4399999976158142,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Limestone 1": {
+      "color": [
+        0.5099999904632568,
+        0.5199999809265137,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Limestone 0": {
+      "color": [
+        0.4300000071525574,
+        0.46000000834465027,
+        0.4300000071525574,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Limestone 2": {
+      "color": [
+        0.5699999928474426,
+        0.5600000023841858,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Cedar 0": {
+      "color": [
+        0.3400000035762787,
+        0.1599999964237213,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Cedar 1": {
+      "color": [
+        0.4300000071525574,
+        0.2199999988079071,
+        0.09000000357627869,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Cedar 2": {
+      "color": [
+        0.49000000953674316,
+        0.27000001072883606,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Cedar 3": {
+      "color": [
+        0.3799999952316284,
+        0.1899999976158142,
+        0.07000000029802322,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Door oak": {
+      "color": [
+        0.3100000023841858,
+        0.1599999964237213,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Forged iron": {
+      "color": [
+        0.06499999761581421,
+        0.07500000298023224,
+        0.07199999690055847,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.6499999761581421
+    },
+    "Cedar 4": {
+      "color": [
+        0.5299999713897705,
+        0.30000001192092896,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "Dark oak": {
+      "color": [
+        0.20999999344348907,
+        0.10499999672174454,
+        0.04699999839067459,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    }
+  },
+  "baseline_glb_bytes": 1145212
+}

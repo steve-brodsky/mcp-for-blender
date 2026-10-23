@@ -1,0 +1,24 @@
+{
+  "renderer": "Godot 4.7.2 Compatibility / NVIDIA RTX 3080",
+  "views": [
+    "beauty",
+    "top",
+    "rear",
+    "underside",
+    "side",
+    "front"
+  ],
+  "visual_review": "Current top, front, rear and perspective captures show matched missile banks, engines and mirrored paint. All three GLB buffer checks report zero reflected position and UV error.",
+  "geometry": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "buffer_validation": "glb_validation.json",
+  "runtime_validation": "godot_validation.json",
+  "source_preserved": "blender/missile_fighter_original.blend",
+  "environment_messages": [
+    "Restricted user directory, log, editor settings and shader cache writes",
+    "Windows certificate-store read failed; no network needed for asset import"
+  ],
+  "symmetry_report": "symmetry.json"
+}

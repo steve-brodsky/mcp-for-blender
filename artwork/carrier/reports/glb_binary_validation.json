@@ -1,0 +1,830 @@
+{
+  "files": {
+    "exports/carrier_hull.glb": {
+      "triangles": 34461,
+      "mesh_count": 4,
+      "draw_surfaces": 7,
+      "materials": 4,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 8063316,
+      "sha256": "f191172b8ea76adc5fc3d8f31c2ad2bf2aefc47cc3e6253d5d28be1e757ae9cd",
+      "socket_position_mismatches": [],
+      "socket_count": 20,
+      "swappable_modules_baked_in": false,
+      "engine_emission_separate": true,
+      "door_nodes": [
+        "HANGAR_DOOR_A",
+        "HANGAR_DOOR_B"
+      ]
+    },
+    "exports/lods/carrier_lod0.glb": {
+      "triangles": 34461,
+      "mesh_count": 4,
+      "draw_surfaces": 7,
+      "materials": 4,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 8063316,
+      "sha256": "f191172b8ea76adc5fc3d8f31c2ad2bf2aefc47cc3e6253d5d28be1e757ae9cd"
+    },
+    "exports/lods/carrier_lod1.glb": {
+      "triangles": 19213,
+      "mesh_count": 4,
+      "draw_surfaces": 7,
+      "materials": 4,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 7283364,
+      "sha256": "56bbc0bdb637f5402facc93df60f91cb6347ea042b532c6060287a9468b7838a"
+    },
+    "exports/lods/carrier_lod2.glb": {
+      "triangles": 7831,
+      "mesh_count": 4,
+      "draw_surfaces": 7,
+      "materials": 4,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 6416172,
+      "sha256": "0cbcf4352105e567674ff3428bbbebc0f2814a92253297b5ce45243cd0c31123"
+    },
+    "exports/subsystems/aux_reactor.glb": {
+      "triangles": 776,
+      "mesh_count": 2,
+      "draw_surfaces": 3,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5710456,
+      "sha256": "e550fb7082cd15a4b07d47864a4b5ab07326f10a86c6c94cb56518d514e3b9d8"
+    },
+    "exports/subsystems/fighter_operations.glb": {
+      "triangles": 364,
+      "mesh_count": 2,
+      "draw_surfaces": 3,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5682512,
+      "sha256": "04a5fe3afd9cf05ee14217d7933524d3660271d110aef42733ef5efbbf02470d"
+    },
+    "exports/subsystems/fire_control.glb": {
+      "triangles": 372,
+      "mesh_count": 2,
+      "draw_surfaces": 3,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5682936,
+      "sha256": "c332cd2d5341468a22dc0589de2a12315b5f3da600dd542a24df5fbf0a703262"
+    },
+    "exports/subsystems/sensor_array.glb": {
+      "triangles": 1644,
+      "mesh_count": 2,
+      "draw_surfaces": 3,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5772208,
+      "sha256": "428ec167b77b9747d77c11a3bb1284b47ec6b8b7f9881e740d04768aebe60c41"
+    },
+    "exports/subsystems/shield_generator.glb": {
+      "triangles": 1336,
+      "mesh_count": 2,
+      "draw_surfaces": 3,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5750424,
+      "sha256": "7a9b5fd72773d58429790a0b11d6962c0891c844ef084094151b4932a4e68d8f"
+    },
+    "exports/weapons/heavy_beam.glb": {
+      "triangles": 2316,
+      "mesh_count": 3,
+      "draw_surfaces": 5,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5818908,
+      "sha256": "7063c4c3f6a6b200ef810280885afd0278d909467052d0a9f8679c84268efb11"
+    },
+    "exports/weapons/heavy_kinetic.glb": {
+      "triangles": 1444,
+      "mesh_count": 3,
+      "draw_surfaces": 3,
+      "materials": 1,
+      "images": 3,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5676016,
+      "sha256": "e2438276ce2c434734920fb9e46925c190059887675a6fedb742d2e75216890e"
+    },
+    "exports/weapons/medium_assault.glb": {
+      "triangles": 1908,
+      "mesh_count": 3,
+      "draw_surfaces": 3,
+      "materials": 1,
+      "images": 3,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5711176,
+      "sha256": "a18b318c40f15e5e9ee6401f4ef9ac7f71338363901f331dfc7a93473422a5bb"
+    },
+    "exports/weapons/missile_launcher.glb": {
+      "triangles": 1448,
+      "mesh_count": 3,
+      "draw_surfaces": 4,
+      "materials": 2,
+      "images": 4,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5759640,
+      "sha256": "327e70cbc1600797d6dfb42531c880f067b58d33ec7351015efa25befec6a34e"
+    },
+    "exports/weapons/point_defense.glb": {
+      "triangles": 966,
+      "mesh_count": 3,
+      "draw_surfaces": 3,
+      "materials": 1,
+      "images": 3,
+      "image_dimensions": [
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "uv_missing": 0,
+      "atlas_tiles_used": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "non_unit_normals": 0,
+      "invalid_indices": 0,
+      "zero_area_triangles": 0,
+      "scene_count": 1,
+      "bytes": 5673192,
+      "sha256": "4cb57c0cf7e1941fa3335f1ad055a947944bf195816138b3d762af4fe4769f99"
+    }
+  },
+  "errors": [],
+  "passed": true
+}

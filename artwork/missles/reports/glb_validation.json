@@ -1,0 +1,158 @@
+{
+  "kr45_fusion_torpedo.glb": {
+    "triangles": 7296,
+    "bytes": 311376,
+    "embedded_images": [
+      [
+        2048,
+        2048
+      ],
+      [
+        2048,
+        2048
+      ]
+    ],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "kr45_fusion_torpedo_lod1.glb": {
+    "triangles": 3648,
+    "bytes": 86248,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "kr45_fusion_torpedo_lod2.glb": {
+    "triangles": 1824,
+    "bytes": 44584,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "mts8_nuclear_missile.glb": {
+    "triangles": 10752,
+    "bytes": 384920,
+    "embedded_images": [
+      [
+        2048,
+        2048
+      ],
+      [
+        2048,
+        2048
+      ]
+    ],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "mts8_nuclear_missile_lod1.glb": {
+    "triangles": 5376,
+    "bytes": 125764,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "mts8_nuclear_missile_lod2.glb": {
+    "triangles": 2688,
+    "bytes": 64324,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "st25_scatter_missile.glb": {
+    "triangles": 2624,
+    "bytes": 106020,
+    "embedded_images": [
+      [
+        1024,
+        1024
+      ],
+      [
+        1024,
+        1024
+      ]
+    ],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "st25_scatter_missile_lod1.glb": {
+    "triangles": 1312,
+    "bytes": 32804,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "st25_scatter_missile_lod2.glb": {
+    "triangles": 656,
+    "bytes": 17608,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "vn113_tactical_missile.glb": {
+    "triangles": 4992,
+    "bytes": 158736,
+    "embedded_images": [
+      [
+        1024,
+        1024
+      ],
+      [
+        1024,
+        1024
+      ]
+    ],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "vn113_tactical_missile_lod1.glb": {
+    "triangles": 2496,
+    "bytes": 59984,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  },
+  "vn113_tactical_missile_lod2.glb": {
+    "triangles": 1248,
+    "bytes": 31372,
+    "embedded_images": [],
+    "finite_buffers": true,
+    "unit_normals": true,
+    "valid_triangle_indices": true,
+    "zero_degenerate_triangles": true,
+    "tip_axis_error_m": 0.0
+  }
+}

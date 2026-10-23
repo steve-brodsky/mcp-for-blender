@@ -1,0 +1,662 @@
+{
+  "game": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ],
+  "source": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ],
+  "exports/carrier_hull.glb": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ],
+  "exports/lods/carrier_lod0.glb": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ],
+  "exports/lods/carrier_lod1.glb": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ],
+  "exports/lods/carrier_lod2.glb": [
+    {
+      "side": -1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": -1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -15,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -14,
+      "z": 3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": -3,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 0,
+      "solid": true
+    },
+    {
+      "side": 1,
+      "y": -13,
+      "z": 3,
+      "solid": true
+    }
+  ]
+}

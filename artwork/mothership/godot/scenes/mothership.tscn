@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/mothership.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/mothership.gd" id="2"]
+[sub_resource type="BoxShape3D" id="Core"]
+size = Vector3(21, 16, 91)
+[sub_resource type="BoxShape3D" id="SideFore"]
+size = Vector3(10, 12, 38)
+[sub_resource type="BoxShape3D" id="SideAft"]
+size = Vector3(10, 12, 34)
+[sub_resource type="BoxShape3D" id="BayDeck"]
+size = Vector3(12, 0.4, 12)
+
+[node name="Mothership" type="Node3D"]
+script = ExtResource("2")
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="HangarSpawn" type="Marker3D" parent="."]
+position = Vector3(14, 1.0, 6)
+rotation = Vector3(0, -1.5707963, 0)
+[node name="HangarExit" type="Marker3D" parent="."]
+position = Vector3(26, 1.0, 6)
+rotation = Vector3(0, -1.5707963, 0)
+[node name="HangarApproach" type="Marker3D" parent="."]
+position = Vector3(45, 1.0, 6)
+rotation = Vector3(0, -1.5707963, 0)
+
+[node name="PortHangarSpawn" type="Marker3D" parent="."]
+position = Vector3(-14, 5.0, 5)
+rotation = Vector3(0, 1.5707963, 0)
+[node name="PortHangarExit" type="Marker3D" parent="."]
+position = Vector3(-26, 5.0, 5)
+rotation = Vector3(0, 1.5707963, 0)
+[node name="PortHangarApproach" type="Marker3D" parent="."]
+position = Vector3(-45, 5.0, 5)
+rotation = Vector3(0, 1.5707963, 0)
+
+[node name="BayLight" type="OmniLight3D" parent="."]
+position = Vector3(18, 2.7, 6)
+light_color = Color(0.06, 0.44, 1, 1)
+light_energy = 2.8
+omni_range = 13.0
+omni_attenuation = 1.4
+
+[node name="PortBayLight" type="OmniLight3D" parent="."]
+position = Vector3(-17, 6.7, 5)
+light_color = Color(0.06, 0.44, 1, 1)
+light_energy = 2.8
+omni_range = 13.0
+omni_attenuation = 1.4
+
+[node name="Collision" type="StaticBody3D" parent="."]
+[node name="Core" type="CollisionShape3D" parent="Collision"]
+position = Vector3(0, -1, -4)
+shape = SubResource("Core")
+[node name="PortFore" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-16, 1, -21)
+shape = SubResource("SideFore")
+[node name="PortAft" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-16, 1, 30)
+shape = SubResource("SideAft")
+[node name="StarboardFore" type="CollisionShape3D" parent="Collision"]
+position = Vector3(16, 1, -21)
+shape = SubResource("SideFore")
+[node name="StarboardAft" type="CollisionShape3D" parent="Collision"]
+position = Vector3(16, 1, 30)
+shape = SubResource("SideAft")
+[node name="HangarDeck" type="CollisionShape3D" parent="Collision"]
+position = Vector3(16, -0.8, 6)
+shape = SubResource("BayDeck")
+
+[node name="PortHangarDeck" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-16, 3.2, 5)
+shape = SubResource("BayDeck")

@@ -1,0 +1,25 @@
+{
+  "blender_dimensions_m": [
+    61.34000015258789,
+    106.0,
+    22.670000076293945
+  ],
+  "godot_dimensions_m": [
+    61.34000015258789,
+    22.670000076293945,
+    106.0
+  ],
+  "root_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "game_hull_meshes": 4,
+  "modifiers_on_hull": 0,
+  "game_hull_names": [
+    "GAME__ENGINE_EMISSION",
+    "GAME__HANGAR_DOOR_A",
+    "GAME__HANGAR_DOOR_B",
+    "HULL_LOD0"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "exports/carrier_hull.glb": {
+    "triangles": 34461,
+    "meshes": 4,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 7
+  },
+  "exports/lods/carrier_lod0.glb": {
+    "triangles": 34461,
+    "meshes": 4,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 7
+  },
+  "exports/lods/carrier_lod1.glb": {
+    "triangles": 19213,
+    "meshes": 4,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 7
+  },
+  "exports/lods/carrier_lod2.glb": {
+    "triangles": 7831,
+    "meshes": 4,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 7
+  },
+  "exports/subsystems/aux_reactor.glb": {
+    "triangles": 776,
+    "meshes": 2,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/subsystems/fighter_operations.glb": {
+    "triangles": 364,
+    "meshes": 2,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/subsystems/fire_control.glb": {
+    "triangles": 372,
+    "meshes": 2,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/subsystems/sensor_array.glb": {
+    "triangles": 1644,
+    "meshes": 2,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/subsystems/shield_generator.glb": {
+    "triangles": 1336,
+    "meshes": 2,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/weapons/heavy_beam.glb": {
+    "triangles": 2316,
+    "meshes": 3,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 5
+  },
+  "exports/weapons/heavy_kinetic.glb": {
+    "triangles": 1444,
+    "meshes": 3,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/weapons/medium_assault.glb": {
+    "triangles": 1908,
+    "meshes": 3,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  },
+  "exports/weapons/missile_launcher.glb": {
+    "triangles": 1448,
+    "meshes": 3,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 4
+  },
+  "exports/weapons/point_defense.glb": {
+    "triangles": 966,
+    "meshes": 3,
+    "uv_missing": [],
+    "modifiers_remaining": 0,
+    "draw_surfaces": 3
+  }
+}

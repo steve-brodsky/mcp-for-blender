@@ -1,0 +1,74 @@
+{
+  "interception_missile": {
+    "valid": true,
+    "triangles": 4500,
+    "surfaces": 1,
+    "embedded_images": 1,
+    "degenerate_triangles": 0,
+    "bytes": 3881128
+  },
+  "arc_pd_system": {
+    "valid": true,
+    "triangles": 7226,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 6708776
+  },
+  "m23_light_blaster": {
+    "valid": true,
+    "triangles": 6738,
+    "surfaces": 5,
+    "embedded_images": 1,
+    "degenerate_triangles": 0,
+    "bytes": 3553320
+  },
+  "assault_gun": {
+    "valid": true,
+    "triangles": 10847,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 7081276
+  },
+  "scatter_gun": {
+    "valid": true,
+    "triangles": 4656,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 6651524
+  },
+  "nano_scatter_cannon": {
+    "valid": true,
+    "triangles": 9440,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 7463852
+  },
+  "m3_plasma_gun": {
+    "valid": true,
+    "triangles": 6450,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 7089544
+  },
+  "kinetic_siege_cannon": {
+    "valid": true,
+    "triangles": 10790,
+    "surfaces": 4,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 7554460
+  },
+  "heavy_assault_beam": {
+    "valid": true,
+    "triangles": 13620,
+    "surfaces": 6,
+    "embedded_images": 2,
+    "degenerate_triangles": 0,
+    "bytes": 7518872
+  }
+}

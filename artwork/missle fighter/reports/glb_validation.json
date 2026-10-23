@@ -1,0 +1,86 @@
+{
+  "missile_fighter.glb": {
+    "triangles": 97088,
+    "bytes": 14481668,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {
+      "missile_fighter_emission_2k": [
+        2048,
+        2048
+      ],
+      "missile_fighter_repaint_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "uv_bounds": [
+      [
+        [
+          0.0034017038997262716,
+          0.003401815891265869
+        ],
+        [
+          0.9953925013542175,
+          0.9965983033180237
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "missile_fighter_lod1.glb": {
+    "triangles": 38806,
+    "bytes": 2285840,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.003400317393243313,
+          0.0035366415977478027
+        ],
+        [
+          0.9953925013542175,
+          0.9965983033180237
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "missile_fighter_lod2.glb": {
+    "triangles": 14534,
+    "bytes": 1042344,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.003401719033718109,
+          0.0035366415977478027
+        ],
+        [
+          0.9952646493911743,
+          0.9965983033180237
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"checks": 188,
+	"engine": "4.7.2-stable (official)",
+	"expiry_signals": 4,
+	"failures": [],
+	"swept_impacts": 4
+}

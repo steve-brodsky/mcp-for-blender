@@ -1,0 +1,43 @@
+{
+  "meshes": {
+    "Hangar_Architecture": {
+      "triangles": 12211,
+      "materials": 8
+    },
+    "Hangar_Architecture_Port": {
+      "triangles": 12209,
+      "materials": 8
+    },
+    "Hangar_Forcefield": {
+      "triangles": 2208,
+      "materials": 1
+    },
+    "Hangar_Forcefield_Port": {
+      "triangles": 2208,
+      "materials": 1
+    },
+    "Hangar_Hull_Collar_Port": {
+      "triangles": 1152,
+      "materials": 1
+    },
+    "Hangar_Hull_Collar_Starboard": {
+      "triangles": 1152,
+      "materials": 1
+    },
+    "Mothership_Hull": {
+      "triangles": 59164,
+      "materials": 1
+    }
+  },
+  "original_triangles": 699864,
+  "coordinates": "Godot: -Z forward, +X starboard, +Y up",
+  "notes": [
+    "Top and side albedo repainted and baked into a view-packed UV atlas with continuous projection blends; 8K base color and 2K ORM",
+    "Added hull plates and service housing overlays removed",
+    "Two independently fitted recessed hangars with curved blue forcefields and thin hull-textured contact collars; no mechanical doors",
+    "Port bay follows the higher opposite hull slot rather than using an inaccurate centered mirror",
+    "Welded split vertices before noise smoothing",
+    "No noisy reconstruction normal map; mesh normals supply geometric shading"
+  ],
+  "total_triangles": 90304
+}

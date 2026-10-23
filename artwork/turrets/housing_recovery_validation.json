@@ -1,0 +1,22 @@
+{
+  "assault_gun": {
+    "housing_restored": true,
+    "body_triangles": 8987,
+    "mirrored_housing": false
+  },
+  "scatter_gun": {
+    "housing_restored": true,
+    "body_triangles": 4036,
+    "mirrored_housing": false
+  },
+  "m3_plasma_gun": {
+    "housing_restored": true,
+    "body_triangles": 5830,
+    "mirrored_housing": true
+  },
+  "nano_scatter_cannon": {
+    "housing_restored": true,
+    "body_triangles": 8200,
+    "mirrored_housing": true
+  }
+}
