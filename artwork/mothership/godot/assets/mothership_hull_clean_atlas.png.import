@@ -2,24 +2,23 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bo3jrddksug1i"
-path.s3tc="res://.godot/imported/mothership_hull_repaint_final_8k.png-e4159f6865f3228272d2e7794aadb64e.s3tc.ctex"
+uid="uid://dwp3kld17riww"
+path="res://.godot/imported/mothership_hull_clean_atlas.png-6b6e42e13d9a60f67ca83ad949a41c4a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 generator_parameters={
-"md5": "6b52f760e2a5ad2cf0da436fd1b9f6db"
+"md5": "7480dde91d0e15afe71c503f1a0408c8"
 }
 
 [deps]
 
-source_file="res://assets/mothership_hull_repaint_final_8k.png"
-dest_files=["res://.godot/imported/mothership_hull_repaint_final_8k.png-e4159f6865f3228272d2e7794aadb64e.s3tc.ctex"]
+source_file="res://assets/mothership_hull_clean_atlas.png"
+dest_files=["res://.godot/imported/mothership_hull_clean_atlas.png-6b6e42e13d9a60f67ca83ad949a41c4a.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -41,4 +40,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

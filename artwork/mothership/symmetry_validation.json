@@ -1,0 +1,27 @@
+{
+  "before_mirror_vertex_error": {
+    "maximum_m": 6.7816338539123535,
+    "mean_m": 1.3736882229503036
+  },
+  "after_mirror_vertex_error": {
+    "maximum_m": 0.0,
+    "mean_m": 0.0
+  },
+  "hull_triangles": 60910,
+  "mirror_plane": "Blender X=0 / Godot X=0",
+  "method": "Fair outer armor, bisect and mirror starboard geometry and UVs; reflect entire starboard hangar assembly to port.",
+  "removed_floating_bow_vertices_on_source_half": 130,
+  "source_file": "blender/mothership_refined.blend",
+  "before_source_file": "blender/mothership_before_symmetry.blend",
+  "clean_albedo": "textures/hull_clean_atlas.png",
+  "clean_albedo_resolution": [
+    1254,
+    1254
+  ],
+  "material": "Smooth paint; constant roughness 0.68, metallic 0.12; no bump/normal map",
+  "normal_cleanup": "Removed stale custom split normals after geometric fairing",
+  "texture_cleanup": "Built-in imagegen edit preserving atlas layout and ivory/red livery, removing heavy weathering and painted surface chatter",
+  "assembled_triangles": 92052,
+  "godot_scene_checks": "PASS; camera, animated fields, mirrored markers and geometry within 1mm import compression tolerance",
+  "godot_corridor_checks": 111
+}

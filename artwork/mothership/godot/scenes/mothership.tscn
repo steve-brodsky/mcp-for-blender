@@ -27,13 +27,13 @@ position = Vector3(45, 1.0, 6)
 rotation = Vector3(0, -1.5707963, 0)
 
 [node name="PortHangarSpawn" type="Marker3D" parent="."]
-position = Vector3(-14, 5.0, 5)
+position = Vector3(-14, 1.0, 6)
 rotation = Vector3(0, 1.5707963, 0)
 [node name="PortHangarExit" type="Marker3D" parent="."]
-position = Vector3(-26, 5.0, 5)
+position = Vector3(-26, 1.0, 6)
 rotation = Vector3(0, 1.5707963, 0)
 [node name="PortHangarApproach" type="Marker3D" parent="."]
-position = Vector3(-45, 5.0, 5)
+position = Vector3(-45, 1.0, 6)
 rotation = Vector3(0, 1.5707963, 0)
 
 [node name="BayLight" type="OmniLight3D" parent="."]
@@ -44,7 +44,7 @@ omni_range = 13.0
 omni_attenuation = 1.4
 
 [node name="PortBayLight" type="OmniLight3D" parent="."]
-position = Vector3(-17, 6.7, 5)
+position = Vector3(-18, 2.7, 6)
 light_color = Color(0.06, 0.44, 1, 1)
 light_energy = 2.8
 omni_range = 13.0
@@ -71,5 +71,5 @@ position = Vector3(16, -0.8, 6)
 shape = SubResource("BayDeck")
 
 [node name="PortHangarDeck" type="CollisionShape3D" parent="Collision"]
-position = Vector3(-16, 3.2, 5)
+position = Vector3(-16, -0.8, 6)
 shape = SubResource("BayDeck")
