@@ -1,5 +1,5 @@
 {
-  "checks": 118,
+  "checks": 120,
   "dimensions_m": [
     49.1049385070801,
     29.8923645019531,
@@ -7,5 +7,5 @@
   ],
   "engine": "4.7.2-stable (official)",
   "failures": [],
-  "triangles": 93908
+  "triangles": 93740
 }

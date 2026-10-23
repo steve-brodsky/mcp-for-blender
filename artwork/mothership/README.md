@@ -40,7 +40,7 @@ A backup of the previous accepted finish is
 
 Godot coordinates are -Z forward, +X starboard and +Y up, at unit scale.
 Bounds: approximately 98.14 m long x 49.10 m wide x 29.89 m high.
-The assembly contains 93,908 triangles, nine meshes, and 24 material surfaces.
+The assembly contains 93,740 triangles, ten meshes, and 25 material surfaces.
 The GLB is approximately 49.2 MB with one embedded 8K basecolor image.
 The geometry remains a refined reconstruction; it is not a new hard-surface model.
 
@@ -151,3 +151,11 @@ unchanged. Newly exposed interior cut faces use matching dark steel.
 `scripts/remove_nozzle_bridges.py` applies the local cut before the usual export.
 The pre-cut source is `blender/mothership_before_nozzle_bridge_cut.blend`.
 See `nozzle_bridge_validation.json` and `renders/godot_nozzle_bridges_removed.png`.
+
+## Aft dorsal fitting removal
+
+The small raised blue/white fitting is removed and its socket is filled. A thin
+sloped steel deck plate reuses existing mechanical artwork, with no texture-image
+changes. `scripts/remove_dorsal_fitting.py` reproduces the edit from
+`blender/mothership_before_dorsal_fitting_removal.blend`. See
+`dorsal_fitting_validation.json` and `renders/godot_dorsal_fitting_removed.png`.

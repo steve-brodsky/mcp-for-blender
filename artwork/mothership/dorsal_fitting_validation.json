@@ -1,0 +1,12 @@
+{
+  "removed_source_half_faces": 123,
+  "deck_patch_source_half_faces": 9,
+  "method": "Raised blue/white dorsal fitting removed; local deck filled and covered with a thin sloped steel plate using existing mechanical artwork.",
+  "hull_atlas_sha256": "5c3eb90ce86f709f2e20f7f1e7b6a66dd09ff41680946e3085eb1cf9227921a4",
+  "texture_bytes_unchanged": true,
+  "source_backup": "blender/mothership_before_dorsal_fitting_removal.blend",
+  "triangles": 93740,
+  "original_fitting_removed": true,
+  "deck_height_at_old_fitting": 13.370989799499512,
+  "deck_plate": "Dorsal_Deck_Plate"
+}

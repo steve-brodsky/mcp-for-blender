@@ -1,5 +1,9 @@
 {
   "meshes": {
+    "Dorsal_Deck_Plate": {
+      "triangles": 60,
+      "materials": 1
+    },
     "Cannon_Barrel_Starboard": {
       "triangles": 864,
       "materials": 2
@@ -33,7 +37,7 @@
       "materials": 1
     },
     "Mothership_Hull": {
-      "triangles": 61038,
+      "triangles": 60810,
       "materials": 2
     }
   },
@@ -54,5 +58,5 @@
     "Two short hollow forward barrel inserts added; accepted hull geometry and atlas remained unchanged in that revision. Each separate Godot node recoils independently by 0.55 m.",
     "Local ivory plating repair on inward cannon walls and shelves; existing geometry and UVs retained. See inner_panel_validation.json."
   ],
-  "total_triangles": 93908
+  "total_triangles": 93740
 }
