@@ -1,16 +1,8 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1792791213
+::res://::1792875312
 ::res://assets/::1792790407
 ::res://assets/ships/::1792790407
-::res://assets/ships/combat_mech/::1792791520
-beam_rifle.glb::PackedScene::1570802778845645166::1792791787::1792791790::1::::<><><>0<>0<>db7afc75bf2421a1df4e42e07db6bae8<>res://.godot/imported/beam_rifle.glb-a28a757f54235fa8a1ed9beb271457ea.scn::uid://d3ecdwcqn5gbr::::res://assets/ships/combat_mech/beam_rifle_rifle_basecolor.png<>uid://bmlub2vsgsdf::::res://assets/ships/combat_mech/beam_rifle_rifle_orm.png<>uid://bjrra3fqnxrjn::::res://assets/ships/combat_mech/beam_rifle_rifle_normal.png
-beam_rifle_rifle_basecolor.png::CompressedTexture2D::9132935134676533899::1792790491::1792791790::1::::<><><>0<>0<>48d61c0e1336d6b184e5d39e47f2cfa6<>res://.godot/imported/beam_rifle_rifle_basecolor.png-6f956050e9dac07215e5247ef47e8003.s3tc.ctex::
-beam_rifle_rifle_normal.png::CompressedTexture2D::3054248366254527819::1792790490::1792791790::1::::<><><>0<>0<>ee283340b931a266ddc511fda2f27e18<>res://.godot/imported/beam_rifle_rifle_normal.png-3f53b443d11a7684c7bc7c188381212d.s3tc.ctex::
-beam_rifle_rifle_orm.png::CompressedTexture2D::95665074696802787::1792790491::1792791790::1::::<><><>0<>0<>5208938e305394a378838373f2c3ace3<>res://.godot/imported/beam_rifle_rifle_orm.png-ea3d10493b68b7cdacd84ab03f1b4884.s3tc.ctex::
-combat_mech.glb::PackedScene::7808960322323430317::1792791787::1792791791::1::::<><><>0<>0<>3bd63e75354548733244c40159c97602<>res://.godot/imported/combat_mech.glb-11f97b07819c901f9b82a6facb53d29e.scn::uid://b8pbormave5xy::::res://assets/ships/combat_mech/combat_mech_mech_basecolor.png<>uid://c0m1w81n0xixf::::res://assets/ships/combat_mech/combat_mech_mech_orm.png<>uid://cvfe000ap3wst::::res://assets/ships/combat_mech/combat_mech_mech_normal.png
-combat_mech_mech_basecolor.png::CompressedTexture2D::4733704819629362574::1792790493::1792791790::1::::<><><>0<>0<>19d1a89e1b0d7aa732f8364663be15ff<>res://.godot/imported/combat_mech_mech_basecolor.png-779956ce277b6b314d33c0d341304d8b.s3tc.ctex::
-combat_mech_mech_normal.png::CompressedTexture2D::6257417837098904927::1792790491::1792791790::1::::<><><>0<>0<>a0c80bd551f142b1269b9bf3027494a1<>res://.godot/imported/combat_mech_mech_normal.png-5ed58ee50fb99222e1600fa162b5b528.s3tc.ctex::
-combat_mech_mech_orm.png::CompressedTexture2D::6553954694724017307::1792790494::1792791790::1::::<><><>0<>0<>14ba4941cbfae67d1ef230958d1dfc27<>res://.godot/imported/combat_mech_mech_orm.png-d2800abd0d11c110d1c959aba87491d5.s3tc.ctex::
+::res://assets/ships/combat_mech/::1792793793
 ::res://scenes/::1792790488
 ::res://scenes/previews/::1792791046
 combat_mech_preview.tscn::PackedScene::-1::1792791046::0::1::::<><><>0<>0<><>::res://scripts/previews/combat_mech_preview.gd<>res://scenes/ships/combat_mech.tscn
@@ -32,6 +24,6 @@ mech_aim_modifier.gd::GDScript::5471205911967338115::1792790757::0::1::::MechAim
 ::res://scripts/weapons/::1792790724
 beam_rifle.gd::GDScript::8303446265859524621::1792790606::0::1::::BeamRifle<>Node3D<><>0<>0<><>::
 ::res://tests/::1792790862
-capture_combat_mech.gd::GDScript::3744777104964589782::1792791583::0::1::::<>SceneTree<><>0<>0<><>::
+capture_combat_mech.gd::GDScript::3744777104964589782::1792791815::0::1::::<>SceneTree<><>0<>0<><>::
 probe_import.gd::GDScript::465972028668685568::1792790488::0::1::::<>SceneTree<><>0<>0<><>::
 validate_combat_mech.gd::GDScript::1136470923850114714::1792791788::0::1::::<>SceneTree<><>0<>0<><>::
