@@ -1,0 +1,40 @@
+{
+  "bay_sill_lowered": {
+    "region_m": {
+      "x": [
+        -10.8,
+        -7.4
+      ],
+      "y": [
+        -15.2,
+        10.2
+      ],
+      "z": [
+        -4.55,
+        -3.0
+      ]
+    },
+    "kept_height_fraction": 0.08,
+    "vertices_moved": 632
+  },
+  "stretch_m": 6.5,
+  "widen": 1.2750000000000001,
+  "cap_y_m": 8.0,
+  "clearance_m": [
+    0.12,
+    0.12,
+    0.03
+  ],
+  "seat_port_m": [
+    -4.458,
+    -2.5,
+    -1.5
+  ],
+  "pod_dimensions_m": [
+    9.204,
+    25.953,
+    5.867
+  ],
+  "middle_section_scale": 1.40625,
+  "method": "Middle tank section stretched, end caps rigid and shifted; widened in X; largest overlap-free fit with clearance against the hull"
+}

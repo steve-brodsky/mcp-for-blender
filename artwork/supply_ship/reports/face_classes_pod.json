@@ -1,0 +1,17 @@
+{
+  "CargoPod": {
+    "trim_faces": 1224,
+    "faces": 11316,
+    "plates": 3444,
+    "plates_unified": 333,
+    "faces_repainted_by_plate_majority": 1253,
+    "faces_repainted_by_neighbour_majority": 529
+  },
+  "face_class_area_share": {
+    "graphite": 0.24808753166145828,
+    "gunmetal": 0.3405453576163467,
+    "armor": 0.31647672123832155,
+    "red": 0.017204639373862747,
+    "trim": 0.07768575011001072
+  }
+}

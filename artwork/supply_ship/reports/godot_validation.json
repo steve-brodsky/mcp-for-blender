@@ -1,0 +1,182 @@
+{
+	"checks": [
+		{
+			"check": "hull LOD triangle counts decrease",
+			"detail": "[93314, 37310, 13980]",
+			"ok": true
+		},
+		{
+			"check": "ship material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the ship material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the ship material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "cranes are a skinned mesh",
+			"detail": "5548",
+			"ok": true
+		},
+		{
+			"check": "crane skeleton has 15 bones",
+			"detail": "15",
+			"ok": true
+		},
+		{
+			"check": "clip unload_L present",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "clip unload_L only animates its own crane",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "clip unload_R present",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "clip unload_R only animates its own crane",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "clip load_L present",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "clip load_L only animates its own crane",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "clip load_R present",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "clip load_R only animates its own crane",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "four convex collision hulls",
+			"detail": "4",
+			"ok": true
+		},
+		{
+			"check": "collision responds along the whole hull",
+			"detail": "5",
+			"ok": true
+		},
+		{
+			"check": "cargo bay tunnel is open to the sides",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "port pod sits in its seat",
+			"detail": "0.0000 m",
+			"ok": true
+		},
+		{
+			"check": "starboard pod sits in its seat",
+			"detail": "0.0000 m",
+			"ok": true
+		},
+		{
+			"check": "unload_pod(port) starts",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "unload_pod(starboard) starts concurrently",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "busy side refuses a second command",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "port pod is hoisted clear of the hull mid-clip",
+			"detail": "(-14.61124, 0.501518, 2.540093)",
+			"ok": true
+		},
+		{
+			"check": "port pod released",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "port pod rests at the drop marker",
+			"detail": "0.0020 m",
+			"ok": true
+		},
+		{
+			"check": "starboard pod released",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "starboard pod rests at the drop marker",
+			"detail": "0.0020 m",
+			"ok": true
+		},
+		{
+			"check": "released pod is static after the clip",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "load_pod(port) starts",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "port pod loaded back into its seat",
+			"detail": "0.0000 m",
+			"ok": true
+		},
+		{
+			"check": "spawned pod can be loaded on the empty starboard side",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "cargo pod has LODs and a collision hull",
+			"detail": "22632",
+			"ok": true
+		},
+		{
+			"check": "cargo pod latch markers",
+			"detail": "",
+			"ok": true
+		}
+	],
+	"clip_lengths_s": {
+		"load_L": 10.0,
+		"load_R": 10.0,
+		"unload_L": 13.5,
+		"unload_R": 13.5
+	},
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"hull_triangles": [
+		93314,
+		37310,
+		13980
+	]
+}

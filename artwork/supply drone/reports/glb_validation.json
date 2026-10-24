@@ -1,0 +1,62 @@
+{
+  "supply_drone.glb": {
+    "bytes": 17675084,
+    "meshes": {
+      "SupplyDrone": {
+        "triangles": 92628,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "supply_drone_emission_2k": [
+        2048,
+        2048
+      ],
+      "supply_drone_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_drone_lod1.glb": {
+    "bytes": 2664492,
+    "meshes": {
+      "supply_drone_lod1": {
+        "triangles": 37050,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_drone_lod2.glb": {
+    "bytes": 1207848,
+    "meshes": {
+      "supply_drone_lod2": {
+        "triangles": 13892,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

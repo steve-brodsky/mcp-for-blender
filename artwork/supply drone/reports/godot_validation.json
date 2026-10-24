@@ -1,0 +1,167 @@
+{
+	"checks": [
+		{
+			"check": "LOD triangle counts decrease",
+			"detail": "[92628, 37050, 13892]",
+			"ok": true
+		},
+		{
+			"check": "material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "drone is about 12.5 m long and points along -Z",
+			"detail": "(11.1799, 6.050484, 12.44633)",
+			"ok": true
+		},
+		{
+			"check": "marker PodDock",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker Coupler",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterFrontPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterFrontStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterRearPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterRearStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "five convex collision hulls",
+			"detail": "5",
+			"ok": true
+		},
+		{
+			"check": "collision responds across the drone",
+			"detail": "5",
+			"ok": true
+		},
+		{
+			"check": "out-of-range pod is refused",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "nearest end is chosen (aft)",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "dock_pod(aft) starts",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "second dock is refused while carrying",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "aft end seated on the coupler",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "aft boss tip on PodDock",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "docked pod (aft) clears the drone's hulls",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "pod moves with the drone (aft)",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "release returns the pod to the world (aft)",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "nearest end is chosen (fore)",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "dock_pod(fore) starts",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "second dock is refused while carrying",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "fore end seated on the coupler",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "fore boss tip on PodDock",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "docked pod (fore) clears the drone's hulls",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "pod moves with the drone (fore)",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "release returns the pod to the world (fore)",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "get_carry_transform delivers the pod onto a target",
+			"detail": "0.00000 m, 0.00000 rad",
+			"ok": true
+		}
+	],
+	"dimensions_m": "(11.1799, 6.050484, 12.44633)",
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"triangles": [
+		92628,
+		37050,
+		13892
+	]
+}

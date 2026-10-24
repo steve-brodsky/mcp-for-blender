@@ -1,0 +1,23 @@
+{
+  "deck_cut_z_m": 4.8,
+  "box_m": {
+    "x": [
+      -2.35,
+      0.0
+    ],
+    "y": [
+      -16.95,
+      -5.6
+    ]
+  },
+  "crane_triangles_high": 4980,
+  "hull_half_triangles_high": 245670,
+  "hull_cap_faces": 3,
+  "crane_cap_faces": 5,
+  "health": {
+    "hull_boundary_edges_off_mirror": 0,
+    "hull_nonmanifold_edges": 0,
+    "crane_boundary_edges": 0,
+    "crane_nonmanifold_edges": 0
+  }
+}

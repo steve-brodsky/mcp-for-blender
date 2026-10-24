@@ -1,0 +1,67 @@
+{
+  "fragments_removed": 2,
+  "parts": {
+    "Leg": {
+      "triangles": 792,
+      "caps": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Boom": {
+      "triangles": 630,
+      "caps": 2,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Slide": {
+      "triangles": 3246,
+      "caps": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Hook": {
+      "triangles": 710,
+      "caps": 2,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "pivots_m": {
+    "shoulder": [
+      -0.8071074547226896,
+      -16.588997713069325,
+      5.050000190734863
+    ],
+    "elbow": [
+      -0.886488750576973,
+      -15.269791675336434,
+      6.970791339874268
+    ],
+    "slide": [
+      -0.886488750576973,
+      -12.6,
+      6.970791339874268
+    ],
+    "wrist": [
+      -0.886488750576973,
+      -7.6000000000000005,
+      6.25
+    ],
+    "rod_axis": [
+      0,
+      1,
+      0
+    ],
+    "piston_radius_m": 0.2,
+    "piston_span_y_m": [
+      -12.6,
+      -7.4
+    ],
+    "max_extension_m": 4.6,
+    "grip": [
+      -0.886488750576973,
+      -6.717991942451114,
+      5.074692249298096
+    ]
+  }
+}

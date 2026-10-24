@@ -1,0 +1,49 @@
+{
+  "SupplyShip": {
+    "trim_faces": 4863,
+    "faces": 46659,
+    "plates": 15782,
+    "plates_unified": 2092,
+    "faces_repainted_by_plate_majority": 5963,
+    "faces_repainted_by_neighbour_majority": 2251
+  },
+  "Crane_Leg": {
+    "trim_faces": 342,
+    "faces": 396,
+    "plates": 85,
+    "plates_unified": 8,
+    "faces_repainted_by_plate_majority": 5,
+    "faces_repainted_by_neighbour_majority": 1
+  },
+  "Crane_Boom": {
+    "trim_faces": 0,
+    "faces": 314,
+    "plates": 35,
+    "plates_unified": 8,
+    "faces_repainted_by_plate_majority": 38,
+    "faces_repainted_by_neighbour_majority": 4
+  },
+  "Crane_Slide": {
+    "trim_faces": 43,
+    "faces": 1622,
+    "plates": 296,
+    "plates_unified": 28,
+    "faces_repainted_by_plate_majority": 144,
+    "faces_repainted_by_neighbour_majority": 48
+  },
+  "Crane_Hook": {
+    "trim_faces": 14,
+    "faces": 354,
+    "plates": 86,
+    "plates_unified": 6,
+    "faces_repainted_by_plate_majority": 30,
+    "faces_repainted_by_neighbour_majority": 9
+  },
+  "face_class_area_share": {
+    "graphite": 0.19607620222434588,
+    "gunmetal": 0.4272101950363045,
+    "armor": 0.30141327558882375,
+    "red": 0.012773099313450888,
+    "trim": 0.06252722783707497
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "source_triangles": 699802,
+  "high_triangles": 699802,
+  "scale_factor": 15.599863710068275,
+  "length_m": 12.5,
+  "coupler_level_pitch_deg": 0.7498838975103468,
+  "dimensions_m": [
+    11.18,
+    12.446,
+    6.05
+  ],
+  "scale_assumption": "12.5 m chosen because the source has no physical dimensions; it sizes the coupler to the cargo pod end caps",
+  "forward_godot": "-Z (the docking coupler)",
+  "up_godot": "+Y",
+  "lod0_triangles": 92628,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 37050,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 13892,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "collision_hulls": {
+    "Core": 238,
+    "PodFrontPort": 156,
+    "PodFrontStarboard": 156,
+    "PodRearPort": 198,
+    "PodRearStarboard": 198
+  },
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}

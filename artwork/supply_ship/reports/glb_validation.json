@@ -1,0 +1,122 @@
+{
+  "cargo_pod.glb": {
+    "bytes": 4582616,
+    "meshes": {
+      "CargoPod": {
+        "triangles": 22632,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "cargo_pod_emission_1k": [
+        1024,
+        1024
+      ],
+      "cargo_pod_basecolor_2k": [
+        2048,
+        2048
+      ]
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "cargo_pod_lod1.glb": {
+    "bytes": 658560,
+    "meshes": {
+      "CargoPod.001": {
+        "triangles": 7914,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_ship.glb": {
+    "bytes": 21268264,
+    "meshes": {
+      "SupplyShip_Cranes": {
+        "triangles": 5548,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": true
+      },
+      "SupplyShip_Hull": {
+        "triangles": 93314,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "supply_ship_emission_2k": [
+        2048,
+        2048
+      ],
+      "supply_ship_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "skin_joints": 15,
+    "animations_s": {
+      "unload_L": 13.5,
+      "load_L": 10.0,
+      "unload_R": 13.5,
+      "load_R": 10.0
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_ship_lod1.glb": {
+    "bytes": 3114088,
+    "meshes": {
+      "SupplyShip_Hull.001": {
+        "triangles": 37310,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_ship_lod2.glb": {
+    "bytes": 1399608,
+    "meshes": {
+      "SupplyShip_Hull.002": {
+        "triangles": 13980,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hull": {
+    "half_triangles": 46657,
+    "in_plane_edges_collapsed": 1,
+    "after_triangles": 93314,
+    "max_reflected_vertex_error_m": 0.0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "pod": {
+    "half_triangles": 11316,
+    "in_plane_edges_collapsed": 0,
+    "after_triangles": 22632,
+    "max_reflected_vertex_error_m": 0.0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "cranes": {
+    "triangles_both": 5548,
+    "health_closed_parts": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "rigid_single_bone_weights": true,
+    "bones": 15
+  },
+  "pod_seat_port_m": [
+    -4.458,
+    -2.5,
+    -1.5
+  ],
+  "method": "Port halves reduced, flattened and unwrapped, then mirrored with shared UVs; port crane mirrored to starboard"
+}

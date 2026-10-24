@@ -1,0 +1,64 @@
+{
+  "source_triangles": 699974,
+  "ship_high_triangles": 498950,
+  "pod_high_triangles": 101896,
+  "scale_factor": 67.24926792474376,
+  "ship_length_m": 60.0,
+  "bay_level_pitch_deg": -2.9329357172241735,
+  "pod_scale_factor": 41.69454611334113,
+  "ship_dimensions_m": [
+    25.02,
+    60.0,
+    22.321
+  ],
+  "pod_dimensions_m": [
+    8.616,
+    25.894,
+    5.828
+  ],
+  "scale_assumption": "60 m chosen because the source has no physical dimensions",
+  "forward_godot": "-Z",
+  "up_godot": "+Y",
+  "supply_ship_lod0_triangles": 93314,
+  "supply_ship_lod1_triangles": 37310,
+  "supply_ship_lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "supply_ship_lod2_triangles": 13980,
+  "supply_ship_lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "cargo_pod_lod0_triangles": 22632,
+  "cargo_pod_lod1_triangles": 7914,
+  "cargo_pod_lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "crane_triangles": 5548,
+  "collision_hulls": {
+    "Bow": 275,
+    "Stern": 266,
+    "BayRoof": 109,
+    "BayFloor": 98,
+    "Pod": 239
+  },
+  "dimensions_m": [
+    24.816,
+    59.842,
+    21.128
+  ],
+  "textures": {
+    "ship_basecolor": 4096,
+    "ship_emission": 2048,
+    "pod_basecolor": 2048,
+    "pod_emission": 1024,
+    "orm_and_normal": "source maps retired, not used by the game materials"
+  },
+  "hull_roughness": 0.62,
+  "hull_metallic": 0.15,
+  "supply_ship_lod1_ratio": 0.4,
+  "supply_ship_lod2_ratio": 0.15,
+  "cargo_pod_lod1_ratio": 0.35
+}

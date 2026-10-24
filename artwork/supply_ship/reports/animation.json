@@ -1,0 +1,122 @@
+{
+  "fps": 30,
+  "clips": {
+    "unload_L": {
+      "crane_hull_contacts": 0,
+      "pod_hull_contacts": 0,
+      "pod_crane_contacts": 0,
+      "frames": 406
+    },
+    "load_L": {
+      "crane_hull_contacts": 0,
+      "pod_hull_contacts": 0,
+      "pod_crane_contacts": 0,
+      "frames": 301
+    },
+    "unload_R": {
+      "crane_hull_contacts": 0,
+      "pod_hull_contacts": 0,
+      "pod_crane_contacts": 0,
+      "frames": 406
+    },
+    "load_R": {
+      "crane_hull_contacts": 0,
+      "pod_hull_contacts": 0,
+      "pod_crane_contacts": 0,
+      "frames": 301
+    }
+  },
+  "key_poses": {
+    "L": {
+      "grab": {
+        "yaw": 1.3125,
+        "leg": -0.3491,
+        "boom": 0.5265,
+        "ext": 2.2511,
+        "cable": 5.0
+      },
+      "release": {
+        "yaw": 1.2559,
+        "leg": -0.3491,
+        "boom": 0.5246,
+        "ext": 3.5082,
+        "cable": 1.7
+      }
+    },
+    "R": {
+      "grab": {
+        "yaw": 1.3125,
+        "leg": -0.3491,
+        "boom": 0.5265,
+        "ext": 2.2511,
+        "cable": 5.0
+      },
+      "release": {
+        "yaw": 1.2559,
+        "leg": -0.3491,
+        "boom": 0.5246,
+        "ext": 3.5082,
+        "cable": 1.7
+      }
+    }
+  },
+  "ik_residual_m": {
+    "L": {
+      "grab": 2.870939869592737e-06,
+      "release": 2.1851423716334533e-06
+    },
+    "R": {
+      "grab": 3.5683225505580343e-06,
+      "release": 1.066240299940009e-06
+    }
+  },
+  "markers_m": {
+    "L": {
+      "seat": [
+        -4.458000183105469,
+        -2.5,
+        -1.5
+      ],
+      "bay_mouth": [
+        -14.60200023651123,
+        -2.5,
+        -1.5
+      ],
+      "handoff": [
+        -15.60200023651123,
+        -1.5,
+        2.0
+      ],
+      "drop": [
+        -22.602001190185547,
+        0.0,
+        3.200000047683716
+      ]
+    },
+    "R": {
+      "seat": [
+        4.458000183105469,
+        -2.5,
+        -1.5
+      ],
+      "bay_mouth": [
+        14.60200023651123,
+        -2.5,
+        -1.5
+      ],
+      "handoff": [
+        15.60200023651123,
+        -1.5,
+        2.0
+      ],
+      "drop": [
+        22.602001190185547,
+        0.0,
+        3.200000047683716
+      ]
+    }
+  },
+  "joint_limits": {
+    "max_extension_m": 4.6
+  }
+}
