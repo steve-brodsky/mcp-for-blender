@@ -1,0 +1,50 @@
+{
+  "source_triangles": 699909,
+  "high_triangles": 699908,
+  "scale_factor": 14.181666931965466,
+  "length_m": 16.0,
+  "high_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "dimensions_m": [
+    11.758,
+    16.0,
+    5.99
+  ],
+  "scale_assumption": "16 m including the forward-reaching arms; the source has no physical dimensions",
+  "forward_godot": "-Z",
+  "up_godot": "+Y",
+  "lod0_triangles": 93914,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 37558,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 14084,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "arm_triangles": 24838,
+  "collision_hulls": {
+    "Body": 342,
+    "Underside": 135,
+    "Tail": 140
+  },
+  "hull_dimensions_m": [
+    11.621,
+    14.504,
+    5.663
+  ],
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}

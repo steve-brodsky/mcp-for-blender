@@ -1,0 +1,163 @@
+{
+  "method": "Five-paint classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, 40% grime lift on armor, per-paint hue evening; lights placed from baked position and normal maps",
+  "blotch_kept": {
+    "painted": 0.45,
+    "machinery": 0.25
+  },
+  "detail_kept": {
+    "painted": 1.0,
+    "machinery": 0.6
+  },
+  "palette_srgb": {
+    "graphite": [
+      0.15,
+      0.145,
+      0.14
+    ],
+    "gunmetal": [
+      0.3,
+      0.29,
+      0.275
+    ],
+    "armor": [
+      0.8,
+      0.715,
+      0.6
+    ],
+    "red": [
+      0.6,
+      0.15,
+      0.12
+    ],
+    "orange": [
+      0.86,
+      0.53,
+      0.11
+    ],
+    "light": [
+      1.0,
+      0.7,
+      0.3
+    ]
+  },
+  "class_coverage": {
+    "graphite": 0.3200722704246148,
+    "gunmetal": 0.3314757357351181,
+    "armor": 0.14306995992380864,
+    "red": 0.015906144067824902,
+    "orange": 0.18664615737180099,
+    "light": 0.0028297324768325584
+  },
+  "light_texels": {
+    "nose_slots": 12010,
+    "nose_windows": 5553,
+    "rod_tips": 1754,
+    "torch_pilot": 1872
+  },
+  "light_regions_m": {
+    "nose_slots": {
+      "x": [
+        -2.35,
+        -1.55
+      ],
+      "z": [
+        1.0,
+        1.55
+      ],
+      "y_min_max": [
+        5.0,
+        5.75
+      ],
+      "min_forward_normal": 0.5,
+      "emission_srgb": [
+        1.0,
+        0.7,
+        0.3
+      ],
+      "strength": 1.0
+    },
+    "nose_windows": {
+      "x": [
+        -1.22,
+        -0.78
+      ],
+      "z": [
+        1.08,
+        1.52
+      ],
+      "y_min_max": [
+        5.6,
+        6.05
+      ],
+      "min_forward_normal": 0.6,
+      "emission_srgb": [
+        1.0,
+        0.7,
+        0.3
+      ],
+      "strength": 1.0
+    },
+    "rod_tips": {
+      "x": [
+        -2.64,
+        -2.36
+      ],
+      "z": [
+        -0.36,
+        -0.06
+      ],
+      "y_min_max": [
+        6.42,
+        6.7
+      ],
+      "min_forward_normal": 0.3,
+      "emission_srgb": [
+        1.0,
+        0.7,
+        0.3
+      ],
+      "strength": 1.0
+    },
+    "torch_pilot": {
+      "x": [
+        1.65,
+        2.0
+      ],
+      "z": [
+        -2.4,
+        -2.0
+      ],
+      "y_min_max": [
+        7.2,
+        7.6
+      ],
+      "min_forward_normal": null,
+      "emission_srgb": [
+        0.55,
+        0.7,
+        1.0
+      ],
+      "strength": 0.45
+    }
+  },
+  "knuckle_drums": {
+    "texels": 315979,
+    "hub_texels": 93997,
+    "paint_srgb": {
+      "housing": [
+        0.86,
+        0.53,
+        0.11
+      ],
+      "hub": [
+        0.15,
+        0.145,
+        0.14
+      ]
+    }
+  },
+  "unreached_cap_texels_painted_graphite": 77966,
+  "atlas_coverage": 0.4463188052177429,
+  "basecolor": "textures/construction_drone_basecolor_4k.png",
+  "emission_map": "textures/construction_drone_emission_2k.png"
+}

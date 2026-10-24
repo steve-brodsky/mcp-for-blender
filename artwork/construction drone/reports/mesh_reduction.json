@@ -1,0 +1,93 @@
+{
+  "hull": {
+    "smoothing_max_move_m": 0.22037905293129437,
+    "panels": {
+      "regions_found": 256,
+      "regions_flattened": 253,
+      "flattened_area_share": 0.341637477232937,
+      "vertices_moved_over_5mm": 3330,
+      "max_move_m": 0.05000008352520085,
+      "restored_vertices_to_prevent_folds": 72,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.03,
+        "min_area_m2": 0.12,
+        "max_rms_m": 0.02,
+        "max_move_m": 0.05
+      }
+    },
+    "triangles_half": 46957,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Fore.L": {
+    "triangles": 3506,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Fore.R": {
+    "triangles": 4398,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Head.L": {
+    "triangles": 2582,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Head.R": {
+    "triangles": 1700,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Upper.L": {
+    "triangles": 4304,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Arm_Upper.R": {
+    "triangles": 3732,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Claw_JawIn.L": {
+    "triangles": 1900,
+    "faces_rebuilt": 0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Claw_JawOut.L": {
+    "triangles": 2164,
+    "faces_rebuilt": 14,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "settings": {
+    "hull_ratio": 0.14,
+    "arm_ratio": 0.42
+  }
+}

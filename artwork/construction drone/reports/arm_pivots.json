@@ -1,0 +1,187 @@
+{
+  "settings": {
+    "band_abs_x_m": [
+      0.95,
+      3.45
+    ],
+    "arm_top_z_m": -1.45,
+    "housing_front_y_m": 0.56,
+    "joint_y_m": {
+      "L": {
+        "shoulder": 0.7,
+        "elbow": 3.02,
+        "wrist": 5.35
+      },
+      "R": {
+        "shoulder": 0.7,
+        "elbow": 3.12,
+        "wrist": 5.42
+      }
+    },
+    "slab_half_width_m": {
+      "shoulder": 0.14,
+      "elbow": 0.14,
+      "wrist": 0.12
+    },
+    "palm_y_m": 6.62
+  },
+  "hull": {
+    "caps": 4,
+    "pieces": 1,
+    "fragments_dropped": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "triangles": 335444
+  },
+  "arm_L": {
+    "Upper": {
+      "caps": 5,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 10250
+    },
+    "Fore": {
+      "caps": 3,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 8350
+    },
+    "Head": {
+      "caps": 8,
+      "pieces": 2,
+      "fragments_dropped": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 6150
+    },
+    "JawIn": {
+      "caps": 2,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 4524
+    },
+    "JawOut": {
+      "caps": 5,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 4,
+      "triangles": 5180
+    }
+  },
+  "arm_R": {
+    "Upper": {
+      "caps": 3,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 8890
+    },
+    "Fore": {
+      "caps": 2,
+      "pieces": 1,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 10474
+    },
+    "Head": {
+      "caps": 3,
+      "pieces": 2,
+      "fragments_dropped": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "triangles": 4048
+    }
+  },
+  "pivots_m": {
+    "L": {
+      "shoulder": {
+        "pivot": [
+          -1.9711494445800781,
+          0.7,
+          -1.9889217615127563
+        ],
+        "drum_radius": 0.299,
+        "drum_length": 0.618,
+        "slab_half_width": 0.14
+      },
+      "elbow": {
+        "pivot": [
+          -1.9663485288619995,
+          3.02,
+          -2.255994737148285
+        ],
+        "drum_radius": 0.297,
+        "drum_length": 0.614,
+        "slab_half_width": 0.14
+      },
+      "wrist": {
+        "pivot": [
+          -1.8611160516738892,
+          5.35,
+          -2.3853877186775208
+        ],
+        "drum_radius": 0.34,
+        "drum_length": 0.78,
+        "slab_half_width": 0.12
+      },
+      "tip": [
+        -2.176689825952053,
+        7.976072986920674,
+        -2.352544123927752
+      ],
+      "claw": {
+        "centre_x": -1.8704887628555298,
+        "hinge_y": 6.7,
+        "hinge_z": -2.2168431282043457,
+        "jaw_out_hinge_x": -2.0004887628555297,
+        "jaw_in_hinge_x": -1.74048876285553
+      }
+    },
+    "R": {
+      "shoulder": {
+        "pivot": [
+          2.2613383531570435,
+          0.7,
+          -1.8980263471603394
+        ],
+        "drum_radius": 0.311,
+        "drum_length": 0.659,
+        "slab_half_width": 0.14
+      },
+      "elbow": {
+        "pivot": [
+          2.0751885175704956,
+          3.12,
+          -2.1387171149253845
+        ],
+        "drum_radius": 0.34,
+        "drum_length": 0.851,
+        "slab_half_width": 0.14
+      },
+      "wrist": {
+        "pivot": [
+          1.935713917016983,
+          5.42,
+          -2.0327049791812897
+        ],
+        "drum_radius": 0.34,
+        "drum_length": 0.79,
+        "slab_half_width": 0.12
+      },
+      "tip": [
+        1.8256577104330063,
+        7.484028160572052,
+        -2.1985574066638947
+      ]
+    }
+  }
+}

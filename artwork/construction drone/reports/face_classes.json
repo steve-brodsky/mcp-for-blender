@@ -1,0 +1,72 @@
+{
+  "ConstructionDrone": {
+    "faces": 46957,
+    "plates": 15615,
+    "plates_unified": 712,
+    "faces_repainted_by_plate_majority": 4436,
+    "faces_repainted_by_neighbour_majority": 2966
+  },
+  "Arm_Fore.L": {
+    "faces": 3506,
+    "plates": 745,
+    "plates_unified": 17,
+    "faces_repainted_by_plate_majority": 146,
+    "faces_repainted_by_neighbour_majority": 137
+  },
+  "Arm_Fore.R": {
+    "faces": 4398,
+    "plates": 947,
+    "plates_unified": 16,
+    "faces_repainted_by_plate_majority": 236,
+    "faces_repainted_by_neighbour_majority": 141
+  },
+  "Arm_Head.L": {
+    "faces": 2582,
+    "plates": 541,
+    "plates_unified": 13,
+    "faces_repainted_by_plate_majority": 181,
+    "faces_repainted_by_neighbour_majority": 128
+  },
+  "Arm_Head.R": {
+    "faces": 1700,
+    "plates": 380,
+    "plates_unified": 2,
+    "faces_repainted_by_plate_majority": 29,
+    "faces_repainted_by_neighbour_majority": 75
+  },
+  "Arm_Upper.L": {
+    "faces": 4304,
+    "plates": 881,
+    "plates_unified": 15,
+    "faces_repainted_by_plate_majority": 177,
+    "faces_repainted_by_neighbour_majority": 167
+  },
+  "Arm_Upper.R": {
+    "faces": 3732,
+    "plates": 676,
+    "plates_unified": 14,
+    "faces_repainted_by_plate_majority": 137,
+    "faces_repainted_by_neighbour_majority": 167
+  },
+  "Claw_JawIn.L": {
+    "faces": 1900,
+    "plates": 560,
+    "plates_unified": 5,
+    "faces_repainted_by_plate_majority": 34,
+    "faces_repainted_by_neighbour_majority": 113
+  },
+  "Claw_JawOut.L": {
+    "faces": 2164,
+    "plates": 583,
+    "plates_unified": 7,
+    "faces_repainted_by_plate_majority": 31,
+    "faces_repainted_by_neighbour_majority": 109
+  },
+  "face_class_area_share": {
+    "graphite": 0.3268939455590364,
+    "gunmetal": 0.34616594693848035,
+    "armor": 0.14695538088208338,
+    "red": 0.015194400224382829,
+    "orange": 0.16479032639601707
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "hull": {
+    "half_triangles": 46957,
+    "in_plane_edges_collapsed": 0,
+    "after_triangles": 93914,
+    "max_reflected_vertex_error_m": 0.0,
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "arms": {
+    "triangles_both": 24838,
+    "health_closed_parts": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "rigid_single_bone_weights": true,
+    "bones": 9,
+    "starboard_shift_m": [
+      -0.2901887893676758,
+      0.0,
+      -0.09089541435241699
+    ]
+  },
+  "pivots_m": {
+    "L": {
+      "shoulder": [
+        -1.9711494445800781,
+        0.699999988079071,
+        -1.9889217615127563
+      ],
+      "elbow": [
+        -1.9663485288619995,
+        3.0199999809265137,
+        -2.2559947967529297
+      ],
+      "wrist": [
+        -1.8611160516738892,
+        5.349999904632568,
+        -2.385387659072876
+      ]
+    },
+    "R": {
+      "shoulder": [
+        1.9711494445800781,
+        0.699999988079071,
+        -1.9889217615127563
+      ],
+      "elbow": [
+        1.7849998474121094,
+        3.119999885559082,
+        -2.2296125888824463
+      ],
+      "wrist": [
+        1.6455250978469849,
+        5.420000076293945,
+        -2.123600482940674
+      ]
+    }
+  },
+  "claw_hinges_m": {
+    "out": [
+      -2.000488758087158,
+      6.699999809265137,
+      -2.2168431282043457
+    ],
+    "in": [
+      -1.7404887676239014,
+      6.699999809265137,
+      -2.2168431282043457
+    ]
+  },
+  "markers_m": {
+    "ClawGrip": [
+      -1.8704887628555298,
+      7.33803653717041,
+      -2.2168431282043457
+    ],
+    "TorchTip": [
+      1.5354689359664917,
+      7.484028339385986,
+      -2.2894527912139893
+    ]
+  },
+  "method": "Hull port half reduced, flattened and unwrapped, then mirrored with shared UVs; arms cut per side and rigidly skinned"
+}

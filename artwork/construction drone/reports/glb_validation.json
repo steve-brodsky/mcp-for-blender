@@ -1,0 +1,82 @@
+{
+  "construction_drone.glb": {
+    "bytes": 24051736,
+    "meshes": {
+      "ConstructionDrone_Arms": {
+        "triangles": 24838,
+        "symmetry": [],
+        "skinned": true
+      },
+      "ConstructionDrone_Hull": {
+        "triangles": 93914,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "construction_drone_emission_2k": [
+        2048,
+        2048
+      ],
+      "construction_drone_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "skin_joints": 9,
+    "animations_s": {
+      "idle": 4.0,
+      "deploy": 2.0,
+      "stow": 2.0,
+      "weld_seam": 6.0,
+      "grab_place": 7.0,
+      "stitch_weld": 4.5
+    },
+    "marker_nodes": [
+      "ClawGrip",
+      "TorchTip"
+    ],
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "construction_drone_lod1.glb": {
+    "bytes": 3074500,
+    "meshes": {
+      "ConstructionDrone_Hull.005": {
+        "triangles": 37558,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "marker_nodes": [],
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "construction_drone_lod2.glb": {
+    "bytes": 1362416,
+    "meshes": {
+      "ConstructionDrone_Hull.006": {
+        "triangles": 14084,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "marker_nodes": [],
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "fps": 30,
+  "work_surface_z_m": -6.0,
+  "torch_standoff_m": 0.15,
+  "grip_height_m": 0.25,
+  "clips": {
+    "idle": {
+      "frames": 121,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 41,
+      "loop_seam_pose_error": 4.440892098500626e-16,
+      "max_joint_accel_deg_per_frame2": 0.006852075511610156,
+      "lowest_tool_z_m": -2.503803732563927,
+      "length_s": 4.0,
+      "loop": true,
+      "torch_on_s": [],
+      "grip_s": []
+    },
+    "deploy": {
+      "frames": 61,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 21,
+      "ik_max_residual_m": 0.06784769455821303,
+      "ik_max_direction_error_deg": 16.291625887037274,
+      "loop_seam_pose_error": 3.6127456970271297,
+      "max_joint_accel_deg_per_frame2": 0.11970849054574728,
+      "lowest_tool_z_m": -5.2975774634247745,
+      "length_s": 2.0,
+      "loop": false,
+      "torch_on_s": [],
+      "grip_s": []
+    },
+    "stow": {
+      "frames": 61,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 21,
+      "ik_max_residual_m": 0.0,
+      "ik_max_direction_error_deg": 0.0,
+      "loop_seam_pose_error": 3.6127456970271297,
+      "max_joint_accel_deg_per_frame2": 0.13448059599635226,
+      "lowest_tool_z_m": -5.2975774634247745,
+      "length_s": 2.0,
+      "loop": false,
+      "torch_on_s": [],
+      "grip_s": []
+    },
+    "weld_seam": {
+      "frames": 181,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 61,
+      "ik_max_residual_m": 0.008248077468003887,
+      "ik_max_direction_error_deg": 13.347197834166995,
+      "loop_seam_pose_error": 0.0,
+      "max_joint_accel_deg_per_frame2": 0.515998345242465,
+      "lowest_tool_z_m": -5.852674159186021,
+      "length_s": 6.0,
+      "loop": true,
+      "torch_on_s": [
+        [
+          1.1,
+          4.4
+        ]
+      ],
+      "grip_s": []
+    },
+    "grab_place": {
+      "frames": 211,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 71,
+      "ik_max_residual_m": 0.027307099938767402,
+      "ik_max_direction_error_deg": 13.433756823678998,
+      "loop_seam_pose_error": 0.0,
+      "max_joint_accel_deg_per_frame2": 0.32250331751848904,
+      "lowest_tool_z_m": -5.850857107637897,
+      "length_s": 7.0,
+      "loop": true,
+      "torch_on_s": [
+        [
+          4.6,
+          5.4
+        ]
+      ],
+      "grip_s": [
+        [
+          1.85,
+          4.3
+        ]
+      ]
+    },
+    "stitch_weld": {
+      "frames": 136,
+      "arm_hull_contacts": 0,
+      "arm_arm_contacts": 0,
+      "checked_frames": 46,
+      "ik_max_residual_m": 0.037866501872368445,
+      "ik_max_direction_error_deg": 12.173420376722897,
+      "loop_seam_pose_error": 0.0,
+      "max_joint_accel_deg_per_frame2": 0.7955725770649735,
+      "lowest_tool_z_m": -5.850507930584953,
+      "length_s": 4.5,
+      "loop": true,
+      "torch_on_s": [
+        [
+          0.83,
+          1.2
+        ],
+        [
+          1.78,
+          2.15
+        ],
+        [
+          2.73,
+          3.1
+        ]
+      ],
+      "grip_s": []
+    }
+  },
+  "joint_limits_deg": {
+    "shoulder_yaw": [
+      -22,
+      22
+    ],
+    "shoulder_pitch": [
+      -62,
+      10
+    ],
+    "elbow_pitch": [
+      -95,
+      15
+    ],
+    "wrist_pitch": [
+      -95,
+      60
+    ],
+    "wrist_yaw": [
+      -25,
+      25
+    ],
+    "jaw": [
+      -28,
+      8
+    ]
+  },
+  "ready_tools_m": {
+    "L": [
+      -1.6,
+      5.5,
+      -5.25
+    ],
+    "R": [
+      1.6,
+      5.5,
+      -5.25
+    ]
+  },
+  "work_point_m": [
+    0.0,
+    5.3,
+    -6.0
+  ],
+  "part_pick_m": [
+    -2.3,
+    5.3,
+    -6.0
+  ],
+  "part_place_m": [
+    -0.5,
+    5.4,
+    -6.0
+  ]
+}

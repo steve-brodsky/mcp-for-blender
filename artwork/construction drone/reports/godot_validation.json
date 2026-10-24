@@ -1,0 +1,234 @@
+{
+	"checks": [
+		{
+			"check": "LOD triangle counts decrease",
+			"detail": "[93914, 37558, 14084]",
+			"ok": true
+		},
+		{
+			"check": "material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "arms share the hull material",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "hull is about 14.5 m long and points along -Z",
+			"detail": "(11.62131, 5.662626, 14.50426)",
+			"ok": true
+		},
+		{
+			"check": "with the arms stowed the drone is 16 m long",
+			"detail": "16.0006256103516",
+			"ok": true
+		},
+		{
+			"check": "marker WorkPoint",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker PartPick",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker PartPlace",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NoseCamera",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker RodTipPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker RodTipStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterRearPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker ThrusterRearStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "TorchTip and ClawGrip follow the wrists",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "ArmRig skeleton has 9 bones",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "clip idle",
+			"detail": "4.0",
+			"ok": true
+		},
+		{
+			"check": "clip deploy",
+			"detail": "2.0",
+			"ok": true
+		},
+		{
+			"check": "clip stow",
+			"detail": "2.0",
+			"ok": true
+		},
+		{
+			"check": "clip weld_seam",
+			"detail": "6.0",
+			"ok": true
+		},
+		{
+			"check": "clip grab_place",
+			"detail": "7.0",
+			"ok": true
+		},
+		{
+			"check": "clip stitch_weld",
+			"detail": "4.5",
+			"ok": true
+		},
+		{
+			"check": "three convex collision hulls",
+			"detail": "3",
+			"ok": true
+		},
+		{
+			"check": "collision responds across the hull",
+			"detail": "6",
+			"ok": true
+		},
+		{
+			"check": "get_work_transform puts WorkPoint on the target",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "start_work from stowed is accepted",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "arms deploy",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "weld_seam starts after deploying",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "torch ignites during the seam",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "weld_seam loops",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "switches to stitch_weld at the end of the cycle",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "stitch_weld makes three tack welds per cycle",
+			"detail": "3",
+			"ok": true
+		},
+		{
+			"check": "stop_work finishes the cycle",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "arms stow",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "torch is out after stopping",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "the lit torch stays at the work surface (standoff 0.15 m)",
+			"detail": "319 samples, 0.147-0.158 m",
+			"ok": true
+		},
+		{
+			"check": "the claw grips the part",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "the part rides in the claw",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "the part is set down",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "the claw carries the part from PartPick to PartPlace",
+			"detail": "travel 1.80 m, set down 0.028 m from PartPlace",
+			"ok": true
+		},
+		{
+			"check": "the part is seated on PartPlace",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "grab_place stops and stows",
+			"detail": "",
+			"ok": true
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"hull_dimensions_m": "(11.62131, 5.662626, 14.50426)",
+	"lit_torch_height_above_work_m": [
+		0.147233963012695,
+		0.158012390136719
+	],
+	"triangles": {
+		"arms": 24838,
+		"hull_lods": [
+			93914,
+			37558,
+			14084
+		]
+	}
+}
