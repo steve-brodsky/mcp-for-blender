@@ -1,0 +1,80 @@
+{
+  "method": "Seven-class classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, 40% grime lift on armor, per-paint hue evening; amber lamps and faint blue tints detected per texel, intake grilles placed from baked position and normal maps",
+  "blotch_kept": {
+    "painted": 0.45,
+    "machinery": 0.25
+  },
+  "detail_kept": {
+    "painted": 1.0,
+    "machinery": 0.6
+  },
+  "palette_srgb": {
+    "graphite": [
+      0.15,
+      0.145,
+      0.14
+    ],
+    "gunmetal": [
+      0.3,
+      0.29,
+      0.28
+    ],
+    "armor": [
+      0.79,
+      0.725,
+      0.64
+    ],
+    "red": [
+      0.58,
+      0.2,
+      0.17
+    ],
+    "hazard": [
+      0.8,
+      0.56,
+      0.14
+    ],
+    "amber": [
+      1.0,
+      0.62,
+      0.22
+    ],
+    "blue": [
+      0.2,
+      0.7,
+      1.0
+    ]
+  },
+  "class_coverage": {
+    "graphite": 0.31981909529750324,
+    "gunmetal": 0.3218870889953227,
+    "armor": 0.304246619011707,
+    "red": 0.03235043568152607,
+    "hazard": 0.00952970195252467,
+    "amber": 0.007746752766153208,
+    "blue": 0.004420306295263061
+  },
+  "light_texels": {
+    "amber": 64057,
+    "blue_lamps": 3220,
+    "intake_grilles": 33331
+  },
+  "intake_region_m": {
+    "x": [
+      -6.36,
+      -5.3
+    ],
+    "z": [
+      1.0,
+      2.0
+    ],
+    "y": [
+      1.95,
+      2.48
+    ],
+    "min_forward_normal": 0.6
+  },
+  "atlas_coverage": 0.49286389350891113,
+  "basecolor": "textures/torpedo_bomber_basecolor_4k.png",
+  "emission_map": "textures/torpedo_bomber_emission_2k.png"
+}

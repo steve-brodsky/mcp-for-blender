@@ -1,0 +1,192 @@
+{
+	"checks": [
+		{
+			"check": "LOD triangle counts decrease",
+			"detail": "[91928, 36768, 13780]",
+			"ok": true
+		},
+		{
+			"check": "material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "main LOD range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "bomber is about 18 m long and points along -Z",
+			"detail": "(14.07807, 5.256841, 17.98052)",
+			"ok": true
+		},
+		{
+			"check": "nose is at -Z",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker TorpedoPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker TorpedoStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker Nose",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker Cockpit",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EnginePort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EngineStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NacelleExhaustPort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NacelleExhaustStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "engine markers face aft",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "seven convex collision hulls",
+			"detail": "7",
+			"ok": true
+		},
+		{
+			"check": "collision responds across the bomber",
+			"detail": "8 / 8",
+			"ok": true
+		},
+		{
+			"check": "first torpedo mounts on port",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "second torpedo mounts on starboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "third torpedo is refused",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "mount signals",
+			"detail": "[&\"port\", &\"starboard\"]",
+			"ok": true
+		},
+		{
+			"check": "port torpedo seated on its hardpoint",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "starboard torpedo seated on its hardpoint",
+			"detail": "0.00000 m",
+			"ok": true
+		},
+		{
+			"check": "mounted port torpedo stays on its hardpoint",
+			"detail": "0.00000 m after 10 physics frames",
+			"ok": true
+		},
+		{
+			"check": "mounted port torpedo clears the bomber's hulls",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "port torpedo has a clear path forward",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "mounted starboard torpedo stays on its hardpoint",
+			"detail": "0.00000 m after 10 physics frames",
+			"ok": true
+		},
+		{
+			"check": "mounted starboard torpedo clears the bomber's hulls",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "starboard torpedo has a clear path forward",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "torpedoes do not touch each other",
+			"detail": "1.200 m apart",
+			"ok": true
+		},
+		{
+			"check": "first launch fires port",
+			"detail": "[&\"port\"]",
+			"ok": true
+		},
+		{
+			"check": "launched torpedo is released to the world",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "torpedo flies along the bomber's forward axis",
+			"detail": "7.50 m",
+			"ok": true
+		},
+		{
+			"check": "second launch alternates to starboard",
+			"detail": "[&\"port\", &\"starboard\"]",
+			"ok": true
+		},
+		{
+			"check": "empty bomber launches nothing",
+			"detail": "",
+			"ok": true
+		}
+	],
+	"dimensions_m": "(14.07807, 5.256841, 17.98052)",
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"triangles": [
+		91928,
+		36768,
+		13780
+	]
+}

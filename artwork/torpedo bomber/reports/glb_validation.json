@@ -1,0 +1,62 @@
+{
+  "torpedo_bomber.glb": {
+    "bytes": 17527928,
+    "meshes": {
+      "TorpedoBomber": {
+        "triangles": 91928,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "torpedo_bomber_emission_2k": [
+        2048,
+        2048
+      ],
+      "torpedo_bomber_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "torpedo_bomber_lod1.glb": {
+    "bytes": 2553940,
+    "meshes": {
+      "torpedo_bomber_lod1": {
+        "triangles": 36768,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "torpedo_bomber_lod2.glb": {
+    "bytes": 1160328,
+    "meshes": {
+      "torpedo_bomber_lod2": {
+        "triangles": 13780,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

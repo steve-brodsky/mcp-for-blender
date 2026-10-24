@@ -1,0 +1,11 @@
+{
+  "half_triangles": 45964,
+  "in_plane_edges_collapsed": 0,
+  "triangles": 91928,
+  "max_reflected_vertex_error_m": 0.0,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "method": "Port half reduced, flattened and unwrapped, then mirrored with shared UVs"
+}

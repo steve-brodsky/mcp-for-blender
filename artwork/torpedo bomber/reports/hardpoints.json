@@ -1,0 +1,62 @@
+{
+  "torpedo": {
+    "radius": 0.413,
+    "length": 6.44,
+    "rail_x": 0.6,
+    "centre_y": 0.5,
+    "clearance": 0.05,
+    "lowest_surface_over_footprint_z_m": -1.686,
+    "centre_z_m": -2.149,
+    "forward_rays_blocked": 0,
+    "rays": 49,
+    "fits": "missles/godot/scenes/kr45_fusion_torpedo.tscn (0.83 m x 6.44 m)"
+  },
+  "markers_godot": {
+    "TorpedoPort": [
+      -0.6,
+      -2.149,
+      -0.5
+    ],
+    "TorpedoStarboard": [
+      0.6,
+      -2.149,
+      -0.5
+    ],
+    "Nose": [
+      0,
+      0.15,
+      -8.98
+    ],
+    "Cockpit": [
+      0,
+      2.0,
+      -5.0
+    ],
+    "EnginePort": [
+      -0.55,
+      1.45,
+      9.0
+    ],
+    "EngineStarboard": [
+      0.55,
+      1.45,
+      9.0
+    ],
+    "NacelleExhaustPort": [
+      -5.83,
+      1.45,
+      4.973
+    ],
+    "NacelleExhaustStarboard": [
+      5.83,
+      1.45,
+      4.973
+    ]
+  },
+  "aft_facing": [
+    "EnginePort",
+    "EngineStarboard",
+    "NacelleExhaustPort",
+    "NacelleExhaustStarboard"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "source_triangles": 699814,
+  "high_triangles": 699814,
+  "bowtie_edges_split": 1,
+  "scale_factor": 17.975528652999728,
+  "length_m": 18.0,
+  "high_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "dimensions_m": [
+    14.078,
+    17.981,
+    5.257
+  ],
+  "scale_assumption": "18 m chosen because the source has no physical dimensions",
+  "forward_godot": "-Z (the cockpit nose)",
+  "up_godot": "+Y",
+  "lod0_triangles": 91928,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 36768,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 13780,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "collision_hulls": {
+    "Nose": 252,
+    "Midbody": 164,
+    "Tail": 233,
+    "WingPort": 69,
+    "WingStarboard": 69,
+    "NacellePort": 337,
+    "NacelleStarboard": 337
+  },
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}

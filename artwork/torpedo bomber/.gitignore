@@ -1,0 +1,4 @@
+godot/.godot/
+godot/.local_appdata/
+*.blend1
+__pycache__/
