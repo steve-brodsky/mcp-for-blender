@@ -1,0 +1,28 @@
+{
+	"attachment_markers_valid": true,
+	"collisions": 5,
+	"engine": "4.7.2-stable (official)",
+	"lods": [
+		{
+			"bounds": "[P: (-10.04875, -8.594403, -23.73774), S: (20.0975, 17.23118, 47.40868)]",
+			"surfaces": 1,
+			"triangles": 93734
+		},
+		{
+			"bounds": "[P: (-10.03686, -8.601489, -23.73289), S: (20.07373, 17.07005, 47.39174)]",
+			"surfaces": 1,
+			"triangles": 37482
+		},
+		{
+			"bounds": "[P: (-10.00195, -8.588545, -23.72608), S: (20.00389, 16.40119, 47.39396)]",
+			"surfaces": 1,
+			"triangles": 14034
+		}
+	],
+	"material": {
+		"albedo_size": "(4096.0, 4096.0)",
+		"emission_enabled": true,
+		"emission_size": "(2048.0, 2048.0)"
+	},
+	"physics_ray_hits": 5
+}

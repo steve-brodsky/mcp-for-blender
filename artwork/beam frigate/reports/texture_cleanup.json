@@ -1,0 +1,36 @@
+{
+  "method": "Six-paint classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, 40% grime lift on armor, 40% stripe hue evening",
+  "blotch_kept": {
+    "armor_and_stripe": 0.45,
+    "machinery": 0.7
+  },
+  "detail_kept": 1.0,
+  "stripe_and_light_colours_srgb": {
+    "red": [
+      0.6,
+      0.145,
+      0.125
+    ],
+    "orange": [
+      1.0,
+      0.56,
+      0.16
+    ],
+    "blue": [
+      0.18,
+      0.4,
+      1.0
+    ]
+  },
+  "class_coverage": {
+    "graphite": 0.588708313801072,
+    "gunmetal": 0.159688436947111,
+    "armor": 0.2219246139485778,
+    "red": 0.021914028723078127,
+    "orange": 0.00212639309128451,
+    "blue": 0.005638213488876578
+  },
+  "atlas_coverage": 0.43358147144317627,
+  "basecolor": "textures/beam_frigate_basecolor_4k.png",
+  "emission": "textures/beam_frigate_emission_2k.png"
+}

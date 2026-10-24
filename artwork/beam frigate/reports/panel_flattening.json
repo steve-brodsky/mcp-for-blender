@@ -1,0 +1,16 @@
+{
+  "regions_found": 269,
+  "regions_flattened": 268,
+  "flattened_area_m2_half": 650.9726380138309,
+  "half_surface_area_m2": 1703.9710600660765,
+  "vertices_moved_over_5mm": 5737,
+  "max_move_m": 0.14000014280895706,
+  "restored_vertices_to_prevent_folds": 57,
+  "settings": {
+    "angle_deg": 14.0,
+    "offset_m": 0.06,
+    "min_area_m2": 0.8,
+    "max_rms_m": 0.045,
+    "max_move_m": 0.14
+  }
+}

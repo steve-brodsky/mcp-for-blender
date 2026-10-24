@@ -1,0 +1,50 @@
+{
+  "source_triangles": 699884,
+  "weld_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "half_triangles_before_mirror": 46867,
+  "length_m": 47.409,
+  "scale_assumption": "48 metres chosen because the source has no physical dimensions",
+  "forward_godot": "-Z",
+  "up_godot": "+Y",
+  "removed_design_parts": [],
+  "smoothing_max_move_m": 0.5537538426786861,
+  "lod0_triangles": 93734,
+  "dimensions_m": [
+    20.098,
+    47.409,
+    17.231
+  ],
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "revision": "Closed welded hull, port-half reduction, planar armor flattening, exact bilateral symmetry, detail-preserving paint cleanup",
+  "reports": {
+    "alignment": "reports/source_alignment.json",
+    "panels": "reports/panel_flattening.json",
+    "symmetry": "reports/symmetry.json",
+    "texture": "reports/texture_cleanup.json",
+    "face_classes": "reports/face_classes.json"
+  },
+  "hull_roughness": 0.62,
+  "hull_metallic": 0.15,
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm": "retired source map, not used by the game material",
+    "normal": "retired source map, not used by the game material"
+  },
+  "uv_atlas": "GameUV atlas with intentionally shared mirrored halves",
+  "lod1_triangles": 37482,
+  "lod2_triangles": 14034,
+  "collision_hulls": {
+    "Bow": 214,
+    "Forward": 187,
+    "Midship": 218,
+    "Stern": 242,
+    "Bridge": 74
+  }
+}

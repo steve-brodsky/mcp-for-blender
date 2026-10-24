@@ -1,0 +1,15 @@
+{
+  "plane": "Blender X=0 / Godot X=0",
+  "retained_half": "port (negative X)",
+  "method": "Port half reduced, flattened and unwrapped, then mirrored with shared UVs",
+  "paint": "Mirrored UVs intentionally share the retained half of the atlas",
+  "half_triangles": 46867,
+  "after_triangles": 93734,
+  "max_reflected_vertex_error_m": 0.0,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "sharp_edge_angle_deg": 40.0,
+  "source_asymmetry_note": "Source starboard mid-ship pod is about 2.2 m wider than the port pod; the port proportions are kept"
+}

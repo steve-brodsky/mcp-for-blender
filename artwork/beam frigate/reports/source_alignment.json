@@ -1,0 +1,43 @@
+{
+  "matrix": [
+    [
+      -0.6940332551119643,
+      0.7132956925366347,
+      0.0976069072015347,
+      0.02809390268867369
+    ],
+    [
+      -0.719941945304817,
+      -0.6873975996940958,
+      -0.09575044571819653,
+      0.09295168181604303
+    ],
+    [
+      -0.0012036266019421172,
+      -0.13672529860590107,
+      0.9906082697049208,
+      0.028682299431562686
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "Area-weighted principal axes (long axis = forward, least-variance axis = up), then yaw/roll/X-offset refined by minimising mirrored surface-sample distance across X=0",
+  "forward_end": "Large blue spinal beam aperture (Blender +Y, Godot -Z)",
+  "up": "Antenna/bridge side (Blender +Z, Godot +Y)",
+  "refinement_degrees": {
+    "yaw": 0.3762208666227154,
+    "roll": 0.9775230650510197
+  },
+  "x_offset_source_units": 0.011665735471573225,
+  "mirror_fit_source_units": {
+    "median": 0.00353,
+    "p90": 0.01059,
+    "model_length": 1.018
+  },
+  "port_half_partner_fraction": 0.599,
+  "starboard_half_partner_fraction": 0.542
+}

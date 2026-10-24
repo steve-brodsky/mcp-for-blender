@@ -1,0 +1,86 @@
+{
+  "beam_frigate.glb": {
+    "triangles": 93734,
+    "bytes": 20162392,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {
+      "beam_frigate_emission_2k": [
+        2048,
+        2048
+      ],
+      "beam_frigate_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "uv_bounds": [
+      [
+        [
+          0.0011999740963801742,
+          0.005660891532897949
+        ],
+        [
+          0.9938498735427856,
+          0.9988000392913818
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "beam_frigate_lod1.glb": {
+    "triangles": 37482,
+    "bytes": 2809452,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.0011999740963801742,
+          0.005702853202819824
+        ],
+        [
+          0.9937934875488281,
+          0.9988000392913818
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  },
+  "beam_frigate_lod2.glb": {
+    "triangles": 14034,
+    "bytes": 1286264,
+    "finite_geometry_and_uvs": true,
+    "valid_indices": true,
+    "images": {},
+    "uv_bounds": [
+      [
+        [
+          0.001199974911287427,
+          0.005726933479309082
+        ],
+        [
+          0.9937899112701416,
+          0.9987999796867371
+        ]
+      ]
+    ],
+    "symmetry": [
+      {
+        "max_reflected_vertex_error_m": 0.0,
+        "max_position_uv_reflection_error": 0.0
+      }
+    ]
+  }
+}

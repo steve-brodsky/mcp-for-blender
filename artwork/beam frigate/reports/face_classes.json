@@ -1,0 +1,13 @@
+{
+  "faces": 46867,
+  "plates": 12463,
+  "plates_unified": 1169,
+  "faces_repainted_by_plate_majority": 4497,
+  "faces_repainted_by_neighbour_majority": 1260,
+  "face_class_area_share": {
+    "graphite": 0.5953895047296707,
+    "gunmetal": 0.15849075081844843,
+    "armor": 0.23518280143843875,
+    "red": 0.010936943013442115
+  }
+}

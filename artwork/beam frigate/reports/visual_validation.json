@@ -1,0 +1,11 @@
+{
+  "renderer": "Godot 4.7.2 Compatibility",
+  "views": ["beauty", "close", "rear", "side", "front", "top", "underside"],
+  "visual_review": "Godot captures show clean ivory armor with source panel detail retained, solid red stripes, glowing orange and blue lights, crisp plate edges and an exactly mirrored hull. The orthographic top view confirms symmetry about X=0.",
+  "texture_review": "A flat per-class repaint was rejected by the user because it lost surface detail; the current detail-preserving cleanup was approved.",
+  "geometry": {"boundary_edges": 0, "nonmanifold_edges": 0},
+  "buffer_validation": "glb_validation.json",
+  "runtime_validation": "godot_validation.json",
+  "source_preserved": "blender/beam_frigate_original.blend",
+  "symmetry_report": "symmetry.json"
+}
