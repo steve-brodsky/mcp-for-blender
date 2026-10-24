@@ -3,9 +3,10 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw0yr67xiowr3"
-path="res://.godot/imported/cargo_pod_cargo_pod_basecolor_2k.png-a53aa08ccf53af3a505620edd1493a0e.ctex"
+path.s3tc="res://.godot/imported/cargo_pod_cargo_pod_basecolor_2k.png-a53aa08ccf53af3a505620edd1493a0e.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
 "md5": "df5f61a4c850c76d45ad1c719204690a"
@@ -14,11 +15,11 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/cargo_pod_cargo_pod_basecolor_2k.png"
-dest_files=["res://.godot/imported/cargo_pod_cargo_pod_basecolor_2k.png-a53aa08ccf53af3a505620edd1493a0e.ctex"]
+dest_files=["res://.godot/imported/cargo_pod_cargo_pod_basecolor_2k.png-a53aa08ccf53af3a505620edd1493a0e.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -40,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0
