@@ -1,0 +1,12 @@
+{
+	"albedo_size": "(2048.0, 2048.0)",
+	"assembled_bounds": "[P: (-5.207745, -2.377485, -7.998116), S: (10.41551, 4.76386, 15.51553)]",
+	"debris_scale_quarter_valid": true,
+	"engine": "4.7.2-stable (official)",
+	"interior_emission_after_1s": 1.86,
+	"max_collision_points": 32,
+	"mean_distance_after_1s": 18.53,
+	"pieces": 97,
+	"pieces_after_explode_default_fraction": 44,
+	"triangles": 79938
+}

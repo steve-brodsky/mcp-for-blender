@@ -25,3 +25,21 @@ The main mesh is 86% smaller than the 699,874-triangle source, with one material
 The symmetric revision retains the port (negative X) half and mirrors it across the centerline. The pre-symmetry asset is preserved in `blender/previous/missile_fighter_before_symmetry.blend`. All three exported meshes have zero reflected position and UV error, measured by `scripts/check_glb.py`. Collisions and paired attachment markers are regenerated for the symmetric hull. The six repaint guides document the previous asymmetric source; the current Blender file, GLBs and Godot captures show the symmetric revision. See `reports/symmetry.json`.
 
 A Blender 5.1 crash occurred while converting a decimated mesh into BMesh. The final export recipe reduces a single half, removes center-plane faces, then mirrors it; the background rebuild completed with all three meshes closed. Later exports use this revised recipe.
+
+## Explosion debris
+
+The fighter breaks into **97 game-ready debris chunks** (0.55-2.9 m, median 2.2 m) for its destruction effect. The original `.blend` files were missing, so the chunks are cut from the shipped LOD1 GLB (copied from the game project's `assets/ships/missile_fighter/`). Together, the chunks reassemble the full fighter exactly; total volume is conserved to within 0.01%.
+
+| File | Purpose |
+| --- | --- |
+| `godot/assets/debris/missile_fighter_debris.glb` | All 97 chunk meshes, each at its rest position with its origin at the chunk's centre of volume |
+| `godot/scenes/missile_fighter_debris.tscn` | One frozen RigidBody3D per chunk, with mass and a convex collision hull of 32 points or fewer |
+| `godot/scripts/missile_fighter_debris.gd` | `explode()` scatters chunks, cools the glowing torn edges and shrinks the chunks away |
+| `blender/missile_fighter_debris.blend` | Editable chunks plus the welded source mesh, with textures packed |
+| `textures/missile_fighter_debris_*.png` | 2K hull albedo, 1K hull emission, 1K interior albedo/emission (tileable burnt metal with ember veins) |
+
+Usage: copy the debris GLB, scene and script to the same paths in your game. On death, instance the scene, set its `global_transform` to the fighter's and call `explode(fighter_velocity)`. Godot ignores scale on physics bodies, so set `debris_scale` (for example `0.25`) instead of scaling the node. `piece_fraction` (default 0.45) sets how many chunks survive. Chunks showing painted hull are preferred, and bare core chunks are discarded first. Speed, spin, cooling time and lifetime are exported properties. The whole node frees itself after `lifetime` seconds. Set `collide = false` for purely visual debris.
+
+Each chunk has two surfaces: the original hull paint and an interior "torn metal" material on cut faces. Every explosion duplicates the interior material and fades its emission from 4 to 0. Cut faces are displaced by a shared world-space noise field. As a result, they look torn rather than sliced, and neighbouring chunks still interlock at rest. The 97 chunks total 79,938 triangles (median 860 per chunk). At the default fraction, a typical explosion keeps about 44 chunks. Godot's automatic mesh LODs handle distance.
+
+Rebuild: in Blender, run `scripts/fracture_debris.py`, then `scripts/export_debris.py`. Then run `python scripts/package_debris.py`. Validate with Godot: `--headless --path godot --script res://scripts/validate_debris.gd` writes `reports/debris_godot_validation.json`. `res://scripts/capture_debris.gd` (non-headless) writes `renders/debris_*.png`. Fracture metrics are in `reports/debris_fracture.json`. Per-chunk positions, masses, hull fractions and collision points are in `reports/debris_pieces.json`.

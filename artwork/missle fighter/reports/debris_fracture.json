@@ -1,0 +1,1763 @@
+{
+  "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\missile_fighter\\missile_fighter_lod1.glb",
+  "source_triangles": 38806,
+  "solver": "MANIFOLD",
+  "seed": 7,
+  "cells": 88,
+  "dropped_fragments_below_size": 14,
+  "min_piece_size_m": 0.45,
+  "min_piece_volume_m3": 0.004,
+  "empty_cells": [],
+  "pieces": [
+    {
+      "name": "Debris_00",
+      "rest_position_blender": [
+        2.6695,
+        7.0716,
+        0.1714
+      ],
+      "dimensions_m": [
+        1.1,
+        1.806,
+        1.012
+      ],
+      "volume_m3": 0.762,
+      "triangles": 696,
+      "interior_triangles": 110,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_01",
+      "rest_position_blender": [
+        -2.6907,
+        6.6666,
+        0.1445
+      ],
+      "dimensions_m": [
+        1.253,
+        2.338,
+        1.201
+      ],
+      "volume_m3": 1.4146,
+      "triangles": 888,
+      "interior_triangles": 92,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_02",
+      "rest_position_blender": [
+        2.5753,
+        5.568,
+        -0.0458
+      ],
+      "dimensions_m": [
+        1.437,
+        2.541,
+        1.615
+      ],
+      "volume_m3": 2.15,
+      "triangles": 1050,
+      "interior_triangles": 234,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_03",
+      "rest_position_blender": [
+        -0.0221,
+        5.0669,
+        -0.2327
+      ],
+      "dimensions_m": [
+        1.85,
+        2.083,
+        1.574
+      ],
+      "volume_m3": 2.2007,
+      "triangles": 1236,
+      "interior_triangles": 154,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_04",
+      "rest_position_blender": [
+        -2.6777,
+        4.9001,
+        -0.0306
+      ],
+      "dimensions_m": [
+        1.598,
+        2.465,
+        1.697
+      ],
+      "volume_m3": 3.3737,
+      "triangles": 1170,
+      "interior_triangles": 257,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_05",
+      "rest_position_blender": [
+        2.9504,
+        4.3974,
+        0.2
+      ],
+      "dimensions_m": [
+        2.56,
+        2.646,
+        1.597
+      ],
+      "volume_m3": 2.4387,
+      "triangles": 984,
+      "interior_triangles": 286,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_06",
+      "rest_position_blender": [
+        0.5102,
+        3.5517,
+        -0.2866
+      ],
+      "dimensions_m": [
+        2.32,
+        2.274,
+        1.727
+      ],
+      "volume_m3": 2.8402,
+      "triangles": 1064,
+      "interior_triangles": 280,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_07",
+      "rest_position_blender": [
+        -3.1003,
+        3.1915,
+        0.2076
+      ],
+      "dimensions_m": [
+        2.408,
+        2.518,
+        1.8
+      ],
+      "volume_m3": 3.6607,
+      "triangles": 1156,
+      "interior_triangles": 359,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_08",
+      "rest_position_blender": [
+        2.6657,
+        3.2725,
+        -0.3261
+      ],
+      "dimensions_m": [
+        2.531,
+        2.413,
+        1.385
+      ],
+      "volume_m3": 2.3456,
+      "triangles": 1144,
+      "interior_triangles": 330,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_09",
+      "rest_position_blender": [
+        -0.0643,
+        3.1652,
+        0.612
+      ],
+      "dimensions_m": [
+        2.192,
+        2.616,
+        1.79
+      ],
+      "volume_m3": 2.4375,
+      "triangles": 1466,
+      "interior_triangles": 289,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_10",
+      "rest_position_blender": [
+        -1.3182,
+        3.1663,
+        -0.1749
+      ],
+      "dimensions_m": [
+        2.61,
+        2.845,
+        1.609
+      ],
+      "volume_m3": 3.0649,
+      "triangles": 1724,
+      "interior_triangles": 368,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_11",
+      "rest_position_blender": [
+        4.1589,
+        2.669,
+        0.383
+      ],
+      "dimensions_m": [
+        1.846,
+        2.189,
+        1.456
+      ],
+      "volume_m3": 2.2663,
+      "triangles": 1020,
+      "interior_triangles": 256,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_12",
+      "rest_position_blender": [
+        2.8083,
+        2.6934,
+        0.4914
+      ],
+      "dimensions_m": [
+        1.694,
+        2.438,
+        1.225
+      ],
+      "volume_m3": 1.6496,
+      "triangles": 644,
+      "interior_triangles": 227,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_13",
+      "rest_position_blender": [
+        1.3276,
+        2.6015,
+        0.2927
+      ],
+      "dimensions_m": [
+        0.669,
+        0.389,
+        0.658
+      ],
+      "volume_m3": 0.0088,
+      "triangles": 164,
+      "interior_triangles": 83,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_14",
+      "rest_position_blender": [
+        0.7515,
+        2.3713,
+        -1.683
+      ],
+      "dimensions_m": [
+        1.472,
+        2.116,
+        1.616
+      ],
+      "volume_m3": 0.964,
+      "triangles": 850,
+      "interior_triangles": 225,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_15",
+      "rest_position_blender": [
+        -0.6939,
+        2.31,
+        -1.6457
+      ],
+      "dimensions_m": [
+        1.704,
+        2.477,
+        1.594
+      ],
+      "volume_m3": 1.3419,
+      "triangles": 998,
+      "interior_triangles": 258,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_16",
+      "rest_position_blender": [
+        -4.323,
+        2.1727,
+        0.3014
+      ],
+      "dimensions_m": [
+        1.833,
+        2.696,
+        1.638
+      ],
+      "volume_m3": 3.1666,
+      "triangles": 1150,
+      "interior_triangles": 276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_17",
+      "rest_position_blender": [
+        0.79,
+        1.4814,
+        0.8517
+      ],
+      "dimensions_m": [
+        1.324,
+        2.069,
+        1.394
+      ],
+      "volume_m3": 0.6984,
+      "triangles": 626,
+      "interior_triangles": 199,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_18",
+      "rest_position_blender": [
+        0.0159,
+        1.4956,
+        0.9473
+      ],
+      "dimensions_m": [
+        1.711,
+        1.637,
+        1.347
+      ],
+      "volume_m3": 1.3345,
+      "triangles": 598,
+      "interior_triangles": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_19",
+      "rest_position_blender": [
+        0.1237,
+        1.759,
+        -0.3112
+      ],
+      "dimensions_m": [
+        2.745,
+        2.664,
+        1.945
+      ],
+      "volume_m3": 5.7599,
+      "triangles": 410,
+      "interior_triangles": 274,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_20",
+      "rest_position_blender": [
+        -2.8472,
+        1.5782,
+        0.3656
+      ],
+      "dimensions_m": [
+        2.502,
+        1.788,
+        1.458
+      ],
+      "volume_m3": 2.1748,
+      "triangles": 1054,
+      "interior_triangles": 377,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_21",
+      "rest_position_blender": [
+        2.1037,
+        1.4696,
+        -0.0702
+      ],
+      "dimensions_m": [
+        1.974,
+        2.05,
+        2.096
+      ],
+      "volume_m3": 2.4577,
+      "triangles": 1446,
+      "interior_triangles": 374,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_22",
+      "rest_position_blender": [
+        0.011,
+        1.42,
+        -1.6347
+      ],
+      "dimensions_m": [
+        2.348,
+        1.777,
+        1.128
+      ],
+      "volume_m3": 1.3673,
+      "triangles": 720,
+      "interior_triangles": 256,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_23",
+      "rest_position_blender": [
+        4.4651,
+        1.4282,
+        0.4486
+      ],
+      "dimensions_m": [
+        1.776,
+        1.752,
+        1.391
+      ],
+      "volume_m3": 1.5655,
+      "triangles": 690,
+      "interior_triangles": 244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_24",
+      "rest_position_blender": [
+        3.4853,
+        1.2972,
+        -0.0983
+      ],
+      "dimensions_m": [
+        1.751,
+        2.412,
+        2.071
+      ],
+      "volume_m3": 2.7221,
+      "triangles": 678,
+      "interior_triangles": 259,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_25",
+      "rest_position_blender": [
+        -1.6035,
+        1.3507,
+        -0.4166
+      ],
+      "dimensions_m": [
+        0.856,
+        1.513,
+        0.813
+      ],
+      "volume_m3": 0.2532,
+      "triangles": 264,
+      "interior_triangles": 98,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_26",
+      "rest_position_blender": [
+        -2.941,
+        1.3645,
+        -0.5459
+      ],
+      "dimensions_m": [
+        2.049,
+        2.621,
+        1.068
+      ],
+      "volume_m3": 1.6697,
+      "triangles": 1014,
+      "interior_triangles": 295,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_27",
+      "rest_position_blender": [
+        0.7286,
+        0.6904,
+        -1.3478
+      ],
+      "dimensions_m": [
+        1.605,
+        1.733,
+        1.609
+      ],
+      "volume_m3": 1.6367,
+      "triangles": 556,
+      "interior_triangles": 175,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_28",
+      "rest_position_blender": [
+        -2.5605,
+        0.6006,
+        0.0362
+      ],
+      "dimensions_m": [
+        2.416,
+        1.663,
+        1.791
+      ],
+      "volume_m3": 1.6993,
+      "triangles": 786,
+      "interior_triangles": 344,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_29",
+      "rest_position_blender": [
+        -0.8271,
+        0.5285,
+        0.3344
+      ],
+      "dimensions_m": [
+        2.123,
+        2.675,
+        1.673
+      ],
+      "volume_m3": 3.6968,
+      "triangles": 544,
+      "interior_triangles": 257,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_30",
+      "rest_position_blender": [
+        2.8466,
+        0.4726,
+        0.6979
+      ],
+      "dimensions_m": [
+        1.825,
+        2.01,
+        1.305
+      ],
+      "volume_m3": 1.5868,
+      "triangles": 820,
+      "interior_triangles": 228,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_31",
+      "rest_position_blender": [
+        -3.5526,
+        0.4125,
+        0.6251
+      ],
+      "dimensions_m": [
+        2.486,
+        2.287,
+        1.529
+      ],
+      "volume_m3": 2.2219,
+      "triangles": 886,
+      "interior_triangles": 269,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_32",
+      "rest_position_blender": [
+        -0.6127,
+        0.4286,
+        1.2549
+      ],
+      "dimensions_m": [
+        0.898,
+        2.378,
+        0.837
+      ],
+      "volume_m3": 0.542,
+      "triangles": 404,
+      "interior_triangles": 135,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_33",
+      "rest_position_blender": [
+        0.1958,
+        0.2808,
+        1.0972
+      ],
+      "dimensions_m": [
+        1.36,
+        1.906,
+        1.613
+      ],
+      "volume_m3": 1.1946,
+      "triangles": 508,
+      "interior_triangles": 148,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_34",
+      "rest_position_blender": [
+        -0.6736,
+        0.2105,
+        -0.9789
+      ],
+      "dimensions_m": [
+        1.966,
+        2.924,
+        1.954
+      ],
+      "volume_m3": 3.3592,
+      "triangles": 808,
+      "interior_triangles": 286,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_35",
+      "rest_position_blender": [
+        4.7048,
+        0.2271,
+        0.0082
+      ],
+      "dimensions_m": [
+        1.239,
+        2.294,
+        1.48
+      ],
+      "volume_m3": 1.1469,
+      "triangles": 552,
+      "interior_triangles": 166,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_36",
+      "rest_position_blender": [
+        -4.5538,
+        0.1001,
+        0.1701
+      ],
+      "dimensions_m": [
+        1.535,
+        2.5,
+        1.837
+      ],
+      "volume_m3": 2.9982,
+      "triangles": 778,
+      "interior_triangles": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_37",
+      "rest_position_blender": [
+        1.6604,
+        0.1734,
+        -0.2011
+      ],
+      "dimensions_m": [
+        2.29,
+        1.965,
+        1.767
+      ],
+      "volume_m3": 2.1779,
+      "triangles": 1178,
+      "interior_triangles": 381,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_38",
+      "rest_position_blender": [
+        4.7199,
+        -0.1547,
+        0.6436
+      ],
+      "dimensions_m": [
+        1.233,
+        2.037,
+        1.181
+      ],
+      "volume_m3": 0.8516,
+      "triangles": 380,
+      "interior_triangles": 142,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_39",
+      "rest_position_blender": [
+        3.2522,
+        -0.3223,
+        -0.4523
+      ],
+      "dimensions_m": [
+        2.36,
+        2.222,
+        1.579
+      ],
+      "volume_m3": 2.7275,
+      "triangles": 664,
+      "interior_triangles": 245,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_40",
+      "rest_position_blender": [
+        3.9218,
+        -0.3837,
+        0.5494
+      ],
+      "dimensions_m": [
+        1.728,
+        1.985,
+        1.604
+      ],
+      "volume_m3": 1.8459,
+      "triangles": 530,
+      "interior_triangles": 187,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_41",
+      "rest_position_blender": [
+        0.8982,
+        -0.2685,
+        0.5074
+      ],
+      "dimensions_m": [
+        2.134,
+        2.39,
+        1.872
+      ],
+      "volume_m3": 2.8649,
+      "triangles": 752,
+      "interior_triangles": 281,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_42",
+      "rest_position_blender": [
+        -2.4264,
+        -0.5091,
+        -0.2084
+      ],
+      "dimensions_m": [
+        2.626,
+        2.225,
+        2.226
+      ],
+      "volume_m3": 3.9152,
+      "triangles": 1650,
+      "interior_triangles": 487,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_43",
+      "rest_position_blender": [
+        2.8304,
+        -0.9607,
+        0.3867
+      ],
+      "dimensions_m": [
+        1.796,
+        1.556,
+        1.236
+      ],
+      "volume_m3": 1.1232,
+      "triangles": 194,
+      "interior_triangles": 114,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_44",
+      "rest_position_blender": [
+        -3.0731,
+        -1.0728,
+        0.7493
+      ],
+      "dimensions_m": [
+        2.331,
+        1.965,
+        1.276
+      ],
+      "volume_m3": 2.4244,
+      "triangles": 666,
+      "interior_triangles": 243,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_45",
+      "rest_position_blender": [
+        2.7799,
+        -1.1261,
+        0.9721
+      ],
+      "dimensions_m": [
+        1.686,
+        1.823,
+        0.675
+      ],
+      "volume_m3": 0.8223,
+      "triangles": 414,
+      "interior_triangles": 163,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_46",
+      "rest_position_blender": [
+        0.4814,
+        -0.8346,
+        -0.6819
+      ],
+      "dimensions_m": [
+        2.154,
+        2.335,
+        1.604
+      ],
+      "volume_m3": 2.5639,
+      "triangles": 586,
+      "interior_triangles": 226,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_47",
+      "rest_position_blender": [
+        1.6882,
+        -1.0807,
+        -0.2074
+      ],
+      "dimensions_m": [
+        0.665,
+        0.784,
+        1.093
+      ],
+      "volume_m3": 0.1952,
+      "triangles": 220,
+      "interior_triangles": 84,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_48",
+      "rest_position_blender": [
+        2.5078,
+        -1.1099,
+        -0.5109
+      ],
+      "dimensions_m": [
+        1.501,
+        1.673,
+        1.563
+      ],
+      "volume_m3": 1.0045,
+      "triangles": 414,
+      "interior_triangles": 164,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_49",
+      "rest_position_blender": [
+        -0.4711,
+        -1.3383,
+        0.3536
+      ],
+      "dimensions_m": [
+        2.563,
+        2.136,
+        2.358
+      ],
+      "volume_m3": 5.2995,
+      "triangles": 1018,
+      "interior_triangles": 403,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_50",
+      "rest_position_blender": [
+        -4.3619,
+        -1.4683,
+        0.4641
+      ],
+      "dimensions_m": [
+        1.544,
+        1.665,
+        1.609
+      ],
+      "volume_m3": 1.6421,
+      "triangles": 594,
+      "interior_triangles": 176,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_51",
+      "rest_position_blender": [
+        -3.4467,
+        -1.5008,
+        -0.6017
+      ],
+      "dimensions_m": [
+        2.661,
+        2.819,
+        2.036
+      ],
+      "volume_m3": 2.8004,
+      "triangles": 902,
+      "interior_triangles": 309,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_52",
+      "rest_position_blender": [
+        1.4245,
+        -2.105,
+        0.359
+      ],
+      "dimensions_m": [
+        2.067,
+        1.992,
+        2.068
+      ],
+      "volume_m3": 3.1958,
+      "triangles": 926,
+      "interior_triangles": 309,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_53",
+      "rest_position_blender": [
+        4.2578,
+        -1.552,
+        0.2853
+      ],
+      "dimensions_m": [
+        1.641,
+        2.116,
+        1.945
+      ],
+      "volume_m3": 2.0133,
+      "triangles": 894,
+      "interior_triangles": 279,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_54",
+      "rest_position_blender": [
+        2.8152,
+        -1.9898,
+        -0.0485
+      ],
+      "dimensions_m": [
+        1.816,
+        1.52,
+        1.734
+      ],
+      "volume_m3": 1.547,
+      "triangles": 182,
+      "interior_triangles": 131,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_55",
+      "rest_position_blender": [
+        -0.2772,
+        -2.1805,
+        -1.353
+      ],
+      "dimensions_m": [
+        2.206,
+        2.055,
+        1.749
+      ],
+      "volume_m3": 1.6956,
+      "triangles": 1180,
+      "interior_triangles": 279,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_56",
+      "rest_position_blender": [
+        3.1883,
+        -2.0725,
+        0.7913
+      ],
+      "dimensions_m": [
+        1.606,
+        1.624,
+        1.31
+      ],
+      "volume_m3": 0.8733,
+      "triangles": 544,
+      "interior_triangles": 207,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_57",
+      "rest_position_blender": [
+        3.0799,
+        -2.2942,
+        -0.9427
+      ],
+      "dimensions_m": [
+        2.22,
+        2.044,
+        1.914
+      ],
+      "volume_m3": 2.2022,
+      "triangles": 1142,
+      "interior_triangles": 322,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_58",
+      "rest_position_blender": [
+        0.1374,
+        -2.4935,
+        1.0891
+      ],
+      "dimensions_m": [
+        2.277,
+        2.335,
+        2.197
+      ],
+      "volume_m3": 2.0954,
+      "triangles": 990,
+      "interior_triangles": 253,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_59",
+      "rest_position_blender": [
+        -2.161,
+        -2.6276,
+        -0.6461
+      ],
+      "dimensions_m": [
+        2.403,
+        2.392,
+        2.354
+      ],
+      "volume_m3": 4.0255,
+      "triangles": 1494,
+      "interior_triangles": 466,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_60",
+      "rest_position_blender": [
+        -3.2864,
+        -2.3798,
+        0.6162
+      ],
+      "dimensions_m": [
+        1.542,
+        2.034,
+        1.926
+      ],
+      "volume_m3": 1.2759,
+      "triangles": 940,
+      "interior_triangles": 244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_61",
+      "rest_position_blender": [
+        -1.5805,
+        -2.667,
+        0.7842
+      ],
+      "dimensions_m": [
+        1.919,
+        2.299,
+        1.512
+      ],
+      "volume_m3": 2.2912,
+      "triangles": 1042,
+      "interior_triangles": 326,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_62",
+      "rest_position_blender": [
+        -2.7442,
+        -2.763,
+        0.3983
+      ],
+      "dimensions_m": [
+        1.584,
+        2.033,
+        2.05
+      ],
+      "volume_m3": 1.7801,
+      "triangles": 300,
+      "interior_triangles": 187,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_63",
+      "rest_position_blender": [
+        0.624,
+        -2.8554,
+        -0.7898
+      ],
+      "dimensions_m": [
+        1.776,
+        2.349,
+        2.12
+      ],
+      "volume_m3": 2.4459,
+      "triangles": 1026,
+      "interior_triangles": 393,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_64",
+      "rest_position_blender": [
+        1.664,
+        -2.842,
+        -0.9472
+      ],
+      "dimensions_m": [
+        1.609,
+        2.218,
+        1.6
+      ],
+      "volume_m3": 1.5616,
+      "triangles": 1004,
+      "interior_triangles": 357,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_65",
+      "rest_position_blender": [
+        2.8748,
+        -3.1408,
+        0.9894
+      ],
+      "dimensions_m": [
+        1.647,
+        1.892,
+        1.537
+      ],
+      "volume_m3": 1.3634,
+      "triangles": 692,
+      "interior_triangles": 221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_66",
+      "rest_position_blender": [
+        -3.8393,
+        -3.2246,
+        -0.0336
+      ],
+      "dimensions_m": [
+        0.331,
+        0.522,
+        0.497
+      ],
+      "volume_m3": 0.0046,
+      "triangles": 148,
+      "interior_triangles": 40,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_67",
+      "rest_position_blender": [
+        0.1693,
+        -3.2652,
+        -1.8625
+      ],
+      "dimensions_m": [
+        1.458,
+        1.357,
+        1.203
+      ],
+      "volume_m3": 0.6329,
+      "triangles": 702,
+      "interior_triangles": 213,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_68",
+      "rest_position_blender": [
+        -0.4277,
+        -2.9602,
+        -0.1294
+      ],
+      "dimensions_m": [
+        2.21,
+        2.441,
+        2.175
+      ],
+      "volume_m3": 3.3052,
+      "triangles": 980,
+      "interior_triangles": 361,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_69",
+      "rest_position_blender": [
+        3.0843,
+        -3.5455,
+        -0.4394
+      ],
+      "dimensions_m": [
+        1.831,
+        1.588,
+        2.126
+      ],
+      "volume_m3": 1.4864,
+      "triangles": 1050,
+      "interior_triangles": 347,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_70",
+      "rest_position_blender": [
+        2.2701,
+        -3.3306,
+        0.2644
+      ],
+      "dimensions_m": [
+        2.107,
+        1.839,
+        2.186
+      ],
+      "volume_m3": 2.2131,
+      "triangles": 746,
+      "interior_triangles": 293,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_71",
+      "rest_position_blender": [
+        1.1739,
+        -3.8389,
+        -1.4126
+      ],
+      "dimensions_m": [
+        0.465,
+        0.789,
+        0.456
+      ],
+      "volume_m3": 0.0249,
+      "triangles": 134,
+      "interior_triangles": 59,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_72",
+      "rest_position_blender": [
+        -0.0794,
+        -3.8412,
+        -2.2199
+      ],
+      "dimensions_m": [
+        0.769,
+        0.694,
+        0.259
+      ],
+      "volume_m3": 0.0424,
+      "triangles": 112,
+      "interior_triangles": 32,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_73",
+      "rest_position_blender": [
+        -2.3944,
+        -3.8084,
+        -1.4978
+      ],
+      "dimensions_m": [
+        0.245,
+        1.071,
+        0.889
+      ],
+      "volume_m3": 0.0471,
+      "triangles": 130,
+      "interior_triangles": 52,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_74",
+      "rest_position_blender": [
+        1.2972,
+        -3.6463,
+        0.7715
+      ],
+      "dimensions_m": [
+        2.03,
+        2.412,
+        1.771
+      ],
+      "volume_m3": 1.5381,
+      "triangles": 1388,
+      "interior_triangles": 324,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_75",
+      "rest_position_blender": [
+        2.8995,
+        -3.9891,
+        -1.579
+      ],
+      "dimensions_m": [
+        1.322,
+        2.052,
+        1.112
+      ],
+      "volume_m3": 1.3633,
+      "triangles": 706,
+      "interior_triangles": 174,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_76",
+      "rest_position_blender": [
+        -1.1624,
+        -3.7138,
+        -1.0412
+      ],
+      "dimensions_m": [
+        2.319,
+        2.234,
+        1.654
+      ],
+      "volume_m3": 1.2439,
+      "triangles": 1550,
+      "interior_triangles": 365,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_77",
+      "rest_position_blender": [
+        -0.1309,
+        -3.8506,
+        1.0608
+      ],
+      "dimensions_m": [
+        1.904,
+        1.615,
+        1.871
+      ],
+      "volume_m3": 1.6371,
+      "triangles": 1648,
+      "interior_triangles": 267,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_78",
+      "rest_position_blender": [
+        -3.0589,
+        -3.9563,
+        -0.4742
+      ],
+      "dimensions_m": [
+        1.766,
+        2.596,
+        2.34
+      ],
+      "volume_m3": 2.8392,
+      "triangles": 1322,
+      "interior_triangles": 355,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_79",
+      "rest_position_blender": [
+        0.0288,
+        -3.8988,
+        -1.3041
+      ],
+      "dimensions_m": [
+        1.605,
+        1.48,
+        1.676
+      ],
+      "volume_m3": 1.2683,
+      "triangles": 1240,
+      "interior_triangles": 249,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_80",
+      "rest_position_blender": [
+        -2.9425,
+        -4.1626,
+        -1.6204
+      ],
+      "dimensions_m": [
+        1.289,
+        1.979,
+        1.164
+      ],
+      "volume_m3": 1.0128,
+      "triangles": 566,
+      "interior_triangles": 118,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_81",
+      "rest_position_blender": [
+        -2.1951,
+        -4.2035,
+        0.4603
+      ],
+      "dimensions_m": [
+        2.088,
+        1.606,
+        2.094
+      ],
+      "volume_m3": 2.1234,
+      "triangles": 926,
+      "interior_triangles": 305,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_82",
+      "rest_position_blender": [
+        -3.041,
+        -4.0663,
+        1.035
+      ],
+      "dimensions_m": [
+        1.5,
+        2.006,
+        1.28
+      ],
+      "volume_m3": 1.195,
+      "triangles": 698,
+      "interior_triangles": 172,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_83",
+      "rest_position_blender": [
+        1.4742,
+        -4.1916,
+        -0.9828
+      ],
+      "dimensions_m": [
+        0.97,
+        0.881,
+        0.556
+      ],
+      "volume_m3": 0.0505,
+      "triangles": 336,
+      "interior_triangles": 105,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_84",
+      "rest_position_blender": [
+        1.1364,
+        -4.2287,
+        -1.2329
+      ],
+      "dimensions_m": [
+        0.411,
+        0.929,
+        0.79
+      ],
+      "volume_m3": 0.0581,
+      "triangles": 270,
+      "interior_triangles": 98,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_85",
+      "rest_position_blender": [
+        2.6369,
+        -4.5593,
+        0.039
+      ],
+      "dimensions_m": [
+        1.562,
+        1.939,
+        2.017
+      ],
+      "volume_m3": 1.5706,
+      "triangles": 472,
+      "interior_triangles": 241,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_86",
+      "rest_position_blender": [
+        3.2343,
+        -4.6503,
+        -0.3352
+      ],
+      "dimensions_m": [
+        1.475,
+        1.778,
+        1.603
+      ],
+      "volume_m3": 0.8395,
+      "triangles": 834,
+      "interior_triangles": 256,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_87",
+      "rest_position_blender": [
+        2.9429,
+        -4.6424,
+        0.8846
+      ],
+      "dimensions_m": [
+        1.883,
+        1.946,
+        1.473
+      ],
+      "volume_m3": 1.4142,
+      "triangles": 1082,
+      "interior_triangles": 242,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_88",
+      "rest_position_blender": [
+        2.1522,
+        -5.1501,
+        -0.1555
+      ],
+      "dimensions_m": [
+        1.602,
+        1.901,
+        2.159
+      ],
+      "volume_m3": 1.7403,
+      "triangles": 1240,
+      "interior_triangles": 286,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_89",
+      "rest_position_blender": [
+        -1.9647,
+        -5.7148,
+        0.1801
+      ],
+      "dimensions_m": [
+        1.35,
+        2.836,
+        1.755
+      ],
+      "volume_m3": 1.8483,
+      "triangles": 896,
+      "interior_triangles": 280,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_90",
+      "rest_position_blender": [
+        -2.6745,
+        -5.5474,
+        0.6484
+      ],
+      "dimensions_m": [
+        1.935,
+        2.419,
+        1.702
+      ],
+      "volume_m3": 1.753,
+      "triangles": 1026,
+      "interior_triangles": 261,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_91",
+      "rest_position_blender": [
+        -2.3206,
+        -6.1656,
+        -0.544
+      ],
+      "dimensions_m": [
+        1.858,
+        2.814,
+        1.453
+      ],
+      "volume_m3": 1.7004,
+      "triangles": 1338,
+      "interior_triangles": 309,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_92",
+      "rest_position_blender": [
+        2.0991,
+        -6.0783,
+        0.0118
+      ],
+      "dimensions_m": [
+        1.622,
+        1.295,
+        2.189
+      ],
+      "volume_m3": 1.343,
+      "triangles": 572,
+      "interior_triangles": 218,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_93",
+      "rest_position_blender": [
+        2.9189,
+        -6.3234,
+        0.4598
+      ],
+      "dimensions_m": [
+        1.529,
+        1.922,
+        1.925
+      ],
+      "volume_m3": 1.9333,
+      "triangles": 1030,
+      "interior_triangles": 243,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_94",
+      "rest_position_blender": [
+        -2.9559,
+        -6.5285,
+        0.1269
+      ],
+      "dimensions_m": [
+        1.847,
+        2.339,
+        2.122
+      ],
+      "volume_m3": 1.9512,
+      "triangles": 1278,
+      "interior_triangles": 244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_95",
+      "rest_position_blender": [
+        1.8309,
+        -6.7361,
+        0.3528
+      ],
+      "dimensions_m": [
+        1.065,
+        1.17,
+        1.714
+      ],
+      "volume_m3": 0.4082,
+      "triangles": 476,
+      "interior_triangles": 149,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Debris_96",
+      "rest_position_blender": [
+        2.503,
+        -6.7418,
+        -0.4399
+      ],
+      "dimensions_m": [
+        1.811,
+        1.541,
+        1.897
+      ],
+      "volume_m3": 1.1199,
+      "triangles": 978,
+      "interior_triangles": 203,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "piece_count": 97,
+  "total_triangles": 79938,
+  "total_volume_m3": 176.504,
+  "all_closed": true
+}
