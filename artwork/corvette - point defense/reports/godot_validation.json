@@ -1,0 +1,169 @@
+{
+	"checks": [
+		{
+			"check": "LOD triangle counts decrease",
+			"detail": "[112174, 44844, 16802]",
+			"ok": true
+		},
+		{
+			"check": "material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "main LOD range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "corvette is 32 m long and points along -Z",
+			"detail": "(27.983, 9.733389, 31.99654)",
+			"ok": true
+		},
+		{
+			"check": "nose is at -Z, engines at +Z",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker Nose",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EnginePort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EngineStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzlePort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzleStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "engine markers face aft",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "eight turret sockets",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "dorsal sockets point up, ventral down, all forward",
+			"detail": "8 / 8",
+			"ok": true
+		},
+		{
+			"check": "sockets mirror across the centreline",
+			"detail": "4 / 4 pairs",
+			"ok": true
+		},
+		{
+			"check": "nine convex collision hulls",
+			"detail": "9",
+			"ok": true
+		},
+		{
+			"check": "collision responds across the corvette",
+			"detail": "10 / 10",
+			"ok": true
+		},
+		{
+			"check": "seats lie on the collision surface",
+			"detail": "[0.12, 0.12, 0.12, 0.12, 0.24, 0.24, 0.07, 0.07]",
+			"ok": true
+		},
+		{
+			"check": "eight turrets mount in socket order",
+			"detail": "[&\"TurretTopForePort\", &\"TurretTopForeStarboard\", &\"TurretTopAftPort\", &\"TurretTopAftStarboard\", &\"TurretBottomForePort\", &\"TurretBottomForeStarboard\", &\"TurretBottomAftPort\", &\"TurretBottomAftStarboard\"]",
+			"ok": true
+		},
+		{
+			"check": "ninth turret is refused",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "mounted turrets sit on their sockets, ventral ones inverted",
+			"detail": "8 / 8",
+			"ok": true
+		},
+		{
+			"check": "remove_turret detaches and signals",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "a freed socket takes a turret again",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "scaled turret base fits the socket seat",
+			"detail": "base 3.02 m, seat 3.0 m",
+			"ok": true
+		},
+		{
+			"check": "a target above is engaged by dorsal turrets only",
+			"detail": "[&\"TurretTopForePort\", &\"TurretTopForeStarboard\", &\"TurretTopAftPort\", &\"TurretTopAftStarboard\"]",
+			"ok": true
+		},
+		{
+			"check": "a target below is engaged by ventral turrets only",
+			"detail": "[&\"TurretBottomForePort\", &\"TurretBottomForeStarboard\", &\"TurretBottomAftPort\", &\"TurretBottomAftStarboard\"]",
+			"ok": true
+		},
+		{
+			"check": "the hull blocks fire across the deck",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "inverted turret aims at a target below",
+			"detail": "1.0000",
+			"ok": true
+		}
+	],
+	"dimensions_m": "(27.983, 9.733389, 31.99654)",
+	"engaging_above": [
+		"TurretTopForePort",
+		"TurretTopForeStarboard",
+		"TurretTopAftPort",
+		"TurretTopAftStarboard"
+	],
+	"engaging_below": [
+		"TurretBottomForePort",
+		"TurretBottomForeStarboard",
+		"TurretBottomAftPort",
+		"TurretBottomAftStarboard"
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"triangles": [
+		112174,
+		44844,
+		16802
+	]
+}

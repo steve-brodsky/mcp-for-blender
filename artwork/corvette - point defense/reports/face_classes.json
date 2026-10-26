@@ -1,0 +1,14 @@
+{
+  "faces": 56091,
+  "plates": 11928,
+  "plates_unified": 981,
+  "faces_repainted_by_plate_majority": 8058,
+  "faces_repainted_by_neighbour_majority": 1769,
+  "grime_blotches_repainted_armor": 143,
+  "face_class_area_share": {
+    "graphite": 0.43222489102270223,
+    "gunmetal": 0.10274909614801206,
+    "armor": 0.44078809939443603,
+    "red": 0.024237913434849677
+  }
+}

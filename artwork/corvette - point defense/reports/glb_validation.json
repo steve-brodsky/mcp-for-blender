@@ -1,0 +1,62 @@
+{
+  "pd_corvette.glb": {
+    "bytes": 19937704,
+    "meshes": {
+      "PDCorvette": {
+        "triangles": 112174,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "pd_corvette_emission_2k": [
+        2048,
+        2048
+      ],
+      "pd_corvette_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "pd_corvette_lod1.glb": {
+    "bytes": 3080088,
+    "meshes": {
+      "pd_corvette_lod1": {
+        "triangles": 44844,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "pd_corvette_lod2.glb": {
+    "bytes": 1417692,
+    "meshes": {
+      "pd_corvette_lod2": {
+        "triangles": 16802,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

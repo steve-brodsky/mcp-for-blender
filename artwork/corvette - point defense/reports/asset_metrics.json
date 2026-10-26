@@ -1,0 +1,51 @@
+{
+  "source_triangles": 699882,
+  "high_triangles": 699882,
+  "bowtie_edges_split": 0,
+  "scale_factor": 31.219132590839063,
+  "length_m": 32.0,
+  "high_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "dimensions_m": [
+    27.983,
+    31.997,
+    9.733
+  ],
+  "scale_assumption": "32 m chosen because the source has no physical dimensions",
+  "forward_godot": "-Z (the prow)",
+  "up_godot": "+Y",
+  "lod0_triangles": 112174,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 44844,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 16802,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "collision_hulls": {
+    "Prow": 145,
+    "Spine": 219,
+    "Stern": 79,
+    "DiscForePort": 252,
+    "DiscForeStarboard": 252,
+    "DiscAftPort": 226,
+    "DiscAftStarboard": 226,
+    "PodPort": 186,
+    "PodStarboard": 186
+  },
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}

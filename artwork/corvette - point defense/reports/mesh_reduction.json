@@ -1,0 +1,31 @@
+{
+  "smoothing_max_move_m": 0.5296432107233615,
+  "panels": {
+    "regions_found": 439,
+    "regions_flattened": 433,
+    "flattened_area_share": 0.5200486118876653,
+    "vertices_moved_over_5mm": 9581,
+    "max_move_m": 0.09000039871511405,
+    "restored_vertices_to_prevent_folds": 162,
+    "settings": {
+      "angle_deg": 14,
+      "offset_m": 0.045,
+      "min_area_m2": 0.35,
+      "max_rms_m": 0.035,
+      "max_move_m": 0.09
+    }
+  },
+  "source_deviation_m": {
+    "max": 0.09499624371528625,
+    "median": 0.006360246567055583,
+    "p99": 0.04615797955542812
+  },
+  "triangles_half": 56091,
+  "health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "settings": {
+    "ratio": 0.16
+  }
+}

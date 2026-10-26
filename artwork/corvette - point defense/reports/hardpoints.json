@@ -1,0 +1,410 @@
+{
+  "turrets": {
+    "TurretTopForePort": {
+      "centre_xy": [
+        -5.987,
+        5.8
+      ],
+      "seat_z": 2.115,
+      "seat_radius_m": 1.5,
+      "chamfer_radius_m": 1.7,
+      "deck_z": 1.374,
+      "raised_above_deck_m": 0.741,
+      "hub_above_seat_m": 0.084,
+      "ring_spread_m": 0.258,
+      "deck": "top",
+      "position_godot": [
+        -5.987,
+        2.115,
+        -5.8
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.75,
+          "blocked_azimuths_deg": [
+            70,
+            75,
+            80,
+            85,
+            90,
+            95,
+            100,
+            105,
+            110,
+            115,
+            120,
+            125,
+            130,
+            135,
+            140,
+            150,
+            155,
+            160
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretTopForeStarboard": {
+      "centre_xy": [
+        5.987,
+        5.8
+      ],
+      "seat_z": 2.115,
+      "seat_radius_m": 1.5,
+      "chamfer_radius_m": 1.7,
+      "deck_z": 1.374,
+      "raised_above_deck_m": 0.741,
+      "hub_above_seat_m": 0.084,
+      "ring_spread_m": 0.258,
+      "deck": "top",
+      "position_godot": [
+        5.987,
+        2.115,
+        -5.8
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.75,
+          "blocked_azimuths_deg": [
+            200,
+            205,
+            210,
+            220,
+            225,
+            230,
+            235,
+            240,
+            245,
+            250,
+            255,
+            260,
+            265,
+            270,
+            275,
+            280,
+            285,
+            290
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretTopAftPort": {
+      "centre_xy": [
+        -7.163,
+        -2.213
+      ],
+      "seat_z": 2.873,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.8,
+      "deck_z": 2.158,
+      "raised_above_deck_m": 0.715,
+      "hub_above_seat_m": 0.039,
+      "ring_spread_m": 0.297,
+      "deck": "top",
+      "position_godot": [
+        -7.163,
+        2.873,
+        2.213
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.903,
+          "blocked_azimuths_deg": [
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            115
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretTopAftStarboard": {
+      "centre_xy": [
+        7.163,
+        -2.213
+      ],
+      "seat_z": 2.873,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.8,
+      "deck_z": 2.158,
+      "raised_above_deck_m": 0.715,
+      "hub_above_seat_m": 0.039,
+      "ring_spread_m": 0.297,
+      "deck": "top",
+      "position_godot": [
+        7.163,
+        2.873,
+        2.213
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.903,
+          "blocked_azimuths_deg": [
+            245,
+            295,
+            300,
+            305,
+            310,
+            315,
+            320
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretBottomForePort": {
+      "centre_xy": [
+        -5.913,
+        5.763
+      ],
+      "seat_z": -2.304,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.7,
+      "deck_z": -1.519,
+      "raised_above_deck_m": 0.786,
+      "hub_above_seat_m": 0.185,
+      "ring_spread_m": 0.281,
+      "deck": "bottom",
+      "position_godot": [
+        -5.913,
+        -2.304,
+        -5.763
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.75,
+          "blocked_azimuths_deg": [
+            85,
+            90,
+            95,
+            100,
+            105,
+            110,
+            115,
+            120,
+            125,
+            130,
+            135,
+            155,
+            175,
+            180,
+            185,
+            190,
+            195,
+            200
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretBottomForeStarboard": {
+      "centre_xy": [
+        5.913,
+        5.763
+      ],
+      "seat_z": -2.304,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.7,
+      "deck_z": -1.519,
+      "raised_above_deck_m": 0.786,
+      "hub_above_seat_m": 0.185,
+      "ring_spread_m": 0.281,
+      "deck": "bottom",
+      "position_godot": [
+        5.913,
+        -2.304,
+        -5.763
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 0.75,
+          "blocked_azimuths_deg": [
+            160,
+            165,
+            170,
+            175,
+            180,
+            185,
+            205,
+            225,
+            230,
+            235,
+            240,
+            245,
+            250,
+            255,
+            260,
+            265,
+            270,
+            275
+          ]
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretBottomAftPort": {
+      "centre_xy": [
+        -7.188,
+        -2.237
+      ],
+      "seat_z": -4.042,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.9,
+      "deck_z": -3.315,
+      "raised_above_deck_m": 0.727,
+      "hub_above_seat_m": -0.176,
+      "ring_spread_m": 0.331,
+      "deck": "bottom",
+      "position_godot": [
+        -7.188,
+        -4.042,
+        2.237
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretBottomAftStarboard": {
+      "centre_xy": [
+        7.188,
+        -2.237
+      ],
+      "seat_z": -4.042,
+      "seat_radius_m": 1.6,
+      "chamfer_radius_m": 1.9,
+      "deck_z": -3.315,
+      "raised_above_deck_m": 0.727,
+      "hub_above_seat_m": -0.176,
+      "ring_spread_m": 0.331,
+      "deck": "bottom",
+      "position_godot": [
+        7.188,
+        -4.042,
+        2.237
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    }
+  },
+  "socket_diameter_m": 3.0,
+  "mounted_turrets_scale": 0.75,
+  "gun_height_for_arcs_m": 1.2,
+  "markers_godot": {
+    "TurretTopForePort": [
+      -5.987,
+      2.115,
+      -5.8
+    ],
+    "TurretTopForeStarboard": [
+      5.987,
+      2.115,
+      -5.8
+    ],
+    "TurretTopAftPort": [
+      -7.163,
+      2.873,
+      2.213
+    ],
+    "TurretTopAftStarboard": [
+      7.163,
+      2.873,
+      2.213
+    ],
+    "TurretBottomForePort": [
+      -5.913,
+      -2.304,
+      -5.763
+    ],
+    "TurretBottomForeStarboard": [
+      5.913,
+      -2.304,
+      -5.763
+    ],
+    "TurretBottomAftPort": [
+      -7.188,
+      -4.042,
+      2.237
+    ],
+    "TurretBottomAftStarboard": [
+      7.188,
+      -4.042,
+      2.237
+    ],
+    "Nose": [
+      0,
+      0.744,
+      -15.997
+    ],
+    "EnginePort": [
+      -7.05,
+      0.3,
+      16.0
+    ],
+    "EngineStarboard": [
+      7.05,
+      0.3,
+      16.0
+    ],
+    "NozzlePort": [
+      -1.65,
+      0.62,
+      12.0
+    ],
+    "NozzleStarboard": [
+      1.65,
+      0.62,
+      12.0
+    ]
+  },
+  "aft_facing": [
+    "EnginePort",
+    "EngineStarboard",
+    "NozzlePort",
+    "NozzleStarboard"
+  ],
+  "inverted": [
+    "TurretBottomForePort",
+    "TurretBottomForeStarboard",
+    "TurretBottomAftPort",
+    "TurretBottomAftStarboard"
+  ]
+}

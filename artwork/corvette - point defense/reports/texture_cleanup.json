@@ -1,0 +1,120 @@
+{
+  "method": "Six-class classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, 80% grime lift on armor, per-paint hue evening; amber lamps detected per texel, engine glows placed from baked position and normal maps",
+  "grime_lift": 0.8,
+  "blotch_kept": {
+    "painted": 0.45,
+    "machinery": 0.25
+  },
+  "detail_kept": {
+    "painted": 1.0,
+    "machinery": 0.6
+  },
+  "palette_srgb": {
+    "graphite": [
+      0.13,
+      0.128,
+      0.13
+    ],
+    "gunmetal": [
+      0.29,
+      0.28,
+      0.272
+    ],
+    "armor": [
+      0.72,
+      0.61,
+      0.47
+    ],
+    "red": [
+      0.62,
+      0.25,
+      0.21
+    ],
+    "amber": [
+      1.0,
+      0.58,
+      0.24
+    ],
+    "blue": [
+      0.15,
+      0.48,
+      1.0
+    ]
+  },
+  "armor_gain": [
+    1.171,
+    1.19,
+    1.207
+  ],
+  "class_coverage": {
+    "graphite": 0.42351930730580506,
+    "gunmetal": 0.09895066477077467,
+    "armor": 0.44514340573244593,
+    "red": 0.02646195972595743,
+    "amber": 0.001307235392225792,
+    "blue": 0.004617427072791112
+  },
+  "light_texels": {
+    "amber": 9951,
+    "blue_lamps": 822,
+    "engine_glow": 34327
+  },
+  "engine_regions_m": [
+    {
+      "name": "pod_recess",
+      "x": [
+        -8.7,
+        -5.5
+      ],
+      "z": [
+        -0.5,
+        1.1
+      ],
+      "y": [
+        -15.8,
+        -14.6
+      ]
+    },
+    {
+      "name": "centre_nozzle",
+      "x": [
+        -2.1,
+        -1.05
+      ],
+      "z": [
+        -0.35,
+        1.25
+      ],
+      "y": [
+        -12.2,
+        -11.25
+      ]
+    }
+  ],
+  "nozzles_m": [
+    [
+      [
+        -8.15,
+        0.25
+      ],
+      0.38
+    ],
+    [
+      [
+        -5.95,
+        0.25
+      ],
+      0.38
+    ],
+    [
+      [
+        -1.65,
+        0.62
+      ],
+      0.45
+    ]
+  ],
+  "atlas_coverage": 0.45372533798217773,
+  "basecolor": "textures/pd_corvette_basecolor_4k.png",
+  "emission_map": "textures/pd_corvette_emission_2k.png"
+}
