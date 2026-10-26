@@ -1,0 +1,3622 @@
+{
+ "source": "source/beam_frigate_game_ready_COPY.blend (copy of beam frigate/blender/beam_frigate_game_ready.blend)",
+ "frame": "frigate-local Blender coordinates: +Y bow, +Z up, metres, unit game scale",
+ "transit_envelope": {
+  "across": 10.2,
+  "along": 7.4,
+  "up": 3.6,
+  "basis": "mothership side hangar: forcefield 10.8 m wide x 4.2 m tall, 12.1 m from back wall to field; piece towed ahead of a 0.25-scale construction drone (4.0 m)"
+ },
+ "rings": [
+  [
+   -23.8,
+   -20.975
+  ],
+  [
+   -20.975,
+   -18.15
+  ],
+  [
+   -18.15,
+   -15.325
+  ],
+  [
+   -15.325,
+   -12.5
+  ],
+  [
+   -12.5,
+   -9.312
+  ],
+  [
+   -9.312,
+   -6.125
+  ],
+  [
+   -6.125,
+   -2.938
+  ],
+  [
+   -2.938,
+   0.25
+  ],
+  [
+   0.25,
+   3.1
+  ],
+  [
+   3.1,
+   5.95
+  ],
+  [
+   5.95,
+   8.8
+  ],
+  [
+   8.8,
+   11.65
+  ],
+  [
+   11.65,
+   14.5
+  ],
+  [
+   14.5,
+   17.6
+  ],
+  [
+   17.6,
+   20.7
+  ],
+  [
+   20.7,
+   23.8
+  ]
+ ],
+ "ring_boundary_nudges": {},
+ "hull_pieces": 70,
+ "keel_segments": 4,
+ "all_fit": true,
+ "all_closed": true,
+ "hull_volume": 5494.92,
+ "source_volume": 5679.31,
+ "keel_channel_volume": 184.4,
+ "keel_channel_outside_hull": 0.0,
+ "keel_vertices_outside_hull": 0,
+ "total_tris": 137520,
+ "source_tris": 93734,
+ "pieces": [
+  {
+   "name": "Keel_0",
+   "tier": "keel",
+   "ring": -1,
+   "centre": [
+    0.0,
+    -13.25,
+    -1.0
+   ],
+   "dims": [
+    2.754,
+    9.5,
+    2.754
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    9.5,
+    2.754,
+    2.754
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "tris": 1176,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 0,
+   "order": 0,
+   "stage_dist": 4.754,
+   "staging": [
+    -4.754,
+    -13.25,
+    -1.0
+   ]
+  },
+  {
+   "name": "Keel_1",
+   "tier": "keel",
+   "ring": -1,
+   "centre": [
+    0.0,
+    -3.75,
+    -1.0
+   ],
+   "dims": [
+    2.754,
+    9.5,
+    2.754
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    9.5,
+    2.754,
+    2.754
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "tris": 1176,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 0,
+   "order": 1,
+   "stage_dist": 4.754,
+   "staging": [
+    -4.754,
+    -3.75,
+    -1.0
+   ]
+  },
+  {
+   "name": "Keel_2",
+   "tier": "keel",
+   "ring": -1,
+   "centre": [
+    0.0,
+    5.75,
+    -1.0
+   ],
+   "dims": [
+    2.754,
+    9.5,
+    2.754
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    9.5,
+    2.754,
+    2.754
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "tris": 1176,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 0,
+   "order": 2,
+   "stage_dist": 4.754,
+   "staging": [
+    -4.754,
+    5.75,
+    -1.0
+   ]
+  },
+  {
+   "name": "Keel_3",
+   "tier": "keel",
+   "ring": -1,
+   "centre": [
+    0.0,
+    15.25,
+    -1.0
+   ],
+   "dims": [
+    2.754,
+    9.5,
+    2.754
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    9.5,
+    2.754,
+    2.754
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "tris": 1176,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 0,
+   "order": 3,
+   "stage_dist": 4.754,
+   "staging": [
+    -4.754,
+    15.25,
+    -1.0
+   ]
+  },
+  {
+   "name": "Ring00_PL",
+   "tier": "hull",
+   "ring": 0,
+   "ring_y": [
+    -23.8,
+    -20.975
+   ],
+   "centre": [
+    -4.6367,
+    -22.215,
+    -4.429
+   ],
+   "dims": [
+    7.691,
+    2.48,
+    4.358
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.691,
+    4.358,
+    2.48
+   ],
+   "approach": [
+    -0.804,
+    0.0,
+    -0.5946
+   ],
+   "on_keel": false,
+   "tris": 2418,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 6.12,
+   "order": 4,
+   "stage_dist": 10.775,
+   "staging": [
+    -13.2998,
+    -22.215,
+    -10.8358
+   ]
+  },
+  {
+   "name": "Ring00_SL",
+   "tier": "hull",
+   "ring": 0,
+   "ring_y": [
+    -23.8,
+    -20.975
+   ],
+   "centre": [
+    4.6367,
+    -22.215,
+    -4.429
+   ],
+   "dims": [
+    7.691,
+    2.48,
+    4.358
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.691,
+    4.358,
+    2.48
+   ],
+   "approach": [
+    0.804,
+    0.0,
+    -0.5946
+   ],
+   "on_keel": false,
+   "tris": 2418,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 6.12,
+   "order": 5,
+   "stage_dist": 10.775,
+   "staging": [
+    13.2998,
+    -22.215,
+    -10.8358
+   ]
+  },
+  {
+   "name": "Ring00_PU",
+   "tier": "hull",
+   "ring": 0,
+   "ring_y": [
+    -23.8,
+    -20.975
+   ],
+   "centre": [
+    -4.6134,
+    -22.323,
+    1.0056
+   ],
+   "dims": [
+    7.633,
+    2.696,
+    6.511
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.633,
+    6.511,
+    2.696
+   ],
+   "approach": [
+    -0.9171,
+    0.0,
+    0.3987
+   ],
+   "on_keel": false,
+   "tris": 4474,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 8.34,
+   "order": 6,
+   "stage_dist": 11.596,
+   "staging": [
+    -15.2481,
+    -22.323,
+    5.6289
+   ]
+  },
+  {
+   "name": "Ring00_SU",
+   "tier": "hull",
+   "ring": 0,
+   "ring_y": [
+    -23.8,
+    -20.975
+   ],
+   "centre": [
+    4.6134,
+    -22.323,
+    1.0056
+   ],
+   "dims": [
+    7.633,
+    2.696,
+    6.511
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.633,
+    6.511,
+    2.696
+   ],
+   "approach": [
+    0.9171,
+    0.0,
+    0.3987
+   ],
+   "on_keel": false,
+   "tris": 4474,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 8.34,
+   "order": 7,
+   "stage_dist": 11.596,
+   "staging": [
+    15.2481,
+    -22.323,
+    5.6289
+   ]
+  },
+  {
+   "name": "Ring01_PL",
+   "tier": "hull",
+   "ring": 1,
+   "ring_y": [
+    -20.975,
+    -18.15
+   ],
+   "centre": [
+    -4.528,
+    -19.5625,
+    -4.8627
+   ],
+   "dims": [
+    9.056,
+    2.825,
+    5.225
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.056,
+    5.225,
+    2.825
+   ],
+   "approach": [
+    -0.7608,
+    0.0,
+    -0.649
+   ],
+   "on_keel": false,
+   "tris": 3784,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 71.46,
+   "order": 8,
+   "stage_dist": 12.281,
+   "staging": [
+    -13.8714,
+    -19.5625,
+    -12.8331
+   ]
+  },
+  {
+   "name": "Ring01_SL",
+   "tier": "hull",
+   "ring": 1,
+   "ring_y": [
+    -20.975,
+    -18.15
+   ],
+   "centre": [
+    4.528,
+    -19.5625,
+    -4.8627
+   ],
+   "dims": [
+    9.056,
+    2.825,
+    5.225
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.056,
+    5.225,
+    2.825
+   ],
+   "approach": [
+    0.7608,
+    0.0,
+    -0.649
+   ],
+   "on_keel": false,
+   "tris": 3784,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 71.46,
+   "order": 9,
+   "stage_dist": 12.281,
+   "staging": [
+    13.8714,
+    -19.5625,
+    -12.8331
+   ]
+  },
+  {
+   "name": "Ring01_PU",
+   "tier": "hull",
+   "ring": 1,
+   "ring_y": [
+    -20.975,
+    -18.15
+   ],
+   "centre": [
+    -4.5292,
+    -19.5625,
+    1.1859
+   ],
+   "dims": [
+    9.058,
+    2.825,
+    6.872
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.058,
+    6.872,
+    2.825
+   ],
+   "approach": [
+    -0.9006,
+    0.0,
+    0.4346
+   ],
+   "on_keel": false,
+   "tris": 4752,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 110.59,
+   "order": 10,
+   "stage_dist": 13.144,
+   "staging": [
+    -16.3667,
+    -19.5625,
+    6.8983
+   ]
+  },
+  {
+   "name": "Ring01_SU",
+   "tier": "hull",
+   "ring": 1,
+   "ring_y": [
+    -20.975,
+    -18.15
+   ],
+   "centre": [
+    4.5292,
+    -19.5625,
+    1.1859
+   ],
+   "dims": [
+    9.058,
+    2.825,
+    6.872
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.058,
+    6.872,
+    2.825
+   ],
+   "approach": [
+    0.9006,
+    0.0,
+    0.4346
+   ],
+   "on_keel": false,
+   "tris": 4752,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 110.59,
+   "order": 11,
+   "stage_dist": 13.144,
+   "staging": [
+    16.3667,
+    -19.5625,
+    6.8983
+   ]
+  },
+  {
+   "name": "Ring02_PL",
+   "tier": "hull",
+   "ring": 2,
+   "ring_y": [
+    -18.15,
+    -15.325
+   ],
+   "centre": [
+    -4.5762,
+    -16.7375,
+    -5.3931
+   ],
+   "dims": [
+    9.152,
+    2.825,
+    6.286
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.152,
+    6.286,
+    2.825
+   ],
+   "approach": [
+    -0.7214,
+    0.0,
+    -0.6925
+   ],
+   "on_keel": false,
+   "tris": 1696,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 118.84,
+   "order": 12,
+   "stage_dist": 12.955,
+   "staging": [
+    -13.9219,
+    -16.7375,
+    -14.3644
+   ]
+  },
+  {
+   "name": "Ring02_SL",
+   "tier": "hull",
+   "ring": 2,
+   "ring_y": [
+    -18.15,
+    -15.325
+   ],
+   "centre": [
+    4.5762,
+    -16.7375,
+    -5.3931
+   ],
+   "dims": [
+    9.152,
+    2.825,
+    6.286
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.152,
+    6.286,
+    2.825
+   ],
+   "approach": [
+    0.7214,
+    0.0,
+    -0.6925
+   ],
+   "on_keel": false,
+   "tris": 1698,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 118.84,
+   "order": 13,
+   "stage_dist": 12.955,
+   "staging": [
+    13.9219,
+    -16.7375,
+    -14.3644
+   ]
+  },
+  {
+   "name": "Ring02_PU",
+   "tier": "hull",
+   "ring": 2,
+   "ring_y": [
+    -18.15,
+    -15.325
+   ],
+   "centre": [
+    -4.6893,
+    -16.7375,
+    1.1876
+   ],
+   "dims": [
+    9.379,
+    2.825,
+    6.875
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.379,
+    6.875,
+    2.825
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 2054,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 138.18,
+   "order": 14,
+   "stage_dist": 11.379,
+   "staging": [
+    -16.0683,
+    -16.7375,
+    1.1876
+   ]
+  },
+  {
+   "name": "Ring02_SU",
+   "tier": "hull",
+   "ring": 2,
+   "ring_y": [
+    -18.15,
+    -15.325
+   ],
+   "centre": [
+    4.6893,
+    -16.7375,
+    1.1876
+   ],
+   "dims": [
+    9.379,
+    2.825,
+    6.875
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.379,
+    6.875,
+    2.825
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 2056,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 138.18,
+   "order": 15,
+   "stage_dist": 11.379,
+   "staging": [
+    16.0683,
+    -16.7375,
+    1.1876
+   ]
+  },
+  {
+   "name": "Ring03_PL",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    -4.5181,
+    -13.9125,
+    -5.6554
+   ],
+   "dims": [
+    9.036,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.036,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -0.6965,
+    0.0,
+    -0.7176
+   ],
+   "on_keel": false,
+   "tris": 1970,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 99.16,
+   "order": 16,
+   "stage_dist": 12.396,
+   "staging": [
+    -13.1519,
+    -13.9125,
+    -14.5508
+   ]
+  },
+  {
+   "name": "Ring03_SL",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    4.5181,
+    -13.9125,
+    -5.6554
+   ],
+   "dims": [
+    9.036,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.036,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    0.6965,
+    0.0,
+    -0.7176
+   ],
+   "on_keel": false,
+   "tris": 1972,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 99.16,
+   "order": 17,
+   "stage_dist": 12.396,
+   "staging": [
+    13.1519,
+    -13.9125,
+    -14.5508
+   ]
+  },
+  {
+   "name": "Ring03_PM",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    -4.6732,
+    -13.9125,
+    0.0615
+   ],
+   "dims": [
+    9.346,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.346,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1212,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 121.67,
+   "order": 18,
+   "stage_dist": 11.346,
+   "staging": [
+    -16.0192,
+    -13.9125,
+    0.0615
+   ]
+  },
+  {
+   "name": "Ring03_SM",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    4.6732,
+    -13.9125,
+    0.0615
+   ],
+   "dims": [
+    9.346,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.346,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1216,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 121.67,
+   "order": 19,
+   "stage_dist": 11.346,
+   "staging": [
+    16.0192,
+    -13.9125,
+    0.0615
+   ]
+  },
+  {
+   "name": "Ring03_PU",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    -4.0187,
+    -13.9125,
+    5.7783
+   ],
+   "dims": [
+    8.037,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.037,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -0.51,
+    0.0,
+    0.8602
+   ],
+   "on_keel": false,
+   "tris": 1606,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 11.36,
+   "order": 20,
+   "stage_dist": 11.017,
+   "staging": [
+    -9.6374,
+    -13.9125,
+    15.2551
+   ]
+  },
+  {
+   "name": "Ring03_SU",
+   "tier": "hull",
+   "ring": 3,
+   "ring_y": [
+    -15.325,
+    -12.5
+   ],
+   "centre": [
+    4.0187,
+    -13.9125,
+    5.7783
+   ],
+   "dims": [
+    8.037,
+    2.825,
+    5.717
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.037,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    0.51,
+    0.0,
+    0.8602
+   ],
+   "on_keel": false,
+   "tris": 1608,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 11.36,
+   "order": 21,
+   "stage_dist": 11.017,
+   "staging": [
+    9.6374,
+    -13.9125,
+    15.2551
+   ]
+  },
+  {
+   "name": "Ring04_PL",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    -4.6413,
+    -10.9062,
+    -5.4542
+   ],
+   "dims": [
+    9.283,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.283,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -0.7215,
+    0.0,
+    -0.6924
+   ],
+   "on_keel": false,
+   "tris": 1742,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 91.95,
+   "order": 22,
+   "stage_dist": 12.365,
+   "staging": [
+    -13.5626,
+    -10.9062,
+    -14.0157
+   ]
+  },
+  {
+   "name": "Ring04_SL",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    4.6413,
+    -10.9062,
+    -5.4542
+   ],
+   "dims": [
+    9.283,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.283,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    0.7215,
+    0.0,
+    -0.6924
+   ],
+   "on_keel": false,
+   "tris": 1742,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 91.95,
+   "order": 23,
+   "stage_dist": 12.365,
+   "staging": [
+    13.5626,
+    -10.9062,
+    -14.0157
+   ]
+  },
+  {
+   "name": "Ring04_PM",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    -4.6466,
+    -10.9062,
+    -0.1571
+   ],
+   "dims": [
+    9.293,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.293,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1048,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 124.56,
+   "order": 24,
+   "stage_dist": 11.293,
+   "staging": [
+    -15.9396,
+    -10.9062,
+    -0.1571
+   ]
+  },
+  {
+   "name": "Ring04_SM",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    4.6466,
+    -10.9062,
+    -0.1571
+   ],
+   "dims": [
+    9.293,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.293,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1050,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 124.56,
+   "order": 25,
+   "stage_dist": 11.293,
+   "staging": [
+    15.9396,
+    -10.9062,
+    -0.1571
+   ]
+  },
+  {
+   "name": "Ring04_PU",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    -3.4875,
+    -10.9062,
+    5.14
+   ],
+   "dims": [
+    6.975,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.975,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -0.4939,
+    0.0,
+    0.8695
+   ],
+   "on_keel": false,
+   "tris": 1956,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 35.67,
+   "order": 26,
+   "stage_dist": 10.051,
+   "staging": [
+    -8.4517,
+    -10.9062,
+    13.8793
+   ]
+  },
+  {
+   "name": "Ring04_SU",
+   "tier": "hull",
+   "ring": 4,
+   "ring_y": [
+    -12.5,
+    -9.312
+   ],
+   "centre": [
+    3.4875,
+    -10.9062,
+    5.14
+   ],
+   "dims": [
+    6.975,
+    3.188,
+    5.297
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.975,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    0.4939,
+    0.0,
+    0.8695
+   ],
+   "on_keel": false,
+   "tris": 1958,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 35.67,
+   "order": 27,
+   "stage_dist": 10.051,
+   "staging": [
+    8.4517,
+    -10.9062,
+    13.8793
+   ]
+  },
+  {
+   "name": "Ring05_PL",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    -5.0244,
+    -7.7188,
+    -5.8529
+   ],
+   "dims": [
+    10.049,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    10.049,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -0.7193,
+    0.0,
+    -0.6947
+   ],
+   "on_keel": false,
+   "tris": 2560,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 107.26,
+   "order": 28,
+   "stage_dist": 13.027,
+   "staging": [
+    -14.3947,
+    -7.7188,
+    -14.9028
+   ]
+  },
+  {
+   "name": "Ring05_SL",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    5.0244,
+    -7.7188,
+    -5.8529
+   ],
+   "dims": [
+    10.049,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    10.049,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    0.7193,
+    0.0,
+    -0.6947
+   ],
+   "on_keel": false,
+   "tris": 2560,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 107.26,
+   "order": 29,
+   "stage_dist": 13.027,
+   "staging": [
+    14.3947,
+    -7.7188,
+    -14.9028
+   ]
+  },
+  {
+   "name": "Ring05_PM",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    -4.9295,
+    -7.7188,
+    -0.3844
+   ],
+   "dims": [
+    9.859,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.859,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1360,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 143.1,
+   "order": 30,
+   "stage_dist": 11.859,
+   "staging": [
+    -16.7885,
+    -7.7188,
+    -0.3844
+   ]
+  },
+  {
+   "name": "Ring05_SM",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    4.9295,
+    -7.7188,
+    -0.3844
+   ],
+   "dims": [
+    9.859,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.859,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1366,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 143.1,
+   "order": 31,
+   "stage_dist": 11.859,
+   "staging": [
+    16.7885,
+    -7.7188,
+    -0.3844
+   ]
+  },
+  {
+   "name": "Ring05_PU",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    -3.5371,
+    -7.7188,
+    5.0841
+   ],
+   "dims": [
+    7.074,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.074,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -0.5026,
+    0.0,
+    0.8645
+   ],
+   "on_keel": false,
+   "tris": 2150,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 53.32,
+   "order": 32,
+   "stage_dist": 10.282,
+   "staging": [
+    -8.7048,
+    -7.7188,
+    13.9729
+   ]
+  },
+  {
+   "name": "Ring05_SU",
+   "tier": "hull",
+   "ring": 5,
+   "ring_y": [
+    -9.312,
+    -6.125
+   ],
+   "centre": [
+    3.5371,
+    -7.7188,
+    5.0841
+   ],
+   "dims": [
+    7.074,
+    3.188,
+    5.468
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.074,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    0.5026,
+    0.0,
+    0.8645
+   ],
+   "on_keel": false,
+   "tris": 2154,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 53.32,
+   "order": 33,
+   "stage_dist": 10.282,
+   "staging": [
+    8.7048,
+    -7.7188,
+    13.9729
+   ]
+  },
+  {
+   "name": "Ring06_PL",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    -4.9533,
+    -4.5312,
+    -6.0667
+   ],
+   "dims": [
+    9.907,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.907,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -0.6991,
+    0.0,
+    -0.7151
+   ],
+   "on_keel": false,
+   "tris": 2528,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 91.71,
+   "order": 34,
+   "stage_dist": 12.541,
+   "staging": [
+    -13.7207,
+    -4.5312,
+    -15.0348
+   ]
+  },
+  {
+   "name": "Ring06_SL",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    4.9533,
+    -4.5312,
+    -6.0667
+   ],
+   "dims": [
+    9.907,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.907,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    0.6991,
+    0.0,
+    -0.7151
+   ],
+   "on_keel": false,
+   "tris": 2534,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 91.71,
+   "order": 35,
+   "stage_dist": 12.541,
+   "staging": [
+    13.7207,
+    -4.5312,
+    -15.0348
+   ]
+  },
+  {
+   "name": "Ring06_PM",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    -4.9237,
+    -4.5312,
+    -1.0114
+   ],
+   "dims": [
+    9.847,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.847,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1510,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 136.07,
+   "order": 36,
+   "stage_dist": 11.847,
+   "staging": [
+    -16.7707,
+    -4.5312,
+    -1.0114
+   ]
+  },
+  {
+   "name": "Ring06_SM",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    4.9237,
+    -4.5312,
+    -1.0114
+   ],
+   "dims": [
+    9.847,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.847,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1514,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 136.07,
+   "order": 37,
+   "stage_dist": 11.847,
+   "staging": [
+    16.7707,
+    -4.5312,
+    -1.0114
+   ]
+  },
+  {
+   "name": "Ring06_PU",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    -4.0246,
+    -4.5312,
+    4.044
+   ],
+   "dims": [
+    8.049,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.049,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -0.6237,
+    0.0,
+    0.7817
+   ],
+   "on_keel": false,
+   "tris": 2006,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 64.82,
+   "order": 38,
+   "stage_dist": 10.972,
+   "staging": [
+    -10.8678,
+    -4.5312,
+    12.6208
+   ]
+  },
+  {
+   "name": "Ring06_SU",
+   "tier": "hull",
+   "ring": 6,
+   "ring_y": [
+    -6.125,
+    -2.938
+   ],
+   "centre": [
+    4.0246,
+    -4.5312,
+    4.044
+   ],
+   "dims": [
+    8.049,
+    3.188,
+    5.055
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.049,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    0.6237,
+    0.0,
+    0.7817
+   ],
+   "on_keel": false,
+   "tris": 2004,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 64.82,
+   "order": 39,
+   "stage_dist": 10.972,
+   "staging": [
+    10.8678,
+    -4.5312,
+    12.6208
+   ]
+  },
+  {
+   "name": "Ring07_PL",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    -4.6543,
+    -1.3438,
+    -5.561
+   ],
+   "dims": [
+    9.309,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.309,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -0.7142,
+    0.0,
+    -0.6999
+   ],
+   "on_keel": false,
+   "tris": 1764,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 52.08,
+   "order": 40,
+   "stage_dist": 11.833,
+   "staging": [
+    -13.1054,
+    -1.3438,
+    -13.8429
+   ]
+  },
+  {
+   "name": "Ring07_SL",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    4.6543,
+    -1.3438,
+    -5.561
+   ],
+   "dims": [
+    9.309,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.309,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    0.7142,
+    0.0,
+    -0.6999
+   ],
+   "on_keel": false,
+   "tris": 1764,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 52.08,
+   "order": 41,
+   "stage_dist": 11.833,
+   "staging": [
+    13.1054,
+    -1.3438,
+    -13.8429
+   ]
+  },
+  {
+   "name": "Ring07_PM",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    -4.6275,
+    -1.3438,
+    -1.0111
+   ],
+   "dims": [
+    9.255,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.255,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1256,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 101.84,
+   "order": 42,
+   "stage_dist": 11.255,
+   "staging": [
+    -15.8825,
+    -1.3438,
+    -1.0111
+   ]
+  },
+  {
+   "name": "Ring07_SM",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    4.6275,
+    -1.3438,
+    -1.0111
+   ],
+   "dims": [
+    9.255,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    9.255,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1256,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 101.84,
+   "order": 43,
+   "stage_dist": 11.255,
+   "staging": [
+    15.8825,
+    -1.3438,
+    -1.0111
+   ]
+  },
+  {
+   "name": "Ring07_PU",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    -3.7203,
+    -1.3438,
+    3.5387
+   ],
+   "dims": [
+    7.441,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.441,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -0.6339,
+    0.0,
+    0.7734
+   ],
+   "on_keel": false,
+   "tris": 1692,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 35.59,
+   "order": 44,
+   "stage_dist": 10.236,
+   "staging": [
+    -10.2089,
+    -1.3438,
+    11.4552
+   ]
+  },
+  {
+   "name": "Ring07_SU",
+   "tier": "hull",
+   "ring": 7,
+   "ring_y": [
+    -2.938,
+    0.25
+   ],
+   "centre": [
+    3.7203,
+    -1.3438,
+    3.5387
+   ],
+   "dims": [
+    7.441,
+    3.188,
+    4.55
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.441,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    0.6339,
+    0.0,
+    0.7734
+   ],
+   "on_keel": false,
+   "tris": 1692,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 35.59,
+   "order": 45,
+   "stage_dist": 10.236,
+   "staging": [
+    10.2089,
+    -1.3438,
+    11.4552
+   ]
+  },
+  {
+   "name": "Ring08_PL",
+   "tier": "hull",
+   "ring": 8,
+   "ring_y": [
+    0.25,
+    3.1
+   ],
+   "centre": [
+    -3.926,
+    1.675,
+    -5.3073
+   ],
+   "dims": [
+    7.852,
+    2.85,
+    6.115
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.852,
+    6.115,
+    2.85
+   ],
+   "approach": [
+    -0.6736,
+    0.0,
+    -0.7391
+   ],
+   "on_keel": false,
+   "tris": 1550,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 76.92,
+   "order": 46,
+   "stage_dist": 11.809,
+   "staging": [
+    -11.8805,
+    1.675,
+    -14.0353
+   ]
+  },
+  {
+   "name": "Ring08_SL",
+   "tier": "hull",
+   "ring": 8,
+   "ring_y": [
+    0.25,
+    3.1
+   ],
+   "centre": [
+    3.926,
+    1.675,
+    -5.3073
+   ],
+   "dims": [
+    7.852,
+    2.85,
+    6.115
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.852,
+    6.115,
+    2.85
+   ],
+   "approach": [
+    0.6736,
+    0.0,
+    -0.7391
+   ],
+   "on_keel": false,
+   "tris": 1554,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 76.92,
+   "order": 47,
+   "stage_dist": 11.809,
+   "staging": [
+    11.8805,
+    1.675,
+    -14.0353
+   ]
+  },
+  {
+   "name": "Ring08_PU",
+   "tier": "hull",
+   "ring": 8,
+   "ring_y": [
+    0.25,
+    3.1
+   ],
+   "centre": [
+    -3.9214,
+    1.675,
+    1.4187
+   ],
+   "dims": [
+    7.843,
+    2.85,
+    7.337
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.843,
+    7.337,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1574,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 96.74,
+   "order": 48,
+   "stage_dist": 9.843,
+   "staging": [
+    -13.7644,
+    1.675,
+    1.4187
+   ]
+  },
+  {
+   "name": "Ring08_SU",
+   "tier": "hull",
+   "ring": 8,
+   "ring_y": [
+    0.25,
+    3.1
+   ],
+   "centre": [
+    3.9214,
+    1.675,
+    1.4187
+   ],
+   "dims": [
+    7.843,
+    2.85,
+    7.337
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.843,
+    7.337,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1578,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 96.74,
+   "order": 49,
+   "stage_dist": 9.843,
+   "staging": [
+    13.7644,
+    1.675,
+    1.4187
+   ]
+  },
+  {
+   "name": "Ring09_PL",
+   "tier": "hull",
+   "ring": 9,
+   "ring_y": [
+    3.1,
+    5.95
+   ],
+   "centre": [
+    -3.9639,
+    4.525,
+    -5.3051
+   ],
+   "dims": [
+    7.928,
+    2.85,
+    6.11
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.928,
+    6.11,
+    2.85
+   ],
+   "approach": [
+    -0.6774,
+    0.0,
+    -0.7357
+   ],
+   "on_keel": false,
+   "tris": 1486,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 83.58,
+   "order": 50,
+   "stage_dist": 11.866,
+   "staging": [
+    -12.0019,
+    4.525,
+    -14.0349
+   ]
+  },
+  {
+   "name": "Ring09_SL",
+   "tier": "hull",
+   "ring": 9,
+   "ring_y": [
+    3.1,
+    5.95
+   ],
+   "centre": [
+    3.9639,
+    4.525,
+    -5.3051
+   ],
+   "dims": [
+    7.928,
+    2.85,
+    6.11
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.928,
+    6.11,
+    2.85
+   ],
+   "approach": [
+    0.6774,
+    0.0,
+    -0.7357
+   ],
+   "on_keel": false,
+   "tris": 1490,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 83.58,
+   "order": 51,
+   "stage_dist": 11.866,
+   "staging": [
+    12.0019,
+    4.525,
+    -14.0349
+   ]
+  },
+  {
+   "name": "Ring09_PU",
+   "tier": "hull",
+   "ring": 9,
+   "ring_y": [
+    3.1,
+    5.95
+   ],
+   "centre": [
+    -3.9769,
+    4.525,
+    1.4275
+   ],
+   "dims": [
+    7.954,
+    2.85,
+    7.355
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.954,
+    7.355,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1164,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 104.09,
+   "order": 52,
+   "stage_dist": 9.954,
+   "staging": [
+    -13.9309,
+    4.525,
+    1.4275
+   ]
+  },
+  {
+   "name": "Ring09_SU",
+   "tier": "hull",
+   "ring": 9,
+   "ring_y": [
+    3.1,
+    5.95
+   ],
+   "centre": [
+    3.9769,
+    4.525,
+    1.4275
+   ],
+   "dims": [
+    7.954,
+    2.85,
+    7.355
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    7.954,
+    7.355,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1168,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 104.09,
+   "order": 53,
+   "stage_dist": 9.954,
+   "staging": [
+    13.9309,
+    4.525,
+    1.4275
+   ]
+  },
+  {
+   "name": "Ring10_PL",
+   "tier": "hull",
+   "ring": 10,
+   "ring_y": [
+    5.95,
+    8.8
+   ],
+   "centre": [
+    -4.0172,
+    7.375,
+    -5.0103
+   ],
+   "dims": [
+    8.034,
+    2.85,
+    5.521
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.034,
+    5.521,
+    2.85
+   ],
+   "approach": [
+    -0.7077,
+    0.0,
+    -0.7065
+   ],
+   "on_keel": false,
+   "tris": 1428,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 63.02,
+   "order": 54,
+   "stage_dist": 11.586,
+   "staging": [
+    -12.2166,
+    7.375,
+    -13.1958
+   ]
+  },
+  {
+   "name": "Ring10_SL",
+   "tier": "hull",
+   "ring": 10,
+   "ring_y": [
+    5.95,
+    8.8
+   ],
+   "centre": [
+    4.0172,
+    7.375,
+    -5.0103
+   ],
+   "dims": [
+    8.034,
+    2.85,
+    5.521
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.034,
+    5.521,
+    2.85
+   ],
+   "approach": [
+    0.7077,
+    0.0,
+    -0.7065
+   ],
+   "on_keel": false,
+   "tris": 1430,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 63.02,
+   "order": 55,
+   "stage_dist": 11.586,
+   "staging": [
+    12.2166,
+    7.375,
+    -13.1958
+   ]
+  },
+  {
+   "name": "Ring10_PU",
+   "tier": "hull",
+   "ring": 10,
+   "ring_y": [
+    5.95,
+    8.8
+   ],
+   "centre": [
+    -4.0263,
+    7.375,
+    1.0524
+   ],
+   "dims": [
+    8.053,
+    2.85,
+    6.605
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.053,
+    6.605,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1122,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 96.68,
+   "order": 56,
+   "stage_dist": 10.053,
+   "staging": [
+    -14.0793,
+    7.375,
+    1.0524
+   ]
+  },
+  {
+   "name": "Ring10_SU",
+   "tier": "hull",
+   "ring": 10,
+   "ring_y": [
+    5.95,
+    8.8
+   ],
+   "centre": [
+    4.0263,
+    7.375,
+    1.0524
+   ],
+   "dims": [
+    8.053,
+    2.85,
+    6.605
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.053,
+    6.605,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1126,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 96.68,
+   "order": 57,
+   "stage_dist": 10.053,
+   "staging": [
+    14.0793,
+    7.375,
+    1.0524
+   ]
+  },
+  {
+   "name": "Ring11_PL",
+   "tier": "hull",
+   "ring": 11,
+   "ring_y": [
+    8.8,
+    11.65
+   ],
+   "centre": [
+    -4.0696,
+    10.225,
+    -4.7127
+   ],
+   "dims": [
+    8.139,
+    2.85,
+    4.925
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.139,
+    4.925,
+    2.85
+   ],
+   "approach": [
+    -0.7388,
+    0.0,
+    -0.674
+   ],
+   "on_keel": false,
+   "tris": 1166,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 59.44,
+   "order": 58,
+   "stage_dist": 11.333,
+   "staging": [
+    -12.4424,
+    10.225,
+    -12.3511
+   ]
+  },
+  {
+   "name": "Ring11_SL",
+   "tier": "hull",
+   "ring": 11,
+   "ring_y": [
+    8.8,
+    11.65
+   ],
+   "centre": [
+    4.0696,
+    10.225,
+    -4.7127
+   ],
+   "dims": [
+    8.139,
+    2.85,
+    4.925
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.139,
+    4.925,
+    2.85
+   ],
+   "approach": [
+    0.7388,
+    0.0,
+    -0.674
+   ],
+   "on_keel": false,
+   "tris": 1166,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 59.44,
+   "order": 59,
+   "stage_dist": 11.333,
+   "staging": [
+    12.4424,
+    10.225,
+    -12.3511
+   ]
+  },
+  {
+   "name": "Ring11_PU",
+   "tier": "hull",
+   "ring": 11,
+   "ring_y": [
+    8.8,
+    11.65
+   ],
+   "centre": [
+    -4.0774,
+    10.225,
+    0.5816
+   ],
+   "dims": [
+    8.155,
+    2.85,
+    5.663
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.155,
+    5.663,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1154,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 90.47,
+   "order": 60,
+   "stage_dist": 10.155,
+   "staging": [
+    -14.2324,
+    10.225,
+    0.5816
+   ]
+  },
+  {
+   "name": "Ring11_SU",
+   "tier": "hull",
+   "ring": 11,
+   "ring_y": [
+    8.8,
+    11.65
+   ],
+   "centre": [
+    4.0774,
+    10.225,
+    0.5816
+   ],
+   "dims": [
+    8.155,
+    2.85,
+    5.663
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    8.155,
+    5.663,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1154,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 90.47,
+   "order": 61,
+   "stage_dist": 10.155,
+   "staging": [
+    14.2324,
+    10.225,
+    0.5816
+   ]
+  },
+  {
+   "name": "Ring12_PL",
+   "tier": "hull",
+   "ring": 12,
+   "ring_y": [
+    11.65,
+    14.5
+   ],
+   "centre": [
+    -3.4365,
+    13.075,
+    -4.7086
+   ],
+   "dims": [
+    6.873,
+    2.85,
+    4.917
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.873,
+    4.917,
+    2.85
+   ],
+   "approach": [
+    -0.6797,
+    0.0,
+    -0.7335
+   ],
+   "on_keel": false,
+   "tris": 658,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 58.9,
+   "order": 62,
+   "stage_dist": 10.278,
+   "staging": [
+    -10.4225,
+    13.075,
+    -12.2475
+   ]
+  },
+  {
+   "name": "Ring12_SL",
+   "tier": "hull",
+   "ring": 12,
+   "ring_y": [
+    11.65,
+    14.5
+   ],
+   "centre": [
+    3.4365,
+    13.075,
+    -4.7086
+   ],
+   "dims": [
+    6.873,
+    2.85,
+    4.917
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.873,
+    4.917,
+    2.85
+   ],
+   "approach": [
+    0.6797,
+    0.0,
+    -0.7335
+   ],
+   "on_keel": false,
+   "tris": 662,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 58.9,
+   "order": 63,
+   "stage_dist": 10.278,
+   "staging": [
+    10.4225,
+    13.075,
+    -12.2475
+   ]
+  },
+  {
+   "name": "Ring12_PU",
+   "tier": "hull",
+   "ring": 12,
+   "ring_y": [
+    11.65,
+    14.5
+   ],
+   "centre": [
+    -3.4526,
+    13.075,
+    0.5561
+   ],
+   "dims": [
+    6.905,
+    2.85,
+    5.612
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.905,
+    5.612,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 896,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 82.12,
+   "order": 64,
+   "stage_dist": 8.905,
+   "staging": [
+    -12.3576,
+    13.075,
+    0.5561
+   ]
+  },
+  {
+   "name": "Ring12_SU",
+   "tier": "hull",
+   "ring": 12,
+   "ring_y": [
+    11.65,
+    14.5
+   ],
+   "centre": [
+    3.4526,
+    13.075,
+    0.5561
+   ],
+   "dims": [
+    6.905,
+    2.85,
+    5.612
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.905,
+    5.612,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 900,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 82.12,
+   "order": 65,
+   "stage_dist": 8.905,
+   "staging": [
+    12.3576,
+    13.075,
+    0.5561
+   ]
+  },
+  {
+   "name": "Ring13_PL",
+   "tier": "hull",
+   "ring": 13,
+   "ring_y": [
+    14.5,
+    17.6
+   ],
+   "centre": [
+    -3.0619,
+    16.05,
+    -4.5621
+   ],
+   "dims": [
+    6.124,
+    3.1,
+    4.624
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.124,
+    4.624,
+    3.1
+   ],
+   "approach": [
+    -0.6519,
+    0.0,
+    -0.7583
+   ],
+   "on_keel": false,
+   "tris": 1406,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 30.4,
+   "order": 66,
+   "stage_dist": 9.499,
+   "staging": [
+    -9.2543,
+    16.05,
+    -11.7652
+   ]
+  },
+  {
+   "name": "Ring13_SL",
+   "tier": "hull",
+   "ring": 13,
+   "ring_y": [
+    14.5,
+    17.6
+   ],
+   "centre": [
+    3.0619,
+    16.05,
+    -4.5621
+   ],
+   "dims": [
+    6.124,
+    3.1,
+    4.624
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "transit_dims": [
+    6.124,
+    4.624,
+    3.1
+   ],
+   "approach": [
+    0.6519,
+    0.0,
+    -0.7583
+   ],
+   "on_keel": false,
+   "tris": 1406,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 30.4,
+   "order": 67,
+   "stage_dist": 9.499,
+   "staging": [
+    9.2543,
+    16.05,
+    -11.7652
+   ]
+  },
+  {
+   "name": "Ring13_PU",
+   "tier": "hull",
+   "ring": 13,
+   "ring_y": [
+    14.5,
+    17.6
+   ],
+   "centre": [
+    -3.0424,
+    16.05,
+    0.7999
+   ],
+   "dims": [
+    6.085,
+    3.1,
+    6.1
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    6.1,
+    6.085,
+    3.1
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1780,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 54.65,
+   "order": 68,
+   "stage_dist": 8.085,
+   "staging": [
+    -11.1274,
+    16.05,
+    0.7999
+   ]
+  },
+  {
+   "name": "Ring13_SU",
+   "tier": "hull",
+   "ring": 13,
+   "ring_y": [
+    14.5,
+    17.6
+   ],
+   "centre": [
+    3.0424,
+    16.05,
+    0.7999
+   ],
+   "dims": [
+    6.085,
+    3.1,
+    6.1
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    6.1,
+    6.085,
+    3.1
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 1780,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 54.65,
+   "order": 69,
+   "stage_dist": 8.085,
+   "staging": [
+    11.1274,
+    16.05,
+    0.7999
+   ]
+  },
+  {
+   "name": "Ring14_P",
+   "tier": "hull",
+   "ring": 14,
+   "ring_y": [
+    17.6,
+    20.7
+   ],
+   "centre": [
+    -2.4444,
+    19.15,
+    -0.7846
+   ],
+   "dims": [
+    4.889,
+    3.1,
+    8.491
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    8.491,
+    4.889,
+    3.1
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 2470,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 86.22,
+   "order": 70,
+   "stage_dist": 6.889,
+   "staging": [
+    -9.3334,
+    19.15,
+    -0.7846
+   ]
+  },
+  {
+   "name": "Ring14_S",
+   "tier": "hull",
+   "ring": 14,
+   "ring_y": [
+    17.6,
+    20.7
+   ],
+   "centre": [
+    2.4444,
+    19.15,
+    -0.7846
+   ],
+   "dims": [
+    4.889,
+    3.1,
+    8.491
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    8.491,
+    4.889,
+    3.1
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "on_keel": true,
+   "tris": 2470,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 86.22,
+   "order": 71,
+   "stage_dist": 6.889,
+   "staging": [
+    9.3334,
+    19.15,
+    -0.7846
+   ]
+  },
+  {
+   "name": "Ring15_P",
+   "tier": "hull",
+   "ring": 15,
+   "ring_y": [
+    20.7,
+    23.8
+   ],
+   "centre": [
+    -2.3247,
+    22.2189,
+    -0.9083
+   ],
+   "dims": [
+    4.649,
+    3.038,
+    8.183
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    8.183,
+    4.649,
+    3.038
+   ],
+   "approach": [
+    -0.9992,
+    0.0,
+    0.0394
+   ],
+   "on_keel": false,
+   "tris": 2984,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 40.54,
+   "order": 72,
+   "stage_dist": 6.968,
+   "staging": [
+    -9.2871,
+    22.2189,
+    -0.6338
+   ]
+  },
+  {
+   "name": "Ring15_S",
+   "tier": "hull",
+   "ring": 15,
+   "ring_y": [
+    20.7,
+    23.8
+   ],
+   "centre": [
+    2.3247,
+    22.2189,
+    -0.9083
+   ],
+   "dims": [
+    4.649,
+    3.038,
+    8.183
+   ],
+   "transit_fits": true,
+   "transit_quat": [
+    0.707107,
+    -0.707107,
+    0.0,
+    0.0
+   ],
+   "transit_dims": [
+    8.183,
+    4.649,
+    3.038
+   ],
+   "approach": [
+    0.9992,
+    0.0,
+    0.0394
+   ],
+   "on_keel": false,
+   "tris": 2984,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "volume": 40.54,
+   "order": 73,
+   "stage_dist": 6.968,
+   "staging": [
+    9.2871,
+    22.2189,
+    -0.6338
+   ]
+  }
+ ]
+}

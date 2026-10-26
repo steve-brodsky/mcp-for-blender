@@ -1,0 +1,690 @@
+{
+ "fps": 24,
+ "timelapse": 5.0,
+ "drones": 10,
+ "pieces": 74,
+ "game_seconds": 711.2,
+ "video_frames": 3513,
+ "bay_cycle_mean_s": 9.61,
+ "site": [
+  82.0,
+  -6.0,
+  2.0
+ ],
+ "r_arc": 24.0,
+ "r_ret": 40.0,
+ "speeds": {
+  "fly": 16.0,
+  "bay": 6.0,
+  "seat": 2.5
+ },
+ "drone_len": 4.005,
+ "schedule": [
+  {
+   "piece": "Keel_0",
+   "drone": 0,
+   "issued": 0.0,
+   "cleared_field": 4.26,
+   "staged": 10.22,
+   "seated": 12.84,
+   "drone_home": 26.34
+  },
+  {
+   "piece": "Keel_1",
+   "drone": 1,
+   "issued": 4.26,
+   "cleared_field": 8.51,
+   "staged": 14.51,
+   "seated": 17.13,
+   "drone_home": 30.75
+  },
+  {
+   "piece": "Keel_2",
+   "drone": 2,
+   "issued": 8.51,
+   "cleared_field": 12.77,
+   "staged": 19.02,
+   "seated": 21.64,
+   "drone_home": 35.43
+  },
+  {
+   "piece": "Keel_3",
+   "drone": 3,
+   "issued": 12.77,
+   "cleared_field": 17.03,
+   "staged": 23.67,
+   "seated": 26.29,
+   "drone_home": 40.28
+  },
+  {
+   "piece": "Ring00_PL",
+   "drone": 4,
+   "issued": 17.03,
+   "cleared_field": 21.55,
+   "staged": 27.86,
+   "seated": 32.89,
+   "drone_home": 55.76
+  },
+  {
+   "piece": "Ring00_SL",
+   "drone": 5,
+   "issued": 21.55,
+   "cleared_field": 26.08,
+   "staged": 35.19,
+   "seated": 40.22,
+   "drone_home": 59.86
+  },
+  {
+   "piece": "Ring00_PU",
+   "drone": 6,
+   "issued": 26.08,
+   "cleared_field": 30.96,
+   "staged": 36.87,
+   "seated": 42.23,
+   "drone_home": 54.31
+  },
+  {
+   "piece": "Ring00_SU",
+   "drone": 7,
+   "issued": 30.96,
+   "cleared_field": 35.85,
+   "staged": 45.24,
+   "seated": 50.59,
+   "drone_home": 66.55
+  },
+  {
+   "piece": "Ring01_PL",
+   "drone": 8,
+   "issued": 35.85,
+   "cleared_field": 40.52,
+   "staged": 46.72,
+   "seated": 52.35,
+   "drone_home": 75.74
+  },
+  {
+   "piece": "Ring01_SL",
+   "drone": 9,
+   "issued": 40.52,
+   "cleared_field": 45.18,
+   "staged": 53.99,
+   "seated": 59.62,
+   "drone_home": 80.15
+  },
+  {
+   "piece": "Ring01_PU",
+   "drone": 3,
+   "issued": 50.9,
+   "cleared_field": 55.85,
+   "staged": 61.63,
+   "seated": 67.6,
+   "drone_home": 78.9
+  },
+  {
+   "piece": "Ring01_SU",
+   "drone": 4,
+   "issued": 61.48,
+   "cleared_field": 66.42,
+   "staged": 75.56,
+   "seated": 81.54,
+   "drone_home": 96.64
+  },
+  {
+   "piece": "Ring02_PL",
+   "drone": 5,
+   "issued": 71.57,
+   "cleared_field": 76.42,
+   "staged": 82.56,
+   "seated": 88.45,
+   "drone_home": 110.87
+  },
+  {
+   "piece": "Ring02_SL",
+   "drone": 6,
+   "issued": 82.07,
+   "cleared_field": 86.92,
+   "staged": 95.47,
+   "seated": 101.37,
+   "drone_home": 121.16
+  },
+  {
+   "piece": "Ring02_PU",
+   "drone": 3,
+   "issued": 92.63,
+   "cleared_field": 97.58,
+   "staged": 102.77,
+   "seated": 108.04,
+   "drone_home": 119.77
+  },
+  {
+   "piece": "Ring02_SU",
+   "drone": 4,
+   "issued": 102.8,
+   "cleared_field": 107.74,
+   "staged": 117.65,
+   "seated": 122.91,
+   "drone_home": 138.43
+  },
+  {
+   "piece": "Ring03_PL",
+   "drone": 7,
+   "issued": 113.83,
+   "cleared_field": 118.58,
+   "staged": 124.77,
+   "seated": 130.45,
+   "drone_home": 153.1
+  },
+  {
+   "piece": "Ring03_SL",
+   "drone": 5,
+   "issued": 123.67,
+   "cleared_field": 128.42,
+   "staged": 136.92,
+   "seated": 142.6,
+   "drone_home": 162.13
+  },
+  {
+   "piece": "Ring03_PM",
+   "drone": 6,
+   "issued": 134.01,
+   "cleared_field": 138.76,
+   "staged": 143.93,
+   "seated": 149.19,
+   "drone_home": 161.62
+  },
+  {
+   "piece": "Ring03_SM",
+   "drone": 4,
+   "issued": 144.02,
+   "cleared_field": 148.77,
+   "staged": 158.65,
+   "seated": 163.91,
+   "drone_home": 179.67
+  },
+  {
+   "piece": "Ring03_PU",
+   "drone": 3,
+   "issued": 154.36,
+   "cleared_field": 159.11,
+   "staged": 165.65,
+   "seated": 170.77,
+   "drone_home": 182.47
+  },
+  {
+   "piece": "Ring03_SU",
+   "drone": 7,
+   "issued": 165.2,
+   "cleared_field": 169.95,
+   "staged": 178.1,
+   "seated": 183.22,
+   "drone_home": 197.5
+  },
+  {
+   "piece": "Ring04_PL",
+   "drone": 5,
+   "issued": 174.97,
+   "cleared_field": 179.65,
+   "staged": 185.79,
+   "seated": 191.45,
+   "drone_home": 213.72
+  },
+  {
+   "piece": "Ring04_SL",
+   "drone": 6,
+   "issued": 185.17,
+   "cleared_field": 189.85,
+   "staged": 198.41,
+   "seated": 204.07,
+   "drone_home": 223.6
+  },
+  {
+   "piece": "Ring04_PM",
+   "drone": 4,
+   "issued": 194.88,
+   "cleared_field": 199.56,
+   "staged": 204.73,
+   "seated": 209.96,
+   "drone_home": 222.08
+  },
+  {
+   "piece": "Ring04_SM",
+   "drone": 3,
+   "issued": 205.08,
+   "cleared_field": 209.76,
+   "staged": 219.64,
+   "seated": 224.88,
+   "drone_home": 240.57
+  },
+  {
+   "piece": "Ring04_PU",
+   "drone": 7,
+   "issued": 215.78,
+   "cleared_field": 220.46,
+   "staged": 227.14,
+   "seated": 231.88,
+   "drone_home": 244.17
+  },
+  {
+   "piece": "Ring04_SU",
+   "drone": 5,
+   "issued": 225.49,
+   "cleared_field": 230.17,
+   "staged": 238.39,
+   "seated": 243.13,
+   "drone_home": 256.95
+  },
+  {
+   "piece": "Ring05_PL",
+   "drone": 4,
+   "issued": 235.21,
+   "cleared_field": 239.92,
+   "staged": 245.99,
+   "seated": 251.91,
+   "drone_home": 273.97
+  },
+  {
+   "piece": "Ring05_SL",
+   "drone": 6,
+   "issued": 245.46,
+   "cleared_field": 250.17,
+   "staged": 258.65,
+   "seated": 264.57,
+   "drone_home": 283.94
+  },
+  {
+   "piece": "Ring05_PM",
+   "drone": 3,
+   "issued": 255.71,
+   "cleared_field": 260.42,
+   "staged": 265.53,
+   "seated": 270.99,
+   "drone_home": 283.06
+  },
+  {
+   "piece": "Ring05_SM",
+   "drone": 5,
+   "issued": 265.46,
+   "cleared_field": 270.17,
+   "staged": 280.0,
+   "seated": 285.46,
+   "drone_home": 301.3
+  },
+  {
+   "piece": "Ring05_PU",
+   "drone": 7,
+   "issued": 276.21,
+   "cleared_field": 280.92,
+   "staged": 287.57,
+   "seated": 292.4,
+   "drone_home": 304.54
+  },
+  {
+   "piece": "Ring05_SU",
+   "drone": 4,
+   "issued": 285.96,
+   "cleared_field": 290.67,
+   "staged": 298.9,
+   "seated": 303.73,
+   "drone_home": 317.39
+  },
+  {
+   "piece": "Ring06_PL",
+   "drone": 6,
+   "issued": 296.17,
+   "cleared_field": 300.81,
+   "staged": 306.99,
+   "seated": 312.72,
+   "drone_home": 334.87
+  },
+  {
+   "piece": "Ring06_SL",
+   "drone": 3,
+   "issued": 306.31,
+   "cleared_field": 310.95,
+   "staged": 319.45,
+   "seated": 325.18,
+   "drone_home": 344.33
+  },
+  {
+   "piece": "Ring06_PM",
+   "drone": 5,
+   "issued": 315.94,
+   "cleared_field": 320.58,
+   "staged": 325.74,
+   "seated": 331.2,
+   "drone_home": 343.5
+  },
+  {
+   "piece": "Ring06_SM",
+   "drone": 4,
+   "issued": 325.58,
+   "cleared_field": 330.22,
+   "staged": 340.1,
+   "seated": 345.55,
+   "drone_home": 361.45
+  },
+  {
+   "piece": "Ring06_PU",
+   "drone": 7,
+   "issued": 336.21,
+   "cleared_field": 340.86,
+   "staged": 347.32,
+   "seated": 352.43,
+   "drone_home": 364.25
+  },
+  {
+   "piece": "Ring06_SU",
+   "drone": 6,
+   "issued": 346.35,
+   "cleared_field": 350.99,
+   "staged": 359.48,
+   "seated": 364.59,
+   "drone_home": 378.7
+  },
+  {
+   "piece": "Ring07_PL",
+   "drone": 5,
+   "issued": 355.93,
+   "cleared_field": 360.49,
+   "staged": 366.79,
+   "seated": 372.24,
+   "drone_home": 394.34
+  },
+  {
+   "piece": "Ring07_SL",
+   "drone": 3,
+   "issued": 365.93,
+   "cleared_field": 370.48,
+   "staged": 379.17,
+   "seated": 384.62,
+   "drone_home": 403.81
+  },
+  {
+   "piece": "Ring07_PM",
+   "drone": 4,
+   "issued": 375.42,
+   "cleared_field": 379.98,
+   "staged": 385.27,
+   "seated": 390.49,
+   "drone_home": 402.78
+  },
+  {
+   "piece": "Ring07_SM",
+   "drone": 6,
+   "issued": 385.42,
+   "cleared_field": 389.98,
+   "staged": 399.98,
+   "seated": 405.2,
+   "drone_home": 421.22
+  },
+  {
+   "piece": "Ring07_PU",
+   "drone": 7,
+   "issued": 395.91,
+   "cleared_field": 400.47,
+   "staged": 407.08,
+   "seated": 411.89,
+   "drone_home": 423.63
+  },
+  {
+   "piece": "Ring07_SU",
+   "drone": 5,
+   "issued": 405.41,
+   "cleared_field": 409.97,
+   "staged": 418.63,
+   "seated": 423.45,
+   "drone_home": 437.49
+  },
+  {
+   "piece": "Ring08_PL",
+   "drone": 4,
+   "issued": 415.1,
+   "cleared_field": 419.92,
+   "staged": 426.38,
+   "seated": 431.83,
+   "drone_home": 453.73
+  },
+  {
+   "piece": "Ring08_SL",
+   "drone": 3,
+   "issued": 425.55,
+   "cleared_field": 430.37,
+   "staged": 439.05,
+   "seated": 444.49,
+   "drone_home": 463.91
+  },
+  {
+   "piece": "Ring08_PU",
+   "drone": 6,
+   "issued": 436.13,
+   "cleared_field": 441.16,
+   "staged": 446.6,
+   "seated": 451.26,
+   "drone_home": 462.75
+  },
+  {
+   "piece": "Ring08_SU",
+   "drone": 5,
+   "issued": 446.42,
+   "cleared_field": 451.44,
+   "staged": 461.6,
+   "seated": 466.26,
+   "drone_home": 481.37
+  },
+  {
+   "piece": "Ring09_PL",
+   "drone": 7,
+   "issued": 457.58,
+   "cleared_field": 462.39,
+   "staged": 468.94,
+   "seated": 474.4,
+   "drone_home": 496.36
+  },
+  {
+   "piece": "Ring09_SL",
+   "drone": 4,
+   "issued": 467.52,
+   "cleared_field": 472.34,
+   "staged": 481.12,
+   "seated": 486.58,
+   "drone_home": 505.96
+  },
+  {
+   "piece": "Ring09_PU",
+   "drone": 6,
+   "issued": 478.11,
+   "cleared_field": 483.13,
+   "staged": 488.66,
+   "seated": 493.36,
+   "drone_home": 504.83
+  },
+  {
+   "piece": "Ring09_SU",
+   "drone": 5,
+   "issued": 488.4,
+   "cleared_field": 493.43,
+   "staged": 503.67,
+   "seated": 508.37,
+   "drone_home": 523.49
+  },
+  {
+   "piece": "Ring10_PL",
+   "drone": 3,
+   "issued": 498.99,
+   "cleared_field": 503.71,
+   "staged": 510.35,
+   "seated": 515.7,
+   "drone_home": 537.97
+  },
+  {
+   "piece": "Ring10_SL",
+   "drone": 7,
+   "issued": 509.78,
+   "cleared_field": 514.5,
+   "staged": 523.49,
+   "seated": 528.84,
+   "drone_home": 548.12
+  },
+  {
+   "piece": "Ring10_PU",
+   "drone": 4,
+   "issued": 519.68,
+   "cleared_field": 524.58,
+   "staged": 530.23,
+   "seated": 534.96,
+   "drone_home": 546.69
+  },
+  {
+   "piece": "Ring10_SU",
+   "drone": 5,
+   "issued": 529.77,
+   "cleared_field": 534.67,
+   "staged": 545.02,
+   "seated": 549.76,
+   "drone_home": 565.05
+  },
+  {
+   "piece": "Ring11_PL",
+   "drone": 6,
+   "issued": 540.17,
+   "cleared_field": 544.79,
+   "staged": 551.51,
+   "seated": 556.76,
+   "drone_home": 578.93
+  },
+  {
+   "piece": "Ring11_SL",
+   "drone": 3,
+   "issued": 550.29,
+   "cleared_field": 554.91,
+   "staged": 564.12,
+   "seated": 569.37,
+   "drone_home": 588.91
+  },
+  {
+   "piece": "Ring11_PU",
+   "drone": 4,
+   "issued": 559.99,
+   "cleared_field": 564.73,
+   "staged": 570.5,
+   "seated": 575.28,
+   "drone_home": 587.28
+  },
+  {
+   "piece": "Ring11_SU",
+   "drone": 5,
+   "issued": 570.63,
+   "cleared_field": 575.38,
+   "staged": 585.86,
+   "seated": 590.63,
+   "drone_home": 606.17
+  },
+  {
+   "piece": "Ring12_PL",
+   "drone": 7,
+   "issued": 581.38,
+   "cleared_field": 585.99,
+   "staged": 593.06,
+   "seated": 597.89,
+   "drone_home": 619.89
+  },
+  {
+   "piece": "Ring12_SL",
+   "drone": 6,
+   "issued": 591.49,
+   "cleared_field": 596.11,
+   "staged": 605.42,
+   "seated": 610.25,
+   "drone_home": 629.67
+  },
+  {
+   "piece": "Ring12_PU",
+   "drone": 4,
+   "issued": 601.19,
+   "cleared_field": 605.92,
+   "staged": 611.93,
+   "seated": 616.21,
+   "drone_home": 628.27
+  },
+  {
+   "piece": "Ring12_SU",
+   "drone": 3,
+   "issued": 611.5,
+   "cleared_field": 616.23,
+   "staged": 626.95,
+   "seated": 631.23,
+   "drone_home": 647.11
+  },
+  {
+   "piece": "Ring13_PL",
+   "drone": 5,
+   "issued": 621.18,
+   "cleared_field": 625.75,
+   "staged": 633.09,
+   "seated": 637.6,
+   "drone_home": 659.8
+  },
+  {
+   "piece": "Ring13_SL",
+   "drone": 7,
+   "issued": 631.7,
+   "cleared_field": 636.27,
+   "staged": 645.74,
+   "seated": 650.26,
+   "drone_home": 669.75
+  },
+  {
+   "piece": "Ring13_PU",
+   "drone": 4,
+   "issued": 641.39,
+   "cleared_field": 646.2,
+   "staged": 652.42,
+   "seated": 656.37,
+   "drone_home": 669.6
+  },
+  {
+   "piece": "Ring13_SU",
+   "drone": 6,
+   "issued": 651.81,
+   "cleared_field": 656.63,
+   "staged": 667.56,
+   "seated": 671.51,
+   "drone_home": 688.09
+  },
+  {
+   "piece": "Ring14_P",
+   "drone": 3,
+   "issued": 662.11,
+   "cleared_field": 666.72,
+   "staged": 673.22,
+   "seated": 676.69,
+   "drone_home": 690.6
+  },
+  {
+   "piece": "Ring14_S",
+   "drone": 5,
+   "issued": 671.7,
+   "cleared_field": 676.32,
+   "staged": 687.53,
+   "seated": 691.0,
+   "drone_home": 708.17
+  },
+  {
+   "piece": "Ring15_P",
+   "drone": 4,
+   "issued": 681.28,
+   "cleared_field": 685.85,
+   "staged": 692.57,
+   "seated": 696.07,
+   "drone_home": 709.91
+  },
+  {
+   "piece": "Ring15_S",
+   "drone": 7,
+   "issued": 691.81,
+   "cleared_field": 696.38,
+   "staged": 707.69,
+   "seated": 711.2,
+   "drone_home": 728.17
+  }
+ ]
+}
