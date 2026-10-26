@@ -1,0 +1,29 @@
+{
+  "Quad": {
+    "traverse_contacts_with_base": [],
+    "clear_min_deg": -37,
+    "clear_max_deg": 90,
+    "min_elevation_deg": -35,
+    "max_elevation_deg": 88,
+    "rest_clear": true,
+    "recoil_tested_m": 0.18
+  },
+  "Gatling": {
+    "traverse_contacts_with_base": [],
+    "clear_min_deg": -23,
+    "clear_max_deg": 77,
+    "min_elevation_deg": -21,
+    "max_elevation_deg": 75,
+    "rest_clear": true,
+    "recoil_tested_m": 0.0
+  },
+  "Laser": {
+    "traverse_contacts_with_base": [],
+    "clear_min_deg": -19,
+    "clear_max_deg": 89,
+    "min_elevation_deg": -17,
+    "max_elevation_deg": 87,
+    "rest_clear": true,
+    "recoil_tested_m": 0.12
+  }
+}

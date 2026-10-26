@@ -1,0 +1,66 @@
+{
+  "Quad_BaseMesh": {
+    "faces": 5028,
+    "plates": 585,
+    "plates_unified": 90,
+    "faces_repainted_by_plate_majority": 947,
+    "faces_repainted_by_neighbour_majority": 112
+  },
+  "Quad_YawMesh": {
+    "faces": 7114,
+    "plates": 1006,
+    "plates_unified": 105,
+    "faces_repainted_by_plate_majority": 1150,
+    "faces_repainted_by_neighbour_majority": 142
+  },
+  "Quad_face_class_area_share": {
+    "graphite": 0.2927907326503438,
+    "gunmetal": 0.4452943053052974,
+    "armor": 0.2619149620443588
+  },
+  "Gatling_BaseMesh": {
+    "faces": 5028,
+    "plates": 585,
+    "plates_unified": 90,
+    "faces_repainted_by_plate_majority": 938,
+    "faces_repainted_by_neighbour_majority": 100
+  },
+  "Gatling_YawMesh": {
+    "faces": 7956,
+    "plates": 977,
+    "plates_unified": 135,
+    "faces_repainted_by_plate_majority": 1354,
+    "faces_repainted_by_neighbour_majority": 131
+  },
+  "Gatling_face_class_area_share": {
+    "graphite": 0.36221524783250225,
+    "gunmetal": 0.3844376000001645,
+    "armor": 0.2533471521673332
+  },
+  "Laser_BaseMesh": {
+    "faces": 5028,
+    "plates": 585,
+    "plates_unified": 90,
+    "faces_repainted_by_plate_majority": 938,
+    "faces_repainted_by_neighbour_majority": 102
+  },
+  "Laser_YawMesh": {
+    "faces": 7976,
+    "plates": 828,
+    "plates_unified": 111,
+    "faces_repainted_by_plate_majority": 1307,
+    "faces_repainted_by_neighbour_majority": 129
+  },
+  "Laser_ProjectorMesh": {
+    "faces": 3401,
+    "plates": 368,
+    "plates_unified": 41,
+    "faces_repainted_by_plate_majority": 686,
+    "faces_repainted_by_neighbour_majority": 61
+  },
+  "Laser_face_class_area_share": {
+    "graphite": 0.3570945388980347,
+    "gunmetal": 0.37445975968544065,
+    "armor": 0.2684457014165246
+  }
+}

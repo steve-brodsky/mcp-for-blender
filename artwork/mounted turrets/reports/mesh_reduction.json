@@ -1,0 +1,181 @@
+{
+  "ratios": {
+    "BaseMesh": 0.12,
+    "YawMesh": 0.15,
+    "ProjectorMesh": 0.16
+  },
+  "panel_settings": {
+    "offset": 0.012,
+    "min_area": 0.03,
+    "max_rms": 0.006,
+    "max_move": 0.02
+  },
+  "Quad_BaseMesh": {
+    "source_triangles_full": 82062,
+    "triangles_half": 5028,
+    "smoothing_max_move_m": 0.44781959962770307,
+    "panels": {
+      "regions_found": 73,
+      "regions_flattened": 47,
+      "flattened_area_share": 0.2863791585834336,
+      "vertices_moved_over_5mm": 274,
+      "max_move_m": 0.0199999978052877,
+      "restored_vertices_to_prevent_folds": 3,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Quad_YawMesh": {
+    "source_triangles_full": 91644,
+    "triangles_half": 7114,
+    "smoothing_max_move_m": 0.13163649303260716,
+    "panels": {
+      "regions_found": 85,
+      "regions_flattened": 57,
+      "flattened_area_share": 0.425844313363595,
+      "vertices_moved_over_5mm": 432,
+      "max_move_m": 0.020000037134681948,
+      "restored_vertices_to_prevent_folds": 3,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Gatling_BaseMesh": {
+    "source_triangles_full": 82062,
+    "triangles_half": 5028,
+    "smoothing_max_move_m": 0.44781959962770307,
+    "panels": {
+      "regions_found": 73,
+      "regions_flattened": 47,
+      "flattened_area_share": 0.2863791585834336,
+      "vertices_moved_over_5mm": 274,
+      "max_move_m": 0.0199999978052877,
+      "restored_vertices_to_prevent_folds": 3,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Gatling_YawMesh": {
+    "source_triangles_full": 102144,
+    "triangles_half": 7956,
+    "smoothing_max_move_m": 0.1785769458742067,
+    "panels": {
+      "regions_found": 108,
+      "regions_flattened": 81,
+      "flattened_area_share": 0.46782388831540794,
+      "vertices_moved_over_5mm": 497,
+      "max_move_m": 0.020000084492211287,
+      "restored_vertices_to_prevent_folds": 6,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Laser_BaseMesh": {
+    "source_triangles_full": 82062,
+    "triangles_half": 5028,
+    "smoothing_max_move_m": 0.44781959962770307,
+    "panels": {
+      "regions_found": 73,
+      "regions_flattened": 47,
+      "flattened_area_share": 0.2863791585834336,
+      "vertices_moved_over_5mm": 274,
+      "max_move_m": 0.0199999978052877,
+      "restored_vertices_to_prevent_folds": 3,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Laser_YawMesh": {
+    "source_triangles_full": 100810,
+    "triangles_half": 7976,
+    "smoothing_max_move_m": 0.12396022453613675,
+    "panels": {
+      "regions_found": 93,
+      "regions_flattened": 72,
+      "flattened_area_share": 0.5295214895357362,
+      "vertices_moved_over_5mm": 641,
+      "max_move_m": 0.020000057406507104,
+      "restored_vertices_to_prevent_folds": 9,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "Laser_ProjectorMesh": {
+    "source_triangles_full": 41440,
+    "triangles_half": 3401,
+    "smoothing_max_move_m": 0.10216557907253673,
+    "panels": {
+      "regions_found": 33,
+      "regions_flattened": 31,
+      "flattened_area_share": 0.6963916856439523,
+      "vertices_moved_over_5mm": 341,
+      "max_move_m": 0.020000026691790962,
+      "restored_vertices_to_prevent_folds": 6,
+      "settings": {
+        "angle_deg": 14,
+        "offset_m": 0.012,
+        "min_area_m2": 0.03,
+        "max_rms_m": 0.006,
+        "max_move_m": 0.02
+      }
+    },
+    "health": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fps": 30,
+  "clips": {
+    "Quad": {
+      "scan": 8.0,
+      "fire": 0.6666666666666666
+    },
+    "Gatling": {
+      "scan": 8.0,
+      "spin_up": 1.0,
+      "fire": 0.5,
+      "spin_down": 1.5
+    },
+    "Laser": {
+      "scan": 8.0,
+      "charge": 1.0,
+      "fire": 0.6
+    }
+  }
+}

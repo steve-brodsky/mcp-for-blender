@@ -1,0 +1,62 @@
+{
+  "Quad": {
+    "file": "godot/assets/quad_turret.glb",
+    "bytes": 4283892,
+    "nodes": [
+      "Quad",
+      "Quad_BaseMesh",
+      "Quad_Yaw",
+      "Quad_Pitch",
+      "Quad_Barrel1",
+      "Quad_Barrel1Mesh",
+      "Quad_Muzzle1",
+      "Quad_Barrel2",
+      "Quad_Barrel2Mesh",
+      "Quad_Muzzle2",
+      "Quad_Barrel3",
+      "Quad_Barrel3Mesh",
+      "Quad_Muzzle3",
+      "Quad_Barrel4",
+      "Quad_Barrel4Mesh",
+      "Quad_Muzzle4",
+      "Quad_PitchMesh",
+      "Quad_YawMesh",
+      "Quad_YawRing"
+    ],
+    "triangles": 28712
+  },
+  "Gatling": {
+    "file": "godot/assets/gatling_turret.glb",
+    "bytes": 4249952,
+    "nodes": [
+      "Gatling",
+      "Gatling_BaseMesh",
+      "Gatling_Yaw",
+      "Gatling_Pitch",
+      "Gatling_Muzzle",
+      "Gatling_PitchMesh",
+      "Gatling_Spin",
+      "Gatling_SpinMesh",
+      "Gatling_YawMesh",
+      "Gatling_YawRing"
+    ],
+    "triangles": 32640
+  },
+  "Laser": {
+    "file": "godot/assets/laser_turret.glb",
+    "bytes": 4236028,
+    "nodes": [
+      "Laser",
+      "Laser_BaseMesh",
+      "Laser_Yaw",
+      "Laser_Pitch",
+      "Laser_PitchMesh",
+      "Laser_Projector",
+      "Laser_Muzzle",
+      "Laser_ProjectorMesh",
+      "Laser_YawMesh",
+      "Laser_YawRing"
+    ],
+    "triangles": 34250
+  }
+}

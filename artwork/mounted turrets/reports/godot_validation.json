@@ -1,0 +1,398 @@
+{
+  "checks": [
+    {
+      "check": "quad has Yaw",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad has Pitch",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad has BaseMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad has YawMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad has YawRing",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad has PitchMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad muzzles",
+      "detail": "4",
+      "ok": true
+    },
+    {
+      "check": "quad base is 4 m across and sits on y=0",
+      "detail": "[P: (-2.015553, -0.000256, -4.6), S: (4.031105, 2.917407, 6.741117)]",
+      "ok": true
+    },
+    {
+      "check": "quad gun points -Z",
+      "detail": "(0.0, 0.0, -1.0)",
+      "ok": true
+    },
+    {
+      "check": "quad material: albedo, emission, ORM",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad one shared material",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad mesh LODs generated",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad clip scan",
+      "detail": "8.0",
+      "ok": true
+    },
+    {
+      "check": "quad clip fire",
+      "detail": "0.66666668653488",
+      "ok": true
+    },
+    {
+      "check": "quad aims at a target within 0.5 deg",
+      "detail": "0.00000526301416",
+      "ok": true
+    },
+    {
+      "check": "quad stops at max elevation",
+      "detail": "(-5.710615, 80.0)",
+      "ok": true
+    },
+    {
+      "check": "quad can_reach rejects overhead",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad fires 4 rounds per 0.67 s loop",
+      "detail": "8",
+      "ok": true
+    },
+    {
+      "check": "quad barrel recoils ~0.18 m",
+      "detail": "0.14787834882736",
+      "ok": true
+    },
+    {
+      "check": "quad stops after the volley",
+      "detail": "0",
+      "ok": true
+    },
+    {
+      "check": "quad house hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "quad base hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has Yaw",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has Pitch",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has BaseMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has YawMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has YawRing",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling has PitchMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling muzzles",
+      "detail": "1",
+      "ok": true
+    },
+    {
+      "check": "gatling base is 4 m across and sits on y=0",
+      "detail": "[P: (-2.015553, -0.000256, -4.96), S: (4.031105, 2.866032, 7.642451)]",
+      "ok": true
+    },
+    {
+      "check": "gatling gun points -Z",
+      "detail": "(0.0, 0.0, -1.0)",
+      "ok": true
+    },
+    {
+      "check": "gatling material: albedo, emission, ORM",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling one shared material",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling mesh LODs generated",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling clip scan",
+      "detail": "8.0",
+      "ok": true
+    },
+    {
+      "check": "gatling clip spin_up",
+      "detail": "1.0",
+      "ok": true
+    },
+    {
+      "check": "gatling clip fire",
+      "detail": "0.5",
+      "ok": true
+    },
+    {
+      "check": "gatling clip spin_down",
+      "detail": "1.5",
+      "ok": true
+    },
+    {
+      "check": "gatling aims at a target within 0.5 deg",
+      "detail": "0.00000519330251",
+      "ok": true
+    },
+    {
+      "check": "gatling stops at max elevation",
+      "detail": "(-5.710593, 75.0)",
+      "ok": true
+    },
+    {
+      "check": "gatling can_reach rejects overhead",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling holds fire while spinning up",
+      "detail": "0",
+      "ok": true
+    },
+    {
+      "check": "gatling spins (barrel cluster turning)",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling fires ~40 rounds/s when spun up",
+      "detail": "40",
+      "ok": true
+    },
+    {
+      "check": "gatling spins down",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling at rest after spin-down",
+      "detail": "0",
+      "ok": true
+    },
+    {
+      "check": "gatling house hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "gatling base hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has Yaw",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has Pitch",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has BaseMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has YawMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has YawRing",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser has PitchMesh",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser muzzles",
+      "detail": "1",
+      "ok": true
+    },
+    {
+      "check": "laser base is 4 m across and sits on y=0",
+      "detail": "[P: (-2.015553, -0.000256, -3.986481), S: (4.031105, 2.919888, 7.049234)]",
+      "ok": true
+    },
+    {
+      "check": "laser gun points -Z",
+      "detail": "(0.0, 0.0, -1.0)",
+      "ok": true
+    },
+    {
+      "check": "laser material: albedo, emission, ORM",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser one shared material",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser mesh LODs generated",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser clip scan",
+      "detail": "8.0",
+      "ok": true
+    },
+    {
+      "check": "laser clip charge",
+      "detail": "1.0",
+      "ok": true
+    },
+    {
+      "check": "laser clip fire",
+      "detail": "0.60000002384186",
+      "ok": true
+    },
+    {
+      "check": "laser aims at a target within 0.5 deg",
+      "detail": "0.00000085377354",
+      "ok": true
+    },
+    {
+      "check": "laser stops at max elevation",
+      "detail": "(-5.710615, 80.0)",
+      "ok": true
+    },
+    {
+      "check": "laser can_reach rejects overhead",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser charges before firing",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser beam fires after 1 s charge",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser beam stops at the first hit",
+      "detail": "56.5734825134277",
+      "ok": true
+    },
+    {
+      "check": "laser beam leaves along the bore",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser single shot returns to idle",
+      "detail": "0",
+      "ok": true
+    },
+    {
+      "check": "laser house hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    },
+    {
+      "check": "laser base hitbox blocks a ray",
+      "detail": "",
+      "ok": true
+    }
+  ],
+  "engine": "4.7.2-stable (official)",
+  "failures": 0,
+  "gatling": {
+    "aabb": [
+      "(-2.015553, -0.000256, -4.96)",
+      "(2.015553, 2.865776, 2.682451)"
+    ],
+    "aim_error_deg": 0.00000519330250520145,
+    "rounds_per_second": 40,
+    "triangles": 37488
+  },
+  "laser": {
+    "aabb": [
+      "(-2.015553, -0.000256, -3.986481)",
+      "(2.015553, 2.919632, 3.062753)"
+    ],
+    "aim_error_deg": 0.000000853773544473844,
+    "beam_length_to_wall_m": 56.5734825134277,
+    "triangles": 35570
+  },
+  "quad": {
+    "aabb": [
+      "(-2.015553, -0.000256, -4.6)",
+      "(2.015553, 2.917151, 2.141117)"
+    ],
+    "aim_error_deg": 0.00000526301415715415,
+    "shots_in_two_loops": 8,
+    "triangles": 32564
+  }
+}

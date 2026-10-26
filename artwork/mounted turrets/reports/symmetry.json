@@ -1,0 +1,105 @@
+{
+  "Quad": {
+    "Quad_BaseMesh": {
+      "half_triangles": 5028,
+      "triangles": 10056,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "Quad_YawMesh": {
+      "half_triangles": 7114,
+      "triangles": 14228,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "triangles_total": 28712,
+    "triangles_by_mesh": {
+      "Quad_Barrel1Mesh": 720,
+      "Quad_Barrel2Mesh": 720,
+      "Quad_Barrel3Mesh": 720,
+      "Quad_Barrel4Mesh": 720,
+      "Quad_BaseMesh": 10056,
+      "Quad_PitchMesh": 972,
+      "Quad_YawMesh": 14228,
+      "Quad_YawRing": 576
+    }
+  },
+  "Gatling": {
+    "Gatling_BaseMesh": {
+      "half_triangles": 5028,
+      "triangles": 10056,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "Gatling_YawMesh": {
+      "half_triangles": 7956,
+      "triangles": 15912,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "triangles_total": 32640,
+    "triangles_by_mesh": {
+      "Gatling_BaseMesh": 10056,
+      "Gatling_PitchMesh": 2016,
+      "Gatling_SpinMesh": 4080,
+      "Gatling_YawMesh": 15912,
+      "Gatling_YawRing": 576
+    }
+  },
+  "Laser": {
+    "Laser_BaseMesh": {
+      "half_triangles": 5028,
+      "triangles": 10056,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "Laser_ProjectorMesh": {
+      "half_triangles": 3401,
+      "triangles": 6802,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "Laser_YawMesh": {
+      "half_triangles": 7976,
+      "triangles": 15952,
+      "in_plane_edges_collapsed": 0,
+      "max_reflected_vertex_error_m": 0.0,
+      "health": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "triangles_total": 34250,
+    "triangles_by_mesh": {
+      "Laser_BaseMesh": 10056,
+      "Laser_PitchMesh": 864,
+      "Laser_ProjectorMesh": 6802,
+      "Laser_YawMesh": 15952,
+      "Laser_YawRing": 576
+    }
+  }
+}

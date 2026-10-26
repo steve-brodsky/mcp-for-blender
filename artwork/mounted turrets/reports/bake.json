@@ -1,0 +1,71 @@
+{
+  "size": 4096,
+  "part_ids": {
+    "BaseMesh": 1,
+    "YawMesh": 2,
+    "ProjectorMesh": 3,
+    "YawRing": 4,
+    "PitchMesh": 5,
+    "Barrel": 6,
+    "SpinMesh": 7
+  },
+  "Quad": {
+    "meshes": [
+      "Quad_Barrel1Mesh",
+      "Quad_Barrel2Mesh",
+      "Quad_Barrel3Mesh",
+      "Quad_Barrel4Mesh",
+      "Quad_BaseMesh",
+      "Quad_PitchMesh",
+      "Quad_YawMesh",
+      "Quad_YawRing"
+    ],
+    "baked_from": [
+      "Quad_BaseHigh",
+      "Quad_YawHigh"
+    ],
+    "cut_faces_marked": {
+      "Quad_BaseHigh": 258,
+      "Quad_YawHigh": 358
+    },
+    "underside_islands_shrunk": 23
+  },
+  "Gatling": {
+    "meshes": [
+      "Gatling_BaseMesh",
+      "Gatling_PitchMesh",
+      "Gatling_SpinMesh",
+      "Gatling_YawMesh",
+      "Gatling_YawRing"
+    ],
+    "baked_from": [
+      "Quad_BaseHigh",
+      "Gatling_YawHigh"
+    ],
+    "cut_faces_marked": {
+      "Quad_BaseHigh": 258,
+      "Gatling_YawHigh": 501
+    },
+    "underside_islands_shrunk": 13
+  },
+  "Laser": {
+    "meshes": [
+      "Laser_BaseMesh",
+      "Laser_PitchMesh",
+      "Laser_ProjectorMesh",
+      "Laser_YawMesh",
+      "Laser_YawRing"
+    ],
+    "baked_from": [
+      "Quad_BaseHigh",
+      "Laser_YawHigh",
+      "Laser_GunHigh"
+    ],
+    "cut_faces_marked": {
+      "Quad_BaseHigh": 258,
+      "Laser_YawHigh": 353,
+      "Laser_GunHigh": 4
+    },
+    "underside_islands_shrunk": 14
+  }
+}

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/gatling_turret.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/mounted_turret.gd" id="2"]
+
+[node name="GatlingTurret" type="Node3D"]
+script = ExtResource("2")
+kind = 1
+min_elevation_deg = -10.0
+max_elevation_deg = 75.0
+
+[node name="Model" parent="." instance=ExtResource("1")]

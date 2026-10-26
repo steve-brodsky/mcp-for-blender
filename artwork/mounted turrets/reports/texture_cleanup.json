@@ -1,0 +1,86 @@
+{
+  "palette_srgb": {
+    "graphite": [
+      0.115,
+      0.115,
+      0.12
+    ],
+    "gunmetal": [
+      0.255,
+      0.255,
+      0.265
+    ],
+    "armor": [
+      0.72,
+      0.61,
+      0.47
+    ],
+    "light": [
+      0.88,
+      0.94,
+      1.0
+    ]
+  },
+  "surface_roughness_metallic": {
+    "graphite": [
+      0.55,
+      0.45
+    ],
+    "gunmetal": [
+      0.5,
+      0.55
+    ],
+    "armor": [
+      0.68,
+      0.1
+    ],
+    "light": [
+      0.3,
+      0.0
+    ],
+    "steel": [
+      0.38,
+      0.8
+    ],
+    "emitter": [
+      0.2,
+      0.0
+    ]
+  },
+  "Quad": {
+    "class_coverage": {
+      "graphite": 0.3621152212927495,
+      "gunmetal": 0.3248326406852261,
+      "armor": 0.3116415367476217,
+      "light": 0.0014106012744027102
+    },
+    "cut_or_unreached_texels_graphite": 850965,
+    "light_strip_texels": 7544,
+    "emitter_texels": 0,
+    "atlas_coverage": 0.5214374661445618
+  },
+  "Gatling": {
+    "class_coverage": {
+      "graphite": 0.44312544486043265,
+      "gunmetal": 0.257745132552349,
+      "armor": 0.2979181174148887,
+      "light": 0.001211305172329617
+    },
+    "cut_or_unreached_texels_graphite": 782498,
+    "light_strip_texels": 4714,
+    "emitter_texels": 0,
+    "atlas_coverage": 0.46384477615356445
+  },
+  "Laser": {
+    "class_coverage": {
+      "graphite": 0.42757990563952525,
+      "gunmetal": 0.2670545814331636,
+      "armor": 0.30433038603075857,
+      "light": 0.0010351268965525734
+    },
+    "cut_or_unreached_texels_graphite": 1166688,
+    "light_strip_texels": 6725,
+    "emitter_texels": 10877,
+    "atlas_coverage": 0.5511712431907654
+  }
+}
