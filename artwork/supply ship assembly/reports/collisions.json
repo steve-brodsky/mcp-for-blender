@@ -1,0 +1,45 @@
+{
+ "step": 3,
+ "frames": 1078,
+ "contacts": 4,
+ "pairs": [
+  {
+   "a": "Drone_00",
+   "b": "Ring01_P",
+   "first": 79,
+   "last": 79,
+   "n": 1,
+   "drone_holds": []
+  },
+  {
+   "a": "Drone_00",
+   "b": "Drone_02",
+   "first": 79,
+   "last": 79,
+   "n": 1,
+   "drone_holds": [
+    "Ring01_P"
+   ]
+  },
+  {
+   "a": "Drone_01",
+   "b": "Drone_03",
+   "first": 112,
+   "last": 112,
+   "n": 1,
+   "drone_holds": [
+    "Ring01_S"
+   ]
+  },
+  {
+   "a": "Drone_04",
+   "b": "Drone_05",
+   "first": 886,
+   "last": 886,
+   "n": 1,
+   "drone_holds": [
+    "Crane_R"
+   ]
+  }
+ ]
+}

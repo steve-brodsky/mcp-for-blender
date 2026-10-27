@@ -1,0 +1,5 @@
+*.blend1
+__pycache__/
+godot/.godot/
+godot/.local_appdata/
+*.mp4

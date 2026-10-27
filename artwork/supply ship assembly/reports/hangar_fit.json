@@ -1,0 +1,403 @@
+{
+ "opening": {
+  "y": [
+   -11.4,
+   -0.6
+  ],
+  "z": [
+   -0.31,
+   3.91
+  ],
+  "face_x": 19.215,
+  "bay_inner_x": 7.146
+ },
+ "deck_z": -0.6,
+ "drone_scale": 0.25,
+ "drone_size": [
+  4.001,
+  2.905,
+  1.487
+ ],
+ "all_fit": true,
+ "failing": [],
+ "tightest": {
+  "name": "Pod_L",
+  "transit_size": [
+   2.154,
+   6.474,
+   1.457
+  ],
+  "clear_y": 2.163,
+  "clear_top": 2.613,
+  "clear_bottom": 0.15,
+  "drone_tail_x": 12.46,
+  "bay_inner_x": 7.146,
+  "fits": true
+ },
+ "pieces": [
+  {
+   "name": "Ring00_P",
+   "transit_size": [
+    3.102,
+    4.052,
+    1.616
+   ],
+   "clear_y": 3.374,
+   "clear_top": 2.454,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.512,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring00_S",
+   "transit_size": [
+    3.102,
+    4.052,
+    1.616
+   ],
+   "clear_y": 3.374,
+   "clear_top": 2.454,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.512,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring01_P",
+   "transit_size": [
+    2.965,
+    4.126,
+    1.638
+   ],
+   "clear_y": 3.337,
+   "clear_top": 2.432,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.649,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring01_S",
+   "transit_size": [
+    2.965,
+    4.126,
+    1.638
+   ],
+   "clear_y": 3.337,
+   "clear_top": 2.432,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.649,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring02_K",
+   "transit_size": [
+    1.504,
+    5.216,
+    1.388
+   ],
+   "clear_y": 2.792,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.109,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring02_D",
+   "transit_size": [
+    2.155,
+    5.121,
+    1.388
+   ],
+   "clear_y": 2.839,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 12.459,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring03_K",
+   "transit_size": [
+    0.793,
+    4.787,
+    1.387
+   ],
+   "clear_y": 3.007,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.821,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring03_D",
+   "transit_size": [
+    0.973,
+    4.836,
+    1.387
+   ],
+   "clear_y": 2.982,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.641,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring04_K",
+   "transit_size": [
+    0.99,
+    5.031,
+    1.388
+   ],
+   "clear_y": 2.885,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.623,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring04_D",
+   "transit_size": [
+    1.685,
+    5.106,
+    1.388
+   ],
+   "clear_y": 2.847,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 12.929,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring05_K",
+   "transit_size": [
+    0.988,
+    4.93,
+    1.388
+   ],
+   "clear_y": 2.935,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.626,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring05_D",
+   "transit_size": [
+    1.896,
+    5.054,
+    1.388
+   ],
+   "clear_y": 2.873,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 12.718,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring06_K",
+   "transit_size": [
+    1.522,
+    5.033,
+    1.388
+   ],
+   "clear_y": 2.883,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.092,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring06_D",
+   "transit_size": [
+    2.87,
+    4.732,
+    1.388
+   ],
+   "clear_y": 3.034,
+   "clear_top": 2.683,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.743,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring07_P",
+   "transit_size": [
+    2.872,
+    4.195,
+    1.281
+   ],
+   "clear_y": 3.302,
+   "clear_top": 2.789,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.742,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring07_S",
+   "transit_size": [
+    2.872,
+    4.195,
+    1.281
+   ],
+   "clear_y": 3.302,
+   "clear_top": 2.789,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.742,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring08_P",
+   "transit_size": [
+    2.873,
+    4.352,
+    1.281
+   ],
+   "clear_y": 3.224,
+   "clear_top": 2.789,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.741,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring08_S",
+   "transit_size": [
+    2.873,
+    4.352,
+    1.281
+   ],
+   "clear_y": 3.224,
+   "clear_top": 2.789,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.741,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring09_P",
+   "transit_size": [
+    2.939,
+    4.016,
+    1.113
+   ],
+   "clear_y": 3.392,
+   "clear_top": 2.957,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.675,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring09_S",
+   "transit_size": [
+    2.939,
+    4.016,
+    1.113
+   ],
+   "clear_y": 3.392,
+   "clear_top": 2.957,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.675,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring10_P",
+   "transit_size": [
+    2.908,
+    4.031,
+    1.094
+   ],
+   "clear_y": 3.384,
+   "clear_top": 2.976,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.706,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Ring10_S",
+   "transit_size": [
+    2.908,
+    4.031,
+    1.094
+   ],
+   "clear_y": 3.384,
+   "clear_top": 2.976,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 11.706,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Crane_L",
+   "transit_size": [
+    0.896,
+    2.797,
+    0.518
+   ],
+   "clear_y": 4.002,
+   "clear_top": 3.552,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.718,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Crane_R",
+   "transit_size": [
+    0.896,
+    2.797,
+    0.518
+   ],
+   "clear_y": 4.002,
+   "clear_top": 3.552,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 13.718,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Pod_L",
+   "transit_size": [
+    2.154,
+    6.474,
+    1.457
+   ],
+   "clear_y": 2.163,
+   "clear_top": 2.613,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 12.46,
+   "bay_inner_x": 7.146,
+   "fits": true
+  },
+  {
+   "name": "Pod_R",
+   "transit_size": [
+    2.154,
+    6.474,
+    1.457
+   ],
+   "clear_y": 2.163,
+   "clear_top": 2.613,
+   "clear_bottom": 0.15,
+   "drone_tail_x": 12.46,
+   "bay_inner_x": 7.146,
+   "fits": true
+  }
+ ]
+}

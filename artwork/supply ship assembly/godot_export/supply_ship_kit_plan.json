@@ -1,0 +1,600 @@
+{
+ "name": "supply_ship_kit",
+ "units": "metres, Godot frame of the finished ship: -Z bow, +Y up",
+ "keel_axis_y": -0.375,
+ "hull_radius": 3.44,
+ "piece_reach": 3.488,
+ "bounds": {
+  "min": [
+   -3.102,
+   -2.7845,
+   -7.457
+  ],
+  "max": [
+   3.102,
+   2.4976,
+   7.5035
+  ]
+ },
+ "rings": 11,
+ "transit_envelope": {
+  "across": 10.2,
+  "along": 7.4,
+  "up": 3.6,
+  "basis": "mothership side hangar: forcefield 10.8 m wide x 4.2 m tall, 12.1 m from back wall to field; piece towed ahead of a 0.25-scale construction drone (4.0 m); artwork metres = game / 0.25"
+ },
+ "pieces": [
+  {
+   "name": "Ring00_P",
+   "tier": "hull",
+   "ring": 0,
+   "order": 0,
+   "centre": [
+    -1.551,
+    0.1271,
+    6.6955
+   ],
+   "size": [
+    3.102,
+    4.052,
+    1.616
+   ],
+   "approach": [
+    -0.9514,
+    0.308,
+    -0.0
+   ],
+   "stage_distance": 6.1993
+  },
+  {
+   "name": "Ring00_S",
+   "tier": "hull",
+   "ring": 0,
+   "order": 1,
+   "centre": [
+    1.551,
+    0.1271,
+    6.6955
+   ],
+   "size": [
+    3.102,
+    4.052,
+    1.616
+   ],
+   "approach": [
+    0.9514,
+    0.308,
+    -0.0
+   ],
+   "stage_distance": 6.1993
+  },
+  {
+   "name": "Ring01_P",
+   "tier": "hull",
+   "ring": 1,
+   "order": 2,
+   "centre": [
+    -1.4826,
+    0.1001,
+    5.0687
+   ],
+   "size": [
+    2.965,
+    4.1262,
+    1.6375
+   ],
+   "approach": [
+    -0.9523,
+    0.3052,
+    -0.0
+   ],
+   "stage_distance": 6.083
+  },
+  {
+   "name": "Ring01_S",
+   "tier": "hull",
+   "ring": 1,
+   "order": 3,
+   "centre": [
+    1.4826,
+    0.1001,
+    5.0687
+   ],
+   "size": [
+    2.965,
+    4.1262,
+    1.6375
+   ],
+   "approach": [
+    0.9523,
+    0.3052,
+    -0.0
+   ],
+   "stage_distance": 6.083
+  },
+  {
+   "name": "Ring02_K",
+   "tier": "hull",
+   "ring": 2,
+   "order": 4,
+   "centre": [
+    0.0,
+    -1.1272,
+    3.5562
+   ],
+   "size": [
+    5.216,
+    1.5045,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "stage_distance": 3.5045
+  },
+  {
+   "name": "Ring02_D",
+   "tier": "hull",
+   "ring": 2,
+   "order": 5,
+   "centre": [
+    0.0,
+    0.7024,
+    3.5562
+   ],
+   "size": [
+    5.1212,
+    2.1547,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 4.1547
+  },
+  {
+   "name": "Ring03_K",
+   "tier": "hull",
+   "ring": 3,
+   "order": 6,
+   "centre": [
+    0.0,
+    -1.5014,
+    2.1688
+   ],
+   "size": [
+    4.7865,
+    0.793,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "stage_distance": 2.793
+  },
+  {
+   "name": "Ring03_D",
+   "tier": "hull",
+   "ring": 3,
+   "order": 7,
+   "centre": [
+    0.0,
+    0.8275,
+    2.1688
+   ],
+   "size": [
+    4.8357,
+    0.973,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 2.973
+  },
+  {
+   "name": "Ring04_K",
+   "tier": "hull",
+   "ring": 4,
+   "order": 8,
+   "centre": [
+    0.0,
+    -1.6167,
+    0.7812
+   ],
+   "size": [
+    5.031,
+    0.9902,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "stage_distance": 2.9903
+  },
+  {
+   "name": "Ring04_D",
+   "tier": "hull",
+   "ring": 4,
+   "order": 9,
+   "centre": [
+    0.0,
+    1.1729,
+    0.7812
+   ],
+   "size": [
+    5.1057,
+    1.6845,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 3.6845
+  },
+  {
+   "name": "Ring05_K",
+   "tier": "hull",
+   "ring": 5,
+   "order": 10,
+   "centre": [
+    0.0,
+    -1.6198,
+    -0.6062
+   ],
+   "size": [
+    4.9298,
+    0.9882,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "stage_distance": 2.9882
+  },
+  {
+   "name": "Ring05_D",
+   "tier": "hull",
+   "ring": 5,
+   "order": 11,
+   "centre": [
+    0.0,
+    1.2783,
+    -0.6062
+   ],
+   "size": [
+    5.0537,
+    1.8955,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 3.8955
+  },
+  {
+   "name": "Ring06_K",
+   "tier": "hull",
+   "ring": 6,
+   "order": 12,
+   "centre": [
+    0.0,
+    -1.3628,
+    -1.9937
+   ],
+   "size": [
+    5.0335,
+    1.522,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "stage_distance": 3.522
+  },
+  {
+   "name": "Ring06_D",
+   "tier": "hull",
+   "ring": 6,
+   "order": 13,
+   "centre": [
+    0.0,
+    1.0625,
+    -1.9937
+   ],
+   "size": [
+    4.7325,
+    2.8702,
+    1.3875
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 4.8703
+  },
+  {
+   "name": "Ring07_P",
+   "tier": "hull",
+   "ring": 7,
+   "order": 14,
+   "centre": [
+    -1.4361,
+    -0.5289,
+    -3.3281
+   ],
+   "size": [
+    2.8723,
+    4.1955,
+    1.2812
+   ],
+   "approach": [
+    -0.9943,
+    -0.1065,
+    -0.0
+   ],
+   "stage_distance": 5.3027
+  },
+  {
+   "name": "Ring07_S",
+   "tier": "hull",
+   "ring": 7,
+   "order": 15,
+   "centre": [
+    1.4361,
+    -0.5289,
+    -3.3281
+   ],
+   "size": [
+    2.8723,
+    4.1955,
+    1.2812
+   ],
+   "approach": [
+    0.9943,
+    -0.1065,
+    -0.0
+   ],
+   "stage_distance": 5.3027
+  },
+  {
+   "name": "Ring08_P",
+   "tier": "hull",
+   "ring": 8,
+   "order": 16,
+   "centre": [
+    -1.4364,
+    -0.6083,
+    -4.6094
+   ],
+   "size": [
+    2.8727,
+    4.3525,
+    1.2812
+   ],
+   "approach": [
+    -0.9871,
+    -0.1603,
+    -0.0
+   ],
+   "stage_distance": 5.5335
+  },
+  {
+   "name": "Ring08_S",
+   "tier": "hull",
+   "ring": 8,
+   "order": 17,
+   "centre": [
+    1.4364,
+    -0.6083,
+    -4.6094
+   ],
+   "size": [
+    2.8727,
+    4.3525,
+    1.2812
+   ],
+   "approach": [
+    0.9871,
+    -0.1603,
+    -0.0
+   ],
+   "stage_distance": 5.5335
+  },
+  {
+   "name": "Ring09_P",
+   "tier": "hull",
+   "ring": 9,
+   "order": 18,
+   "centre": [
+    -1.4695,
+    -0.6268,
+    -5.8063
+   ],
+   "size": [
+    2.939,
+    4.0165,
+    1.1125
+   ],
+   "approach": [
+    -0.9856,
+    -0.1689,
+    -0.0
+   ],
+   "stage_distance": 5.575
+  },
+  {
+   "name": "Ring09_S",
+   "tier": "hull",
+   "ring": 9,
+   "order": 19,
+   "centre": [
+    1.4695,
+    -0.6268,
+    -5.8063
+   ],
+   "size": [
+    2.939,
+    4.0165,
+    1.1125
+   ],
+   "approach": [
+    0.9856,
+    -0.1689,
+    -0.0
+   ],
+   "stage_distance": 5.575
+  },
+  {
+   "name": "Ring10_P",
+   "tier": "hull",
+   "ring": 10,
+   "order": 20,
+   "centre": [
+    -1.4538,
+    -0.6399,
+    -6.9097
+   ],
+   "size": [
+    2.9075,
+    4.0312,
+    1.0945
+   ],
+   "approach": [
+    -0.9838,
+    -0.1793,
+    -0.0
+   ],
+   "stage_distance": 5.5832
+  },
+  {
+   "name": "Ring10_S",
+   "tier": "hull",
+   "ring": 10,
+   "order": 21,
+   "centre": [
+    1.4538,
+    -0.6399,
+    -6.9097
+   ],
+   "size": [
+    2.9075,
+    4.0312,
+    1.0945
+   ],
+   "approach": [
+    0.9838,
+    -0.1793,
+    -0.0
+   ],
+   "stage_distance": 5.5832
+  },
+  {
+   "name": "Crane_L",
+   "tier": "fitting",
+   "ring": 11,
+   "order": 22,
+   "centre": [
+    -0.2589,
+    1.6478,
+    2.8393
+   ],
+   "size": [
+    0.518,
+    0.8962,
+    2.7967
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 2.8963
+  },
+  {
+   "name": "Crane_R",
+   "tier": "fitting",
+   "ring": 11,
+   "order": 23,
+   "centre": [
+    0.2589,
+    1.6478,
+    2.8393
+   ],
+   "size": [
+    0.518,
+    0.8962,
+    2.7967
+   ],
+   "approach": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "stage_distance": 2.8963
+  },
+  {
+   "name": "Pod_L",
+   "tier": "pod",
+   "ring": 12,
+   "order": 24,
+   "centre": [
+    -1.1145,
+    -0.377,
+    0.628
+   ],
+   "size": [
+    2.154,
+    1.457,
+    6.4735
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.154
+  },
+  {
+   "name": "Pod_R",
+   "tier": "pod",
+   "ring": 12,
+   "order": 25,
+   "centre": [
+    1.1145,
+    -0.377,
+    0.628
+   ],
+   "size": [
+    2.154,
+    1.457,
+    6.4735
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.154
+  }
+ ]
+}
