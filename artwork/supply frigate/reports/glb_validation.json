@@ -1,0 +1,62 @@
+{
+  "supply_frigate.glb": {
+    "bytes": 25855416,
+    "meshes": {
+      "SupplyFrigate": {
+        "triangles": 152858,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {
+      "supply_frigate_emission_2k": [
+        2048,
+        2048
+      ],
+      "supply_frigate_basecolor_4k": [
+        4096,
+        4096
+      ]
+    },
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_frigate_lod1.glb": {
+    "bytes": 5992764,
+    "meshes": {
+      "supply_frigate_lod1": {
+        "triangles": 61128,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  },
+  "supply_frigate_lod2.glb": {
+    "bytes": 2529056,
+    "meshes": {
+      "supply_frigate_lod2": {
+        "triangles": 22924,
+        "symmetry": [
+          {
+            "max_reflected_vertex_error_m": 0.0,
+            "max_position_uv_error": 0.0
+          }
+        ],
+        "skinned": false
+      }
+    },
+    "images": {},
+    "finite_geometry_valid_indices_unit_normals": true
+  }
+}

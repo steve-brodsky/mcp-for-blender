@@ -1,0 +1,240 @@
+{
+  "pads": {
+    "PadTopForePort": {
+      "centre_xy": [
+        -16.3,
+        8.7
+      ],
+      "deck_z": 10.55,
+      "deck_size_m": [
+        22.6,
+        21.2
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 413,
+      "sky_rays_blocked": 0,
+      "deck": "top",
+      "position_godot": [
+        -16.3,
+        10.55,
+        -8.7
+      ]
+    },
+    "PadTopForeStarboard": {
+      "centre_xy": [
+        16.3,
+        8.7
+      ],
+      "deck_z": 10.55,
+      "deck_size_m": [
+        22.6,
+        21.2
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 413,
+      "sky_rays_blocked": 0,
+      "deck": "top",
+      "position_godot": [
+        16.3,
+        10.55,
+        -8.7
+      ]
+    },
+    "PadTopAftPort": {
+      "centre_xy": [
+        -16.95,
+        -13.5
+      ],
+      "deck_z": 10.55,
+      "deck_size_m": [
+        21.9,
+        20.0
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 374,
+      "sky_rays_blocked": 0,
+      "deck": "top",
+      "position_godot": [
+        -16.95,
+        10.55,
+        13.5
+      ]
+    },
+    "PadTopAftStarboard": {
+      "centre_xy": [
+        16.95,
+        -13.5
+      ],
+      "deck_z": 10.55,
+      "deck_size_m": [
+        21.9,
+        20.0
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 374,
+      "sky_rays_blocked": 0,
+      "deck": "top",
+      "position_godot": [
+        16.95,
+        10.55,
+        13.5
+      ]
+    },
+    "PadBottomPort": {
+      "centre_xy": [
+        -17.0,
+        -2.0
+      ],
+      "deck_z": -13.45,
+      "deck_size_m": [
+        29.0,
+        43.0
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 1164,
+      "sky_rays_blocked": 0,
+      "deck": "bottom",
+      "position_godot": [
+        -17.0,
+        -13.45,
+        2.0
+      ]
+    },
+    "PadBottomStarboard": {
+      "centre_xy": [
+        17.0,
+        -2.0
+      ],
+      "deck_z": -13.45,
+      "deck_size_m": [
+        29.0,
+        43.0
+      ],
+      "deck_relief_max_m": 0.0,
+      "samples": 1164,
+      "sky_rays_blocked": 0,
+      "deck": "bottom",
+      "position_godot": [
+        17.0,
+        -13.45,
+        2.0
+      ]
+    }
+  },
+  "dorsal_deck_sizes_m": {
+    "TopFore": [
+      22.6,
+      21.2
+    ],
+    "TopAft": [
+      21.9,
+      20.0
+    ]
+  },
+  "ventral_deck_size_m": [
+    29.0,
+    43.0
+  ],
+  "markers_godot": {
+    "PadTopForePort": [
+      -16.3,
+      10.55,
+      -8.7
+    ],
+    "PadTopForeStarboard": [
+      16.3,
+      10.55,
+      -8.7
+    ],
+    "PadTopAftPort": [
+      -16.95,
+      10.55,
+      13.5
+    ],
+    "PadTopAftStarboard": [
+      16.95,
+      10.55,
+      13.5
+    ],
+    "PadBottomPort": [
+      -17.0,
+      -13.45,
+      2.0
+    ],
+    "PadBottomStarboard": [
+      17.0,
+      -13.45,
+      2.0
+    ],
+    "Nose": [
+      0,
+      -0.36,
+      -39.947
+    ],
+    "MastTop": [
+      0,
+      24.158,
+      20.62
+    ],
+    "EngineCentre": [
+      0,
+      -1.0,
+      45.21
+    ],
+    "EnginePort": [
+      -21.0,
+      -1.55,
+      40.394
+    ],
+    "EngineStarboard": [
+      21.0,
+      -1.55,
+      40.394
+    ],
+    "NozzleCentrePort": [
+      -3.0,
+      -1.0,
+      41.487
+    ],
+    "NozzleCentreStarboard": [
+      3.0,
+      -1.0,
+      41.487
+    ],
+    "NozzlePortUpper": [
+      -20.9,
+      0.9,
+      36.829
+    ],
+    "NozzlePortLower": [
+      -20.9,
+      -4.0,
+      36.908
+    ],
+    "NozzleStarboardUpper": [
+      20.9,
+      0.9,
+      36.829
+    ],
+    "NozzleStarboardLower": [
+      20.9,
+      -4.0,
+      36.908
+    ]
+  },
+  "aft_facing": [
+    "EngineCentre",
+    "EnginePort",
+    "EngineStarboard",
+    "NozzleCentrePort",
+    "NozzleCentreStarboard",
+    "NozzlePortUpper",
+    "NozzlePortLower",
+    "NozzleStarboardUpper",
+    "NozzleStarboardLower"
+  ],
+  "inverted": [
+    "PadBottomPort",
+    "PadBottomStarboard"
+  ]
+}

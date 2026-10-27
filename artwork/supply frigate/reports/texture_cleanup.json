@@ -1,0 +1,246 @@
+{
+  "method": "Seven-class classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, grime lift on armor, per-paint hue evening; amber lamps detected per texel; all six modelled pad decks painted by baked position with tiled source grime and grime-worn markings; engine vents lit per texel and main nozzles lit by position",
+  "grime_lift": 0.75,
+  "blotch_kept": {
+    "painted": 0.45,
+    "machinery": 0.3
+  },
+  "detail_kept": {
+    "painted": 1.0,
+    "machinery": 0.65
+  },
+  "palette_srgb": {
+    "graphite": [
+      0.13,
+      0.128,
+      0.13
+    ],
+    "gunmetal": [
+      0.29,
+      0.28,
+      0.272
+    ],
+    "armor": [
+      0.72,
+      0.61,
+      0.47
+    ],
+    "yellow": [
+      0.7,
+      0.53,
+      0.19
+    ],
+    "amber": [
+      1.0,
+      0.62,
+      0.24
+    ],
+    "white": [
+      0.84,
+      0.83,
+      0.8
+    ],
+    "blue": [
+      0.15,
+      0.48,
+      1.0
+    ]
+  },
+  "deck_srgb": [
+    0.2,
+    0.192,
+    0.182
+  ],
+  "marking_amber_srgb": [
+    0.9,
+    0.56,
+    0.13
+  ],
+  "armor_gain": [
+    1.019,
+    1.035,
+    1.048
+  ],
+  "class_coverage": {
+    "graphite": 0.4535497290258784,
+    "gunmetal": 0.15665032084273697,
+    "armor": 0.34838144680483135,
+    "yellow": 0.027560325649974075,
+    "amber": 0.0010874889751695091,
+    "white": 0.0058522555501668225,
+    "blue": 0.0069184331512428645
+  },
+  "deck_texels": 1242281,
+  "lamp_texels": 7144,
+  "vent_texels": 6689,
+  "nozzle_glow_texels": 38760,
+  "lip_lamps_texels": 4791,
+  "lip_texels": 88070,
+  "pads": {
+    "TopFore": {
+      "octagon": [
+        5.0,
+        27.6,
+        -1.9,
+        19.3,
+        8.6,
+        43.0,
+        -11.5,
+        25.0
+      ],
+      "deck_z": 10.55,
+      "out": 1,
+      "rings": [
+        [
+          4.45,
+          0.3
+        ],
+        [
+          3.95,
+          0.1
+        ]
+      ],
+      "cross": {
+        "half_length": 1.0,
+        "width": 0.32
+      },
+      "ticks": {
+        "inner": 5.6,
+        "outer": 6.6,
+        "width": 0.24
+      },
+      "centreline": [
+        7.3,
+        8.7
+      ],
+      "centre_port": [
+        -16.3,
+        8.700000000000001
+      ]
+    },
+    "TopAft": {
+      "octagon": [
+        6.0,
+        27.9,
+        -23.5,
+        -3.5,
+        -13.6,
+        21.0,
+        13.3,
+        46.1
+      ],
+      "deck_z": 10.55,
+      "out": 1,
+      "rings": [
+        [
+          4.45,
+          0.3
+        ],
+        [
+          3.95,
+          0.1
+        ]
+      ],
+      "cross": {
+        "half_length": 1.0,
+        "width": 0.32
+      },
+      "ticks": {
+        "inner": 5.6,
+        "outer": 6.6,
+        "width": 0.24
+      },
+      "centreline": [
+        7.3,
+        8.7
+      ],
+      "centre_port": [
+        -16.95,
+        -13.5
+      ]
+    },
+    "Bottom": {
+      "octagon": [
+        2.5,
+        31.5,
+        -23.5,
+        19.5,
+        -18.0,
+        48.0,
+        -14.0,
+        52.0
+      ],
+      "deck_z": -13.45,
+      "out": -1,
+      "rings": [
+        [
+          7.0,
+          0.34
+        ],
+        [
+          6.35,
+          0.12
+        ]
+      ],
+      "cross": {
+        "half_length": 1.5,
+        "width": 0.4
+      },
+      "ticks": {
+        "inner": 8.2,
+        "outer": 9.6,
+        "width": 0.3
+      },
+      "centreline": [
+        10.5,
+        19.0
+      ],
+      "centre_port": [
+        -17.0,
+        -2.0
+      ]
+    }
+  },
+  "border": {
+    "inset": 1.2,
+    "width": 0.34,
+    "pitch": 2.4,
+    "duty": 0.6
+  },
+  "centreline_style": {
+    "width": 0.3,
+    "pitch": 2.0,
+    "duty": 0.55
+  },
+  "lip_lamps": {
+    "pitch": 2.5,
+    "radius": 0.16
+  },
+  "grime_contrast": 0.7,
+  "nozzles_m": [
+    [
+      [
+        -3.0,
+        -1.0
+      ],
+      1.9
+    ],
+    [
+      [
+        -20.9,
+        0.9
+      ],
+      1.6
+    ],
+    [
+      [
+        -20.9,
+        -4.0
+      ],
+      1.6
+    ]
+  ],
+  "atlas_coverage": 0.39155852794647217,
+  "basecolor": "textures/supply_frigate_basecolor_4k.png",
+  "emission_map": "textures/supply_frigate_emission_2k.png"
+}

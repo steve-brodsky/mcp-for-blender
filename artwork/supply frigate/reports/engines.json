@@ -1,0 +1,83 @@
+{
+  "source": "C:\\Dev\\BlenderMCP\\artwork\\beam frigate\\blender\\beam_frigate_clean_high.blend",
+  "cut_y": -18.0,
+  "section_size_m": [
+    18.94,
+    6.0,
+    12.28
+  ],
+  "section_triangles": 146204,
+  "caps": 2,
+  "section_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "placements": {
+    "Centre": {
+      "cap_y": -40.1,
+      "centre_xz": [
+        0.0,
+        -1.0
+      ],
+      "roll_deg": 0,
+      "scale": 0.9,
+      "aft_end_y": -45.5,
+      "bounds_min": [
+        -8.52,
+        -45.5,
+        -6.52
+      ],
+      "bounds_max": [
+        8.52,
+        -32.1,
+        4.52
+      ]
+    },
+    "Port": {
+      "cap_y": -35.6,
+      "centre_xz": [
+        -21.0,
+        -2.0
+      ],
+      "roll_deg": 90,
+      "scale": 0.8,
+      "aft_end_y": -40.4,
+      "bounds_min": [
+        -25.91,
+        -40.4,
+        -9.58
+      ],
+      "bounds_max": [
+        -16.09,
+        -27.6,
+        5.58
+      ]
+    },
+    "Starboard": {
+      "cap_y": -35.6,
+      "centre_xz": [
+        21.0,
+        -2.0
+      ],
+      "roll_deg": -90,
+      "scale": 0.8,
+      "aft_end_y": -40.4,
+      "bounds_min": [
+        16.09,
+        -40.4,
+        -9.58
+      ],
+      "bounds_max": [
+        25.91,
+        -27.6,
+        5.58
+      ]
+    }
+  },
+  "triangles": 1145574,
+  "dimensions_m": [
+    66.17,
+    85.5,
+    48.47
+  ]
+}

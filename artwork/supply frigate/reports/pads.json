@@ -1,0 +1,143 @@
+{
+  "grime_samples": 118400,
+  "pads": {
+    "TopForeStarboard": {
+      "triangles": 950,
+      "outline_points": 159,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 2.36
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    },
+    "TopForePort": {
+      "triangles": 950,
+      "outline_points": 159,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 2.32
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    },
+    "TopAftStarboard": {
+      "triangles": 908,
+      "outline_points": 152,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 1.95
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    },
+    "TopAftPort": {
+      "triangles": 908,
+      "outline_points": 152,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 1.81
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    },
+    "BottomStarboard": {
+      "triangles": 1652,
+      "outline_points": 276,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 5.69
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    },
+    "BottomPort": {
+      "triangles": 1652,
+      "outline_points": 276,
+      "wall_depth_m": {
+        "min": 1.2,
+        "max": 5.66
+      },
+      "walls_without_hull": 0,
+      "boundary_after": 0
+    }
+  },
+  "hull_vertices_pressed": 66356,
+  "health": {
+    "boundary_edges": 16,
+    "nonmanifold_edges": 0
+  },
+  "skirt_uv": [
+    0.10580171644687653,
+    0.07048213481903076
+  ],
+  "skirt_colour": [
+    0.2549019753932953,
+    0.22352942824363708,
+    0.19607844948768616
+  ],
+  "triangles": 706914,
+  "settings": {
+    "decks": {
+      "TopFore": {
+        "octagon_abs_x": [
+          5.0,
+          27.6,
+          -1.9,
+          19.3,
+          8.6,
+          43.0,
+          -11.5,
+          25.0
+        ],
+        "deck_z": 10.55
+      },
+      "TopAft": {
+        "octagon_abs_x": [
+          6.0,
+          27.9,
+          -23.5,
+          -3.5,
+          -13.6,
+          21.0,
+          13.3,
+          46.1
+        ],
+        "deck_z": 10.55
+      },
+      "Bottom": {
+        "octagon_abs_x": [
+          2.5,
+          31.5,
+          -23.5,
+          19.5,
+          -18.0,
+          48.0,
+          -14.0,
+          52.0
+        ],
+        "deck_z": -13.45
+      }
+    },
+    "lip_m": 0.5,
+    "press_m": 0.8,
+    "press_grow_m": {
+      "1": 0.6,
+      "-1": 0.0
+    },
+    "taper_inset_m": 2.0,
+    "wall_into_hull_m": 0.4,
+    "outline_spacing_m": 0.5,
+    "grime_region_abs_x_y": {
+      "x": [
+        7.5,
+        26.0
+      ],
+      "y": [
+        -0.5,
+        15.5
+      ]
+    },
+    "grime_res_m": 0.05
+  }
+}

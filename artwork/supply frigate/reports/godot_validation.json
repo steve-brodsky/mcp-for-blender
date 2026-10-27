@@ -1,0 +1,240 @@
+{
+	"bomber_on_pad_m": {
+		"position": "(-7.039035, 0.000001, -8.9804)",
+		"size": "(14.07807, 5.256841, 17.98052)"
+	},
+	"checks": [
+		{
+			"check": "LOD triangle counts decrease",
+			"detail": "[152858, 61128, 22924]",
+			"ok": true
+		},
+		{
+			"check": "material has albedo and emission",
+			"detail": "(4096.0, 4096.0) / (2048.0, 2048.0)",
+			"ok": true
+		},
+		{
+			"check": "main LOD range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD1 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "LOD2 shares the material and range",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "frigate is 85 m long with its engines and points along -Z",
+			"detail": "(66.22009, 48.37719, 85.15688)",
+			"ok": true
+		},
+		{
+			"check": "nose is at -Z, engines at +Z",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker Nose",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker MastTop",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EngineCentre",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EnginePort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker EngineStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzleCentrePort",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzleCentreStarboard",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzlePortUpper",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzlePortLower",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzleStarboardUpper",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "marker NozzleStarboardLower",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "engine and nozzle markers face aft",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "nozzle markers mirror across the centreline",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "six landing pads",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "dorsal pads point up, ventral down, all forward",
+			"detail": "6 / 6",
+			"ok": true
+		},
+		{
+			"check": "pads mirror across the centreline",
+			"detail": "3 / 3 pairs",
+			"ok": true
+		},
+		{
+			"check": "each ventral deck lies under its side's dorsal pads",
+			"detail": "2 / 2",
+			"ok": true
+		},
+		{
+			"check": "ten convex collision hulls",
+			"detail": "10",
+			"ok": true
+		},
+		{
+			"check": "collision responds across the frigate",
+			"detail": "10 / 10",
+			"ok": true
+		},
+		{
+			"check": "decks lie on the collision surface",
+			"detail": "[0.02, 0.02, 0.03, 0.03, 0.0, 0.0]",
+			"ok": true
+		},
+		{
+			"check": "every pad has open space straight out of its deck",
+			"detail": "6 / 6",
+			"ok": true
+		},
+		{
+			"check": "six ships dock in pad order",
+			"detail": "[&\"PadTopForePort\", &\"PadTopForeStarboard\", &\"PadTopAftPort\", &\"PadTopAftStarboard\", &\"PadBottomPort\", &\"PadBottomStarboard\"]",
+			"ok": true
+		},
+		{
+			"check": "seventh ship is refused",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "docked ships rest on their decks, ventral ones inverted, all facing the bow",
+			"detail": "6 / 6",
+			"ok": true
+		},
+		{
+			"check": "docked ships move with the frigate",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "all six ships are resupplied",
+			"detail": "6",
+			"ok": true
+		},
+		{
+			"check": "undock_ship returns the ship to its parent and signals",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "undocking keeps the ship where it was",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "a ship below the frigate is offered a ventral pad",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "a ship above prefers a free dorsal pad",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "bomber fits a dorsal deck",
+			"detail": "14.1 x 18.0 m on a 20 m frame",
+			"ok": true
+		},
+		{
+			"check": "bomber rests on the deck",
+			"detail": "0.00000071525574",
+			"ok": true
+		},
+		{
+			"check": "bomber fits a dorsal pad",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "corvette does not fit a dorsal pad",
+			"detail": "",
+			"ok": true
+		},
+		{
+			"check": "corvette is given a ventral deck",
+			"detail": "PadBottomPort",
+			"ok": true
+		},
+		{
+			"check": "corvette footprint lies within the ventral deck",
+			"detail": "(27.983, 9.733389, 31.99654)",
+			"ok": true
+		},
+		{
+			"check": "docked corvette clears the frigate's collision hulls",
+			"detail": "0",
+			"ok": true
+		}
+	],
+	"corvette_on_pad_m": {
+		"position": "(-13.9915, 0.0, -15.99704)",
+		"size": "(27.983, 9.733389, 31.99654)"
+	},
+	"dimensions_m": "(66.22009, 48.37719, 85.15688)",
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"triangles": [
+		152858,
+		61128,
+		22924
+	]
+}

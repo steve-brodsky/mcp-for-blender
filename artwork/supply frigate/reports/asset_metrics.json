@@ -1,0 +1,52 @@
+{
+  "source_triangles": 699894,
+  "high_triangles": 699894,
+  "bowtie_edges_split": 7,
+  "scale_factor": 79.22699775006157,
+  "length_m": 80.0,
+  "high_health": {
+    "boundary_edges": 16,
+    "nonmanifold_edges": 0
+  },
+  "dimensions_m": [
+    66.22,
+    85.157,
+    48.377
+  ],
+  "scale_assumption": "80 m chosen because the source has no physical dimensions",
+  "forward_godot": "-Z (the bow pods)",
+  "up_godot": "+Y",
+  "lod0_triangles": 152858,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 61128,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 22924,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "collision_hulls": {
+    "Spine": 215,
+    "SternKeel": 171,
+    "BowPodPort": 232,
+    "PadsForePort": 99,
+    "PadsAftPort": 174,
+    "SternPort": 152,
+    "BowPodStarboard": 232,
+    "PadsForeStarboard": 99,
+    "PadsAftStarboard": 174,
+    "SternStarboard": 152
+  },
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}
