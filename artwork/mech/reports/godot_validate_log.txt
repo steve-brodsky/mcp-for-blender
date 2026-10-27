@@ -23,7 +23,7 @@ ok   material on surface 0
 ok   material on surface 1
 ok   material on surface 2
 ok   triangle budget (26189)
-ok   approximately 10 m tall (9.55)
+ok   approximately 9 m tall (8.83)
 ok   AnimationTree active
 ok   rifle mounted
 ok   muzzle belongs to rifle

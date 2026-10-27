@@ -36,11 +36,12 @@ To integrate it, copy `assets/ships/combat_mech`, `scenes/ships/combat_mech.tscn
 
 ## Model
 
-- Scale and axes: about 9.6 m tall. In Godot it faces **-Z**, with +Y up, at unit scale; the Visuals node is rotated 180°.
+- Scale and axes: about 8.8 m tall. In Godot it faces **-Z**, with +Y up, at unit scale; the Visuals node is rotated 180°.
 - Budget: the body is 26,189 triangles and the rifle is 4,000. The source had 699,710.
 - Body materials: `M_Mech_Armor` (ivory, charcoal and red, from the atlas), `M_Mech_Thruster` (blue emitters) and `M_Mech_Visor` (amber).
 - Rifle materials: `M_Rifle_Metal` and `M_Rifle_Energy`.
 - Emission: emissive surfaces are separate surfaces, so their glow is set per instance at runtime.
+- Thruster pack: the source pods pointed up and back. Each pod was swung 95° about its backpack bracket so the nozzle points down and back, then splayed 10° outward. The `thruster_pack` markers moved with them (`CombatMech_Body` and markers only; the `HIGH` pack still has the source orientation, so run `scripts/mech_pack_flip.py` after a rebuild).
 - Symmetry: each central part (torso, head, thruster pack, pelvis) was mirrored about its own fitted plane. The source torso was yawed 4°. The thruster pack was yawed 8.5° and offset 0.97 m. The right arm and leg were mirrored to the left. The shield was registered onto the new left forearm.
 - Segmentation: there are 20 rigid parts plus 15 charcoal joint pieces (ball joints, knee cylinders, waist ring). Every vertex is weighted 100% to one bone, so the armor never bends.
 
@@ -163,7 +164,7 @@ effect is purely visual.
 - **Hip region:** the source was one fused shell, and its thighs and skirt plates merged into a single surface. Thighs are separated by a cut plane, so extreme hip flexion shows the charcoal ball joint and cap rather than a modeled socket. Shoulders, elbows, knees and ankles are cleaner.
 - **Cut faces:** the faces at the cuts are flat charcoal caps. They read as internal structure, not modeled mechanisms.
 - **Shared texture on the left:** the left limbs share the right side's UVs, so painted markings are mirrored. The original asymmetric red stripes on the shoulders are therefore identical.
-- **Height:** it is 9.55 m rather than 10 m, because the symmetrized thruster pack uses the shorter source pod.
+- **Height:** it is 8.83 m to the top of the head and shoulders. It was 9.55 m when the thruster pods pointed up; the body scale did not change.
 - **Hands:** fingers are rigid parts of the hand. The rifle grip sits in the open claw rather than being wrapped by articulated fingers.
 - **Two-handed aim:** the arms are short for the body, so the two-handed aim needs a strongly bladed stance (torso turned 45°), and the left hand supports the rifle just ahead of the grip rather than far out on the foregrip. The placement came from a search over reach and armor penetration; a few rifle vertices still graze the right shoulder armor.
 - **`boost` does not loop:** it holds its final pose. Crossfade out to change state.
@@ -180,7 +181,8 @@ In Blender, run the scripts in this order:
 1. `mech_label.py` and `mech_build_symmetric.build()`, which make the HIGH parts.
 2. `mech_rig.py`, `build_armature()`, `build_joint_hardware()` and `bone_parent_all()`.
 3. `mech_lowpoly.build_body()`, then `mech_bake.bake_atlas(...)`.
-4. `mech_anim.build_all()`.
-5. `mech_export.export_all()`.
+4. `mech_pack_flip.flip()`, which points the thruster pods down. Run it once only.
+5. `mech_anim.build_all()`.
+6. `mech_export.export_all()`.
 
 Then run `python scripts/check_glb.py` on the GLBs and the Godot test.

@@ -16,7 +16,7 @@
   "body_triangles": 26189,
   "checks": 79,
   "failures": [],
-  "height_m": 9.55417919158936,
+  "height_m": 8.8305139541626,
   "muzzle_positions": {
     "aim": [
       1.2,
@@ -36,7 +36,7 @@
     "disabled": [
       1.24,
       -0.23,
-      4.12
+      4.11
     ],
     "hover_idle": [
       1.85,

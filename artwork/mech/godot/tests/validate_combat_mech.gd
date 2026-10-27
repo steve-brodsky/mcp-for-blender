@@ -110,7 +110,7 @@ func validate() -> void:
 	check(tris > 15000 and tris < 30000, "triangle budget (%d)" % tris)
 	var aabb := body.get_aabb()
 	results["height_m"] = aabb.size.y
-	check(absf(aabb.size.y - 10.0) < 0.6, "approximately 10 m tall (%.2f)" % aabb.size.y)
+	check(absf(aabb.size.y - 9.0) < 0.6, "approximately 9 m tall (%.2f)" % aabb.size.y)
 	check(mech.anim_tree.active, "AnimationTree active")
 
 	# --- rifle attachment
