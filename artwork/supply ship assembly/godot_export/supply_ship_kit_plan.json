@@ -44,7 +44,12 @@
     0.308,
     -0.0
    ],
-   "stage_distance": 6.1993
+   "stage_distance": 6.1993,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring00_S",
@@ -66,7 +71,12 @@
     0.308,
     -0.0
    ],
-   "stage_distance": 6.1993
+   "stage_distance": 6.1993,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring01_P",
@@ -88,7 +98,12 @@
     0.3052,
     -0.0
    ],
-   "stage_distance": 6.083
+   "stage_distance": 6.083,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring01_S",
@@ -110,7 +125,12 @@
     0.3052,
     -0.0
    ],
-   "stage_distance": 6.083
+   "stage_distance": 6.083,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring02_K",
@@ -132,7 +152,12 @@
     -1.0,
     -0.0
    ],
-   "stage_distance": 3.5045
+   "stage_distance": 3.5045,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring02_D",
@@ -154,7 +179,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 4.1547
+   "stage_distance": 4.1547,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring03_K",
@@ -176,7 +206,12 @@
     -1.0,
     -0.0
    ],
-   "stage_distance": 2.793
+   "stage_distance": 2.793,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring03_D",
@@ -198,7 +233,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 2.973
+   "stage_distance": 2.973,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring04_K",
@@ -220,7 +260,12 @@
     -1.0,
     -0.0
    ],
-   "stage_distance": 2.9903
+   "stage_distance": 2.9903,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring04_D",
@@ -242,7 +287,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 3.6845
+   "stage_distance": 3.6845,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring05_K",
@@ -264,7 +314,12 @@
     -1.0,
     -0.0
    ],
-   "stage_distance": 2.9882
+   "stage_distance": 2.9882,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring05_D",
@@ -286,7 +341,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 3.8955
+   "stage_distance": 3.8955,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring06_K",
@@ -308,7 +368,12 @@
     -1.0,
     -0.0
    ],
-   "stage_distance": 3.522
+   "stage_distance": 3.522,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring06_D",
@@ -330,7 +395,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 4.8703
+   "stage_distance": 4.8703,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ]
   },
   {
    "name": "Ring07_P",
@@ -352,7 +422,12 @@
     -0.1065,
     -0.0
    ],
-   "stage_distance": 5.3027
+   "stage_distance": 5.3027,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring07_S",
@@ -374,7 +449,12 @@
     -0.1065,
     -0.0
    ],
-   "stage_distance": 5.3027
+   "stage_distance": 5.3027,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring08_P",
@@ -396,7 +476,12 @@
     -0.1603,
     -0.0
    ],
-   "stage_distance": 5.5335
+   "stage_distance": 5.5335,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring08_S",
@@ -418,7 +503,12 @@
     -0.1603,
     -0.0
    ],
-   "stage_distance": 5.5335
+   "stage_distance": 5.5335,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring09_P",
@@ -440,7 +530,12 @@
     -0.1689,
     -0.0
    ],
-   "stage_distance": 5.575
+   "stage_distance": 5.575,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring09_S",
@@ -462,7 +557,12 @@
     -0.1689,
     -0.0
    ],
-   "stage_distance": 5.575
+   "stage_distance": 5.575,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring10_P",
@@ -484,7 +584,12 @@
     -0.1793,
     -0.0
    ],
-   "stage_distance": 5.5832
+   "stage_distance": 5.5832,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Ring10_S",
@@ -506,7 +611,12 @@
     -0.1793,
     -0.0
    ],
-   "stage_distance": 5.5832
+   "stage_distance": 5.5832,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ]
   },
   {
    "name": "Crane_L",
@@ -528,7 +638,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 2.8963
+   "stage_distance": 2.8963,
+   "transit_axes": [
+    2,
+    1,
+    0
+   ]
   },
   {
    "name": "Crane_R",
@@ -550,7 +665,12 @@
     1.0,
     -0.0
    ],
-   "stage_distance": 2.8963
+   "stage_distance": 2.8963,
+   "transit_axes": [
+    2,
+    1,
+    0
+   ]
   },
   {
    "name": "Pod_L",
@@ -572,7 +692,12 @@
     0.0,
     -0.0
    ],
-   "stage_distance": 4.154
+   "stage_distance": 4.154,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ]
   },
   {
    "name": "Pod_R",
@@ -594,7 +719,12 @@
     0.0,
     -0.0
    ],
-   "stage_distance": 4.154
+   "stage_distance": 4.154,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ]
   }
  ]
 }

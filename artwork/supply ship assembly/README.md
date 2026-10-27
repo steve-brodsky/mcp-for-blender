@@ -110,10 +110,20 @@ The first sweep found 117 contacts from two real problems, both fixed in `build_
 
 `scripts/export_kit.py` wrote `godot_export/supply_ship_kit.glb` (26 top-level nodes, origin at each piece's bounds centre, 32.5 MB including the packed hull, pod and pool textures) and `supply_ship_kit_plan.json`. The plan is in the Godot frame (bow -Z, up +Y), **already at game scale**. It therefore lines up with `supply_ship.tscn`'s root, whose `Model` is scaled 0.25: bounds 6.2 x 5.3 x 15.0 m, and `Pod_R` at (1.1145, -0.377, 0.628) against the scene's `PodSeatStarboard` (1.1145, -0.375, 0.625). The keel axis height is -0.375 (the bay axis), with a hull radius of 3.44 m.
 
-Nothing was installed into `space-game-prototype`. To use the kit there, follow the frigate route in that project's `docs/ship_construction.md` (`tools/construction/import_ship_kit.py`, then a `ConstructionKit` resource). Two things differ from the frigate:
+Each piece in the plan also carries `transit_axes`: its `[across, along, up]` axes in transit. The game's `ConstructionSite.transit_basis()` uses them so the drone tows along the piece's approach axis, as in this animation.
 
-- **New tiers.** The plan has the tiers `fitting` and `pod` besides `hull`, and no `keel` tier. The game's construction code may need to accept them; ordering is already in `order`.
-- **Pod swap.** The finished `supply_ship.tscn` spawns its own pods on ready (`start_loaded`). When the kit is swapped for the finished ship, either drop the kit's two pods or start the ship empty and hand it these pods.
+**In the game** (space-game-prototype, branch `feature/supply-ship-construction`, commit 7c42aa8): select the mothership and press **N**. The kit is in `assets/ships/logistics/supply_ship/construction/` and `resources/construction/supply_ship_kit.tres`:
+
+- 8 drones;
+- critical pieces `Ring*_K`: losing a keel slab breaks the ship up.
+
+The build takes about 190 s of game time. The finished `supply_ship.tscn` spawns its own pods exactly where the kit's were seated, so the swap is seamless. To re-import after a change:
+
+```text
+python tools/construction/import_ship_kit.py supply_ship_kit assets/ships/logistics/supply_ship/construction "C:\Dev\BlenderMCP\artwork\supply ship assembly"
+```
+
+See that project's `docs/ship_construction.md`.
 
 ## Files
 
