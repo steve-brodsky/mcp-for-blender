@@ -1,0 +1,1656 @@
+{
+ "name": "beam_frigate_kit",
+ "units": "metres, Godot frame of the finished ship: -Z bow, +Y up",
+ "keel_axis_y": -1.0,
+ "hull_radius": 10.429,
+ "piece_reach": 5.984,
+ "bounds": {
+  "min": [
+   -10.0488,
+   -8.5944,
+   -23.7377
+  ],
+  "max": [
+   10.0488,
+   8.6368,
+   23.6709
+  ]
+ },
+ "rings": 16,
+ "transit_envelope": {
+  "across": 10.2,
+  "along": 7.4,
+  "up": 3.6,
+  "basis": "mothership side hangar: forcefield 10.8 m wide x 4.2 m tall, 12.1 m from back wall to field; piece towed ahead of a 0.25-scale construction drone (4.0 m)"
+ },
+ "pieces": [
+  {
+   "name": "Keel_0",
+   "tier": "keel",
+   "ring": -1,
+   "order": 0,
+   "centre": [
+    0.0,
+    -1.0,
+    13.25
+   ],
+   "size": [
+    2.754,
+    2.754,
+    9.5
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.754
+  },
+  {
+   "name": "Keel_1",
+   "tier": "keel",
+   "ring": -1,
+   "order": 1,
+   "centre": [
+    0.0,
+    -1.0,
+    3.75
+   ],
+   "size": [
+    2.754,
+    2.754,
+    9.5
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.754
+  },
+  {
+   "name": "Keel_2",
+   "tier": "keel",
+   "ring": -1,
+   "order": 2,
+   "centre": [
+    0.0,
+    -1.0,
+    -5.75
+   ],
+   "size": [
+    2.754,
+    2.754,
+    9.5
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.754
+  },
+  {
+   "name": "Keel_3",
+   "tier": "keel",
+   "ring": -1,
+   "order": 3,
+   "centre": [
+    0.0,
+    -1.0,
+    -15.25
+   ],
+   "size": [
+    2.754,
+    2.754,
+    9.5
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 4.754
+  },
+  {
+   "name": "Ring00_PL",
+   "tier": "hull",
+   "ring": 0,
+   "order": 4,
+   "centre": [
+    -4.6367,
+    -4.429,
+    22.215
+   ],
+   "size": [
+    7.691,
+    4.358,
+    2.48
+   ],
+   "approach": [
+    -0.804,
+    -0.5946,
+    -0.0
+   ],
+   "stage_distance": 10.775
+  },
+  {
+   "name": "Ring00_SL",
+   "tier": "hull",
+   "ring": 0,
+   "order": 5,
+   "centre": [
+    4.6367,
+    -4.429,
+    22.215
+   ],
+   "size": [
+    7.691,
+    4.358,
+    2.48
+   ],
+   "approach": [
+    0.804,
+    -0.5946,
+    -0.0
+   ],
+   "stage_distance": 10.775
+  },
+  {
+   "name": "Ring00_PU",
+   "tier": "hull",
+   "ring": 0,
+   "order": 6,
+   "centre": [
+    -4.6134,
+    1.0056,
+    22.323
+   ],
+   "size": [
+    7.633,
+    6.511,
+    2.696
+   ],
+   "approach": [
+    -0.9171,
+    0.3987,
+    -0.0
+   ],
+   "stage_distance": 11.596
+  },
+  {
+   "name": "Ring00_SU",
+   "tier": "hull",
+   "ring": 0,
+   "order": 7,
+   "centre": [
+    4.6134,
+    1.0056,
+    22.323
+   ],
+   "size": [
+    7.633,
+    6.511,
+    2.696
+   ],
+   "approach": [
+    0.9171,
+    0.3987,
+    -0.0
+   ],
+   "stage_distance": 11.596
+  },
+  {
+   "name": "Ring01_PL",
+   "tier": "hull",
+   "ring": 1,
+   "order": 8,
+   "centre": [
+    -4.528,
+    -4.8627,
+    19.5625
+   ],
+   "size": [
+    9.056,
+    5.225,
+    2.825
+   ],
+   "approach": [
+    -0.7608,
+    -0.649,
+    -0.0
+   ],
+   "stage_distance": 12.281
+  },
+  {
+   "name": "Ring01_SL",
+   "tier": "hull",
+   "ring": 1,
+   "order": 9,
+   "centre": [
+    4.528,
+    -4.8627,
+    19.5625
+   ],
+   "size": [
+    9.056,
+    5.225,
+    2.825
+   ],
+   "approach": [
+    0.7608,
+    -0.649,
+    -0.0
+   ],
+   "stage_distance": 12.281
+  },
+  {
+   "name": "Ring01_PU",
+   "tier": "hull",
+   "ring": 1,
+   "order": 10,
+   "centre": [
+    -4.5292,
+    1.1859,
+    19.5625
+   ],
+   "size": [
+    9.058,
+    6.872,
+    2.825
+   ],
+   "approach": [
+    -0.9006,
+    0.4346,
+    -0.0
+   ],
+   "stage_distance": 13.144
+  },
+  {
+   "name": "Ring01_SU",
+   "tier": "hull",
+   "ring": 1,
+   "order": 11,
+   "centre": [
+    4.5292,
+    1.1859,
+    19.5625
+   ],
+   "size": [
+    9.058,
+    6.872,
+    2.825
+   ],
+   "approach": [
+    0.9006,
+    0.4346,
+    -0.0
+   ],
+   "stage_distance": 13.144
+  },
+  {
+   "name": "Ring02_PL",
+   "tier": "hull",
+   "ring": 2,
+   "order": 12,
+   "centre": [
+    -4.5762,
+    -5.3931,
+    16.7375
+   ],
+   "size": [
+    9.152,
+    6.286,
+    2.825
+   ],
+   "approach": [
+    -0.7214,
+    -0.6925,
+    -0.0
+   ],
+   "stage_distance": 12.955
+  },
+  {
+   "name": "Ring02_SL",
+   "tier": "hull",
+   "ring": 2,
+   "order": 13,
+   "centre": [
+    4.5762,
+    -5.3931,
+    16.7375
+   ],
+   "size": [
+    9.152,
+    6.286,
+    2.825
+   ],
+   "approach": [
+    0.7214,
+    -0.6925,
+    -0.0
+   ],
+   "stage_distance": 12.955
+  },
+  {
+   "name": "Ring02_PU",
+   "tier": "hull",
+   "ring": 2,
+   "order": 14,
+   "centre": [
+    -4.6893,
+    1.1876,
+    16.7375
+   ],
+   "size": [
+    9.379,
+    6.875,
+    2.825
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.379
+  },
+  {
+   "name": "Ring02_SU",
+   "tier": "hull",
+   "ring": 2,
+   "order": 15,
+   "centre": [
+    4.6893,
+    1.1876,
+    16.7375
+   ],
+   "size": [
+    9.379,
+    6.875,
+    2.825
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.379
+  },
+  {
+   "name": "Ring03_PL",
+   "tier": "hull",
+   "ring": 3,
+   "order": 16,
+   "centre": [
+    -4.5181,
+    -5.6554,
+    13.9125
+   ],
+   "size": [
+    9.036,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -0.6965,
+    -0.7176,
+    -0.0
+   ],
+   "stage_distance": 12.396
+  },
+  {
+   "name": "Ring03_SL",
+   "tier": "hull",
+   "ring": 3,
+   "order": 17,
+   "centre": [
+    4.5181,
+    -5.6554,
+    13.9125
+   ],
+   "size": [
+    9.036,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    0.6965,
+    -0.7176,
+    -0.0
+   ],
+   "stage_distance": 12.396
+  },
+  {
+   "name": "Ring03_PM",
+   "tier": "hull",
+   "ring": 3,
+   "order": 18,
+   "centre": [
+    -4.6732,
+    0.0615,
+    13.9125
+   ],
+   "size": [
+    9.346,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.346
+  },
+  {
+   "name": "Ring03_SM",
+   "tier": "hull",
+   "ring": 3,
+   "order": 19,
+   "centre": [
+    4.6732,
+    0.0615,
+    13.9125
+   ],
+   "size": [
+    9.346,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.346
+  },
+  {
+   "name": "Ring03_PU",
+   "tier": "hull",
+   "ring": 3,
+   "order": 20,
+   "centre": [
+    -4.0187,
+    5.7783,
+    13.9125
+   ],
+   "size": [
+    8.037,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    -0.51,
+    0.8602,
+    -0.0
+   ],
+   "stage_distance": 11.017
+  },
+  {
+   "name": "Ring03_SU",
+   "tier": "hull",
+   "ring": 3,
+   "order": 21,
+   "centre": [
+    4.0187,
+    5.7783,
+    13.9125
+   ],
+   "size": [
+    8.037,
+    5.717,
+    2.825
+   ],
+   "approach": [
+    0.51,
+    0.8602,
+    -0.0
+   ],
+   "stage_distance": 11.017
+  },
+  {
+   "name": "Ring04_PL",
+   "tier": "hull",
+   "ring": 4,
+   "order": 22,
+   "centre": [
+    -4.6413,
+    -5.4542,
+    10.9062
+   ],
+   "size": [
+    9.283,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -0.7215,
+    -0.6924,
+    -0.0
+   ],
+   "stage_distance": 12.365
+  },
+  {
+   "name": "Ring04_SL",
+   "tier": "hull",
+   "ring": 4,
+   "order": 23,
+   "centre": [
+    4.6413,
+    -5.4542,
+    10.9062
+   ],
+   "size": [
+    9.283,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    0.7215,
+    -0.6924,
+    -0.0
+   ],
+   "stage_distance": 12.365
+  },
+  {
+   "name": "Ring04_PM",
+   "tier": "hull",
+   "ring": 4,
+   "order": 24,
+   "centre": [
+    -4.6466,
+    -0.1571,
+    10.9062
+   ],
+   "size": [
+    9.293,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.293
+  },
+  {
+   "name": "Ring04_SM",
+   "tier": "hull",
+   "ring": 4,
+   "order": 25,
+   "centre": [
+    4.6466,
+    -0.1571,
+    10.9062
+   ],
+   "size": [
+    9.293,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.293
+  },
+  {
+   "name": "Ring04_PU",
+   "tier": "hull",
+   "ring": 4,
+   "order": 26,
+   "centre": [
+    -3.4875,
+    5.14,
+    10.9062
+   ],
+   "size": [
+    6.975,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    -0.4939,
+    0.8695,
+    -0.0
+   ],
+   "stage_distance": 10.051
+  },
+  {
+   "name": "Ring04_SU",
+   "tier": "hull",
+   "ring": 4,
+   "order": 27,
+   "centre": [
+    3.4875,
+    5.14,
+    10.9062
+   ],
+   "size": [
+    6.975,
+    5.297,
+    3.188
+   ],
+   "approach": [
+    0.4939,
+    0.8695,
+    -0.0
+   ],
+   "stage_distance": 10.051
+  },
+  {
+   "name": "Ring05_PL",
+   "tier": "hull",
+   "ring": 5,
+   "order": 28,
+   "centre": [
+    -5.0244,
+    -5.8529,
+    7.7188
+   ],
+   "size": [
+    10.049,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -0.7193,
+    -0.6947,
+    -0.0
+   ],
+   "stage_distance": 13.027
+  },
+  {
+   "name": "Ring05_SL",
+   "tier": "hull",
+   "ring": 5,
+   "order": 29,
+   "centre": [
+    5.0244,
+    -5.8529,
+    7.7188
+   ],
+   "size": [
+    10.049,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    0.7193,
+    -0.6947,
+    -0.0
+   ],
+   "stage_distance": 13.027
+  },
+  {
+   "name": "Ring05_PM",
+   "tier": "hull",
+   "ring": 5,
+   "order": 30,
+   "centre": [
+    -4.9295,
+    -0.3844,
+    7.7188
+   ],
+   "size": [
+    9.859,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.859
+  },
+  {
+   "name": "Ring05_SM",
+   "tier": "hull",
+   "ring": 5,
+   "order": 31,
+   "centre": [
+    4.9295,
+    -0.3844,
+    7.7188
+   ],
+   "size": [
+    9.859,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.859
+  },
+  {
+   "name": "Ring05_PU",
+   "tier": "hull",
+   "ring": 5,
+   "order": 32,
+   "centre": [
+    -3.5371,
+    5.0841,
+    7.7188
+   ],
+   "size": [
+    7.074,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    -0.5026,
+    0.8645,
+    -0.0
+   ],
+   "stage_distance": 10.282
+  },
+  {
+   "name": "Ring05_SU",
+   "tier": "hull",
+   "ring": 5,
+   "order": 33,
+   "centre": [
+    3.5371,
+    5.0841,
+    7.7188
+   ],
+   "size": [
+    7.074,
+    5.468,
+    3.188
+   ],
+   "approach": [
+    0.5026,
+    0.8645,
+    -0.0
+   ],
+   "stage_distance": 10.282
+  },
+  {
+   "name": "Ring06_PL",
+   "tier": "hull",
+   "ring": 6,
+   "order": 34,
+   "centre": [
+    -4.9533,
+    -6.0667,
+    4.5312
+   ],
+   "size": [
+    9.907,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -0.6991,
+    -0.7151,
+    -0.0
+   ],
+   "stage_distance": 12.541
+  },
+  {
+   "name": "Ring06_SL",
+   "tier": "hull",
+   "ring": 6,
+   "order": 35,
+   "centre": [
+    4.9533,
+    -6.0667,
+    4.5312
+   ],
+   "size": [
+    9.907,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    0.6991,
+    -0.7151,
+    -0.0
+   ],
+   "stage_distance": 12.541
+  },
+  {
+   "name": "Ring06_PM",
+   "tier": "hull",
+   "ring": 6,
+   "order": 36,
+   "centre": [
+    -4.9237,
+    -1.0114,
+    4.5312
+   ],
+   "size": [
+    9.847,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.847
+  },
+  {
+   "name": "Ring06_SM",
+   "tier": "hull",
+   "ring": 6,
+   "order": 37,
+   "centre": [
+    4.9237,
+    -1.0114,
+    4.5312
+   ],
+   "size": [
+    9.847,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.847
+  },
+  {
+   "name": "Ring06_PU",
+   "tier": "hull",
+   "ring": 6,
+   "order": 38,
+   "centre": [
+    -4.0246,
+    4.044,
+    4.5312
+   ],
+   "size": [
+    8.049,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    -0.6237,
+    0.7817,
+    -0.0
+   ],
+   "stage_distance": 10.972
+  },
+  {
+   "name": "Ring06_SU",
+   "tier": "hull",
+   "ring": 6,
+   "order": 39,
+   "centre": [
+    4.0246,
+    4.044,
+    4.5312
+   ],
+   "size": [
+    8.049,
+    5.055,
+    3.188
+   ],
+   "approach": [
+    0.6237,
+    0.7817,
+    -0.0
+   ],
+   "stage_distance": 10.972
+  },
+  {
+   "name": "Ring07_PL",
+   "tier": "hull",
+   "ring": 7,
+   "order": 40,
+   "centre": [
+    -4.6543,
+    -5.561,
+    1.3438
+   ],
+   "size": [
+    9.309,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -0.7142,
+    -0.6999,
+    -0.0
+   ],
+   "stage_distance": 11.833
+  },
+  {
+   "name": "Ring07_SL",
+   "tier": "hull",
+   "ring": 7,
+   "order": 41,
+   "centre": [
+    4.6543,
+    -5.561,
+    1.3438
+   ],
+   "size": [
+    9.309,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    0.7142,
+    -0.6999,
+    -0.0
+   ],
+   "stage_distance": 11.833
+  },
+  {
+   "name": "Ring07_PM",
+   "tier": "hull",
+   "ring": 7,
+   "order": 42,
+   "centre": [
+    -4.6275,
+    -1.0111,
+    1.3438
+   ],
+   "size": [
+    9.255,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.255
+  },
+  {
+   "name": "Ring07_SM",
+   "tier": "hull",
+   "ring": 7,
+   "order": 43,
+   "centre": [
+    4.6275,
+    -1.0111,
+    1.3438
+   ],
+   "size": [
+    9.255,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 11.255
+  },
+  {
+   "name": "Ring07_PU",
+   "tier": "hull",
+   "ring": 7,
+   "order": 44,
+   "centre": [
+    -3.7203,
+    3.5387,
+    1.3438
+   ],
+   "size": [
+    7.441,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    -0.6339,
+    0.7734,
+    -0.0
+   ],
+   "stage_distance": 10.236
+  },
+  {
+   "name": "Ring07_SU",
+   "tier": "hull",
+   "ring": 7,
+   "order": 45,
+   "centre": [
+    3.7203,
+    3.5387,
+    1.3438
+   ],
+   "size": [
+    7.441,
+    4.55,
+    3.188
+   ],
+   "approach": [
+    0.6339,
+    0.7734,
+    -0.0
+   ],
+   "stage_distance": 10.236
+  },
+  {
+   "name": "Ring08_PL",
+   "tier": "hull",
+   "ring": 8,
+   "order": 46,
+   "centre": [
+    -3.926,
+    -5.3073,
+    -1.675
+   ],
+   "size": [
+    7.852,
+    6.115,
+    2.85
+   ],
+   "approach": [
+    -0.6736,
+    -0.7391,
+    -0.0
+   ],
+   "stage_distance": 11.809
+  },
+  {
+   "name": "Ring08_SL",
+   "tier": "hull",
+   "ring": 8,
+   "order": 47,
+   "centre": [
+    3.926,
+    -5.3073,
+    -1.675
+   ],
+   "size": [
+    7.852,
+    6.115,
+    2.85
+   ],
+   "approach": [
+    0.6736,
+    -0.7391,
+    -0.0
+   ],
+   "stage_distance": 11.809
+  },
+  {
+   "name": "Ring08_PU",
+   "tier": "hull",
+   "ring": 8,
+   "order": 48,
+   "centre": [
+    -3.9214,
+    1.4187,
+    -1.675
+   ],
+   "size": [
+    7.843,
+    7.337,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.843
+  },
+  {
+   "name": "Ring08_SU",
+   "tier": "hull",
+   "ring": 8,
+   "order": 49,
+   "centre": [
+    3.9214,
+    1.4187,
+    -1.675
+   ],
+   "size": [
+    7.843,
+    7.337,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.843
+  },
+  {
+   "name": "Ring09_PL",
+   "tier": "hull",
+   "ring": 9,
+   "order": 50,
+   "centre": [
+    -3.9639,
+    -5.3051,
+    -4.525
+   ],
+   "size": [
+    7.928,
+    6.11,
+    2.85
+   ],
+   "approach": [
+    -0.6774,
+    -0.7357,
+    -0.0
+   ],
+   "stage_distance": 11.866
+  },
+  {
+   "name": "Ring09_SL",
+   "tier": "hull",
+   "ring": 9,
+   "order": 51,
+   "centre": [
+    3.9639,
+    -5.3051,
+    -4.525
+   ],
+   "size": [
+    7.928,
+    6.11,
+    2.85
+   ],
+   "approach": [
+    0.6774,
+    -0.7357,
+    -0.0
+   ],
+   "stage_distance": 11.866
+  },
+  {
+   "name": "Ring09_PU",
+   "tier": "hull",
+   "ring": 9,
+   "order": 52,
+   "centre": [
+    -3.9769,
+    1.4275,
+    -4.525
+   ],
+   "size": [
+    7.954,
+    7.355,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.954
+  },
+  {
+   "name": "Ring09_SU",
+   "tier": "hull",
+   "ring": 9,
+   "order": 53,
+   "centre": [
+    3.9769,
+    1.4275,
+    -4.525
+   ],
+   "size": [
+    7.954,
+    7.355,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.954
+  },
+  {
+   "name": "Ring10_PL",
+   "tier": "hull",
+   "ring": 10,
+   "order": 54,
+   "centre": [
+    -4.0172,
+    -5.0103,
+    -7.375
+   ],
+   "size": [
+    8.034,
+    5.521,
+    2.85
+   ],
+   "approach": [
+    -0.7077,
+    -0.7065,
+    -0.0
+   ],
+   "stage_distance": 11.586
+  },
+  {
+   "name": "Ring10_SL",
+   "tier": "hull",
+   "ring": 10,
+   "order": 55,
+   "centre": [
+    4.0172,
+    -5.0103,
+    -7.375
+   ],
+   "size": [
+    8.034,
+    5.521,
+    2.85
+   ],
+   "approach": [
+    0.7077,
+    -0.7065,
+    -0.0
+   ],
+   "stage_distance": 11.586
+  },
+  {
+   "name": "Ring10_PU",
+   "tier": "hull",
+   "ring": 10,
+   "order": 56,
+   "centre": [
+    -4.0263,
+    1.0524,
+    -7.375
+   ],
+   "size": [
+    8.053,
+    6.605,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.053
+  },
+  {
+   "name": "Ring10_SU",
+   "tier": "hull",
+   "ring": 10,
+   "order": 57,
+   "centre": [
+    4.0263,
+    1.0524,
+    -7.375
+   ],
+   "size": [
+    8.053,
+    6.605,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.053
+  },
+  {
+   "name": "Ring11_PL",
+   "tier": "hull",
+   "ring": 11,
+   "order": 58,
+   "centre": [
+    -4.0696,
+    -4.7127,
+    -10.225
+   ],
+   "size": [
+    8.139,
+    4.925,
+    2.85
+   ],
+   "approach": [
+    -0.7388,
+    -0.674,
+    -0.0
+   ],
+   "stage_distance": 11.333
+  },
+  {
+   "name": "Ring11_SL",
+   "tier": "hull",
+   "ring": 11,
+   "order": 59,
+   "centre": [
+    4.0696,
+    -4.7127,
+    -10.225
+   ],
+   "size": [
+    8.139,
+    4.925,
+    2.85
+   ],
+   "approach": [
+    0.7388,
+    -0.674,
+    -0.0
+   ],
+   "stage_distance": 11.333
+  },
+  {
+   "name": "Ring11_PU",
+   "tier": "hull",
+   "ring": 11,
+   "order": 60,
+   "centre": [
+    -4.0774,
+    0.5816,
+    -10.225
+   ],
+   "size": [
+    8.155,
+    5.663,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.155
+  },
+  {
+   "name": "Ring11_SU",
+   "tier": "hull",
+   "ring": 11,
+   "order": 61,
+   "centre": [
+    4.0774,
+    0.5816,
+    -10.225
+   ],
+   "size": [
+    8.155,
+    5.663,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.155
+  },
+  {
+   "name": "Ring12_PL",
+   "tier": "hull",
+   "ring": 12,
+   "order": 62,
+   "centre": [
+    -3.4365,
+    -4.7086,
+    -13.075
+   ],
+   "size": [
+    6.873,
+    4.917,
+    2.85
+   ],
+   "approach": [
+    -0.6797,
+    -0.7335,
+    -0.0
+   ],
+   "stage_distance": 10.278
+  },
+  {
+   "name": "Ring12_SL",
+   "tier": "hull",
+   "ring": 12,
+   "order": 63,
+   "centre": [
+    3.4365,
+    -4.7086,
+    -13.075
+   ],
+   "size": [
+    6.873,
+    4.917,
+    2.85
+   ],
+   "approach": [
+    0.6797,
+    -0.7335,
+    -0.0
+   ],
+   "stage_distance": 10.278
+  },
+  {
+   "name": "Ring12_PU",
+   "tier": "hull",
+   "ring": 12,
+   "order": 64,
+   "centre": [
+    -3.4526,
+    0.5561,
+    -13.075
+   ],
+   "size": [
+    6.905,
+    5.612,
+    2.85
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.905
+  },
+  {
+   "name": "Ring12_SU",
+   "tier": "hull",
+   "ring": 12,
+   "order": 65,
+   "centre": [
+    3.4526,
+    0.5561,
+    -13.075
+   ],
+   "size": [
+    6.905,
+    5.612,
+    2.85
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.905
+  },
+  {
+   "name": "Ring13_PL",
+   "tier": "hull",
+   "ring": 13,
+   "order": 66,
+   "centre": [
+    -3.0619,
+    -4.5621,
+    -16.05
+   ],
+   "size": [
+    6.124,
+    4.624,
+    3.1
+   ],
+   "approach": [
+    -0.6519,
+    -0.7583,
+    -0.0
+   ],
+   "stage_distance": 9.499
+  },
+  {
+   "name": "Ring13_SL",
+   "tier": "hull",
+   "ring": 13,
+   "order": 67,
+   "centre": [
+    3.0619,
+    -4.5621,
+    -16.05
+   ],
+   "size": [
+    6.124,
+    4.624,
+    3.1
+   ],
+   "approach": [
+    0.6519,
+    -0.7583,
+    -0.0
+   ],
+   "stage_distance": 9.499
+  },
+  {
+   "name": "Ring13_PU",
+   "tier": "hull",
+   "ring": 13,
+   "order": 68,
+   "centre": [
+    -3.0424,
+    0.7999,
+    -16.05
+   ],
+   "size": [
+    6.085,
+    6.1,
+    3.1
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.085
+  },
+  {
+   "name": "Ring13_SU",
+   "tier": "hull",
+   "ring": 13,
+   "order": 69,
+   "centre": [
+    3.0424,
+    0.7999,
+    -16.05
+   ],
+   "size": [
+    6.085,
+    6.1,
+    3.1
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.085
+  },
+  {
+   "name": "Ring14_P",
+   "tier": "hull",
+   "ring": 14,
+   "order": 70,
+   "centre": [
+    -2.4444,
+    -0.7846,
+    -19.15
+   ],
+   "size": [
+    4.889,
+    8.491,
+    3.1
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 6.889
+  },
+  {
+   "name": "Ring14_S",
+   "tier": "hull",
+   "ring": 14,
+   "order": 71,
+   "centre": [
+    2.4444,
+    -0.7846,
+    -19.15
+   ],
+   "size": [
+    4.889,
+    8.491,
+    3.1
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 6.889
+  },
+  {
+   "name": "Ring15_P",
+   "tier": "hull",
+   "ring": 15,
+   "order": 72,
+   "centre": [
+    -2.3247,
+    -0.9083,
+    -22.2189
+   ],
+   "size": [
+    4.649,
+    8.183,
+    3.038
+   ],
+   "approach": [
+    -0.9992,
+    0.0394,
+    -0.0
+   ],
+   "stage_distance": 6.968
+  },
+  {
+   "name": "Ring15_S",
+   "tier": "hull",
+   "ring": 15,
+   "order": 73,
+   "centre": [
+    2.3247,
+    -0.9083,
+    -22.2189
+   ],
+   "size": [
+    4.649,
+    8.183,
+    3.038
+   ],
+   "approach": [
+    0.9992,
+    0.0394,
+    -0.0
+   ],
+   "stage_distance": 6.968
+  }
+ ]
+}

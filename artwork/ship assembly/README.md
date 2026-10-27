@@ -138,6 +138,7 @@ Scripts declare the workspace path at their start. Blender 5.1. Every boolean us
 4. `blender -b -P scripts/hangar_fit.py`.
 5. `blender -b blender/frigate_kit.blend -P scripts/animate_build.py`.
 6. `blender -b blender/frigate_build_anim.blend --python-expr "STEP=3; exec(open(r'...\scripts\check_collisions.py').read())"`.
-7. `blender -b blender/frigate_build_anim.blend -P scripts/render_video.py`. Stills: exec `scripts/render_kit.py` with the kit open, or `scripts/anim_stills.py` with the animation open.
+7. `blender -b blender/frigate_build_anim.blend -P scripts/render_video.py`.
+8. For the game, run `blender -b blender/frigate_kit.blend -P scripts/export_kit.py`. This writes `godot_export/beam_frigate_kit.glb` and `beam_frigate_kit_plan.json`. In space-game-prototype, `tools/construction/import_ship_kit.py` copies them in; see that project's `docs/ship_construction.md`. Stills: exec `scripts/render_kit.py` with the kit open, or `scripts/anim_stills.py` with the animation open.
 
 Renders use Workbench (textured), because EEVEE previews render blank on this machine. The mothership's texture smears in Workbench; it looks correct in Godot.

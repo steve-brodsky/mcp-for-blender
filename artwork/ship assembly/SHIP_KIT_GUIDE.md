@@ -17,6 +17,8 @@ Each step is detailed below. MCP means `execute_blender_code`, with the file ope
 | 7 | headless | `animate_build.py` | build time and bay cycle are plausible |
 | 8 | headless, background | `check_collisions.py` with STEP=3 | 0 contacts, or a reason for each |
 | 9 | headless | `render_video.py`, `render_kit.py` / `anim_stills.py` | watch it |
+| 10 | headless | `export_kit.py -- --name <ship>_kit` | `godot_export/<ship>_kit.glb` and `_plan.json` (Godot frame) |
+| 11 | space-game-prototype | `python tools/construction/import_ship_kit.py <ship>_kit assets/ships/<class>/<ship>/construction`, then a `ConstructionKit` `.tres` on the carrier's `Shipyard` | the prototype's `docs/ship_construction.md` |
 
 ## Ground rules from the user
 
@@ -151,6 +153,21 @@ Rules:
 - **Expect about 1k triangles per open face.** The frigate's 62 cavities added about 69k triangles in all.
 
 For another ship: set `DECK_Z0` so a deck floor falls where the ship's geometry suggests (a hangar floor, a window row, the keel line). Change the fit-out mix in `interior_layout.py` (`kind` choice, scaffold and pipe probabilities) to suit the ship, for example more machinery for a tug or hangar decks for a carrier. Re-quilt the pools from that ship's own atlas: copy its albedo, paint-class map and UV mask into `source/`.
+
+## Into the game
+
+`scripts/export_kit.py` writes the kit as one GLB plus a build plan in the Godot frame: Blender (x, y, z) becomes Godot (x, z, -y), so the bow is -Z. Each piece is a top-level node at its assembled place, origin at its bounds centre. The plan gives each piece's centre, size, approach, staging distance, ring and order, plus the kit's keel axis height, hull radius and bounds.
+
+The game recomputes everything else from the plan, so no Blender-only numbers need converting:
+
+- the transit attitude;
+- which face the drone holds;
+- the lanes;
+- the airspace for site selection.
+
+The game's construction drone is 3.125 m long, not the 4 m assumed when the envelope was set, so every piece fits with margin.
+
+In space-game-prototype, `tools/construction/import_ship_kit.py` copies the kit in. The kit is a `ConstructionKit` resource (pieces scene, plan, finished scene) on the carrier's `Shipyard`; `scripts/construction/` holds the generic code. The finished scene must be the same hull in the same frame. Keep the kit's interiors flush and inside the hull: the game swaps the kit for the finished ship in place.
 
 ## Capital ships
 
