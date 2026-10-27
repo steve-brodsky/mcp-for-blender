@@ -1,0 +1,494 @@
+{
+ "reach": 12.0,
+ "pylons": [
+  {
+   "name": "Pylon_Ring02_PL_0",
+   "piece": "Ring02_PL",
+   "to": "own piece",
+   "length": 6.434,
+   "radius": 0.3,
+   "island_tris": 3220,
+   "a": [
+    -16.859,
+    -31.21,
+    -6.833
+   ],
+   "b": [
+    -10.429,
+    -31.41,
+    -6.913
+   ]
+  },
+  {
+   "name": "Pylon_Ring02_PL_1",
+   "piece": "Ring02_PL",
+   "to": "own piece",
+   "length": 0.243,
+   "radius": 0.158,
+   "island_tris": 126,
+   "a": [
+    -22.125,
+    -30.898,
+    -14.5
+   ],
+   "b": [
+    -21.97,
+    -30.898,
+    -14.313
+   ]
+  },
+  {
+   "name": "Pylon_Ring02_PL_2",
+   "piece": "Ring02_PL",
+   "to": "own piece",
+   "length": 1.454,
+   "radius": 0.14,
+   "island_tris": 124,
+   "a": [
+    -20.343,
+    -30.859,
+    -14.692
+   ],
+   "b": [
+    -21.78,
+    -30.859,
+    -14.471
+   ]
+  },
+  {
+   "name": "Pylon_Ring02_SL_0",
+   "piece": "Ring02_SL",
+   "to": "own piece",
+   "length": 6.489,
+   "radius": 0.3,
+   "island_tris": 3230,
+   "a": [
+    16.915,
+    -31.21,
+    -6.856
+   ],
+   "b": [
+    10.429,
+    -31.41,
+    -6.913
+   ]
+  },
+  {
+   "name": "Pylon_Ring02_SL_1",
+   "piece": "Ring02_SL",
+   "to": "own piece",
+   "length": 0.243,
+   "radius": 0.158,
+   "island_tris": 126,
+   "a": [
+    22.125,
+    -30.898,
+    -14.5
+   ],
+   "b": [
+    21.97,
+    -30.898,
+    -14.313
+   ]
+  },
+  {
+   "name": "Pylon_Ring02_SL_2",
+   "piece": "Ring02_SL",
+   "to": "own piece",
+   "length": 1.454,
+   "radius": 0.14,
+   "island_tris": 124,
+   "a": [
+    20.343,
+    -30.859,
+    -14.692
+   ],
+   "b": [
+    21.78,
+    -30.859,
+    -14.471
+   ]
+  },
+  {
+   "name": "Pylon_Ring03_PL_0",
+   "piece": "Ring03_PL",
+   "to": "own piece",
+   "length": 0.217,
+   "radius": 0.148,
+   "island_tris": 60,
+   "a": [
+    -1.3,
+    -26.093,
+    -17.075
+   ],
+   "b": [
+    -1.476,
+    -26.215,
+    -17.043
+   ]
+  },
+  {
+   "name": "Pylon_Ring04_PL_0",
+   "piece": "Ring04_PL",
+   "to": "own piece",
+   "length": 0.307,
+   "radius": 0.08,
+   "island_tris": 20,
+   "a": [
+    -27.73,
+    -21.628,
+    -12.326
+   ],
+   "b": [
+    -27.526,
+    -21.628,
+    -12.096
+   ]
+  },
+  {
+   "name": "Pylon_Ring04_SL_0",
+   "piece": "Ring04_SL",
+   "to": "own piece",
+   "length": 0.298,
+   "radius": 0.08,
+   "island_tris": 20,
+   "a": [
+    27.73,
+    -21.628,
+    -12.326
+   ],
+   "b": [
+    27.532,
+    -21.628,
+    -12.103
+   ]
+  },
+  {
+   "name": "Pylon_Ring06_PL_0",
+   "piece": "Ring06_PL",
+   "to": "own piece",
+   "length": 0.106,
+   "radius": 0.08,
+   "island_tris": 34,
+   "a": [
+    -5.469,
+    -14.002,
+    -11.475
+   ],
+   "b": [
+    -5.469,
+    -14.108,
+    -11.475
+   ]
+  },
+  {
+   "name": "Pylon_Ring06_SL_0",
+   "piece": "Ring06_SL",
+   "to": "own piece",
+   "length": 0.052,
+   "radius": 0.08,
+   "island_tris": 34,
+   "a": [
+    4.948,
+    -14.055,
+    -11.427
+   ],
+   "b": [
+    4.948,
+    -14.108,
+    -11.427
+   ]
+  },
+  {
+   "name": "Pylon_Ring07_PL_0",
+   "piece": "Ring07_PL",
+   "to": "own piece",
+   "length": 0.023,
+   "radius": 0.3,
+   "island_tris": 480,
+   "a": [
+    -4.881,
+    -7.454,
+    -11.323
+   ],
+   "b": [
+    -4.858,
+    -7.457,
+    -11.324
+   ]
+  },
+  {
+   "name": "Pylon_Ring07_SL_0",
+   "piece": "Ring07_SL",
+   "to": "own piece",
+   "length": 0.023,
+   "radius": 0.3,
+   "island_tris": 480,
+   "a": [
+    4.881,
+    -7.454,
+    -11.323
+   ],
+   "b": [
+    4.858,
+    -7.457,
+    -11.324
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_PL_0",
+   "piece": "Ring08_PL",
+   "to": "own piece",
+   "length": 0.126,
+   "radius": 0.09,
+   "island_tris": 24,
+   "a": [
+    -4.092,
+    1.966,
+    -10.435
+   ],
+   "b": [
+    -4.123,
+    1.846,
+    -10.41
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_PL_1",
+   "piece": "Ring08_PL",
+   "to": "own piece",
+   "length": 0.137,
+   "radius": 0.08,
+   "island_tris": 12,
+   "a": [
+    -6.696,
+    2.83,
+    -11.276
+   ],
+   "b": [
+    -6.696,
+    2.967,
+    -11.276
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_PL_2",
+   "piece": "Ring08_PL",
+   "to": "own piece",
+   "length": 0.311,
+   "radius": 0.08,
+   "island_tris": 12,
+   "a": [
+    -9.573,
+    -1.463,
+    -10.128
+   ],
+   "b": [
+    -9.573,
+    -1.774,
+    -10.128
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_SL_0",
+   "piece": "Ring08_SL",
+   "to": "own piece",
+   "length": 0.126,
+   "radius": 0.09,
+   "island_tris": 24,
+   "a": [
+    4.092,
+    1.966,
+    -10.435
+   ],
+   "b": [
+    4.123,
+    1.846,
+    -10.41
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_SL_1",
+   "piece": "Ring08_SL",
+   "to": "own piece",
+   "length": 0.137,
+   "radius": 0.08,
+   "island_tris": 12,
+   "a": [
+    6.696,
+    2.83,
+    -11.276
+   ],
+   "b": [
+    6.696,
+    2.967,
+    -11.276
+   ]
+  },
+  {
+   "name": "Pylon_Ring08_SL_2",
+   "piece": "Ring08_SL",
+   "to": "own piece",
+   "length": 0.311,
+   "radius": 0.08,
+   "island_tris": 12,
+   "a": [
+    9.573,
+    -1.463,
+    -10.128
+   ],
+   "b": [
+    9.573,
+    -1.774,
+    -10.128
+   ]
+  },
+  {
+   "name": "Pylon_Ring09_PL_0",
+   "piece": "Ring09_PL",
+   "to": "own piece",
+   "length": 0.287,
+   "radius": 0.08,
+   "island_tris": 54,
+   "a": [
+    -4.991,
+    4.821,
+    -11.255
+   ],
+   "b": [
+    -4.965,
+    4.535,
+    -11.252
+   ]
+  },
+  {
+   "name": "Pylon_Ring09_SL_0",
+   "piece": "Ring09_SL",
+   "to": "own piece",
+   "length": 0.287,
+   "radius": 0.08,
+   "island_tris": 54,
+   "a": [
+    4.991,
+    4.821,
+    -11.255
+   ],
+   "b": [
+    4.965,
+    4.535,
+    -11.252
+   ]
+  },
+  {
+   "name": "Pylon_Ring14_PL_0",
+   "piece": "Ring14_PL",
+   "to": "own piece",
+   "length": 0.273,
+   "radius": 0.142,
+   "island_tris": 72,
+   "a": [
+    -15.367,
+    38.472,
+    -3.652
+   ],
+   "b": [
+    -15.129,
+    38.545,
+    -3.764
+   ]
+  },
+  {
+   "name": "Pylon_Ring14_SL_0",
+   "piece": "Ring14_SL",
+   "to": "own piece",
+   "length": 0.273,
+   "radius": 0.142,
+   "island_tris": 72,
+   "a": [
+    15.367,
+    38.472,
+    -3.652
+   ],
+   "b": [
+    15.129,
+    38.545,
+    -3.764
+   ]
+  }
+ ],
+ "failed": [],
+ "crumbs_deleted": [
+  {
+   "piece": "Ring06_PU",
+   "tris": 6,
+   "lo": [
+    -0.077,
+    -13.593,
+    11.123
+   ]
+  },
+  {
+   "piece": "Ring06_SU",
+   "tris": 6,
+   "lo": [
+    0.0,
+    -13.593,
+    11.123
+   ]
+  },
+  {
+   "piece": "Ring08_PL",
+   "tris": 8,
+   "lo": [
+    -27.26,
+    1.396,
+    -11.801
+   ]
+  },
+  {
+   "piece": "Ring08_SL",
+   "tris": 8,
+   "lo": [
+    27.202,
+    1.396,
+    -11.801
+   ]
+  },
+  {
+   "piece": "Ring10_PL",
+   "tris": 8,
+   "lo": [
+    -4.81,
+    15.25,
+    -11.467
+   ]
+  },
+  {
+   "piece": "Ring10_SL",
+   "tris": 8,
+   "lo": [
+    4.694,
+    15.25,
+    -11.467
+   ]
+  },
+  {
+   "piece": "Ring13_PU",
+   "tris": 6,
+   "lo": [
+    -0.991,
+    34.118,
+    -1.373
+   ]
+  },
+  {
+   "piece": "Ring13_SU",
+   "tris": 6,
+   "lo": [
+    0.982,
+    34.118,
+    -1.373
+   ]
+  }
+ ]
+}

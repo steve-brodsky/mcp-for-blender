@@ -1,0 +1,485 @@
+{
+ "pieces": {
+  "Ring00": {
+   "depth": 1.2,
+   "volume_before": 265.85,
+   "volume_after": 198.93,
+   "cavity_m3": 66.92,
+   "boundary_after_cut": 0,
+   "interior_faces": 144,
+   "tris": 14034
+  },
+  "Ring01_PL": {
+   "depth": 1.2,
+   "volume_before": 375.93,
+   "volume_after": 292.4,
+   "cavity_m3": 83.53,
+   "boundary_after_cut": 0,
+   "interior_faces": 534,
+   "tris": 10316
+  },
+  "Ring01_PU": {
+   "depth": 1.2,
+   "volume_before": 513.83,
+   "volume_after": 378.39,
+   "cavity_m3": 135.44,
+   "boundary_after_cut": 0,
+   "interior_faces": 942,
+   "tris": 11220
+  },
+  "Ring01_SL": {
+   "depth": 1.2,
+   "volume_before": 375.93,
+   "volume_after": 291.9,
+   "cavity_m3": 84.03,
+   "boundary_after_cut": 0,
+   "interior_faces": 670,
+   "tris": 10610
+  },
+  "Ring01_SU": {
+   "depth": 1.2,
+   "volume_before": 513.83,
+   "volume_after": 377.43,
+   "cavity_m3": 136.4,
+   "boundary_after_cut": 0,
+   "interior_faces": 1022,
+   "tris": 11450
+  },
+  "Ring02_PL": {
+   "depth": 1.2,
+   "volume_before": 966.58,
+   "volume_after": 759.15,
+   "cavity_m3": 207.43,
+   "boundary_after_cut": 0,
+   "interior_faces": 1564,
+   "tris": 8210
+  },
+  "Ring02_PU": {
+   "depth": 1.2,
+   "volume_before": 1017.17,
+   "volume_after": 803.72,
+   "cavity_m3": 213.45,
+   "boundary_after_cut": 0,
+   "interior_faces": 1574,
+   "tris": 7938
+  },
+  "Ring02_SL": {
+   "depth": 1.2,
+   "volume_before": 966.58,
+   "volume_after": 758.87,
+   "cavity_m3": 207.71,
+   "boundary_after_cut": 0,
+   "interior_faces": 1384,
+   "tris": 7810
+  },
+  "Ring02_SU": {
+   "depth": 1.2,
+   "volume_before": 1017.17,
+   "volume_after": 802.69,
+   "cavity_m3": 214.48,
+   "boundary_after_cut": 0,
+   "interior_faces": 1724,
+   "tris": 8240
+  },
+  "Ring03_PL": {
+   "depth": 1.2,
+   "volume_before": 1121.83,
+   "volume_after": 922.73,
+   "cavity_m3": 199.1,
+   "boundary_after_cut": 0,
+   "interior_faces": 1330,
+   "tris": 8898
+  },
+  "Ring03_PU": {
+   "depth": 1.2,
+   "volume_before": 1116.83,
+   "volume_after": 905.96,
+   "cavity_m3": 210.87,
+   "boundary_after_cut": 0,
+   "interior_faces": 1424,
+   "tris": 8172
+  },
+  "Ring03_SL": {
+   "depth": 1.2,
+   "volume_before": 1121.83,
+   "volume_after": 922.21,
+   "cavity_m3": 199.62,
+   "boundary_after_cut": 0,
+   "interior_faces": 1522,
+   "tris": 9374
+  },
+  "Ring03_SU": {
+   "depth": 1.2,
+   "volume_before": 1116.83,
+   "volume_after": 904.79,
+   "cavity_m3": 212.04,
+   "boundary_after_cut": 0,
+   "interior_faces": 1342,
+   "tris": 7980
+  },
+  "Ring04_PL": {
+   "depth": 1.2,
+   "volume_before": 1602.26,
+   "volume_after": 1245.23,
+   "cavity_m3": 357.03,
+   "boundary_after_cut": 0,
+   "interior_faces": 2670,
+   "tris": 10464
+  },
+  "Ring04_PU": {
+   "depth": 1.2,
+   "volume_before": 1763.56,
+   "volume_after": 1360.51,
+   "cavity_m3": 403.05,
+   "boundary_after_cut": 0,
+   "interior_faces": 3062,
+   "tris": 11858
+  },
+  "Ring04_SL": {
+   "depth": 1.2,
+   "volume_before": 1602.26,
+   "volume_after": 1244.94,
+   "cavity_m3": 357.32,
+   "boundary_after_cut": 0,
+   "interior_faces": 2838,
+   "tris": 10776
+  },
+  "Ring04_SU": {
+   "depth": 1.2,
+   "volume_before": 1763.56,
+   "volume_after": 1359.12,
+   "cavity_m3": 404.44,
+   "boundary_after_cut": 0,
+   "interior_faces": 3078,
+   "tris": 11974
+  },
+  "Ring05_PL": {
+   "depth": 1.2,
+   "volume_before": 2202.11,
+   "volume_after": 1809.51,
+   "cavity_m3": 392.6,
+   "boundary_after_cut": 0,
+   "interior_faces": 3238,
+   "tris": 7918
+  },
+  "Ring05_PU": {
+   "depth": 1.2,
+   "volume_before": 2424.97,
+   "volume_after": 2008.37,
+   "cavity_m3": 416.6,
+   "boundary_after_cut": 0,
+   "interior_faces": 2732,
+   "tris": 8468
+  },
+  "Ring05_SL": {
+   "depth": 1.2,
+   "volume_before": 2202.11,
+   "volume_after": 1809.18,
+   "cavity_m3": 392.93,
+   "boundary_after_cut": 0,
+   "interior_faces": 3430,
+   "tris": 8454
+  },
+  "Ring05_SU": {
+   "depth": 1.2,
+   "volume_before": 2424.97,
+   "volume_after": 2007.58,
+   "cavity_m3": 417.39,
+   "boundary_after_cut": 0,
+   "interior_faces": 2960,
+   "tris": 8982
+  },
+  "Ring06_PL": {
+   "depth": 1.2,
+   "volume_before": 2208.11,
+   "volume_after": 1820.65,
+   "cavity_m3": 387.46,
+   "boundary_after_cut": 0,
+   "interior_faces": 3234,
+   "tris": 7896
+  },
+  "Ring06_PU": {
+   "depth": 1.2,
+   "volume_before": 2326.22,
+   "volume_after": 1911.45,
+   "cavity_m3": 414.77,
+   "boundary_after_cut": 0,
+   "interior_faces": 3260,
+   "tris": 8844
+  },
+  "Ring06_SL": {
+   "depth": 1.2,
+   "volume_before": 2208.11,
+   "volume_after": 1820.28,
+   "cavity_m3": 387.83,
+   "boundary_after_cut": 0,
+   "interior_faces": 3460,
+   "tris": 8486
+  },
+  "Ring06_SU": {
+   "depth": 1.2,
+   "volume_before": 2326.22,
+   "volume_after": 1910.37,
+   "cavity_m3": 415.85,
+   "boundary_after_cut": 0,
+   "interior_faces": 3416,
+   "tris": 9292
+  },
+  "Ring07_PL": {
+   "depth": 1.2,
+   "volume_before": 2168.34,
+   "volume_after": 1798.0,
+   "cavity_m3": 370.34,
+   "boundary_after_cut": 0,
+   "interior_faces": 3156,
+   "tris": 8378
+  },
+  "Ring07_PU": {
+   "depth": 1.2,
+   "volume_before": 2219.09,
+   "volume_after": 1871.82,
+   "cavity_m3": 347.27,
+   "boundary_after_cut": 0,
+   "interior_faces": 2566,
+   "tris": 7986
+  },
+  "Ring07_SL": {
+   "depth": 1.2,
+   "volume_before": 2168.34,
+   "volume_after": 1797.98,
+   "cavity_m3": 370.36,
+   "boundary_after_cut": 0,
+   "interior_faces": 3410,
+   "tris": 9132
+  },
+  "Ring07_SU": {
+   "depth": 1.2,
+   "volume_before": 2219.09,
+   "volume_after": 1871.3,
+   "cavity_m3": 347.79,
+   "boundary_after_cut": 0,
+   "interior_faces": 2618,
+   "tris": 8084
+  },
+  "Ring08_PL": {
+   "depth": 1.2,
+   "volume_before": 2146.84,
+   "volume_after": 1758.02,
+   "cavity_m3": 388.82,
+   "boundary_after_cut": 0,
+   "interior_faces": 3370,
+   "tris": 9046
+  },
+  "Ring08_PU": {
+   "depth": 1.2,
+   "volume_before": 2199.7,
+   "volume_after": 1791.82,
+   "cavity_m3": 407.88,
+   "boundary_after_cut": 0,
+   "interior_faces": 3238,
+   "tris": 9116
+  },
+  "Ring08_SL": {
+   "depth": 1.2,
+   "volume_before": 2146.84,
+   "volume_after": 1757.79,
+   "cavity_m3": 389.05,
+   "boundary_after_cut": 0,
+   "interior_faces": 3138,
+   "tris": 8624
+  },
+  "Ring08_SU": {
+   "depth": 1.2,
+   "volume_before": 2199.7,
+   "volume_after": 1790.96,
+   "cavity_m3": 408.74,
+   "boundary_after_cut": 0,
+   "interior_faces": 3308,
+   "tris": 9494
+  },
+  "Ring09_PL": {
+   "depth": 1.2,
+   "volume_before": 2190.35,
+   "volume_after": 1803.86,
+   "cavity_m3": 386.49,
+   "boundary_after_cut": 0,
+   "interior_faces": 3146,
+   "tris": 7802
+  },
+  "Ring09_PU": {
+   "depth": 1.2,
+   "volume_before": 2309.63,
+   "volume_after": 1902.06,
+   "cavity_m3": 407.57,
+   "boundary_after_cut": 0,
+   "interior_faces": 3272,
+   "tris": 8538
+  },
+  "Ring09_SL": {
+   "depth": 1.2,
+   "volume_before": 2190.35,
+   "volume_after": 1803.7,
+   "cavity_m3": 386.65,
+   "boundary_after_cut": 0,
+   "interior_faces": 3340,
+   "tris": 8192
+  },
+  "Ring09_SU": {
+   "depth": 1.2,
+   "volume_before": 2309.63,
+   "volume_after": 1901.38,
+   "cavity_m3": 408.25,
+   "boundary_after_cut": 0,
+   "interior_faces": 3392,
+   "tris": 8988
+  },
+  "Ring10_PL": {
+   "depth": 1.2,
+   "volume_before": 2181.43,
+   "volume_after": 1813.37,
+   "cavity_m3": 368.06,
+   "boundary_after_cut": 0,
+   "interior_faces": 3128,
+   "tris": 8330
+  },
+  "Ring10_PU": {
+   "depth": 1.2,
+   "volume_before": 2313.97,
+   "volume_after": 1923.21,
+   "cavity_m3": 390.76,
+   "boundary_after_cut": 0,
+   "interior_faces": 3324,
+   "tris": 9102
+  },
+  "Ring10_SL": {
+   "depth": 1.2,
+   "volume_before": 2181.43,
+   "volume_after": 1813.19,
+   "cavity_m3": 368.24,
+   "boundary_after_cut": 0,
+   "interior_faces": 3270,
+   "tris": 8680
+  },
+  "Ring10_SU": {
+   "depth": 1.2,
+   "volume_before": 2313.97,
+   "volume_after": 1922.42,
+   "cavity_m3": 391.55,
+   "boundary_after_cut": 0,
+   "interior_faces": 3220,
+   "tris": 8782
+  },
+  "Ring11_PL": {
+   "depth": 1.2,
+   "volume_before": 1802.56,
+   "volume_after": 1484.87,
+   "cavity_m3": 317.69,
+   "boundary_after_cut": 0,
+   "interior_faces": 2722,
+   "tris": 8704
+  },
+  "Ring11_PU": {
+   "depth": 1.2,
+   "volume_before": 2043.64,
+   "volume_after": 1664.14,
+   "cavity_m3": 379.5,
+   "boundary_after_cut": 0,
+   "interior_faces": 2830,
+   "tris": 9112
+  },
+  "Ring11_SL": {
+   "depth": 1.2,
+   "volume_before": 1802.56,
+   "volume_after": 1484.9,
+   "cavity_m3": 317.66,
+   "boundary_after_cut": 0,
+   "interior_faces": 2762,
+   "tris": 8876
+  },
+  "Ring11_SU": {
+   "depth": 1.2,
+   "volume_before": 2043.64,
+   "volume_after": 1663.33,
+   "cavity_m3": 380.31,
+   "boundary_after_cut": 0,
+   "interior_faces": 2978,
+   "tris": 9416
+  },
+  "Ring12_PL": {
+   "depth": 1.2,
+   "volume_before": 1638.11,
+   "volume_after": 1381.71,
+   "cavity_m3": 256.4,
+   "boundary_after_cut": 0,
+   "interior_faces": 2218,
+   "tris": 7724
+  },
+  "Ring12_PU": {
+   "depth": 1.2,
+   "volume_before": 1968.65,
+   "volume_after": 1659.57,
+   "cavity_m3": 309.08,
+   "boundary_after_cut": 0,
+   "interior_faces": 2514,
+   "tris": 7918
+  },
+  "Ring12_SL": {
+   "depth": 1.2,
+   "volume_before": 1638.11,
+   "volume_after": 1381.15,
+   "cavity_m3": 256.96,
+   "boundary_after_cut": 0,
+   "interior_faces": 2162,
+   "tris": 7454
+  },
+  "Ring12_SU": {
+   "depth": 1.2,
+   "volume_before": 1968.65,
+   "volume_after": 1659.33,
+   "cavity_m3": 309.32,
+   "boundary_after_cut": 0,
+   "interior_faces": 2244,
+   "tris": 7436
+  },
+  "Ring13_PL": {
+   "depth": 1.2,
+   "volume_before": 1161.81,
+   "volume_after": 1024.31,
+   "cavity_m3": 137.5,
+   "boundary_after_cut": 0,
+   "interior_faces": 1112,
+   "tris": 6694
+  },
+  "Ring13_PU": {
+   "depth": 1.2,
+   "volume_before": 1440.64,
+   "volume_after": 1270.69,
+   "cavity_m3": 169.95,
+   "boundary_after_cut": 0,
+   "interior_faces": 1230,
+   "tris": 7414
+  },
+  "Ring13_SL": {
+   "depth": 1.2,
+   "volume_before": 1161.81,
+   "volume_after": 1024.24,
+   "cavity_m3": 137.57,
+   "boundary_after_cut": 0,
+   "interior_faces": 1114,
+   "tris": 6734
+  },
+  "Ring13_SU": {
+   "depth": 1.2,
+   "volume_before": 1440.64,
+   "volume_after": 1270.77,
+   "cavity_m3": 169.87,
+   "boundary_after_cut": 0,
+   "interior_faces": 1282,
+   "tris": 7532
+  }
+ },
+ "open_after_cut": {},
+ "skipped": [],
+ "shallow": [],
+ "kit_tris": 470952
+}

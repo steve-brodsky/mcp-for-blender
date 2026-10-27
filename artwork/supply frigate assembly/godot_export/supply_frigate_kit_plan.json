@@ -1,0 +1,1775 @@
+{
+ "name": "supply_frigate_kit",
+ "units": "metres, Godot frame of the finished ship: -Z bow, +Y up",
+ "keel_axis_y": -1.375,
+ "hull_radius": 8.768,
+ "piece_reach": 5.186,
+ "bounds": {
+  "min": [
+   -8.2775,
+   -6.0548,
+   -9.9867
+  ],
+  "max": [
+   8.2775,
+   6.0395,
+   11.3025
+  ]
+ },
+ "rings": 15,
+ "transit_envelope": {
+  "across": 10.2,
+  "along": 7.4,
+  "up": 3.6,
+  "basis": "mothership side hangar: forcefield 10.8 m wide x 4.2 m tall, 12.1 m from back wall to field; piece towed ahead of a 0.25-scale construction drone (4.0 m); artwork metres = game / 0.25"
+ },
+ "temporary_nodes": "Pylon_* child nodes are construction braces: show them with their piece, remove them all once the last piece is welded (or with the kit when the finished ship is swapped in)",
+ "pieces": [
+  {
+   "name": "Keel_0",
+   "tier": "keel",
+   "ring": -1,
+   "order": 0,
+   "centre": [
+    0.0,
+    -1.375,
+    6.9375
+   ],
+   "size": [
+    1.944,
+    1.944,
+    3.625
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 3.944,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Keel_1",
+   "tier": "keel",
+   "ring": -1,
+   "order": 1,
+   "centre": [
+    0.0,
+    -1.375,
+    2.8125
+   ],
+   "size": [
+    1.944,
+    1.944,
+    4.625
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 3.944,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Keel_2",
+   "tier": "keel",
+   "ring": -1,
+   "order": 2,
+   "centre": [
+    0.0,
+    -1.375,
+    -1.8125
+   ],
+   "size": [
+    1.944,
+    1.944,
+    4.625
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 3.944,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Keel_3",
+   "tier": "keel",
+   "ring": -1,
+   "order": 3,
+   "centre": [
+    0.0,
+    -1.375,
+    -5.375
+   ],
+   "size": [
+    1.944,
+    1.944,
+    2.5
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 3.944,
+   "transit_axes": [
+    2,
+    0,
+    1
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring02_PL",
+   "tier": "hull",
+   "ring": 2,
+   "order": 4,
+   "centre": [
+    -3.2976,
+    -2.4293,
+    8.25
+   ],
+   "size": [
+    6.5953,
+    4.1085,
+    1.25
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.5953,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring02_PL_0",
+    "Pylon_Ring02_PL_1",
+    "Pylon_Ring02_PL_2"
+   ]
+  },
+  {
+   "name": "Ring02_SL",
+   "tier": "hull",
+   "ring": 2,
+   "order": 5,
+   "centre": [
+    3.2976,
+    -2.4293,
+    8.25
+   ],
+   "size": [
+    6.5953,
+    4.1085,
+    1.25
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 8.5953,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring02_SL_0",
+    "Pylon_Ring02_SL_1",
+    "Pylon_Ring02_SL_2"
+   ]
+  },
+  {
+   "name": "Ring02_PU",
+   "tier": "hull",
+   "ring": 2,
+   "order": 6,
+   "centre": [
+    -3.311,
+    1.3237,
+    8.25
+   ],
+   "size": [
+    6.622,
+    3.3975,
+    1.25
+   ],
+   "approach": [
+    -0.7751,
+    0.6318,
+    -0.0
+   ],
+   "stage_distance": 9.2792,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring02_SU",
+   "tier": "hull",
+   "ring": 2,
+   "order": 7,
+   "centre": [
+    3.311,
+    1.3237,
+    8.25
+   ],
+   "size": [
+    6.622,
+    3.3975,
+    1.25
+   ],
+   "approach": [
+    0.7751,
+    0.6318,
+    -0.0
+   ],
+   "stage_distance": 9.2792,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring03_PL",
+   "tier": "hull",
+   "ring": 3,
+   "order": 8,
+   "centre": [
+    -3.7818,
+    -3.2149,
+    7.0
+   ],
+   "size": [
+    7.5635,
+    5.6798,
+    1.25
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.5635,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring03_PL_0"
+   ]
+  },
+  {
+   "name": "Ring03_SL",
+   "tier": "hull",
+   "ring": 3,
+   "order": 9,
+   "centre": [
+    3.7818,
+    -3.2149,
+    7.0
+   ],
+   "size": [
+    7.5635,
+    5.6798,
+    1.25
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.5635,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring03_PU",
+   "tier": "hull",
+   "ring": 3,
+   "order": 10,
+   "centre": [
+    -3.7748,
+    1.4525,
+    7.0
+   ],
+   "size": [
+    7.5495,
+    3.655,
+    1.25
+   ],
+   "approach": [
+    -0.8004,
+    0.5995,
+    -0.0
+   ],
+   "stage_distance": 10.2338,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring03_SU",
+   "tier": "hull",
+   "ring": 3,
+   "order": 11,
+   "centre": [
+    3.7748,
+    1.4525,
+    7.0
+   ],
+   "size": [
+    7.5495,
+    3.655,
+    1.25
+   ],
+   "approach": [
+    0.8004,
+    0.5995,
+    -0.0
+   ],
+   "stage_distance": 10.2338,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring04_PL",
+   "tier": "hull",
+   "ring": 4,
+   "order": 12,
+   "centre": [
+    -4.0283,
+    -2.4206,
+    5.75
+   ],
+   "size": [
+    8.0565,
+    4.0912,
+    1.25
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.0565,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring04_PL_0"
+   ]
+  },
+  {
+   "name": "Ring04_SL",
+   "tier": "hull",
+   "ring": 4,
+   "order": 13,
+   "centre": [
+    4.0283,
+    -2.4206,
+    5.75
+   ],
+   "size": [
+    8.0565,
+    4.0912,
+    1.25
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.0565,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring04_SL_0"
+   ]
+  },
+  {
+   "name": "Ring04_PU",
+   "tier": "hull",
+   "ring": 4,
+   "order": 14,
+   "centre": [
+    -4.0183,
+    2.8323,
+    5.75
+   ],
+   "size": [
+    8.0367,
+    6.4145,
+    1.25
+   ],
+   "approach": [
+    -0.6907,
+    0.7232,
+    -0.0
+   ],
+   "stage_distance": 12.19,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring04_SU",
+   "tier": "hull",
+   "ring": 4,
+   "order": 15,
+   "centre": [
+    4.0183,
+    2.8323,
+    5.75
+   ],
+   "size": [
+    8.0367,
+    6.4145,
+    1.25
+   ],
+   "approach": [
+    0.6907,
+    0.7232,
+    -0.0
+   ],
+   "stage_distance": 12.19,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring05_PL",
+   "tier": "hull",
+   "ring": 5,
+   "order": 16,
+   "centre": [
+    -4.1071,
+    -1.8687,
+    4.3542
+   ],
+   "size": [
+    8.2142,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.2142,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring05_SL",
+   "tier": "hull",
+   "ring": 5,
+   "order": 17,
+   "centre": [
+    4.1071,
+    -1.8687,
+    4.3542
+   ],
+   "size": [
+    8.2142,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.2142,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring05_PU",
+   "tier": "hull",
+   "ring": 5,
+   "order": 18,
+   "centre": [
+    -4.1186,
+    2.6806,
+    4.3542
+   ],
+   "size": [
+    8.2372,
+    6.1113,
+    1.5417
+   ],
+   "approach": [
+    -0.7125,
+    0.7016,
+    -0.0
+   ],
+   "stage_distance": 12.1568,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring05_SU",
+   "tier": "hull",
+   "ring": 5,
+   "order": 19,
+   "centre": [
+    4.1186,
+    2.6806,
+    4.3542
+   ],
+   "size": [
+    8.2372,
+    6.1113,
+    1.5417
+   ],
+   "approach": [
+    0.7125,
+    0.7016,
+    -0.0
+   ],
+   "stage_distance": 12.1568,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring06_PL",
+   "tier": "hull",
+   "ring": 6,
+   "order": 20,
+   "centre": [
+    -4.121,
+    -1.8687,
+    2.8125
+   ],
+   "size": [
+    8.242,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.242,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring06_PL_0"
+   ]
+  },
+  {
+   "name": "Ring06_SL",
+   "tier": "hull",
+   "ring": 6,
+   "order": 21,
+   "centre": [
+    4.121,
+    -1.8687,
+    2.8125
+   ],
+   "size": [
+    8.242,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.242,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring06_SL_0"
+   ]
+  },
+  {
+   "name": "Ring06_PU",
+   "tier": "hull",
+   "ring": 6,
+   "order": 22,
+   "centre": [
+    -4.1204,
+    1.4807,
+    2.8125
+   ],
+   "size": [
+    8.2408,
+    3.7115,
+    1.5417
+   ],
+   "approach": [
+    -0.8219,
+    0.5696,
+    -0.0
+   ],
+   "stage_distance": 10.8872,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring06_SU",
+   "tier": "hull",
+   "ring": 6,
+   "order": 23,
+   "centre": [
+    4.1204,
+    1.4807,
+    2.8125
+   ],
+   "size": [
+    8.2408,
+    3.7115,
+    1.5417
+   ],
+   "approach": [
+    0.8219,
+    0.5696,
+    -0.0
+   ],
+   "stage_distance": 10.8872,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring07_PL",
+   "tier": "hull",
+   "ring": 7,
+   "order": 24,
+   "centre": [
+    -4.1285,
+    -1.8687,
+    1.2708
+   ],
+   "size": [
+    8.257,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.257,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring07_PL_0"
+   ]
+  },
+  {
+   "name": "Ring07_SL",
+   "tier": "hull",
+   "ring": 7,
+   "order": 25,
+   "centre": [
+    4.1285,
+    -1.8687,
+    1.2708
+   ],
+   "size": [
+    8.257,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.257,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring07_SL_0"
+   ]
+  },
+  {
+   "name": "Ring07_PU",
+   "tier": "hull",
+   "ring": 7,
+   "order": 26,
+   "centre": [
+    -4.1387,
+    1.1619,
+    1.2708
+   ],
+   "size": [
+    8.2775,
+    3.0737,
+    1.5417
+   ],
+   "approach": [
+    -0.8526,
+    0.5226,
+    -0.0
+   ],
+   "stage_distance": 10.6638,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring07_SU",
+   "tier": "hull",
+   "ring": 7,
+   "order": 27,
+   "centre": [
+    4.1387,
+    1.1619,
+    1.2708
+   ],
+   "size": [
+    8.2775,
+    3.0737,
+    1.5417
+   ],
+   "approach": [
+    0.8526,
+    0.5226,
+    -0.0
+   ],
+   "stage_distance": 10.6638,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring08_PL",
+   "tier": "hull",
+   "ring": 8,
+   "order": 28,
+   "centre": [
+    -4.0498,
+    -1.8687,
+    -0.2708
+   ],
+   "size": [
+    8.0995,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.0995,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring08_PL_0",
+    "Pylon_Ring08_PL_1",
+    "Pylon_Ring08_PL_2"
+   ]
+  },
+  {
+   "name": "Ring08_SL",
+   "tier": "hull",
+   "ring": 8,
+   "order": 29,
+   "centre": [
+    4.0498,
+    -1.8687,
+    -0.2708
+   ],
+   "size": [
+    8.0995,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.0995,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring08_SL_0",
+    "Pylon_Ring08_SL_1",
+    "Pylon_Ring08_SL_2"
+   ]
+  },
+  {
+   "name": "Ring08_PU",
+   "tier": "hull",
+   "ring": 8,
+   "order": 30,
+   "centre": [
+    -4.0542,
+    1.2063,
+    -0.2708
+   ],
+   "size": [
+    8.1082,
+    3.1625,
+    1.5417
+   ],
+   "approach": [
+    -0.8435,
+    0.5371,
+    -0.0
+   ],
+   "stage_distance": 10.538,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring08_SU",
+   "tier": "hull",
+   "ring": 8,
+   "order": 31,
+   "centre": [
+    4.0542,
+    1.2063,
+    -0.2708
+   ],
+   "size": [
+    8.1082,
+    3.1625,
+    1.5417
+   ],
+   "approach": [
+    0.8435,
+    0.5371,
+    -0.0
+   ],
+   "stage_distance": 10.538,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring09_PL",
+   "tier": "hull",
+   "ring": 9,
+   "order": 32,
+   "centre": [
+    -4.0541,
+    -1.8687,
+    -1.8125
+   ],
+   "size": [
+    8.1082,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.1082,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring09_PL_0"
+   ]
+  },
+  {
+   "name": "Ring09_SL",
+   "tier": "hull",
+   "ring": 9,
+   "order": 33,
+   "centre": [
+    4.0541,
+    -1.8687,
+    -1.8125
+   ],
+   "size": [
+    8.1082,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.1082,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring09_SL_0"
+   ]
+  },
+  {
+   "name": "Ring09_PU",
+   "tier": "hull",
+   "ring": 9,
+   "order": 34,
+   "centre": [
+    -4.0616,
+    1.2174,
+    -1.8125
+   ],
+   "size": [
+    8.1233,
+    3.1848,
+    1.5417
+   ],
+   "approach": [
+    -0.8429,
+    0.538,
+    -0.0
+   ],
+   "stage_distance": 10.5605,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring09_SU",
+   "tier": "hull",
+   "ring": 9,
+   "order": 35,
+   "centre": [
+    4.0616,
+    1.2174,
+    -1.8125
+   ],
+   "size": [
+    8.1233,
+    3.1848,
+    1.5417
+   ],
+   "approach": [
+    0.8429,
+    0.538,
+    -0.0
+   ],
+   "stage_distance": 10.5605,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring10_PL",
+   "tier": "hull",
+   "ring": 10,
+   "order": 36,
+   "centre": [
+    -4.0967,
+    -1.8687,
+    -3.3542
+   ],
+   "size": [
+    8.1933,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.1933,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring10_SL",
+   "tier": "hull",
+   "ring": 10,
+   "order": 37,
+   "centre": [
+    4.0967,
+    -1.8687,
+    -3.3542
+   ],
+   "size": [
+    8.1933,
+    2.9875,
+    1.5417
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.1933,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring10_PU",
+   "tier": "hull",
+   "ring": 10,
+   "order": 38,
+   "centre": [
+    -4.0926,
+    1.1373,
+    -3.3542
+   ],
+   "size": [
+    8.1852,
+    3.0245,
+    1.5417
+   ],
+   "approach": [
+    -0.8522,
+    0.5232,
+    -0.0
+   ],
+   "stage_distance": 10.558,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring10_SU",
+   "tier": "hull",
+   "ring": 10,
+   "order": 39,
+   "centre": [
+    4.0926,
+    1.1373,
+    -3.3542
+   ],
+   "size": [
+    8.1852,
+    3.0245,
+    1.5417
+   ],
+   "approach": [
+    0.8522,
+    0.5232,
+    -0.0
+   ],
+   "stage_distance": 10.558,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring11_PL",
+   "tier": "hull",
+   "ring": 11,
+   "order": 40,
+   "centre": [
+    -4.1218,
+    -1.8687,
+    -4.8594
+   ],
+   "size": [
+    8.2435,
+    2.9875,
+    1.4688
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.2435,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring11_SL",
+   "tier": "hull",
+   "ring": 11,
+   "order": 41,
+   "centre": [
+    4.1218,
+    -1.8687,
+    -4.8594
+   ],
+   "size": [
+    8.2435,
+    2.9875,
+    1.4688
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 10.2435,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring11_PU",
+   "tier": "hull",
+   "ring": 11,
+   "order": 42,
+   "centre": [
+    -4.0968,
+    1.2067,
+    -4.8594
+   ],
+   "size": [
+    8.1937,
+    3.1635,
+    1.4688
+   ],
+   "approach": [
+    -0.846,
+    0.5331,
+    -0.0
+   ],
+   "stage_distance": 10.6182,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring11_SU",
+   "tier": "hull",
+   "ring": 11,
+   "order": 43,
+   "centre": [
+    4.0968,
+    1.2067,
+    -4.8594
+   ],
+   "size": [
+    8.1937,
+    3.1635,
+    1.4688
+   ],
+   "approach": [
+    0.846,
+    0.5331,
+    -0.0
+   ],
+   "stage_distance": 10.6182,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring12_PL",
+   "tier": "hull",
+   "ring": 12,
+   "order": 44,
+   "centre": [
+    -3.9596,
+    -1.7431,
+    -6.3281
+   ],
+   "size": [
+    7.9192,
+    2.7363,
+    1.4688
+   ],
+   "approach": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.9192,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring12_SL",
+   "tier": "hull",
+   "ring": 12,
+   "order": 45,
+   "centre": [
+    3.9596,
+    -1.7431,
+    -6.3281
+   ],
+   "size": [
+    7.9192,
+    2.7363,
+    1.4688
+   ],
+   "approach": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "stage_distance": 9.9192,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring12_PU",
+   "tier": "hull",
+   "ring": 12,
+   "order": 46,
+   "centre": [
+    -3.9606,
+    1.1636,
+    -6.3281
+   ],
+   "size": [
+    7.9212,
+    3.077,
+    1.4688
+   ],
+   "approach": [
+    -0.8419,
+    0.5396,
+    -0.0
+   ],
+   "stage_distance": 10.3293,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring12_SU",
+   "tier": "hull",
+   "ring": 12,
+   "order": 47,
+   "centre": [
+    3.9606,
+    1.1636,
+    -6.3281
+   ],
+   "size": [
+    7.9212,
+    3.077,
+    1.4688
+   ],
+   "approach": [
+    0.8419,
+    0.5396,
+    -0.0
+   ],
+   "stage_distance": 10.3293,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring13_PL",
+   "tier": "hull",
+   "ring": 13,
+   "order": 48,
+   "centre": [
+    -3.7144,
+    -1.7176,
+    -7.7969
+   ],
+   "size": [
+    7.4287,
+    2.6852,
+    1.4688
+   ],
+   "approach": [
+    -0.9958,
+    -0.0918,
+    -0.0
+   ],
+   "stage_distance": 9.644,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring13_SL",
+   "tier": "hull",
+   "ring": 13,
+   "order": 49,
+   "centre": [
+    3.7144,
+    -1.7176,
+    -7.7969
+   ],
+   "size": [
+    7.4287,
+    2.6852,
+    1.4688
+   ],
+   "approach": [
+    0.9958,
+    -0.0918,
+    -0.0
+   ],
+   "stage_distance": 9.644,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring13_PU",
+   "tier": "hull",
+   "ring": 13,
+   "order": 50,
+   "centre": [
+    -3.7151,
+    1.148,
+    -7.7969
+   ],
+   "size": [
+    7.4303,
+    3.046,
+    1.4688
+   ],
+   "approach": [
+    -0.8273,
+    0.5618,
+    -0.0
+   ],
+   "stage_distance": 9.8582,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring13_SU",
+   "tier": "hull",
+   "ring": 13,
+   "order": 51,
+   "centre": [
+    3.7151,
+    1.148,
+    -7.7969
+   ],
+   "size": [
+    7.4303,
+    3.046,
+    1.4688
+   ],
+   "approach": [
+    0.8273,
+    0.5618,
+    -0.0
+   ],
+   "stage_distance": 9.8582,
+   "transit_axes": [
+    0,
+    1,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring14_PL",
+   "tier": "hull",
+   "ring": 14,
+   "order": 52,
+   "centre": [
+    -3.3642,
+    -1.6182,
+    -9.259
+   ],
+   "size": [
+    6.7285,
+    2.4863,
+    1.4555
+   ],
+   "approach": [
+    -0.9974,
+    -0.0721,
+    -0.0
+   ],
+   "stage_distance": 8.8902,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring14_PL_0"
+   ]
+  },
+  {
+   "name": "Ring14_SL",
+   "tier": "hull",
+   "ring": 14,
+   "order": 53,
+   "centre": [
+    3.3642,
+    -1.6182,
+    -9.259
+   ],
+   "size": [
+    6.7285,
+    2.4863,
+    1.4555
+   ],
+   "approach": [
+    0.9974,
+    -0.0721,
+    -0.0
+   ],
+   "stage_distance": 8.8902,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": [
+    "Pylon_Ring14_SL_0"
+   ]
+  },
+  {
+   "name": "Ring14_PU",
+   "tier": "hull",
+   "ring": 14,
+   "order": 54,
+   "centre": [
+    -3.3648,
+    1.0331,
+    -9.2485
+   ],
+   "size": [
+    6.7298,
+    2.8163,
+    1.4345
+   ],
+   "approach": [
+    -0.8132,
+    0.582,
+    -0.0
+   ],
+   "stage_distance": 9.1118,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring14_SU",
+   "tier": "hull",
+   "ring": 14,
+   "order": 55,
+   "centre": [
+    3.3648,
+    1.0331,
+    -9.2485
+   ],
+   "size": [
+    6.7298,
+    2.8163,
+    1.4345
+   ],
+   "approach": [
+    0.8132,
+    0.582,
+    -0.0
+   ],
+   "stage_distance": 9.1118,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring01_PL",
+   "tier": "hull",
+   "ring": 1,
+   "order": 56,
+   "centre": [
+    -3.2862,
+    -1.9592,
+    9.4875
+   ],
+   "size": [
+    6.5725,
+    3.1685,
+    1.225
+   ],
+   "approach": [
+    -0.9846,
+    -0.175,
+    -0.0
+   ],
+   "stage_distance": 9.0258,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring01_SL",
+   "tier": "hull",
+   "ring": 1,
+   "order": 57,
+   "centre": [
+    3.2862,
+    -1.9592,
+    9.4875
+   ],
+   "size": [
+    6.5725,
+    3.1685,
+    1.225
+   ],
+   "approach": [
+    0.9846,
+    -0.175,
+    -0.0
+   ],
+   "stage_distance": 9.0258,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring01_PU",
+   "tier": "hull",
+   "ring": 1,
+   "order": 58,
+   "centre": [
+    -3.2399,
+    1.4618,
+    9.4875
+   ],
+   "size": [
+    6.48,
+    3.6735,
+    1.225
+   ],
+   "approach": [
+    -0.7524,
+    0.6587,
+    -0.0
+   ],
+   "stage_distance": 9.2952,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring01_SU",
+   "tier": "hull",
+   "ring": 1,
+   "order": 59,
+   "centre": [
+    3.2399,
+    1.4618,
+    9.4875
+   ],
+   "size": [
+    6.48,
+    3.6735,
+    1.225
+   ],
+   "approach": [
+    0.7524,
+    0.6587,
+    -0.0
+   ],
+   "stage_distance": 9.2952,
+   "transit_axes": [
+    1,
+    0,
+    2
+   ],
+   "pylons": []
+  },
+  {
+   "name": "Ring00",
+   "tier": "hull",
+   "ring": 0,
+   "order": 60,
+   "centre": [
+    0.0,
+    -0.2226,
+    10.7012
+   ],
+   "size": [
+    4.26,
+    2.6673,
+    1.2025
+   ],
+   "approach": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stage_distance": 3.2025,
+   "transit_axes": [
+    0,
+    2,
+    1
+   ],
+   "pylons": []
+  }
+ ]
+}
