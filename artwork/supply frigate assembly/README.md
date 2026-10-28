@@ -6,7 +6,7 @@ The supply frigate is cut into a **61-piece construction kit**, the same way as 
 - the centre engine block;
 - 14 rings of four quarters each, which close over the keel.
 
-The build works outward from the keel, so every piece seats against something already built. Where a piece still has a part that would hang in space, a **yellow construction pylon** braces it. There are 23 pylons, and they are removed when the ship is complete.
+The build works outward from the keel, so every piece seats against something already built. A piece that the cuts left in several loose chunks is braced into one unit with **yellow construction pylons**. There are 72 of them, and they are removed when the ship is complete.
 
 Construction drones bring each piece out of the mothership's starboard hangar and assemble the frigate beside it. The open faces of the partly built hull show 3D block interiors.
 
@@ -100,26 +100,29 @@ Build order:
 
 ### Nothing floats
 
-As first built, the kit went stern to bow from the centre engine. Then 21 of the 57 hull pieces had a part that touched nothing already built when they seated. `scripts/support_check.py` finds these: it splits every piece into its loose hull parts, ignoring the interior fit-out, and walks the build order. A part counts as supported if it is within 3 cm of the keel, of a part already supported, or of a supported part of its own piece. The floating parts were:
+A ring cut through this hull often leaves a piece in several loose chunks. In the aft and bow rings the cut runs through a real gap, up to 6 m wide, between the central spine block and the outboard pad or stern block. Elsewhere, ventral machinery, aerials and greebles meet the hull only in the next ring. Towed by a drone, such a piece looked like separate blocks flying in formation, and its chunks hung in space when it seated.
 
-- **The stern.** The centre engine block and both side engines were seated before anything they touch. The keel starts 5 m forward of them.
-- **Ring02's outboard stern blocks.** They meet the rest of the hull only through Ring01 and Ring03.
-- **Ventral machinery under the belly (z about -11)**, the aerials and a few greebles. Each meets the hull only in a neighbouring ring.
-- **Boolean crumbs.** These are bits under 0.4 m across, and zero-thickness slivers lying on cut planes.
+`scripts/support_check.py` checks two rules on every piece, ignoring the interior fit-out:
 
-The fixes, in this order:
+1. **One unit.** All the loose hull parts of a piece, together with its pylons, must form a single connected group (parts within 3 cm count as touching).
+2. **Lands on something.** Walking the build order, each piece must touch the keel or a piece already seated.
 
-1. **Build outward from the keel.** The rings astern of the keel's stern end are built last, working aft (`make_kit.py`). That removes the stern floaters.
-2. **Construction pylons** (`scripts/pylons.py`). Every part still floating gets a yellow square strut with a foot plate at each end, in the keel's construction yellow, to the nearest supported surface.
-   - **Target:** a supported part of the same piece is preferred, so the piece arrives as one braced unit. All 23 pylons ended up that way. The longest, 6.5 m, spans the slot between an outboard stern block and the main hull in Ring02.
-   - **Placement:** strut ends are kept inside the piece's own bounds, so no pylon pokes into a neighbouring piece. A strut is kept only if it really meets both parts and crosses no other piece of the finished ship, the keel included.
-   - **Scene setup:** each pylon is an object `Pylon_<piece>_<n>`, parented to its piece. It flies in with the piece and appears and disappears with it.
+As first built, **38 of the 57 hull pieces broke rule 1**, and the stern engines broke rule 2. The fixes:
+
+1. **Build outward from the keel.** The rings astern of the keel's stern end go on last, working aft (`make_kit.py`), so the stern blocks and the centre engine seat against the ring forward of them.
+2. **72 construction pylons** (`scripts/pylons.py`) on 32 pieces. Each loose group is braced to its piece's main group with yellow square struts, in the keel's construction yellow, each with a foot plate at both ends.
+   - **Finding struts:** the script first looks for axis-aligned spans across a gap. From grid points in the empty space inside the piece, one ray enters the loose group and the opposite ray enters the main group, so both ends sit on real surfaces. Nearest-point pairs are the fallback.
+   - **Sizing:** a group of more than 300 triangles gets two struts at least 2.5 m apart, so a block never hangs off one stick. Struts are thicker on longer spans (0.1-0.35 m). The longest, 10.3 m, cross the stern slots.
+   - **Constraints:** every strut stays inside its own piece's bounds (0 m beyond them at game scale), so the hangar fit is unchanged. It meets both groups and crosses no other piece of the finished ship, the keel included.
+   - **Scene setup:** each pylon is an object `Pylon_<piece>_<n>`, parented to its piece. It shows from the moment the piece leaves the bay and through seating.
    - **Removal:** the animation removes every pylon after the last weld. The finished ship has none.
-3. **Crumbs deleted.** 8 boolean crumbs (6-8 triangles each) are removed from their pieces rather than braced.
+3. **32 boolean crumbs deleted** rather than braced. These are parts under 0.6 m across (15 cm in the game), and flakes under 15 cm thick lying on a cut plane. None is over 38 triangles; 572 triangles in all.
 
-The support check now reports **0 of 57 hull pieces floating** (`reports/support.json`). `reports/pylons.json` lists every pylon (its ends, length and radius) and every deleted crumb.
+`support_check.py` now reports **0 split pieces and 0 unlanded pieces of 57**. `reports/support.json` has the per-piece result. `reports/pylons.json` lists every pylon (ends, length, radius) and every deleted crumb.
 
-| Ring02 from below and astern: a pylon across the stern block slot | The belly mid-build: braces on the ventral machinery |
+![Pieces as a drone carries them, braced into one unit](renders/pieces_sheet.png)
+
+| Ring02 from below and astern | The belly mid-build |
 | --- | --- |
 | ![stern pylons](renders/pylons_stern.png) | ![belly pylons](renders/pylons_belly.png) |
 
@@ -158,7 +161,7 @@ No piece touches another piece, the keel or the mothership, including the stern 
 
 `scripts/export_kit.py` wrote `godot_export/supply_frigate_kit.glb` and `supply_frigate_kit_plan.json`:
 
-- The GLB has 61 top-level nodes, each with its origin at the piece's bounds centre. The 23 `Pylon_*` braces are child nodes of their pieces. It is 47.7 MB, including the packed 4K hull atlas and the pool textures.
+- The GLB has 61 top-level nodes, each with its origin at the piece's bounds centre. The 72 `Pylon_*` braces are child nodes of their pieces. It is 47.7 MB, including the packed 4K hull atlas and the pool textures.
 - The plan is in the Godot frame (bow -Z, up +Y), **already at game scale**. Its bounds are 16.555 x 12.094 x 21.289 m, the finished frigate's 66.22 x 48.38 x 85.16 m at 0.25 to the millimetre. The kit therefore lines up with the finished frigate under a 0.25-scaled `Model` node, origin for origin.
 - The keel axis height is -1.375 and the hull radius about it is 8.77 m. The keel segments are tier `keel`, as on the beam frigate.
 - Each piece carries `transit_axes`, which the game's `ConstructionSite.transit_basis()` uses.
@@ -188,7 +191,7 @@ That project's `docs/ship_construction.md` describes the rest:
 | `blender/hangar_fit.blend` | An upper quarter and docked drone in the starboard bay (roof removed on the copy) |
 | `textures/pool_*.png` | Tileable 8 m surface textures quilted from the supply frigate's albedo atlas |
 | `godot_export/` | `supply_frigate_kit.glb` and `supply_frigate_kit_plan.json` |
-| `renders/` | Exploded kit, build stages, pylon close-ups, hangar fit, animation stills (`anim_*`), and `sf_build.mp4` |
+| `renders/` | Exploded kit, build stages, single braced pieces (`piece_*`, `pieces_sheet.png`), pylon close-ups, hangar fit, animation stills (`anim_*`), and `sf_build.mp4` |
 | `reports/` | Section profile, kit plan (both scales), interiors, support check, pylons, hangar fit, build schedule, collision sweep, run logs |
 
 ## Rebuilding
@@ -198,7 +201,7 @@ Scripts declare the workspace path at their start. They need Blender 5.1, and ev
 1. `python scripts/make_hull_pools.py` (system Python with OpenCV and SciPy).
 2. Open `source/supply_frigate_game_ready_COPY.blend` (in its own MCP call), then exec `scripts/prep_source.py`. To re-derive the sections, exec `scripts/section_profile.py` with `SRC_NAME='SupplyFrigate'; STEP=0.5; WINDOW=6.0`.
 3. `B -b blender/sf_source_prepared.blend -P scripts/make_kit.py`, then `B -b blender/sf_kit.blend -P scripts/interior_export.py`.
-4. `python scripts/interior_layout.py`, then `B -b blender/sf_kit.blend -P scripts/interior_build.py`, then `B -b blender/sf_kit.blend -P scripts/pylons.py`. Check the result with `B -b blender/sf_kit.blend -P scripts/support_check.py`; it must report 0 floating.
+4. `python scripts/interior_layout.py`, then `B -b blender/sf_kit.blend -P scripts/interior_build.py`, then `B -b blender/sf_kit.blend -P scripts/pylons.py`. Check the result with `B -b blender/sf_kit.blend -P scripts/support_check.py`; it must report 0 split and 0 unlanded pieces.
 5. `B -b blender/sf_kit.blend -P scripts/to_game_scale.py`.
 6. `B -b --factory-startup -P scripts/hangar_fit.py`.
 7. `B -b blender/sf_kit_game.blend -P scripts/animate_build.py`.
@@ -227,6 +230,7 @@ Renders use Workbench (textured), because EEVEE previews render blank on this ma
 - `to_game_scale.py`: skips `ring_y` for keel segments and scales the pylons with their pieces.
 - `animate_build.py`: pylons share their piece's visibility keys and are hidden after the last weld.
 - `export_kit.py`: pylons are exported as child nodes and listed per piece in the plan.
+- `render_pieces.py` (new): single pieces with their pylons, as a drone carries them.
 - `render_kit.py`: the stages show the pylons and the finished stage hides them; `pylons_stern.png` and `pylons_belly.png` are close-ups.
 - `interior_build.py`: the breach probe excludes the keel channel (its own copy of `CHANNEL`).
 - `section_profile.py`: ignores NaN slivers from degenerate cut triangles.

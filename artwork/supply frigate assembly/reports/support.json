@@ -1,347 +1,463 @@
 {
- "pylons": 23,
+ "pylons": 72,
+ "split_pieces": [],
+ "unlanded_pieces": [],
  "pieces": [
   {
    "piece": "Ring02_PL",
    "order": 4,
-   "islands": 13,
-   "floating": []
+   "parts": 16,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring02_SL",
    "order": 5,
-   "islands": 13,
-   "floating": []
+   "parts": 16,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring02_PU",
    "order": 6,
-   "islands": 2,
-   "floating": []
+   "parts": 8,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring02_SU",
    "order": 7,
-   "islands": 2,
-   "floating": []
+   "parts": 8,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring03_PL",
    "order": 8,
-   "islands": 6,
-   "floating": []
+   "parts": 12,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring03_SL",
    "order": 9,
-   "islands": 3,
-   "floating": []
+   "parts": 12,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring03_PU",
    "order": 10,
-   "islands": 4,
-   "floating": []
+   "parts": 13,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring03_SU",
    "order": 11,
-   "islands": 4,
-   "floating": []
+   "parts": 13,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring04_PL",
    "order": 12,
-   "islands": 6,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring04_SL",
    "order": 13,
-   "islands": 6,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring04_PU",
    "order": 14,
-   "islands": 3,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring04_SU",
    "order": 15,
-   "islands": 3,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring05_PL",
    "order": 16,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring05_SL",
    "order": 17,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring05_PU",
    "order": 18,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring05_SU",
    "order": 19,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring06_PL",
    "order": 20,
-   "islands": 5,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring06_SL",
    "order": 21,
-   "islands": 5,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring06_PU",
    "order": 22,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring06_SU",
    "order": 23,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring07_PL",
    "order": 24,
-   "islands": 5,
-   "floating": []
+   "parts": 8,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring07_SL",
    "order": 25,
-   "islands": 5,
-   "floating": []
+   "parts": 8,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring07_PU",
    "order": 26,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring07_SU",
    "order": 27,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring08_PL",
    "order": 28,
-   "islands": 14,
-   "floating": []
+   "parts": 10,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring08_SL",
    "order": 29,
-   "islands": 14,
-   "floating": []
+   "parts": 10,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring08_PU",
    "order": 30,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring08_SU",
    "order": 31,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring09_PL",
    "order": 32,
-   "islands": 5,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring09_SL",
    "order": 33,
-   "islands": 5,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring09_PU",
    "order": 34,
-   "islands": 2,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring09_SU",
    "order": 35,
-   "islands": 2,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring10_PL",
    "order": 36,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring10_SL",
    "order": 37,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring10_PU",
    "order": 38,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring10_SU",
    "order": 39,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring11_PL",
    "order": 40,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring11_SL",
    "order": 41,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring11_PU",
    "order": 42,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring11_SU",
    "order": 43,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring12_PL",
    "order": 44,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring12_SL",
    "order": 45,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring12_PU",
    "order": 46,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring12_SU",
    "order": 47,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring13_PL",
    "order": 48,
-   "islands": 3,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring13_SL",
    "order": 49,
-   "islands": 3,
-   "floating": []
+   "parts": 5,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring13_PU",
    "order": 50,
-   "islands": 3,
-   "floating": []
+   "parts": 9,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring13_SU",
    "order": 51,
-   "islands": 3,
-   "floating": []
+   "parts": 9,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring14_PL",
    "order": 52,
-   "islands": 12,
-   "floating": []
+   "parts": 25,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring14_SL",
    "order": 53,
-   "islands": 12,
-   "floating": []
+   "parts": 25,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring14_PU",
    "order": 54,
-   "islands": 5,
-   "floating": []
+   "parts": 6,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring14_SU",
    "order": 55,
-   "islands": 5,
-   "floating": []
+   "parts": 6,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring01_PL",
    "order": 56,
-   "islands": 5,
-   "floating": []
+   "parts": 16,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring01_SL",
    "order": 57,
-   "islands": 5,
-   "floating": []
+   "parts": 16,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring01_PU",
    "order": 58,
-   "islands": 5,
-   "floating": []
+   "parts": 9,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring01_SU",
    "order": 59,
-   "islands": 5,
-   "floating": []
+   "parts": 9,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   },
   {
    "piece": "Ring00",
    "order": 60,
-   "islands": 1,
-   "floating": []
+   "parts": 1,
+   "groups": 1,
+   "loose": [],
+   "lands": true
   }
  ]
 }

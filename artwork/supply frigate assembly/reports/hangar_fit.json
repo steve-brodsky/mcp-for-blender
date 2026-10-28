@@ -794,28 +794,28 @@
   {
    "name": "Ring14_PU",
    "transit_size": [
-    6.73,
+    6.487,
     2.816,
     1.435
    ],
    "clear_y": 3.992,
    "clear_top": 2.635,
    "clear_bottom": 0.15,
-   "drone_tail_x": 7.884,
+   "drone_tail_x": 8.127,
    "bay_inner_x": 7.146,
    "fits": true
   },
   {
    "name": "Ring14_SU",
    "transit_size": [
-    6.73,
+    6.487,
     2.816,
     1.435
    ],
    "clear_y": 3.992,
    "clear_top": 2.635,
    "clear_bottom": 0.15,
-   "drone_tail_x": 7.884,
+   "drone_tail_x": 8.127,
    "bay_inner_x": 7.146,
    "fits": true
   },

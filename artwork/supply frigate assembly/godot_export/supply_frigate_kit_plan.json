@@ -166,7 +166,8 @@
    "pylons": [
     "Pylon_Ring02_PL_0",
     "Pylon_Ring02_PL_1",
-    "Pylon_Ring02_PL_2"
+    "Pylon_Ring02_PL_2",
+    "Pylon_Ring02_PL_3"
    ]
   },
   {
@@ -198,7 +199,8 @@
    "pylons": [
     "Pylon_Ring02_SL_0",
     "Pylon_Ring02_SL_1",
-    "Pylon_Ring02_SL_2"
+    "Pylon_Ring02_SL_2",
+    "Pylon_Ring02_SL_3"
    ]
   },
   {
@@ -227,7 +229,10 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring02_PU_0",
+    "Pylon_Ring02_PU_1"
+   ]
   },
   {
    "name": "Ring02_SU",
@@ -255,7 +260,10 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring02_SU_0",
+    "Pylon_Ring02_SU_1"
+   ]
   },
   {
    "name": "Ring03_PL",
@@ -284,7 +292,9 @@
     2
    ],
    "pylons": [
-    "Pylon_Ring03_PL_0"
+    "Pylon_Ring03_PL_0",
+    "Pylon_Ring03_PL_1",
+    "Pylon_Ring03_PL_2"
    ]
   },
   {
@@ -313,7 +323,11 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring03_SL_0",
+    "Pylon_Ring03_SL_1",
+    "Pylon_Ring03_SL_2"
+   ]
   },
   {
    "name": "Ring03_PU",
@@ -341,7 +355,11 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring03_PU_0",
+    "Pylon_Ring03_PU_1",
+    "Pylon_Ring03_PU_2"
+   ]
   },
   {
    "name": "Ring03_SU",
@@ -369,7 +387,11 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring03_SU_0",
+    "Pylon_Ring03_SU_1",
+    "Pylon_Ring03_SU_2"
+   ]
   },
   {
    "name": "Ring04_PL",
@@ -742,7 +764,8 @@
     2
    ],
    "pylons": [
-    "Pylon_Ring07_PL_0"
+    "Pylon_Ring07_PL_0",
+    "Pylon_Ring07_PL_1"
    ]
   },
   {
@@ -772,7 +795,8 @@
     2
    ],
    "pylons": [
-    "Pylon_Ring07_SL_0"
+    "Pylon_Ring07_SL_0",
+    "Pylon_Ring07_SL_1"
    ]
   },
   {
@@ -859,8 +883,7 @@
    ],
    "pylons": [
     "Pylon_Ring08_PL_0",
-    "Pylon_Ring08_PL_1",
-    "Pylon_Ring08_PL_2"
+    "Pylon_Ring08_PL_1"
    ]
   },
   {
@@ -891,8 +914,7 @@
    ],
    "pylons": [
     "Pylon_Ring08_SL_0",
-    "Pylon_Ring08_SL_1",
-    "Pylon_Ring08_SL_2"
+    "Pylon_Ring08_SL_1"
    ]
   },
   {
@@ -1037,7 +1059,9 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring09_PU_0"
+   ]
   },
   {
    "name": "Ring09_SU",
@@ -1065,7 +1089,9 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring09_SU_0"
+   ]
   },
   {
    "name": "Ring10_PL",
@@ -1429,7 +1455,9 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring13_PL_0"
+   ]
   },
   {
    "name": "Ring13_SL",
@@ -1457,7 +1485,9 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring13_SL_0"
+   ]
   },
   {
    "name": "Ring13_PU",
@@ -1485,7 +1515,10 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring13_PU_0",
+    "Pylon_Ring13_PU_1"
+   ]
   },
   {
    "name": "Ring13_SU",
@@ -1513,7 +1546,10 @@
     1,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring13_SU_0",
+    "Pylon_Ring13_SU_1"
+   ]
   },
   {
    "name": "Ring14_PL",
@@ -1542,7 +1578,12 @@
     2
    ],
    "pylons": [
-    "Pylon_Ring14_PL_0"
+    "Pylon_Ring14_PL_0",
+    "Pylon_Ring14_PL_1",
+    "Pylon_Ring14_PL_2",
+    "Pylon_Ring14_PL_3",
+    "Pylon_Ring14_PL_4",
+    "Pylon_Ring14_PL_5"
    ]
   },
   {
@@ -1572,7 +1613,12 @@
     2
    ],
    "pylons": [
-    "Pylon_Ring14_SL_0"
+    "Pylon_Ring14_SL_0",
+    "Pylon_Ring14_SL_1",
+    "Pylon_Ring14_SL_2",
+    "Pylon_Ring14_SL_3",
+    "Pylon_Ring14_SL_4",
+    "Pylon_Ring14_SL_5"
    ]
   },
   {
@@ -1601,7 +1647,9 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring14_PU_0"
+   ]
   },
   {
    "name": "Ring14_SU",
@@ -1629,7 +1677,9 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring14_SU_0"
+   ]
   },
   {
    "name": "Ring01_PL",
@@ -1657,7 +1707,12 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring01_PL_0",
+    "Pylon_Ring01_PL_1",
+    "Pylon_Ring01_PL_2",
+    "Pylon_Ring01_PL_3"
+   ]
   },
   {
    "name": "Ring01_SL",
@@ -1685,7 +1740,12 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring01_SL_0",
+    "Pylon_Ring01_SL_1",
+    "Pylon_Ring01_SL_2",
+    "Pylon_Ring01_SL_3"
+   ]
   },
   {
    "name": "Ring01_PU",
@@ -1713,7 +1773,10 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring01_PU_0",
+    "Pylon_Ring01_PU_1"
+   ]
   },
   {
    "name": "Ring01_SU",
@@ -1741,7 +1804,10 @@
     0,
     2
    ],
-   "pylons": []
+   "pylons": [
+    "Pylon_Ring01_SU_0",
+    "Pylon_Ring01_SU_1"
+   ]
   },
   {
    "name": "Ring00",
