@@ -1,0 +1,51 @@
+{
+  "source_triangles": 699826,
+  "detached_chunk_triangles_removed": 186592,
+  "high_triangles": 513234,
+  "bowtie_edges_split": 1,
+  "kept_half": "source starboard (all four sockets), mirrored to port",
+  "scale_factor": 31.408807070237003,
+  "length_m": 32.0,
+  "high_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "dimensions_m": [
+    7.002,
+    31.989,
+    13.757
+  ],
+  "scale_assumption": "32 m, the point defense corvette length (no physical dimensions in the source)",
+  "forward_godot": "-Z (the prow)",
+  "up_godot": "+Y",
+  "lod0_triangles": 81856,
+  "lod1_ratio": 0.4,
+  "lod1_triangles": 32726,
+  "lod1_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "lod2_ratio": 0.15,
+  "lod2_triangles": 12262,
+  "lod2_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "collision_hulls": {
+    "UpperFore": 208,
+    "UpperMid": 136,
+    "UpperStern": 120,
+    "Bridge": 222,
+    "LowerFore": 241,
+    "LowerMid": 137,
+    "LowerStern": 258
+  },
+  "textures": {
+    "basecolor": 4096,
+    "emission": 2048,
+    "orm_and_normal": "source maps retired, not used by the game material"
+  },
+  "roughness": 0.62,
+  "metallic": 0.15,
+  "emission_strength": 2.0
+}

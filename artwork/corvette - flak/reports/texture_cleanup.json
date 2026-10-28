@@ -1,0 +1,209 @@
+{
+  "method": "Six-class classification with per-plate face majority (classify_faces.py), then detail-preserving cleanup of the source paint: non-local-means denoise, mid-scale (2.5-24 texel) blotch damping, 80% grime lift on armor, per-paint hue evening; amber lamps detected per texel, engine glows placed from baked position and normal maps",
+  "grime_lift": 0.55,
+  "blotch_kept": {
+    "painted": 1.0,
+    "machinery": 0.4
+  },
+  "detail_kept": {
+    "painted": 1.7,
+    "machinery": 0.8
+  },
+  "palette_srgb": {
+    "graphite": [
+      0.13,
+      0.128,
+      0.13
+    ],
+    "gunmetal": [
+      0.29,
+      0.28,
+      0.272
+    ],
+    "armor": [
+      0.72,
+      0.61,
+      0.47
+    ],
+    "red": [
+      0.62,
+      0.25,
+      0.21
+    ],
+    "amber": [
+      1.0,
+      0.58,
+      0.24
+    ],
+    "blue": [
+      0.15,
+      0.48,
+      1.0
+    ]
+  },
+  "armor_gain": [
+    1.039,
+    0.987,
+    0.892
+  ],
+  "class_coverage": {
+    "graphite": 0.17624779523437273,
+    "gunmetal": 0.4855249165394597,
+    "armor": 0.31371526630178365,
+    "red": 0.014932050042078699,
+    "amber": 0.0,
+    "blue": 0.009579971882305251
+  },
+  "light_texels": {
+    "amber": 0,
+    "blue_lamps": 16985,
+    "engine_glow": 67218
+  },
+  "engine_regions_m": [
+    {
+      "name": "upper_recess",
+      "x": [
+        -1.75,
+        0.0
+      ],
+      "z": [
+        -0.65,
+        1.85
+      ],
+      "y": [
+        -14.0,
+        -11.5
+      ]
+    },
+    {
+      "name": "lower_nozzle",
+      "x": [
+        -1.6,
+        0.0
+      ],
+      "z": [
+        -4.7,
+        -3.1
+      ],
+      "y": [
+        -14.6,
+        -11.5
+      ]
+    }
+  ],
+  "nozzles_m": [
+    [
+      [
+        0.0,
+        0.6
+      ],
+      1.25
+    ],
+    [
+      [
+        -0.8,
+        -3.9
+      ],
+      0.8
+    ]
+  ],
+  "seats": {
+    "centres_yz_m": [
+      [
+        3.99,
+        0.705
+      ],
+      [
+        -4.875,
+        0.705
+      ],
+      [
+        3.99,
+        -3.87
+      ],
+      [
+        -4.875,
+        -3.87
+      ]
+    ],
+    "texels": 595452,
+    "grain_offsets_texels": [
+      [
+        660,
+        660
+      ],
+      [
+        1220,
+        -1220
+      ],
+      [
+        820,
+        -820
+      ],
+      [
+        340,
+        0
+      ],
+      [
+        -240,
+        -240
+      ],
+      [
+        -380,
+        -380
+      ],
+      [
+        100,
+        -100
+      ],
+      [
+        60,
+        -60
+      ],
+      [
+        60,
+        0
+      ],
+      [
+        0,
+        -740
+      ],
+      [
+        -1260,
+        1260
+      ],
+      [
+        -660,
+        0
+      ],
+      [
+        -80,
+        0
+      ],
+      [
+        -740,
+        740
+      ],
+      [
+        0,
+        -200
+      ],
+      [
+        0,
+        1180
+      ],
+      [
+        -1040,
+        -1040
+      ],
+      [
+        -660,
+        -660
+      ]
+    ],
+    "paint": "red ring r 1.22-1.62 m, graphite groove, gunmetal plate, 12 bolts at r 0.88 m, graphite hub"
+  },
+  "atlas_coverage": 0.5238940119743347,
+  "basecolor": "textures/flak_corvette_basecolor_4k.png",
+  "emission_map": "textures/flak_corvette_emission_2k.png"
+}

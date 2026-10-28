@@ -1,0 +1,48 @@
+{
+  "scale_from_family": 0.75,
+  "base_top_m": 0.735,
+  "yaw_ring_z_m": [
+    0.675,
+    0.795
+  ],
+  "deck_top_m": 0.835,
+  "trunnion_m": [
+    0.0,
+    0.0,
+    1.4199999570846558
+  ],
+  "barrel_spacing_m": 0.42,
+  "muzzle_from_trunnion_m": 2.35,
+  "parts": {
+    "BaseMesh": {
+      "triangles": 10056,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "YawRing": {
+      "triangles": 1152,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "YawMesh": {
+      "triangles": 3032,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "PitchMesh": {
+      "triangles": 1284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Barrel1Mesh": {
+      "triangles": 956,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Barrel2Mesh": {
+      "triangles": 956,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  }
+}

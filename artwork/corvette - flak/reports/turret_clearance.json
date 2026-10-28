@@ -1,0 +1,13 @@
+{
+  "swept_deg": [
+    -15,
+    95
+  ],
+  "blocked_deg": [],
+  "recoil_m": 0.22,
+  "limits_deg": [
+    -10,
+    90
+  ],
+  "limits_clear": true
+}

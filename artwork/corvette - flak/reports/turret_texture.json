@@ -1,0 +1,57 @@
+{
+  "turret_texels_per_metre": 181.0,
+  "corvette_texels_per_metre": 102.4,
+  "swatch_window_corvette_texels": {
+    "graphite": 127,
+    "gunmetal": 177,
+    "armor": 209
+  },
+  "swatch_texels_max": 512,
+  "swatches_per_paint": 6,
+  "filled_texels": {
+    "gunmetal": 359540,
+    "lens": 2373,
+    "barrel": 124178,
+    "graphite": 273716,
+    "armor": 519945
+  },
+  "family_tan_gain": [
+    1.1330000162124634,
+    1.11899995803833,
+    1.0609999895095825
+  ],
+  "family_light_texels": 1799,
+  "red_band_texels": 47471,
+  "lens_texels": 2373,
+  "orm": {
+    "armor": [
+      0.68,
+      0.1
+    ],
+    "graphite": [
+      0.55,
+      0.45
+    ],
+    "gunmetal": [
+      0.5,
+      0.55
+    ],
+    "barrel": [
+      0.38,
+      0.8
+    ],
+    "red": [
+      0.68,
+      0.1
+    ],
+    "lens": [
+      0.2,
+      0.3
+    ]
+  },
+  "outputs": [
+    "textures/flak_turret_basecolor_2k.png",
+    "textures/flak_turret_emission_2k.png",
+    "textures/flak_turret_orm_1k.png"
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "seat_plane_x_m": -2.45,
+  "seat_diameter_m": 3.0,
+  "turntable_foot_diameter_m": 3.24,
+  "measured_centres_blender_yz": {
+    "Fore Upper": [
+      3.94,
+      0.65
+    ],
+    "Aft Upper": [
+      -4.88,
+      0.76
+    ],
+    "Fore Lower": [
+      4.04,
+      -3.93
+    ],
+    "Aft Lower": [
+      -4.87,
+      -3.81
+    ]
+  },
+  "regularised_centres_blender_yz": {
+    "TurretUpperFore": [
+      3.99,
+      0.705
+    ],
+    "TurretUpperAft": [
+      -4.875,
+      0.705
+    ],
+    "TurretLowerFore": [
+      3.99,
+      -3.87
+    ],
+    "TurretLowerAft": [
+      -4.875,
+      -3.87
+    ]
+  },
+  "turrets": {
+    "TurretUpperForePort": {
+      "seat_out_m": 2.411,
+      "seat_flatness_m": 0.059,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.24,
+      "flank": "port",
+      "centre_blender": [
+        -2.411,
+        3.99,
+        0.705
+      ],
+      "position_godot": [
+        -2.411,
+        0.705,
+        -3.99
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretUpperForeStarboard": {
+      "seat_out_m": 2.411,
+      "seat_flatness_m": 0.059,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.24,
+      "flank": "starboard",
+      "centre_blender": [
+        2.411,
+        3.99,
+        0.705
+      ],
+      "position_godot": [
+        2.411,
+        0.705,
+        -3.99
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretUpperAftPort": {
+      "seat_out_m": 2.422,
+      "seat_flatness_m": 0.079,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.276,
+      "flank": "port",
+      "centre_blender": [
+        -2.422,
+        -4.875,
+        0.705
+      ],
+      "position_godot": [
+        -2.422,
+        0.705,
+        4.875
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretUpperAftStarboard": {
+      "seat_out_m": 2.422,
+      "seat_flatness_m": 0.079,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.276,
+      "flank": "starboard",
+      "centre_blender": [
+        2.422,
+        -4.875,
+        0.705
+      ],
+      "position_godot": [
+        2.422,
+        0.705,
+        4.875
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretLowerForePort": {
+      "seat_out_m": 2.408,
+      "seat_flatness_m": 0.089,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.155,
+      "flank": "port",
+      "centre_blender": [
+        -2.408,
+        3.99,
+        -3.87
+      ],
+      "position_godot": [
+        -2.408,
+        -3.87,
+        -3.99
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretLowerForeStarboard": {
+      "seat_out_m": 2.408,
+      "seat_flatness_m": 0.089,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.155,
+      "flank": "starboard",
+      "centre_blender": [
+        2.408,
+        3.99,
+        -3.87
+      ],
+      "position_godot": [
+        2.408,
+        -3.87,
+        -3.99
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretLowerAftPort": {
+      "seat_out_m": 2.407,
+      "seat_flatness_m": 0.068,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.192,
+      "flank": "port",
+      "centre_blender": [
+        -2.407,
+        -4.875,
+        -3.87
+      ],
+      "position_godot": [
+        -2.407,
+        -3.87,
+        4.875
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    },
+    "TurretLowerAftStarboard": {
+      "seat_out_m": 2.407,
+      "seat_flatness_m": 0.068,
+      "seat_radius_m": 1.55,
+      "flank_out_m": 2.192,
+      "flank": "starboard",
+      "centre_blender": [
+        2.407,
+        -4.875,
+        -3.87
+      ],
+      "position_godot": [
+        2.407,
+        -3.87,
+        4.875
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ],
+      "arcs": {
+        "elevation_0_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_15_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_45_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        },
+        "elevation_75_deg": {
+          "clear_share": 1.0,
+          "blocked_azimuths_deg": []
+        }
+      }
+    }
+  },
+  "socket_diameter_m": 3.1,
+  "gun_height_for_arcs_m": 1.2,
+  "markers_godot": {
+    "TurretUpperForePort": [
+      -2.411,
+      0.705,
+      -3.99
+    ],
+    "TurretUpperForeStarboard": [
+      2.411,
+      0.705,
+      -3.99
+    ],
+    "TurretUpperAftPort": [
+      -2.422,
+      0.705,
+      4.875
+    ],
+    "TurretUpperAftStarboard": [
+      2.422,
+      0.705,
+      4.875
+    ],
+    "TurretLowerForePort": [
+      -2.408,
+      -3.87,
+      -3.99
+    ],
+    "TurretLowerForeStarboard": [
+      2.408,
+      -3.87,
+      -3.99
+    ],
+    "TurretLowerAftPort": [
+      -2.407,
+      -3.87,
+      4.875
+    ],
+    "TurretLowerAftStarboard": [
+      2.407,
+      -3.87,
+      4.875
+    ],
+    "Nose": [
+      0,
+      -4.516,
+      -16.003
+    ],
+    "EngineMain": [
+      0,
+      0.6,
+      15.4
+    ],
+    "EngineLowerPort": [
+      -0.8,
+      -3.9,
+      14.3
+    ],
+    "EngineLowerStarboard": [
+      0.8,
+      -3.9,
+      14.3
+    ]
+  },
+  "aft_facing": [
+    "EngineMain",
+    "EngineLowerPort",
+    "EngineLowerStarboard"
+  ],
+  "port_facing": [
+    "TurretUpperForePort",
+    "TurretUpperAftPort",
+    "TurretLowerForePort",
+    "TurretLowerAftPort"
+  ],
+  "starboard_facing": [
+    "TurretUpperForeStarboard",
+    "TurretUpperAftStarboard",
+    "TurretLowerForeStarboard",
+    "TurretLowerAftStarboard"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "seat_plane_x_m": -2.45,
+  "seat_diameter_m": 3.0,
+  "turntable_foot_diameter_m": 3.24,
+  "measured_centres_blender_yz": {
+    "Fore Upper": [
+      3.94,
+      0.65
+    ],
+    "Aft Upper": [
+      -4.88,
+      0.76
+    ],
+    "Fore Lower": [
+      4.04,
+      -3.93
+    ],
+    "Aft Lower": [
+      -4.87,
+      -3.81
+    ]
+  },
+  "regularised_centres_blender_yz": {
+    "TurretUpperFore": [
+      3.99,
+      0.705
+    ],
+    "TurretUpperAft": [
+      -4.875,
+      0.705
+    ],
+    "TurretLowerFore": [
+      3.99,
+      -3.87
+    ],
+    "TurretLowerAft": [
+      -4.875,
+      -3.87
+    ]
+  },
+  "sockets": {
+    "TurretUpperForePort": {
+      "blender": [
+        -2.45,
+        3.99,
+        0.705
+      ],
+      "godot": [
+        -2.45,
+        0.705,
+        -3.99
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "TurretUpperForeStarboard": {
+      "blender": [
+        2.45,
+        3.99,
+        0.705
+      ],
+      "godot": [
+        2.45,
+        0.705,
+        -3.99
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ]
+    },
+    "TurretUpperAftPort": {
+      "blender": [
+        -2.45,
+        -4.875,
+        0.705
+      ],
+      "godot": [
+        -2.45,
+        0.705,
+        4.875
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "TurretUpperAftStarboard": {
+      "blender": [
+        2.45,
+        -4.875,
+        0.705
+      ],
+      "godot": [
+        2.45,
+        0.705,
+        4.875
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ]
+    },
+    "TurretLowerForePort": {
+      "blender": [
+        -2.45,
+        3.99,
+        -3.87
+      ],
+      "godot": [
+        -2.45,
+        -3.87,
+        -3.99
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "TurretLowerForeStarboard": {
+      "blender": [
+        2.45,
+        3.99,
+        -3.87
+      ],
+      "godot": [
+        2.45,
+        -3.87,
+        -3.99
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ]
+    },
+    "TurretLowerAftPort": {
+      "blender": [
+        -2.45,
+        -4.875,
+        -3.87
+      ],
+      "godot": [
+        -2.45,
+        -3.87,
+        4.875
+      ],
+      "outward_godot": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "TurretLowerAftStarboard": {
+      "blender": [
+        2.45,
+        -4.875,
+        -3.87
+      ],
+      "godot": [
+        2.45,
+        -3.87,
+        4.875
+      ],
+      "outward_godot": [
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "high_triangles_before": 513234,
+  "high_triangles_after": 489204,
+  "high_health": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "godot/assets/flak_turret.glb",
+  "bytes": 3221208,
+  "clips_s": {
+    "scan": 8.0,
+    "fire": 0.8
+  },
+  "nodes": [
+    "FlakTurret",
+    "BaseMesh",
+    "Yaw",
+    "Pitch",
+    "Barrel1",
+    "Barrel1Mesh",
+    "Muzzle1",
+    "Barrel2",
+    "Barrel2Mesh",
+    "Muzzle2",
+    "PitchMesh",
+    "YawMesh",
+    "YawRing"
+  ],
+  "triangles": {
+    "Barrel1Mesh": 956,
+    "Barrel2Mesh": 956,
+    "BaseMesh": 10056,
+    "PitchMesh": 1284,
+    "YawMesh": 3032,
+    "YawRing": 1152
+  },
+  "total_triangles": 17436,
+  "clear_elevation_deg": [
+    -15,
+    95
+  ]
+}

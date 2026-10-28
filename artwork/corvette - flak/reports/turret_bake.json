@@ -1,0 +1,15 @@
+{
+  "atlas": 2048,
+  "texels_per_metre": 185.6,
+  "surface_m2": 58.172,
+  "uv_coverage": 0.478,
+  "paints": [
+    "armor",
+    "graphite",
+    "gunmetal",
+    "barrel",
+    "red",
+    "lens",
+    "family"
+  ]
+}
