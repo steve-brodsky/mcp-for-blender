@@ -67,7 +67,10 @@ The geometry remains a refined reconstruction; it is not a new hard-surface mode
 
 Both hangars are mirrored copies of the fitted starboard bay, with no doors.
 Spawn/exit/approach markers are at (+/-14,1,6), (+/-26,1,6) and (+/-45,1,6).
-The membranes have no collider; hull collision is approximate. The wrapper supports
+The membranes have no collider. The hull uses 36 mirrored convex sections fitted
+to the geometry, including separate hangar floors and roofs that leave the bays
+open. `scripts/build_collision_hulls.py` rebuilds the hull report and both scene
+wrappers from the imported game GLB. The wrapper supports
 `set_forcefield_enabled(bool)` and `hangar_spawn_transform(port)`.
 
 ## Editing and validation
