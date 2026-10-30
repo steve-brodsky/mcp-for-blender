@@ -1,8 +1,10 @@
 # Pre-match fleet-color integration
 
-The library and offline catalog are complete authoring assets. No scripts or menu
-in the game prototype have been replaced. This directory provides a tested baker
-and a concrete integration design for that future work.
+The Godot prototype now has a main menu, live arbitrary-RGB color picker, and
+team-aware runtime appearance service. Its `docs/fleet_colors.md` documents the
+installed flow. Run `scripts/prepare_game_paint.py` from the authoring repository
+to refresh the game's runtime inputs, registry, bindings, and copied baker.
+The remaining reference below describes integration and extension choices.
 
 ## Selection and match loading
 
@@ -79,8 +81,9 @@ Read the export's `materials.json`. For each material index:
 - `replace_base_color_texture`: duplicate the original material once per
   asset/pair; set its albedo texture to the exported PNG. Retain the original
   albedo-color multiplier, UV channel/transform, PBR maps, and transparency mode.
-- `replace_base_color_factor`: set its albedo color from the exported **linear
-  RGBA** value. Do not convert those values from sRGB again.
+- `replace_base_color_factor`: exported RGBA values are glTF **linear**. Convert
+  them with `linear_to_srgb()` before assigning Godot's `BaseMaterial3D.albedo_color`.
+  Live color-picker values are already sRGB and can be assigned directly.
 - `preserve`: reuse the original material.
 
 Apply the same set to the mapped LOD surfaces. The interceptor's four surfaces

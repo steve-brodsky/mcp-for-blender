@@ -17,5 +17,7 @@ and the live Blender scene are separate sources, not output destinations.
   Read the documented VRAM-compression tradeoff before promising an FPS benefit.
 - Use `rebuild.py` and complete validation. Use `--force-previews` for shader,
   camera, or renderer changes. Check masks and top/underside/close views visually.
-- The catalog is an offline developer preview. Game-menu/multiplayer integration
-  is a separate change; the supplied Godot baker is not installed in the game.
+- The catalog remains an offline developer preview. A main menu and arbitrary-RGB
+  picker are installed in the Godot prototype; see its `docs/fleet_colors.md`.
+  `prepare_game_paint.py` refreshes runtime inputs/bindings without changing GLBs.
+  Multiplayer remains a separate feature.

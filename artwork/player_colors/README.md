@@ -49,7 +49,8 @@ The layered recipes already cover every pair, without storing thousands of PNGs.
 
 ## Runtime direction
 
-For a future pre-match menu, preview colors while the player scrolls, then prepare
+The game prototype now includes a main menu and pre-match picker. Preview colors,
+then prepare
 only the selected pairs before starting combat. Reuse textures/materials by ship
 type and color pair; never create another material or bake a texture per ship
 instance or per frame. All LODs inherit the same selected material set.
@@ -60,7 +61,8 @@ Godot baker supports dynamically added colors and caches the selected result;
 its output is an uncompressed `ImageTexture`, capped at 2048 px by default.
 See **[integration/README.md](integration/README.md)** for the loading flow,
 compression/memory tradeoffs, cache keys, and tested API. Actual combat FPS has
-not been benchmarked. This package does not change the game's menu or scripts.
+not been benchmarked. The installed runtime implementation is documented in the
+game's `docs/fleet_colors.md`; `prepare_game_paint.py` refreshes its inputs and bindings.
 
 ## Extend and rebuild
 
