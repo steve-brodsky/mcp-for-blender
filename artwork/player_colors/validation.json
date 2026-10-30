@@ -1,1544 +1,1363 @@
 {
   "passed": true,
+  "version": 2,
+  "recipe_sha256": "0cb232505c305127e27d37073e3f8fe66d33877de1d58f1d3073885e234be6fe",
   "checks": {
-    "source_files_unchanged": 56,
-    "assets": 30,
-    "palettes": 8,
-    "unique_atlases": 18,
-    "variant_textures": 144,
+    "source_files_unchanged": 44,
+    "assets": 19,
+    "hull_choices": 11,
+    "detail_choices": 11,
+    "supported_pairs": 121,
+    "unique_atlases": 17,
+    "preset_textures": 187,
     "lod_files": 25,
+    "carriers_excluded": true,
+    "normalized_preset_pixels_exact": true,
     "preview_required": true,
-    "rendered_views": 420,
-    "blender_palette_switch_checks": 270,
+    "rendered_views": 2451,
+    "combination_previews": 2299,
+    "blender_pair_switch_checks": 2299,
     "rendered_lod_comparisons": 13,
-    "variant_hashes_rechecked": true
+    "variant_hashes_rechecked": true,
+    "browser_pairs_checked": 121,
+    "godot_gpu_pairs_checked": 121
   },
   "texture_sets": {
     "mothership": {
-      "size": [
-        8192,
-        8192
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f6a23000319ec0a42bebabf52b29b14e9f3a534cfbfb4e545625afdf3bd24d52"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28453289,
-          "sha256": "9f2a422b3eca173a77400340916b37c7d1c1a294ce6da27f25e603b83e9c7d34"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "80215250e9b84e94170fe4fd1185e22b1d313a2548cf64f1bc093c443d82295a"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28828747,
-          "sha256": "ba234b025e53ac8005812fa6c35c66c53c567f1348e73f33cc61054ae3914711"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "876929030273a2fc6221b4d8b9f8b0b8eaee802554359576f62586dcefb3034c"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28672072,
-          "sha256": "dc856904517e836f19acd6bea67a198883ee2e245470c44413b4601d24f0f0d9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5af9a267507f828f6e0d4829015d89bb59012e1d2ec46dcca52cdcd770049db5"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28519559,
-          "sha256": "9e8ef5360e4d5a79b7b99cdb5910ed8969420fb337ca98a140e006099e495362"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "20336dcee472acb8e70794e3edad0ea5918d472e34adcfd4eba5a43a75899a83"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28290610,
-          "sha256": "14f97c802307cb6ebc560a220f8f26d94bf2a3f47610b56ba02989924d0ba101"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "4b38cba2dbaa25841c8be3910c45d4cfd62613a358d1269bff959c5a0fe9d3e1"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28607068,
-          "sha256": "a192ed5452e4b7ac453fc06906c0936ed84aa49a5f8ef28e5c4fbd168d8efe1a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a0ee5c56516e4b650071d21a31f80d5f7624e581077f39d7c08c961bfb7aba5a"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28902043,
-          "sha256": "76b981b677aaced68dae0a7aa13097b57137add0e93f7a3a25f97b255e06a116"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "8dcb6b3917b1db11ec3b4d912be11f49f66b5c56b0ebd956a056ad004be92a22"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 36761714,
-          "changed_pixels": 28317370,
-          "sha256": "263aced772af0d3daf70ac469927962855157bbedc6cde9399d6559c1b4cea59"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "032b3977a92e3e8582d3e623beb96ef625c4d65ea4f10f47fd46908d43c6d182"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c5244dd4e8432a9f77ed51240c9779dbd4d2b1bcf9ac69e84a82ec8e7d4de21e"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "63da6c181d10c6fadb86aff019c9d2be7399185ebdbade9533670575fdcf37f9"
         }
+      },
+      "normalization": {
+        "hull": 0.738142728805542,
+        "detail": 0.27327293157577515
       }
     },
     "flak_corvette": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "04edf7498194a073cdd21d7bd57e83e2872d022de57824fa2f0cdb6187353495"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9116329,
-          "sha256": "c6566b57516379112a2fecccc7baa37af00c187c743690f24086473e837dc0d1"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "20e97aa8befbe28867a671d389e22d4d09b19d96d4934642167c4abcc3637566"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9395087,
-          "sha256": "8962313eaa73466bb3eba38dbff1e3a049d53c29f67ccc7f4d27a58814d7c8ea"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5188f7f96569a067fa02bd103a2de70445ba89b121446239865058f7c2bcc613"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9153861,
-          "sha256": "73fa2a17c49ca3aeb83985e8842688c45f7f3e1f60836aea6bdaf7086e6c0d22"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "fe702481dfd99e507d7e538d8a5486ef2047b838ddda71f63447564643e00a03"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9322352,
-          "sha256": "4be826c0eb2a6b5ddf03ad56c11c7a330b96f7a8b3d616fd957bb3ecde6b1c99"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "8619db10f905b624474fecca40645df2ab122d04732f52bef0463f299fd4c414"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9222411,
-          "sha256": "0cc5f1ac7b13965d48d44ed25c6749002e98e666a01b2ae439ea24967b6de8b7"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "365114896b894605886f968ce022a1a9567f9d34c5a7b0bb25e7e0e580ea0422"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9095155,
-          "sha256": "b99362f0db5b697355873f49669be1e1ab42c7503fc197c2deb4e4487814618d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f46d3a98b5c7ecefe3f3bdec8acf6aae838ef64858d93a43607542294e23a064"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 9575324,
-          "sha256": "5abb0952003aa133809aebe17f93f1f716a37701d36faeed1911385612c1f9ba"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "46814845cf7d74d4a12ee04b8a4b93fef970bfaec1306ef55bec15484967394d"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6233665,
-          "changed_pixels": 8981488,
-          "sha256": "6172876ae940d61e0eee42018a1e2fc4878780ed5262337f37b1e08bfd2ef69a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f3f9ae2a3bd3c69ca61d0e5443b9fb44f3246e5f738093e07c01767cd3e6b1db"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f306609151bfceaa7df63c1ef58c941d5ca86ad1ba150f909e1906a260939777"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c73744e544e1f80b6973eca6d99328da2d3adb7b434a1ecab71d83400ffded3f"
         }
+      },
+      "normalization": {
+        "hull": 0.6338604092597961,
+        "detail": 0.326519250869751
       }
     },
     "pd_corvette": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e51cf64cfe8808085534b453da40a54ac4c1ded82d9fb7855459b5b014abfdef"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8226294,
-          "sha256": "d5066ef59111d7895b8a9ea802f5edeb581dca3714a5fdc5bc7669bb73286ded"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "fd0711ec82cc2a540b67c71171f8b10778069daabccd31f699d10c47cd8b72a0"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8567340,
-          "sha256": "b707a3d40ba728d565b32f00bb2994bde7e505adada3508ecd7b069a77ad99e0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "4c93f42c433879b8c566b17a7b88db03259109ef8abb8de6ee7d129145dcd82e"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8494566,
-          "sha256": "52562963347c912e68f5bb313fc88524ce2d89f4ea9a8d09eb51cd78fc608f38"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5e14f368817e8e8845d8f3101aba515c95842b6d8596f89ce545de3887f2ba7f"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8130609,
-          "sha256": "456c78222ec9e681768508886c9128359995d92efa799babc7851096bdab34ce"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a8877aa91968aba547173afc113884e140a67b8568c9114a5bef7ba28310ea15"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 7822757,
-          "sha256": "91942cef52c8455a8ca4f5c74ac8628d9de5839c5a26cf21c400ea3c32d850c0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1ac9896fbe6bb5cb6298738e29059a1c05a4d5e67254fd45fea7e9c90dba1de2"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8516808,
-          "sha256": "cf4c08744294381b198688d4877eaf5af15641599dec1a6a97e5475a80883231"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a08c884d65d103e48655be192ced2b2065d8952642144e7b07b631b0cc891c91"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8611469,
-          "sha256": "43b61e8ccda4248905a474c2424097e26de1d024cd7fc92f54fe0b2ffbf495df"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1a8be21cfda0f817d99146007a98907bdffd3e0b9af92d8b0e50e36c6ab65486"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 7368160,
-          "changed_pixels": 8328930,
-          "sha256": "fc0bd4e4b398f6cf0cd376afd9ef3060489726e2dfdb1cac1a58927685729402"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2cb2eda6f009b37e2cfb68f51b5eaaeb425b83273d2d18f2792c31cfbd307aee"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2c66546352807861a5a88796dd7635e8cee593f996c1c60ac55e4e6e8df69752"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "46ede4c00431e7c8a676f39e55e251fc59744b77ba928014897ebc25e1db3885"
         }
+      },
+      "normalization": {
+        "hull": 0.6327041983604431,
+        "detail": 0.2943694293498993
       }
     },
     "heavy_fighter": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c02779c81061e324034804036f2dd89b2763d24e448911cd6660e00d5766e6fd"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1624374,
-          "sha256": "37811e68eed8ba858ef6d764cc7e549d682f702bdd114a7e78e027bbf68b09a3"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "aa1eb6837b3421c5fa5fce2943e094cf427784c2aa88d3ab9323836ed898ec64"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1671910,
-          "sha256": "6efc991f282e4c5916d07371bcfc90d251b98ebf217d08b7864de22ff74ebebb"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "13e4cadd08e41e5febd1125f017ee4392c097461ff4717b4abe554ee19478a02"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1652315,
-          "sha256": "af61c31b4b86023da2e11524801a41b949dbdace5c83d45b729e48487b9079c6"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e3aada872185f555b45ba5f4b303dda51932ec97a3a15945ce3b6c7259f8a113"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1630396,
-          "sha256": "b529c44bd760d2c90af811727385f526bbac9dd719b3863df5c79737ef0f169d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "0a8fd41984a95b54b3b568436010b53ef76fc832b9d4ae7950e7673ff62e9937"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1600914,
-          "sha256": "84bd5e87c2fa36fc3685493615ba466eb99020adbf1766298158a6e5ff884427"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d8dda3db3258be831c54594551f8c2ef1406c2c92d304c396da4872e058fa729"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1646856,
-          "sha256": "75d261cccd2d66f665e078ffbe97e37d631e99daad9a94356819fd69d07c8a4f"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "7cbd80225d7612a5d3a46004ff9b6b67d7b4d47d6971610fcb3147a6a8523fcf"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1681575,
-          "sha256": "43b08d09dde2a14572a20b57d68b2060b18a1c957939eae7ef454303ab7cb754"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "ad3019266857923f449ed4fa02d10de23f52caaa1e9388204ad03b5fa01aafa2"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 14877328,
-          "changed_pixels": 1616953,
-          "sha256": "712432ef2c4cd80b5d750ce40c212c9f1c8a41bb7190b1c0a913950334ed139e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2cf02bd2552a5616acbadfd46b30a4615cd9e943c94220a81295fd7d8b4146e5"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6cbbeb0e3824ea4a4a77ff56b105262ef2c202223adf1367fdbef697a310ab5d"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "ecb52315b3a62134b989ac2d353b12e6b20037f719b037f22b584ffd3c86aa04"
         }
+      },
+      "normalization": {
+        "hull": 0.6978054642677307,
+        "detail": 0.3407161235809326
       }
     },
     "interceptor": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f4ba5c86f73b17b4f008c1ddc5b957fbe5dcef5439f5d388876d71d5b9e849b0"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1288847,
-          "sha256": "8b714ccd23804e7d9fc3e8664bc5311e550d9e22893f36cf4e5e1ea45945a089"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3f80f859fed2761c755ecbc527af603d74292de86e8d93769b831ec9293b8050"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1319304,
-          "sha256": "8308ea26d150e12eeff72c596b19265dac4a45ba6530970f238c503c40c37b52"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "0f40a2d67af7357b2d466798033183d128d710250488784d303c76e1bb344f76"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1301625,
-          "sha256": "e00775e945a2cb277186a16bd02ab77f52c579b3b3cf0b28802d5e3865dfc3b8"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "381a4ca06f29d66635aa257130e54b9d8131b527628eebcfe03f2e1857df1d29"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1280449,
-          "sha256": "6b3f33822918c355b6b50e7180a03cfeff0680e7b448b95ba730260f61d967bf"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "830839c250e269dc06c64841d355c382fe64bf5bb54fed0e42f605d82632d712"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1259030,
-          "sha256": "e97fb9aa1a0343b65d9ba698da7f6e6db75ce773ca328b29161214293a4f6cf6"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f66934c0eb65b9ad20191f4bb3c83cde74987576db53cb2adde5f2dd1d8fe4df"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1312082,
-          "sha256": "3f062e2f932e8940dbcad35e11ab50b56ca71a8ae4ec9d9238fb3d5fd2ccde06"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "26998c4a542c977b4fe4b1605a41ffcbd4d6f5783e233fa7431d187a8c26dfed"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1322168,
-          "sha256": "7bd2f6a3a7d7d0010a3f6cce02b70daf9f3a9fe82c4aa64970e5794c04ba4f90"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d8b60be51bb163846e6d072c2def05b562ae6837faa54fd980e9a32c2a13dfd0"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 15316860,
-          "changed_pixels": 1292793,
-          "sha256": "d128be2ddd8a92703e7b8ec83b06b914b631428ad522f4b938b49f0471fbcf05"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "0da4bc726e1c118b80718bce533e657a99eb54895f9cedb82d9cf32f35e609ff"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "cbba7d6bba9eac763462289a2c4b54e04b8a15a5cbf23aae74706eeeda301554"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9eec4fe4e1614a90eee74f630745f6d037d2a2d61e13ce3b93ac72f3f3bea7ab"
         }
+      },
+      "normalization": {
+        "hull": 0.8140838742256165,
+        "detail": 0.3067827522754669
       }
     },
     "missile_fighter": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "886e2397e6a981d830a0364ff8de4bd4341a46b9f570a60d28cefa7ca08f41b2"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2538645,
-          "sha256": "d2464fbca073c9568a62daee6331ef37a185f60f2870f9901485f5d7c36d1a53"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c4f5adce4582423e691404d2a45c4950fff0cf2068556b31cfc3ed0fbdab7e7b"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2631321,
-          "sha256": "d9da182c6ba8abb17149a8ee770aeedabeae4e56f20fad8687233053b9ed6722"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "066d69aa3489030bcbf0f052e710711862729cfbc2e05074553b4c0fe81f33cb"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2594127,
-          "sha256": "2f6c3ce6cd7f210f6fdc64214f63ab3d9a990fa67f6044781e19a6742e29dd0d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "af01ce33c72b02fe49c29a08abef01b9a45c6a70df6dba370d299ea01f0694b3"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2526842,
-          "sha256": "2a2a06d18b36db38c7ab81bb7df2f1a40fca3167cb34e2764982a03b5e875c49"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "95d1171e3598504a201dffa18fe8b2a2185177d27f645de1cfed1aa6dae8c62d"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2457871,
-          "sha256": "7daad1507a1a621f1beede914a70a1bfea0da26dc08a0ad77a9baa68b5f6d9ac"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c2797732b381969b83750aa2c6ef2a9b933aca433e9ee05cdc3f042e21a586b4"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2602056,
-          "sha256": "796bb567ba4630cf69959522931d65224ac2a13a228e98cbb7289d9f886e1abf"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "09699011c0922b6fc675f9eebe4fbe94e59fef05f008ab9152ed8d517b2282dd"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2646336,
-          "sha256": "4ddb76132f7446aedb24e2aa2a008068480537123c3c22edb74fdb988c86663f"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e7cc58a3ed2b3865aed6337b51132a24d9ce92d7dfa036cd3114c0eb13edf919"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 13798586,
-          "changed_pixels": 2539511,
-          "sha256": "a28796bd62a687514acf235686d74f6790b74b925b8afcd63b8bbb17cd1f31c9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9edd43bab16a2b49a9c4ac4cf5d192353110b5445e86ca95557efc41b2e64894"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "cd73ed53421ed7ccfae1f2661a6b6cf3a51e308aeae9c2777c136b5ca0716a26"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f6daa0f34156e33bf823f8c934d57d66cb0c0fd3620b30ff4ba6367a3fc65e70"
         }
+      },
+      "normalization": {
+        "hull": 0.7717960476875305,
+        "detail": 0.36057835817337036
       }
     },
     "torpedo_bomber": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "25da5063496803807f1fdb849e99ff879f6c8fae91645eb621889ac597fb3403"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 10647086,
-          "sha256": "3a6d497c94ed48a9a3b9647a3d55995cc3a2081be5438a93f2044008f6eded9a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6066b4d5855779230c580ba24d8ecdd8080f2439113f330f1b767bd88014ccb8"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 11267881,
-          "sha256": "1b9f46107c9ef40bc1dba43527be868f3175d102629db4518ab6af4f7e802e32"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1e48f48e8afa464bebac8a5e50271ea251f77f7641a58ae01b9e6331e2f8d003"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 11151558,
-          "sha256": "814b37deabe1cbf0a84445a4ced1bf4925efd3e2b72d644dc5268d52a350b777"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "23515b3428ecd2faedb89fe728bad472be1aca9c2c9dfc480aa239b5c8b357d3"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 10516159,
-          "sha256": "82122d27593df811e875b6503211eb6d21fb717e156c4d4f1be64cf781db9966"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d56467a3c543f57535ca340010c00860319ef2bf8626fef6b1099c26e8e76fb8"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 9695056,
-          "sha256": "1bba0412e4ae61c77d2112bda6659ed203da97729855f46720365d871893e917"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a4649181964c61d9098e211c26b5d05f82e396017e99e4726b2cc7cd39afdb9b"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 11207670,
-          "sha256": "44c9ce7c4b615974dd7b4a5f100b7914ab0dd360c100a619b6ace736c52d8bed"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3d8d891fe7987153633733dcec0ce8ffe7bcbd13ba49201a8b19ed1b2c5ef487"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 11326172,
-          "sha256": "61ca97a8f182bf3ca8befcc15bd597060243f2d48cc03ebf4bae7fdd1e513b8d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c52e190b858abd7d383891634e28b8125c022073cac1bea6333b94e3112ab0cd"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4572178,
-          "changed_pixels": 10914655,
-          "sha256": "211fb7b178045428cc67a08e793963b1e7d9a93616cc43fb4d62ce2973564178"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "77b711ea6b688809a3a301022d0ef9fabae56ae5e7e69f430a51d5cf8bf6e500"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "958003c0c3d59372c5c7ce86e3b669721432fcd5c0cfb5e0c21b7abe5937ae64"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1a50db3b28b0fc349e783a9da06e8ac7e87a679429e8744c21253dc3bdeae388"
         }
+      },
+      "normalization": {
+        "hull": 0.5837811827659607,
+        "detail": 0.2764086127281189
       }
     },
     "beam_frigate": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "bad9967b423d6f3a0e03af3320c2ffa17eb9fcf56d1cbaa134caf641d0976fc0"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5422341,
-          "sha256": "938de2ee0edd97c8b5c7be9aae84114db2b78acf53e97e0e03af67e2c81b8c8c"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "948096697357a884acc84ef4909e0b1d5ec2cb3dc50fadc70869e038459b8d80"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5691718,
-          "sha256": "7efb89fe93abdc0034aebb906deb8fcc51e70519ce5db39b46facb54534daf77"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a27d999acca0f68d908f8e974e6461e4105317e04b16913f98274603656fccb5"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5615882,
-          "sha256": "a25fdf5ddb94438c3210cea12849510a8e34fef73483c68d01815d0711485c64"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d5f9bf41f936c48ad46270d866046ba7f07a7729eb18d5fd16f1431941cb911d"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5407217,
-          "sha256": "d9b135e48c936a0151b92c0959b0684e90d3e05217060c89e03a2cc41af860b0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6c668825189d94aab005f48abdc3329de2785578cc008e97395a97310047f494"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5145850,
-          "sha256": "8465865f9ef6020cec6df808c4fb20fe526004cf55db899b0ab67b28f558a384"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "7d7934f4279f278720124cf6f5223494e6a725e44d19325b6243839f8ee88d4a"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5636178,
-          "sha256": "59748e3c95c8d9a8514fea15387b3461eb6b3c5f8d0b20dc0c5df1916025d5a1"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d806492d382cf2f174a101c9a1fa9ab13885e5606c8904d85eb6318b62a616d4"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5722906,
-          "sha256": "fa77707f372fb905e80a9779f0e1e4b5a98dfce1d2b91cd6229dbd6cd5508262"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1c5a01488fd1dc1d539bcc0ccf191889232e666f19972d99f0bf1956b4277237"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 10320785,
-          "changed_pixels": 5492325,
-          "sha256": "582ebf11e8ada9cad6cb4929c02d2eceb9617d7fbd0262d945999a3c484a3b1e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9615be3a5a54c4edd712ec4b7e96704bdea8181eed0fde262f1ab022af88de81"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "521bcab6c4db55df451a3c2cb1d00c8110086444585e500dfd3dba82b507b9bd"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "11ee7b0758cdc235b63d15d2f98e0a44d9b71d6d79ce34c369fee1fcecb03ef2"
         }
+      },
+      "normalization": {
+        "hull": 0.500106692314148,
+        "detail": 0.20506903529167175
       }
     },
     "supply_frigate": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9f457abff362dda969d373549ed2092bef6969b19ac2ea47b267a2305fe6ceb3"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 10757455,
-          "sha256": "65f05d8284cbc3170bfbcf27e3b1d8fe5b9c3caf4d40d981d9fbd06c10e550ce"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "af4e2a120f31fbbbc27b9d8ecaef4ee9b30f8aa188f56b8b88dd595427e5ad5e"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 11104602,
-          "sha256": "6bd4b490689e6f58be8c95d6079f5e602d95b5addcdafcc1729e13f1df02e74f"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "dab850c1aad15fc8f47c281f6f54c2d6ca154ec885103bb71903e587750fa68d"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 11013105,
-          "sha256": "e30d27bc5e97d16f874dd7bcae3633162a5507edc6a79de39778022b05c49e16"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "4804c792aa70abbe081e707b16c2ad34753c69e4843f8864fa024222710a0206"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 10810542,
-          "sha256": "70be25a555c9894d0b6b4d954f8de546d8c938e81488a86e6cd3a17442e3fd8e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e1d70bddf9c4c86cabc86817eb760c87161ac29bbd7665aed6c5abdcaab3cfed"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 10703829,
-          "sha256": "94c271c95faabb486595dd5acd5e79c2b7cd9fd8d9e7e94332caa6a2d81a5d05"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a92edc7b70ff8050b94491b66d68203d84224b006dbd96df4939cb3e64a8867f"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 10949781,
-          "sha256": "9e924d921eafa41fc92cdf885f561d29bf731d532c74cf669052ec3374919032"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d40bf32a892aa06b7a73ac77fa53a06361360bcb5e2ab80ba42e47d28d4f8b21"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 11180786,
-          "sha256": "13fa72d2d3da205689e6092d6f55e9efa9f7e4cbc7037b1f0309a2ed5850971a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6e9b8bda7d7973d77009356ea384fdf65f8f3181b9b2535c2fe53ade5a4f0fc0"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3940174,
-          "changed_pixels": 10525265,
-          "sha256": "e49085ae228644709757f7f7409d6690272f73c9d9c0a84c214bd8dd6b3285c3"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f46975756afc8219c01f60d861af04e78ce961417a123cae16667e181a283c76"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "15c25ed208c6c05060cfee5eb4034637884f8dcd5dd58bb74c223595bee18a63"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d6ee144289bf732b46219708c0bc01cc8c912395461fcb80e68b9307a62f8dc6"
         }
+      },
+      "normalization": {
+        "hull": 0.6081129312515259,
+        "detail": 0.4563460052013397
       }
     },
     "cargo_pod": {
-      "size": [
-        2048,
-        2048
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "7769d9e9ac24559553bbce7bda47fe64dacc749893c34c87a01a697cf9c1433c"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2561572,
-          "sha256": "bcd9a6a2dc2003037ee575418dd788d990ef71722f81f6f26f23095266a38a30"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2a0b97914f6704b87f50f6b71b0bf2512f39c9f581639cd8d58fe5c3d8f9c110"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2609041,
-          "sha256": "445446392a8824eccd3007c5e117cee09cd0fa1c709d3dcc1bf2487a7d8eb723"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "25c37ec0010022d4bfd11f5cb7afd7af1163d54322b463dae5067c7835f1d47c"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2580206,
-          "sha256": "8de0088ed58246a15ce6362a218e94c2520d4f7f185b536dc7234f768a3aa9a8"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a60eeb4d1edb3608b20a118bac7c434df26c699de771c453deb2ac1bd9def7bb"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2563191,
-          "sha256": "8695b789a96cfe5663652575cac8c8e82fc70560f4bd0335d93006eb4b951781"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f2f018517372945d9d109d61ae835bc459e85c9d102c128800241ac436ea9eae"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2542304,
-          "sha256": "a8ae23b440f06a90e5a7e79f5ba7d50ff641258c7228da4b0d24bee153e185a9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c6be9b7790aa92b90a734d9e97fcbde505773dc9019c5f7b30b3668d5772d3bb"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2574567,
-          "sha256": "7006a03d2751d1cd1dd7fdca62defaecfdf6f336611870cdbf21c131b20ee933"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3dd8871bb9bdbc84ef9fa5c11ee28ec321ae2dab015de4a5972ee49ce26b828c"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2628893,
-          "sha256": "647dc7a171c42d38eb103158c4eb7daf2f20b53529fa6db8fbfe2eac977e57d3"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c73f74f9f53e37be7fb4ec685ff44dccb06c88f3150c25e011fd6fccd644f0c9"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 1167283,
-          "changed_pixels": 2526245,
-          "sha256": "9f51c655c1f4b014597b8d2120e1dc8d4f276cc40ea5c23af431a804787adfac"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e2cccf8944f06420161f47afba2f000c94ee0a3298a50313a93111a6c4d87824"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "54ea9efec9dfbc4f35905327bff569e577306791a9b0f7c6541b01b25e9931ba"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f2d9af5f34ae3903556fdd2b751e32d8a809b3afd44256a58c2fd4a351cdf027"
         }
+      },
+      "normalization": {
+        "hull": 0.5997866988182068,
+        "detail": 0.36022356152534485
       }
     },
     "construction_drone": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a0d71a581318abf4d22a3971a8c999eed2972eecb026913bc3d0bc68512a7473"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 8559887,
-          "sha256": "eea5e677fc5b865f0ffa55fd65546d92134ac2ecb371991dd0d0f8e92ebd1746"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "05c043b8ff3ee6681545ea23a2bd678c8431261d48c3570c4d797866872a9ece"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 9123344,
-          "sha256": "0c15732f75fab3aeb0b1acb9e0ad1c3adcf9cae6fd088cf5a764052314b9cf14"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "279c249198ee2b8938ba508b8ad2e9a8310087644ac832325079bfe339be582d"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 9044800,
-          "sha256": "e3a11a31c96940f409a6ebabba618377cbc6f1ccc6a8cdac2f953c38b5ae46c8"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "e59d6bfa088ada793114b182788a5716e4a9b648ea73afe2ba19775ef035204f"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 8508811,
-          "sha256": "d231fc511a419d080c36565e38ccb349abb5685a70f94f71d48510100e976375"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "22d6eb56a16f44e9613822a01594f561ba5f60af97060440c7cd80f9352b8d74"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 7638738,
-          "sha256": "e5be87d3b31fb5ee3cfa6f1aeffbdee74e854fdc76ddd143c4b04fb13c053b01"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c428af772f963a55baae55f551c2392f2abfd80391a73002026addfb5accfaf4"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 9066450,
-          "sha256": "7635c88391bcdba444391bf23ac4b893d0d7918e94d5622ca5e1e1625a506142"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "cab748d87ccc7d62a068d82a332e218c45b7d16be4adab37c8c973d2030ebaa4"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 9167711,
-          "sha256": "c4747bf1d4581c0b7accf03add489d8fb8913754f785b5675cea19832580aa3e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3e76ba187ec95eea2b286c9ea9587be5465c6acd6849b06171a39358ddd70e99"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 6812740,
-          "changed_pixels": 8864784,
-          "sha256": "030bf5efb249ba595d1e84bfe3aca5c7592167851f9b2823083876e1b008b88e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "7f17b111c17a58a9cb8720ad675c4959d05672a6002529bc16d653db97444d8f"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "57bef653d2ed3834735b57b113870de7f9f0c48da31f505f02116e51fb6373fe"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "dc3af89b2322b1145ffe4caa265dd8672c655698964e2e54ea2ee78a3b017bf3"
         }
+      },
+      "normalization": {
+        "hull": 0.44971296191215515,
+        "detail": 0.2572023570537567
       }
     },
     "resource_collector": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a0942985d02918237c6779723b336caddf1f853ad418aeffdf8e0b5a6d557bac"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11441030,
-          "sha256": "12330e9a4cf162701cc0044979e14cf44f19ce47efa3d5be8f9b857d26e4509a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "47433eae7d725633c8cc13f187b78202c3fa984f1e949d74af949af811880dae"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11591634,
-          "sha256": "6d181d993c7263be5ae9a33c16875bcf43198a3e66ec62851ddf86c3e28168f9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3ce21f9f19e89ac463c1c1e633af441252543575ee267b2ca4b16858b82ef0ce"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11512887,
-          "sha256": "59184ab15d7aac1d455bddef84c04d3c9fb12200e87a9e982ab39a19b41d00e9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5116b85ee2efc5e596cee6f647f2cc835f59d117cfb761a710931a3aefba2cea"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11453520,
-          "sha256": "d2ba1d589ace7d544add95113ffb92dafa774a97b2911d286f9490e07014c508"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "dda4d101ab25a26c3f21099b2df5220da8ea044db40f1166f2530b370599c353"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11373184,
-          "sha256": "a1a425234e0c29aff39e0eca541fe94bc838e82e8413c7598f929e8f6ddc5cf9"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "0c40fbdc766a2bdc4098136c97460e5dc26069e9d666a9bdcfc3892eae15b442"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11489504,
-          "sha256": "e7f846e5f524d120f2d22ad943143fc444ffb9168f5f1f80ec090965450d57c0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "41c85887462fecb3a528bb47adfc2e81373f8d0f85f95d752c964d62cbe5aa97"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11644414,
-          "sha256": "908386237d2fe67063a16b9df29d5033730bc56182367554caefb6b2091fc9ee"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2855578137787b2aa555d268cd6c507920d24267415bb21fafe4721d6cd8e149"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 4322650,
-          "changed_pixels": 11326402,
-          "sha256": "112c131ed1b70a77fdeeaa14c738194d0ea73211d61b84a6391ca68dd2d7b388"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "374dde21e3e29e1b663f7011484da8727be47c49fc8fcd492a7a9a467a15e0a1"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "20b6d5cded5d174902ac1af4890f8607d5a25349242fb4ace59066d7053da201"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "007f2e63c949dd0d092ceaf4103f3799082ac5ab332d8d713cfdc7856fe7e094"
         }
+      },
+      "normalization": {
+        "hull": 0.5059834718704224,
+        "detail": 0.3522752821445465
       }
     },
     "supply_drone": {
-      "size": [
-        4096,
-        4096
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "39ba3792040846a32ec327d659d444af231065ffa1e485dc498321a59837a551"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 6588881,
-          "sha256": "7c620833f665e089a889496cdc312a7531be042cb92031df8629b6640a53b114"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "fa7033cfacb0d77faf6b98b32f70eb8c9e8c72db0919f2dd8a40303725f41303"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 7066632,
-          "sha256": "f5ef56894b6e46379c74c8f809c9b1fc7aadae08fb593043b2712b869d1acec3"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a6a7d1a541fdc16c72ca630d85f6e98829748ddacc9fa23e6712549242a4bb1d"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 7004576,
-          "sha256": "8929db374a36f9106a8347f3afd28fa2ae11786f325f2cf042401010fd3f6729"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1a101775cb480b1d472a7920986b2b06b513d110e1ecfe1ec9da642a931586dd"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 6581591,
-          "sha256": "3898eba1d932de5145a391fb170f579c5c3c1e9bdb7d68fe39e59a86817e9bde"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "17013b4d07a3c003467542d349876fa05e9dc5a8547a42c714516e59939a51bb"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 6057235,
-          "sha256": "58e5a88255be5f933093fcb628eb06ab6bc5f482919e9d91053d7f201eed0ce3"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "4031cfe163c0d9337a11b18b786f8c8a46ed6ba39c9e7a8efb2b07b49d119633"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 6968828,
-          "sha256": "aaa83c7f2b2dbd78ce03eef7f0e8cf45c6608ebfdb0aa1737fcd30c5356bf49c"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "4cb99a83e3b2fbeef89925f5aa0de3ec2351a5b1d289965f96e203ba7f55f130"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 7122097,
-          "sha256": "b9bd61ebee666c38ff9dc28fbb593a6092990e0d905774742bf2c1c530a6eb10"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6bdda01db839afb72a51efee6bffef5ff832474d937b4ef132c4eb23e7a451a5"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 8942760,
-          "changed_pixels": 6782179,
-          "sha256": "8bc9ffbd11444f40a93c45ab69ee6a9575539dcfd883bfa4dde6bb415e7799da"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a7edd9814c8729f0587250ab649716d8d7e665d45df185db06e58daf70b0b2fc"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5d92c1d9ad54d5b7f15799acae03785064208db7f546b28b258a44fbe8a4828a"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f339f9268081c6ef0a184b00d667778ae134f0055492f724f9c447915732fabe"
         }
+      },
+      "normalization": {
+        "hull": 0.6453686356544495,
+        "detail": 0.20633019506931305
       }
     },
     "flak_turret": {
-      "size": [
-        2048,
-        2048
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "8601f410ba5d43301ff9c031a1511345ab2ef4008bf3561c060637944f857c06"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1496128,
-          "sha256": "43e25ed7ac6c4c7246ad07b6dab07f256bb8c27f402850268fc40017d690164e"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "cc6e2d687f4f98c00770a936bdce003cf718e18d92692c18d92f9f95039aa99b"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1513991,
-          "sha256": "bbb991e635ea7c0c96e597d475d47c44887a655bf85e77c1bb0fec3b12f3d9ff"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "0b1f64385ecad5b4bd6922d97132fdaef83aa74af4e12e62c7537d769bdc6dc3"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1499153,
-          "sha256": "23b721e9f36d33ddd2ce5f0835a5f2e8265d59484bfc1e7029898582027e60a1"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "ee438d14eb37bc4025f0b286a51dd39fd13c191246824c08e94e6139dcd838c7"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1511497,
-          "sha256": "bacb9704fc75e0879a49feffacef9acfd5441dd7553f8b3656ce6e99876e505b"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "38f207670ab7a9e0147f499f159d0ee953f646c39a5fc412c5b01c446e4f95af"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1502225,
-          "sha256": "5f2f32df940824f413eab12f654c3b25e7fb31099560fdabf33b285fa8789ba0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3ff5c902aa1cb256edaf4c54fc265a4ea4f2eb827bdd4fcd5db97fbfd02cf785"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1495474,
-          "sha256": "513ee84285396c84fdb9b1922eb8562dce98b18af4ff92bd3e3ecbfee8696dbe"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "ff36860241ac486cdfd067e15e803f90f5b3fc1b06ff0a30ebea16983f7ee864"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1518902,
-          "sha256": "80f2ed1eb6f87d7c2a6d49c316f5c7f2dfa4ee166db1ddab208b85bc8708e586"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "adeff0b9006e4e29e6cde5108ec9cc7e4e71849ad8ce54d24133279ab9cd0c74"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 2562333,
-          "changed_pixels": 1484777,
-          "sha256": "58e868cf30a45dabbf7adf899bb76e5ab2e60a22908d3c88399160b7734edf9a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1ac81cb2d4c0327f3ca6ef9def4617a5a44517e9eaa22a6c918c4bf8c12636ac"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "120740f23c4cdfe62ecb978cbd253bfe4116a7daabaa9851ec6be7d66f6b47e1"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3470b1ad28d62533293cca731c79cfb58df34e9e73ebafa2df1f015645224d89"
         }
+      },
+      "normalization": {
+        "hull": 0.624916136264801,
+        "detail": 0.32735297083854675
       }
     },
     "gatling_turret": {
-      "size": [
-        2048,
-        2048
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "fabeb1131692c524d60574d91b75148990f9b55ecac3362d2f6b132a7b226427"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 482688,
-          "sha256": "8231a490b6170394102feb58e3cc6cd09b3e79a34ba40a58658aae043d06aba5"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a1550216fec97d3d4a1242f7c72202e19b60ae5e04e6b26ea9ef67feeae8e4ef"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 484906,
-          "sha256": "e4491c8073368a1154d1b0431049260c5a0e4954a2f4536e1d7b6c08314980ce"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "c5de3f05d08d8d01c63ff8eadb0921490c1451ec3887f798126202d4e4fa6985"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 483336,
-          "sha256": "aee361630c3653206b086e7c3f02016451181c6789c9ef823a36b82e36bcf399"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "a1c48ffd068330ca8f47c10787642c7cc4f43658138208b7fb749e7c9e36334e"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 484244,
-          "sha256": "1ab433a9608a13dd4e9481d3e3fd11ff6e852389b14df1a05202c9f1deeda964"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f1d7ba836ca23589df18f5ceebe36360b7b2913313c94e245b2d382fb2497d1c"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 483556,
-          "sha256": "677f5c896c3f692d0559c3fd2d3405bef37165ea34b5f6cc5205ec9bda5d855d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "b1524139546461efc3fff9f8fe0663e144f8d267c327e1dbe8c2653b145430f0"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 482256,
-          "sha256": "48ef5902e394b536196b8d9a8985d7aeefd381ad7a92ac56ca1ba00c4e12b41d"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "182f34fe35de66d1275f1faaeb13451dc84b891ac98c0135337ec31f1c0f8d6f"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 485785,
-          "sha256": "330d70e444df7eb3dc33b7ac445c81717b993693dfc4d804f98b5354b9101b46"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "fef11cc99067b4af6778e50177298943c6732c8ac1f26351530f75bb7566b06e"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3659972,
-          "changed_pixels": 480599,
-          "sha256": "b54da0f3f9ce5eaa8a7d90511246ed6fa7fa631065fb71422ccd56315737001f"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "ac3f4ff0a7ca586dec81f341eca8573b8668bff68c5383b42ccf0091eafc6aa8"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "cc8986d26b9d1212e29cc4b543818e2f3b86cf5938eea56355d3368a360a827f"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "1d2f2afbc49191aa4c1e120e5956e2e7c88699a4703224c44f1c24d3caad9ebe"
         }
+      },
+      "normalization": {
+        "hull": 0.6115152835845947,
+        "detail": 0.245
       }
     },
     "laser_turret": {
-      "size": [
-        2048,
-        2048
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "334420de6715d954ca073dda2b7413cbb251e2904f9797500112a21d208501eb"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 763942,
-          "sha256": "d65a022188fb71f628cb6e8ba1f5aa9b1b007afc508cd260c8baf6aa83d98064"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3289e7880cbadec7566da3d00199998a9032d51c15926198a0d226a50c626336"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 766964,
-          "sha256": "ea167b5df006ec4f852cdaba38f6f697396380a30facd340752aa574591ef915"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3ea5641242687cc76ef909abfd5d17a5f349d95bcb4e1cd873b188b2bc0cc915"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 764634,
-          "sha256": "60824ba024d8eab09f1c03247d266fdc83a894c6ce3e943f96da3e13465d62fe"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "6fc4678f0b94acb269070040fee140192cab933f5b36cfc4281c18020abb5afe"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 766207,
-          "sha256": "3330030c58358f9756d682fad30834b2d4d121b5214be3efae7627b563aef0cb"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "b93bd248862fcfcd1513a1902400c48db7c2906864ebaf3c42be800a6af9c5e0"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 765264,
-          "sha256": "73185c8a5c92be8bf99754472c368c970d0579228426baf6b25dcb50c620c04f"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "3d40c43813839ce295119078174b401b7a897e7de9617a332a10ebf98b5d670d"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 763251,
-          "sha256": "82b15cd9667dc58974e92ebe9e81ad9fceb66a35ad7c31af90be06fb01ef8dad"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5ad7f1858168bea3394f899a4e137eaaba4b0af9884a3a4c15c9987a138373e0"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 768167,
-          "sha256": "8cdf3276f8194fc3214d026460b1b64f1f58f161fcfcaf78d61ceeaa3d4530aa"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "10caad230fb7c38385f51883c366ba993e0e0f7ac43cea88f687cab16fff81aa"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3358307,
-          "changed_pixels": 761096,
-          "sha256": "d369da60a6e40966249f080403f22313e0db06622a8d915d7a51f82108678617"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "61fbd7a40d2d62dcc8d3fc46f0a8f4551653cc8790a16e4222445c5541c41159"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9b5dc108b2dcd001fc60bb6f705c6decd30a5cb5aa9af396fc1a356a46472614"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "9bd7270a242e1bac1d26c78b7197867fafdb7290a21eaa172fffb1b00757b781"
         }
+      },
+      "normalization": {
+        "hull": 0.6081600189208984,
+        "detail": 0.245
       }
     },
     "quad_turret": {
-      "size": [
-        2048,
-        2048
-      ],
       "variants": {
+        "original": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f78862c9abd3739be9bfc993ee920bcb831c098c5ddb4073d0c108171ef5a3e5"
+        },
         "red": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 772987,
-          "sha256": "672a3fdeebc1d113b8b1aa8c3feb860975a8f8384a4c9b9bdd97306270386f99"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "71919da4d16591e235d453e2cb72a5da12eb5331118cf9d4e5bb38148e0bfdd0"
         },
         "blue": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 777955,
-          "sha256": "e9c933dc4fcc682704dc07ebf13df3cf65b17576552fe499b86222464db53ff2"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "57cc4fbd3b25276c85a5b32cf22e3713865990711abedf3c18aa255d9c1a1f16"
         },
         "green": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 774279,
-          "sha256": "be0450822d95e10220b38ced842498dc4070eba6b46c45edee3e53839c4c71f0"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "2448c174572a7d0ad579c42c362744cc672eeff58b71e74a3134fdafc3b2f496"
         },
         "yellow": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 776409,
-          "sha256": "667c182fce26c238c084741def2c654e0a1d2239de924b61655917a9bba2897a"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "aa728418dbd597fb8014715af410dbb9f5320147bd853d0b47b229932138cb18"
         },
         "orange": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 774748,
-          "sha256": "4814d21230cd907867b94350b13d914699c6dc3b24a7aed3554c185d67f0083b"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "81de57638bfb3d280e98d7247263ef7e70e4a1ac00623f0ca1f7cf3afd50b843"
         },
         "purple": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 772169,
-          "sha256": "6427c57cda7bc0f7afd6edfdf4596ccf069b8a6ce9e288b42c761b662c3760af"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "21a80fe7140ec44fda1325069388e4e34badd365a9ed1a7ac8530c21844c2f34"
         },
         "cyan": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 779697,
-          "sha256": "9d0651ead4f41792dad400ba56c93103f5f11f2506921e701ecec396dccbf4a5"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "822c51bf5ac8629c6033a2d512f289989ad7a9989843abc0d6d3f9499013c0af"
         },
         "pink": {
           "alpha_exact": true,
-          "protected_pixels_exact": 3320909,
-          "changed_pixels": 769148,
-          "sha256": "77dfdd9dcf6a2bfb00711fd3cbc9bca421108a0980dbb0b98011ad4ddce62f92"
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "5d358f27717e49482bf19401dc02065b37884d14d42f201f6aba4cb43bc5ccc8"
+        },
+        "white_black": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "d6d73f7ba26c8975c2ae821797bb882e6435dcf4bf4a3b23d55065546628ecab"
+        },
+        "black_white": {
+          "alpha_exact": true,
+          "protected_pixels_exact": true,
+          "formula_exact": true,
+          "sha256": "f521ef87eda3f65b492de5fca0afc5b8dd4f8c48caf93fdedd5e216b43cfd908"
         }
-      }
-    },
-    "carrier_shared": {
-      "size": [
-        2048,
-        2048
-      ],
-      "variants": {
-        "red": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "a96ea6b4081f8510fafc631929d82ce478dd760073775d44f24157fb0791542d"
-        },
-        "blue": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "01fe37ee260242128f24da416f7f5ab9bf72ab86ac398f8f4ef6dc0b1b6198d3"
-        },
-        "green": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "1a5aa9096205e1b15cad818f10e52ce8be0f0308ec040942f82c4e31b1ed835a"
-        },
-        "yellow": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "90ae569b692bbc193cce0d1387df288d5ecc4fe8aea04b5a4909c6655961f743"
-        },
-        "orange": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "e4a5d0bc64e423daa0e972b23da1b31d8d5673406e22e2ff6c90d9e216f29346"
-        },
-        "purple": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "384dd09b319a63eb779204b21122abe3d5bfa6fefc9342da6dc0f561eedbe2c5"
-        },
-        "cyan": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "3997c2204a30624a08efa69c63bcc19aee87ebe3a70b8a952493fd02b6497e9e"
-        },
-        "pink": {
-          "alpha_exact": true,
-          "protected_pixels_exact": 3407872,
-          "changed_pixels": 786432,
-          "sha256": "2091b8a595fb90fbf5c14185e72edc8222639b6fe8a79dd8fe22a6d70178c1c4"
-        }
+      },
+      "normalization": {
+        "hull": 0.5888352990150452,
+        "detail": 0.245
       }
     }
   },
   "assets": {
     "mothership": {
-      "painted_materials": 4,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\capital_ships\\mothership\\mothership.glb",
-          "primitives": 26,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 13,
+      "lod_bindings_valid": true
     },
     "flak_corvette": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "pd_corvette": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "heavy_fighter": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "interceptor": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor.glb",
-          "primitives": 4,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod1.glb",
-          "primitives": 4,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb",
-          "primitives": 4,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 4,
+      "lod_bindings_valid": true
     },
     "missile_fighter": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "torpedo_bomber": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "torpedo_mounting_rack": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_mounting_rack.glb",
-          "primitives": 4,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 4,
+      "lod_bindings_valid": true
     },
     "beam_frigate": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "supply_frigate": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "cargo_pod": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "construction_drone": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone.glb",
-          "primitives": 2,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "resource_collector": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector.glb",
-          "primitives": 2,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "supply_drone": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "flak_turret": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\flak\\flak_turret.glb",
-          "primitives": 6,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "gatling_turret": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\gatling\\gatling_turret.glb",
-          "primitives": 5,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "laser_turret": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\laser\\laser_turret.glb",
-          "primitives": 5,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "quad_turret": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\quad\\quad_turret.glb",
-          "primitives": 8,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     },
     "supply_ship": {
-      "painted_materials": 1,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship.glb",
-          "primitives": 2,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod1.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        },
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb",
-          "primitives": 1,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier": {
-      "painted_materials": 9,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb",
-          "primitives": 239,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_aux_reactor": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb",
-          "primitives": 8,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_fighter_operations": {
-      "painted_materials": 6,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb",
-          "primitives": 7,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_fire_control": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb",
-          "primitives": 7,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_heavy_beam": {
-      "painted_materials": 6,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb",
-          "primitives": 14,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_heavy_kinetic": {
-      "painted_materials": 6,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb",
-          "primitives": 13,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_medium_assault": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb",
-          "primitives": 11,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_missile_launcher": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb",
-          "primitives": 11,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_point_defense": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb",
-          "primitives": 11,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_sensor_array": {
-      "painted_materials": 4,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb",
-          "primitives": 7,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
-    },
-    "carrier_shield_generator": {
-      "painted_materials": 5,
-      "lod_checks": [
-        {
-          "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb",
-          "primitives": 7,
-          "material_bindings_valid": true,
-          "uv_attributes_valid": true
-        }
-      ],
-      "preview_complete": true
+      "source_materials": 1,
+      "lod_bindings_valid": true
     }
-  },
-  "notes": [
-    "Masks classify warm hull paint and oxide-red markings; carrier masks use known atlas regions.",
-    "Protected texels and alpha are checked exactly. Perceived color also depends on lighting.",
-    "LOD mappings are validated against source UV attributes; production gameplay is unchanged."
-  ],
-  "manifest_sha256": "6d3d45bae679a1d196361e749e454b928c2ffc66c1291ce88f11de791e67161d"
+  }
 }

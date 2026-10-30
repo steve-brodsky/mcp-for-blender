@@ -1,109 +1,77 @@
-# Fleet player colors
+# Fleet paint library — v2
 
-Eight coordinated schemes for **30 ships and support assets**: red, blue, green,
-yellow, orange, purple, cyan, and pink. Each scheme recolors existing hull paint
-and oxide-red markings using a muted hull shade and a stronger matching accent.
-Existing panel lines, paint wear, UVs, and texture dimensions are retained.
+Open **[index.html](index.html)** to choose hull and detail colors independently,
+scroll through choices, switch presets, and compare the entire fleet.
 
-Open **[index.html](index.html)** in a browser to browse all comparisons.
-The package is standalone: no production models, textures, or Godot scripts are replaced.
+The library covers **19 ships/support assets, 11 hull choices × 11 detail choices
+= 121 pairings**. White hull / black details and its inverse are included. The
+carrier and all carrier modules are excluded. Standardized original paint uses
+one ivory/oxide-red palette across the fleet; untouched historical paint remains
+available for comparison.
 
-## Contents
+## Ready to use
 
-- `textures/`: 18 unique atlas sets, each containing the original albedo, editable
-  hull/stripe masks, and eight full-resolution RGBA PNG variants (144 variant PNGs).
-- `manifest.json`: source model paths and hashes, per-material texture assignments,
-  linear solid-color replacements, shared-atlas references, and 25 LOD mappings.
-- `previews/fleets/`: one complete-fleet sheet per palette, plus the original finish.
-- `previews/ships/`: original and eight variants for each asset.
-- `previews/inspection/`: original/blue overview, top, underside, and blue close views.
-- `previews/skirmish_readability.png`: small silhouette comparisons of primary ships.
-- `previews/lod_comparison.png`: LOD0 versus the furthest supplied LOD, using the
-  same blue materials and camera. Temporary preview LOD copies live below `previews/lods/`.
-- `previews/blender/`: editable preview scenes with all eight material sets.
-- `validation.json`: machine-checked source integrity, pixels, alpha, material/UV
-  bindings, and preview coverage.
-- `scripts/`: reproducible extraction, generation, rendering, and validation tools.
+- `textures/`: **17 unique atlas sets**, each with untouched `original.png`,
+  reviewed hull/detail masks, packed RG mask, and **11 full-resolution preset PNGs**.
+  `standardized_original.png` is the unified original finish.
+- `palette.json`: independent color choices and preset pairs. IDs, not list
+  positions or translated labels, identify saved player selections.
+- `assets.json`: exclusions, extra source registrations, solid paint roles, and
+  optional normalization overrides.
+- `manifest.json`: material bindings, normalized recipes, every supported pair,
+  source hashes, texture paths, and LOD surface assignments.
+- `exports/white__black/`: complete ready-to-use white/black PNGs and material map.
+- `exports/blue__orange/`: mixed-color example for the interceptor and torpedo rack.
+- `previews/combinations/`: an actual Blender rendering for every asset/pair.
+- `previews/matrices/`: every pairing in one labeled matrix per asset.
+- `previews/fleets/`, `ships/`, `inspection/`, and `lod_comparison.png`: preset,
+  original-paint, surface, and distance-mesh comparisons.
+- `previews/blender/`: editable previews. Run their embedded **Choose hull and
+  details.py**, choosing `HULL`, `DETAIL`, or a `PRESET`. `SHOW_SOURCE` displays
+  the untouched historical material. Preview inputs are limited to 2048 px.
 
-## Coverage and paint behavior
+## Export any combination
 
-Includes the mothership, carrier, both corvettes, four fighter/bomber types, beam
-and supply frigates, supply ship/resource collector, construction and supply
-drones, cargo pod, torpedo mounting rack, four turret types, and all ten carrier
-weapon/system modules. Shared atlases are intentionally generated once and reused.
-The resource collector and supply ship share one delivered texture set.
-
-Excludes the mech, loose missiles, assembly demos, and detached destruction debris.
-No additional stripes are invented on assets whose source finish has none.
-Safety yellow/amber paint, exposed neutral metals, dark mechanisms, windows,
-lighting, and separate emission/normal/ORM maps retain their source appearance.
-The torpedo rack's safety release latch also stays amber.
-
-Hull/stripe masks are grayscale PNGs: black protects a pixel; white fully
-recolors it; gray blends. Warm ceramic paint and oxide-red markings are classified
-from each source atlas. The carrier uses explicit regions of its shared atlas,
-including its painted armor panels. Masks preserve darker wear and shading through
-local brightness variation; they are editable for future art direction.
-
-## Use the Blender previews
-
-Open `previews/blender/<asset>.blend`; the initial scheme is blue. In the Scripting
-workspace, choose the embedded text **Switch player color.py**, set `PALETTE` to
-one of the eight names or `original`, then Run Script. This changes the existing
-material assignments throughout that preview. The same helper is in `scripts/`.
-
-Keep this folder structure intact: variant images are linked by relative paths.
-Previews contain neutral studio lights and a camera, not gameplay scenes. Renders
-use Blender EEVEE with preview images capped at 2048 pixels; delivered textures
-retain their full source resolution. Opening a saved preview reloads its linked
-full-resolution PNGs. Fleet sheets frame each model individually, not to scale.
-
-The carrier is recovered from the available packed `carrier_source.blend1` backup.
-Its hull and ten module copies are under `sources/carrier/`; these are preview
-sources and do not replace a game-ready production export. Recovery details and
-the original backup hash are recorded in `carrier_recovery.json`.
-
-## Later Godot integration
-
-1. Find the asset in `manifest.json`. Match its source material **index and name**.
-2. For `replace_base_color_texture`, resolve `texture_set` and select the requested
-   entry in that set's `variants`. Assign it as the material's albedo texture,
-   keeping the original albedo color multiplier, UV channel, texture transform,
-   alpha settings, metallic/roughness, normals, emission, and other properties.
-3. For `replace_base_color_factor`, use the palette's `variants` RGBA value. These
-   values are **linear**, as in glTF; do not treat them as sRGB color-picker bytes.
-4. For `preserve`, keep the material unchanged. Apply the same material set to all
-   LOD surfaces using `lods.primitive_bindings` (mesh index, surface index, and
-   source material index). The existing LOD files omit embedded materials;
-   their surfaces inherit the matching LOD0 material. The interceptor retains
-   four distinct surfaces, including its protected metal engine parts.
-5. Cache a material set per player palette. Players using different colors must
-   receive distinct material resources, while ships sharing a palette may reuse
-   those resources. Do not tint the already recolored albedo a second time.
-
-`texture_info` records the original glTF texture index/UV metadata for provenance;
-its texture index belongs to the source GLB, not to an external replacement file.
-PNG albedo textures use sRGB. Palette hex values are sRGB as well.
-No team selection, multiplayer logic, or Godot integration is included here.
-
-## Rebuild
-
-Requires ordinary Python with Pillow and NumPy, plus Blender 5.1 for previews.
-Commands below run from this repository's root. `inventory.py` contains the
-source game-project path; update it if the project has moved.
+Run from the repository root with Python, Pillow, and NumPy:
 
 ```powershell
-$blender = 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe'
-& $blender --factory-startup -b --python artwork/player_colors/scripts/recover_carrier.py
-python artwork/player_colors/scripts/inventory.py
-python artwork/player_colors/scripts/generate.py
-python artwork/player_colors/scripts/render_all.py --blender $blender
-& $blender --factory-startup -b --python artwork/player_colors/scripts/finalize_previews.py
-& $blender --factory-startup -b --python artwork/player_colors/scripts/render_lods.py
-python artwork/player_colors/scripts/make_sheets.py
-python artwork/player_colors/scripts/validate.py --require-previews
+python artwork/player_colors/scripts/bake_pair.py --hull white --detail black
+python artwork/player_colors/scripts/bake_pair.py --hull blue --detail orange
+python artwork/player_colors/scripts/bake_pair.py --hull black --detail white --asset interceptor
+python artwork/player_colors/scripts/bake_pair.py --all
 ```
 
-After editing masks, use `generate.py --reuse-masks` and `render_all.py --force`,
-then repeat finalization, sheet generation, and validation. Regenerating without
-`--reuse-masks` intentionally rebuilds the masks from the source artwork.
+Each export creates `exports/<hull>__<detail>/materials.json` and its referenced
+full-resolution PNGs. Shared source atlases are exported once. Repeating the same
+command verifies hashes and reuses the cache. `--all` materializes every pairing;
+it is deliberately optional because full-resolution copies take much more space.
+The layered recipes already cover every pair, without storing thousands of PNGs.
+
+## Runtime direction
+
+For a future pre-match menu, preview colors while the player scrolls, then prepare
+only the selected pairs before starting combat. Reuse textures/materials by ship
+type and color pair; never create another material or bake a texture per ship
+instance or per frame. All LODs inherit the same selected material set.
+
+For a fixed shipping palette, pre-export/imported PNGs support Godot's VRAM
+compression and offer the most predictable texture memory. A tested standalone
+Godot baker supports dynamically added colors and caches the selected result;
+its output is an uncompressed `ImageTexture`, capped at 2048 px by default.
+See **[integration/README.md](integration/README.md)** for the loading flow,
+compression/memory tradeoffs, cache keys, and tested API. Actual combat FPS has
+not been benchmarked. This package does not change the game's menu or scripts.
+
+## Extend and rebuild
+
+**[PIPELINE.md](PIPELINE.md)** documents the source selection, masks, normalization,
+color math, manifests, exports, previews, validation, and exact steps for adding
+ships or colors. **[AGENTS.md](AGENTS.md)** is the entry point for future coding
+agents. `scripts/rebuild.py` runs the complete pipeline; use `--force-previews`
+after changing rendering code. Tests and validation results are recorded locally.
+
+Paint recoloring preserves alpha, protected pixels, panel shading, and wear.
+Normal/ORM/emission maps and safety markings retain their source appearance.
+No new stripes are invented on ships without them. Same-color or low-contrast
+pairs remain available as player choices. Source files outside this folder are
+never overwritten.

@@ -1,39 +1,789 @@
 {
-  "version": 1,
-  "color_space": "Base-color PNGs are sRGB; baseColorFactor values are linear RGBA.",
-  "palettes": {
+  "version": 2,
+  "composition_version": "normalized-srgb-v2",
+  "color_space": "Albedo PNGs and palette hex values are sRGB; material RGBA factors are linear.",
+  "hull_colors": {
+    "ivory": {
+      "label": "Original ivory",
+      "srgb": "#c9c4b2"
+    },
     "red": {
+      "label": "Red",
+      "srgb": "#c89f9d"
+    },
+    "blue": {
+      "label": "Blue",
+      "srgb": "#9eb4cc"
+    },
+    "green": {
+      "label": "Green",
+      "srgb": "#a4c0a9"
+    },
+    "yellow": {
+      "label": "Yellow",
+      "srgb": "#d1c797"
+    },
+    "orange": {
+      "label": "Orange",
+      "srgb": "#d3b79a"
+    },
+    "purple": {
+      "label": "Purple",
+      "srgb": "#b9a8ca"
+    },
+    "cyan": {
+      "label": "Cyan",
+      "srgb": "#9ac5c8"
+    },
+    "pink": {
+      "label": "Pink",
+      "srgb": "#d1aabe"
+    },
+    "white": {
+      "label": "White",
+      "srgb": "#eceeed"
+    },
+    "black": {
+      "label": "Black",
+      "srgb": "#22262c"
+    }
+  },
+  "detail_colors": {
+    "oxide": {
+      "label": "Original oxide red",
+      "srgb": "#a13931"
+    },
+    "red": {
+      "label": "Red",
+      "srgb": "#8b222b"
+    },
+    "blue": {
+      "label": "Blue",
+      "srgb": "#244b9c"
+    },
+    "green": {
+      "label": "Green",
+      "srgb": "#26703f"
+    },
+    "yellow": {
+      "label": "Yellow",
+      "srgb": "#9b7b12"
+    },
+    "orange": {
+      "label": "Orange",
+      "srgb": "#a94b17"
+    },
+    "purple": {
+      "label": "Purple",
+      "srgb": "#693195"
+    },
+    "cyan": {
+      "label": "Cyan",
+      "srgb": "#127489"
+    },
+    "pink": {
+      "label": "Pink",
+      "srgb": "#a12b6b"
+    },
+    "white": {
+      "label": "White",
+      "srgb": "#eceeed"
+    },
+    "black": {
+      "label": "Black",
+      "srgb": "#181b21"
+    }
+  },
+  "palettes": {
+    "original": {
+      "label": "Standardized original",
+      "hull": "ivory",
+      "detail": "oxide",
+      "hull_srgb": "#c9c4b2",
+      "stripe_srgb": "#a13931"
+    },
+    "red": {
+      "label": "Red",
+      "hull": "red",
+      "detail": "red",
       "hull_srgb": "#c89f9d",
       "stripe_srgb": "#8b222b"
     },
     "blue": {
+      "label": "Blue",
+      "hull": "blue",
+      "detail": "blue",
       "hull_srgb": "#9eb4cc",
       "stripe_srgb": "#244b9c"
     },
     "green": {
+      "label": "Green",
+      "hull": "green",
+      "detail": "green",
       "hull_srgb": "#a4c0a9",
       "stripe_srgb": "#26703f"
     },
     "yellow": {
+      "label": "Yellow",
+      "hull": "yellow",
+      "detail": "yellow",
       "hull_srgb": "#d1c797",
       "stripe_srgb": "#9b7b12"
     },
     "orange": {
+      "label": "Orange",
+      "hull": "orange",
+      "detail": "orange",
       "hull_srgb": "#d3b79a",
       "stripe_srgb": "#a94b17"
     },
     "purple": {
+      "label": "Purple",
+      "hull": "purple",
+      "detail": "purple",
       "hull_srgb": "#b9a8ca",
       "stripe_srgb": "#693195"
     },
     "cyan": {
+      "label": "Cyan",
+      "hull": "cyan",
+      "detail": "cyan",
       "hull_srgb": "#9ac5c8",
       "stripe_srgb": "#127489"
     },
     "pink": {
+      "label": "Pink",
+      "hull": "pink",
+      "detail": "pink",
       "hull_srgb": "#d1aabe",
       "stripe_srgb": "#a12b6b"
+    },
+    "white_black": {
+      "label": "White hull / black details",
+      "hull": "white",
+      "detail": "black",
+      "hull_srgb": "#eceeed",
+      "stripe_srgb": "#181b21"
+    },
+    "black_white": {
+      "label": "Black hull / white details",
+      "hull": "black",
+      "detail": "white",
+      "hull_srgb": "#22262c",
+      "stripe_srgb": "#eceeed"
     }
+  },
+  "mix_and_match": {
+    "storage": "Base albedo + reviewed masks + normalization references; bake selected pair before match.",
+    "combinations": [
+      {
+        "id": "ivory__oxide",
+        "hull": "ivory",
+        "detail": "oxide"
+      },
+      {
+        "id": "ivory__red",
+        "hull": "ivory",
+        "detail": "red"
+      },
+      {
+        "id": "ivory__blue",
+        "hull": "ivory",
+        "detail": "blue"
+      },
+      {
+        "id": "ivory__green",
+        "hull": "ivory",
+        "detail": "green"
+      },
+      {
+        "id": "ivory__yellow",
+        "hull": "ivory",
+        "detail": "yellow"
+      },
+      {
+        "id": "ivory__orange",
+        "hull": "ivory",
+        "detail": "orange"
+      },
+      {
+        "id": "ivory__purple",
+        "hull": "ivory",
+        "detail": "purple"
+      },
+      {
+        "id": "ivory__cyan",
+        "hull": "ivory",
+        "detail": "cyan"
+      },
+      {
+        "id": "ivory__pink",
+        "hull": "ivory",
+        "detail": "pink"
+      },
+      {
+        "id": "ivory__white",
+        "hull": "ivory",
+        "detail": "white"
+      },
+      {
+        "id": "ivory__black",
+        "hull": "ivory",
+        "detail": "black"
+      },
+      {
+        "id": "red__oxide",
+        "hull": "red",
+        "detail": "oxide"
+      },
+      {
+        "id": "red__red",
+        "hull": "red",
+        "detail": "red"
+      },
+      {
+        "id": "red__blue",
+        "hull": "red",
+        "detail": "blue"
+      },
+      {
+        "id": "red__green",
+        "hull": "red",
+        "detail": "green"
+      },
+      {
+        "id": "red__yellow",
+        "hull": "red",
+        "detail": "yellow"
+      },
+      {
+        "id": "red__orange",
+        "hull": "red",
+        "detail": "orange"
+      },
+      {
+        "id": "red__purple",
+        "hull": "red",
+        "detail": "purple"
+      },
+      {
+        "id": "red__cyan",
+        "hull": "red",
+        "detail": "cyan"
+      },
+      {
+        "id": "red__pink",
+        "hull": "red",
+        "detail": "pink"
+      },
+      {
+        "id": "red__white",
+        "hull": "red",
+        "detail": "white"
+      },
+      {
+        "id": "red__black",
+        "hull": "red",
+        "detail": "black"
+      },
+      {
+        "id": "blue__oxide",
+        "hull": "blue",
+        "detail": "oxide"
+      },
+      {
+        "id": "blue__red",
+        "hull": "blue",
+        "detail": "red"
+      },
+      {
+        "id": "blue__blue",
+        "hull": "blue",
+        "detail": "blue"
+      },
+      {
+        "id": "blue__green",
+        "hull": "blue",
+        "detail": "green"
+      },
+      {
+        "id": "blue__yellow",
+        "hull": "blue",
+        "detail": "yellow"
+      },
+      {
+        "id": "blue__orange",
+        "hull": "blue",
+        "detail": "orange"
+      },
+      {
+        "id": "blue__purple",
+        "hull": "blue",
+        "detail": "purple"
+      },
+      {
+        "id": "blue__cyan",
+        "hull": "blue",
+        "detail": "cyan"
+      },
+      {
+        "id": "blue__pink",
+        "hull": "blue",
+        "detail": "pink"
+      },
+      {
+        "id": "blue__white",
+        "hull": "blue",
+        "detail": "white"
+      },
+      {
+        "id": "blue__black",
+        "hull": "blue",
+        "detail": "black"
+      },
+      {
+        "id": "green__oxide",
+        "hull": "green",
+        "detail": "oxide"
+      },
+      {
+        "id": "green__red",
+        "hull": "green",
+        "detail": "red"
+      },
+      {
+        "id": "green__blue",
+        "hull": "green",
+        "detail": "blue"
+      },
+      {
+        "id": "green__green",
+        "hull": "green",
+        "detail": "green"
+      },
+      {
+        "id": "green__yellow",
+        "hull": "green",
+        "detail": "yellow"
+      },
+      {
+        "id": "green__orange",
+        "hull": "green",
+        "detail": "orange"
+      },
+      {
+        "id": "green__purple",
+        "hull": "green",
+        "detail": "purple"
+      },
+      {
+        "id": "green__cyan",
+        "hull": "green",
+        "detail": "cyan"
+      },
+      {
+        "id": "green__pink",
+        "hull": "green",
+        "detail": "pink"
+      },
+      {
+        "id": "green__white",
+        "hull": "green",
+        "detail": "white"
+      },
+      {
+        "id": "green__black",
+        "hull": "green",
+        "detail": "black"
+      },
+      {
+        "id": "yellow__oxide",
+        "hull": "yellow",
+        "detail": "oxide"
+      },
+      {
+        "id": "yellow__red",
+        "hull": "yellow",
+        "detail": "red"
+      },
+      {
+        "id": "yellow__blue",
+        "hull": "yellow",
+        "detail": "blue"
+      },
+      {
+        "id": "yellow__green",
+        "hull": "yellow",
+        "detail": "green"
+      },
+      {
+        "id": "yellow__yellow",
+        "hull": "yellow",
+        "detail": "yellow"
+      },
+      {
+        "id": "yellow__orange",
+        "hull": "yellow",
+        "detail": "orange"
+      },
+      {
+        "id": "yellow__purple",
+        "hull": "yellow",
+        "detail": "purple"
+      },
+      {
+        "id": "yellow__cyan",
+        "hull": "yellow",
+        "detail": "cyan"
+      },
+      {
+        "id": "yellow__pink",
+        "hull": "yellow",
+        "detail": "pink"
+      },
+      {
+        "id": "yellow__white",
+        "hull": "yellow",
+        "detail": "white"
+      },
+      {
+        "id": "yellow__black",
+        "hull": "yellow",
+        "detail": "black"
+      },
+      {
+        "id": "orange__oxide",
+        "hull": "orange",
+        "detail": "oxide"
+      },
+      {
+        "id": "orange__red",
+        "hull": "orange",
+        "detail": "red"
+      },
+      {
+        "id": "orange__blue",
+        "hull": "orange",
+        "detail": "blue"
+      },
+      {
+        "id": "orange__green",
+        "hull": "orange",
+        "detail": "green"
+      },
+      {
+        "id": "orange__yellow",
+        "hull": "orange",
+        "detail": "yellow"
+      },
+      {
+        "id": "orange__orange",
+        "hull": "orange",
+        "detail": "orange"
+      },
+      {
+        "id": "orange__purple",
+        "hull": "orange",
+        "detail": "purple"
+      },
+      {
+        "id": "orange__cyan",
+        "hull": "orange",
+        "detail": "cyan"
+      },
+      {
+        "id": "orange__pink",
+        "hull": "orange",
+        "detail": "pink"
+      },
+      {
+        "id": "orange__white",
+        "hull": "orange",
+        "detail": "white"
+      },
+      {
+        "id": "orange__black",
+        "hull": "orange",
+        "detail": "black"
+      },
+      {
+        "id": "purple__oxide",
+        "hull": "purple",
+        "detail": "oxide"
+      },
+      {
+        "id": "purple__red",
+        "hull": "purple",
+        "detail": "red"
+      },
+      {
+        "id": "purple__blue",
+        "hull": "purple",
+        "detail": "blue"
+      },
+      {
+        "id": "purple__green",
+        "hull": "purple",
+        "detail": "green"
+      },
+      {
+        "id": "purple__yellow",
+        "hull": "purple",
+        "detail": "yellow"
+      },
+      {
+        "id": "purple__orange",
+        "hull": "purple",
+        "detail": "orange"
+      },
+      {
+        "id": "purple__purple",
+        "hull": "purple",
+        "detail": "purple"
+      },
+      {
+        "id": "purple__cyan",
+        "hull": "purple",
+        "detail": "cyan"
+      },
+      {
+        "id": "purple__pink",
+        "hull": "purple",
+        "detail": "pink"
+      },
+      {
+        "id": "purple__white",
+        "hull": "purple",
+        "detail": "white"
+      },
+      {
+        "id": "purple__black",
+        "hull": "purple",
+        "detail": "black"
+      },
+      {
+        "id": "cyan__oxide",
+        "hull": "cyan",
+        "detail": "oxide"
+      },
+      {
+        "id": "cyan__red",
+        "hull": "cyan",
+        "detail": "red"
+      },
+      {
+        "id": "cyan__blue",
+        "hull": "cyan",
+        "detail": "blue"
+      },
+      {
+        "id": "cyan__green",
+        "hull": "cyan",
+        "detail": "green"
+      },
+      {
+        "id": "cyan__yellow",
+        "hull": "cyan",
+        "detail": "yellow"
+      },
+      {
+        "id": "cyan__orange",
+        "hull": "cyan",
+        "detail": "orange"
+      },
+      {
+        "id": "cyan__purple",
+        "hull": "cyan",
+        "detail": "purple"
+      },
+      {
+        "id": "cyan__cyan",
+        "hull": "cyan",
+        "detail": "cyan"
+      },
+      {
+        "id": "cyan__pink",
+        "hull": "cyan",
+        "detail": "pink"
+      },
+      {
+        "id": "cyan__white",
+        "hull": "cyan",
+        "detail": "white"
+      },
+      {
+        "id": "cyan__black",
+        "hull": "cyan",
+        "detail": "black"
+      },
+      {
+        "id": "pink__oxide",
+        "hull": "pink",
+        "detail": "oxide"
+      },
+      {
+        "id": "pink__red",
+        "hull": "pink",
+        "detail": "red"
+      },
+      {
+        "id": "pink__blue",
+        "hull": "pink",
+        "detail": "blue"
+      },
+      {
+        "id": "pink__green",
+        "hull": "pink",
+        "detail": "green"
+      },
+      {
+        "id": "pink__yellow",
+        "hull": "pink",
+        "detail": "yellow"
+      },
+      {
+        "id": "pink__orange",
+        "hull": "pink",
+        "detail": "orange"
+      },
+      {
+        "id": "pink__purple",
+        "hull": "pink",
+        "detail": "purple"
+      },
+      {
+        "id": "pink__cyan",
+        "hull": "pink",
+        "detail": "cyan"
+      },
+      {
+        "id": "pink__pink",
+        "hull": "pink",
+        "detail": "pink"
+      },
+      {
+        "id": "pink__white",
+        "hull": "pink",
+        "detail": "white"
+      },
+      {
+        "id": "pink__black",
+        "hull": "pink",
+        "detail": "black"
+      },
+      {
+        "id": "white__oxide",
+        "hull": "white",
+        "detail": "oxide"
+      },
+      {
+        "id": "white__red",
+        "hull": "white",
+        "detail": "red"
+      },
+      {
+        "id": "white__blue",
+        "hull": "white",
+        "detail": "blue"
+      },
+      {
+        "id": "white__green",
+        "hull": "white",
+        "detail": "green"
+      },
+      {
+        "id": "white__yellow",
+        "hull": "white",
+        "detail": "yellow"
+      },
+      {
+        "id": "white__orange",
+        "hull": "white",
+        "detail": "orange"
+      },
+      {
+        "id": "white__purple",
+        "hull": "white",
+        "detail": "purple"
+      },
+      {
+        "id": "white__cyan",
+        "hull": "white",
+        "detail": "cyan"
+      },
+      {
+        "id": "white__pink",
+        "hull": "white",
+        "detail": "pink"
+      },
+      {
+        "id": "white__white",
+        "hull": "white",
+        "detail": "white"
+      },
+      {
+        "id": "white__black",
+        "hull": "white",
+        "detail": "black"
+      },
+      {
+        "id": "black__oxide",
+        "hull": "black",
+        "detail": "oxide"
+      },
+      {
+        "id": "black__red",
+        "hull": "black",
+        "detail": "red"
+      },
+      {
+        "id": "black__blue",
+        "hull": "black",
+        "detail": "blue"
+      },
+      {
+        "id": "black__green",
+        "hull": "black",
+        "detail": "green"
+      },
+      {
+        "id": "black__yellow",
+        "hull": "black",
+        "detail": "yellow"
+      },
+      {
+        "id": "black__orange",
+        "hull": "black",
+        "detail": "orange"
+      },
+      {
+        "id": "black__purple",
+        "hull": "black",
+        "detail": "purple"
+      },
+      {
+        "id": "black__cyan",
+        "hull": "black",
+        "detail": "cyan"
+      },
+      {
+        "id": "black__pink",
+        "hull": "black",
+        "detail": "pink"
+      },
+      {
+        "id": "black__white",
+        "hull": "black",
+        "detail": "white"
+      },
+      {
+        "id": "black__black",
+        "hull": "black",
+        "detail": "black"
+      }
+    ],
+    "export_command": "python artwork/player_colors/scripts/bake_pair.py --hull HULL --detail DETAIL",
+    "bulk_export_command": "python artwork/player_colors/scripts/bake_pair.py --all"
   },
   "assets": [
     {
@@ -155,52 +905,70 @@
           "preserve_other_material_properties": true,
           "role": "stripe",
           "variants": {
+            "original": [
+              0.3564002513885498,
+              0.040915198624134064,
+              0.030713440850377083,
+              1
+            ],
             "red": [
-              0.42377835512161255,
-              0.023737099021673203,
-              0.03670303896069527,
+              0.25818291306495667,
+              0.015996292233467102,
+              0.024157630279660225,
               1
             ],
             "blue": [
-              0.026336515322327614,
-              0.11177301406860352,
-              0.5481501817703247,
+              0.017641952261328697,
+              0.07036010921001434,
+              0.33245158195495605,
               1
             ],
             "green": [
-              0.029094824567437172,
-              0.2633863389492035,
-              0.07799821346998215,
+              0.019382361322641373,
+              0.16202940046787262,
+              0.04970656335353851,
               1
             ],
             "yellow": [
-              0.5403148531913757,
-              0.32339635491371155,
-              0.008317377418279648,
+              0.3277781307697296,
+              0.19806930422782898,
+              0.006048832554370165,
               1
             ],
             "orange": [
-              0.6560620665550232,
-              0.11177301406860352,
-              0.012154628522694111,
+              0.39675530791282654,
+              0.07036010921001434,
+              0.00856812484562397,
               1
             ],
             "purple": [
-              0.22888696193695068,
-              0.047221485525369644,
-              0.49467718601226807,
+              0.14126330614089966,
+              0.030713440850377083,
+              0.3005438446998596,
               1
             ],
             "cyan": [
-              0.008317377418279648,
-              0.2843788266181946,
-              0.41036128997802734,
+              0.006048832554370165,
+              0.17464739084243774,
+              0.2501583695411682,
               1
             ],
             "pink": [
-              0.5883184671401978,
-              0.03670303896069527,
-              0.23845629394054413,
+              0.3564002513885498,
+              0.024157630279660225,
+              0.14702728390693665,
+              1
+            ],
+            "white_black": [
+              0.009134056977927685,
+              0.010960093699395657,
+              0.015208514407277107,
+              1
+            ],
+            "black_white": [
+              0.8387991189956665,
+              0.854992687702179,
+              0.8468732833862305,
               1
             ]
           }
@@ -230,52 +998,70 @@
           "preserve_other_material_properties": true,
           "role": "hull",
           "variants": {
+            "original": [
+              0.5840784907341003,
+              0.5520114898681641,
+              0.44520124793052673,
+              1
+            ],
             "red": [
-              0.7766779065132141,
-              0.46406054496765137,
-              0.4511629641056061,
+              0.5775805115699768,
+              0.3467040956020355,
+              0.33716365694999695,
               1
             ],
             "blue": [
-              0.45758530497550964,
-              0.6125048995018005,
-              0.8122634291648865,
+              0.34191444516181946,
+              0.45641106367111206,
+              0.6038274168968201,
               1
             ],
             "green": [
-              0.4972366392612457,
-              0.7082790732383728,
-              0.531756579875946,
+              0.37123778462409973,
+              0.5271152257919312,
+              0.39675530791282654,
               1
             ],
             "yellow": [
-              0.858058750629425,
-              0.7679265737533569,
-              0.4137355387210846,
+              0.6375969648361206,
+              0.5711249113082886,
+              0.30946895480155945,
               1
             ],
             "orange": [
-              0.8767882585525513,
-              0.6356893181800842,
-              0.4322129786014557,
+              0.6514056921005249,
+              0.4735315442085266,
+              0.32314324378967285,
               1
             ],
             "purple": [
-              0.6514255404472351,
-              0.52474445104599,
-              0.7943544387817383,
+              0.48514997959136963,
+              0.3915725648403168,
+              0.590618908405304,
               1
             ],
             "cyan": [
-              0.4322129786014557,
-              0.7505971193313599,
-              0.7766779065132141,
+              0.32314324378967285,
+              0.5583404898643494,
+              0.5775805115699768,
               1
             ],
             "pink": [
-              0.858058750629425,
-              0.5388232469558716,
-              0.6917517781257629,
+              0.6375969648361206,
+              0.40197786688804626,
+              0.51491779088974,
+              1
+            ],
+            "white_black": [
+              0.8387991189956665,
+              0.854992687702179,
+              0.8468732833862305,
+              1
+            ],
+            "black_white": [
+              0.015996292233467102,
+              0.019382361322641373,
+              0.02518685720860958,
               1
             ]
           }
@@ -341,26 +1127,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -391,26 +1177,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -441,26 +1227,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -527,7 +1313,6 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
@@ -549,12 +1334,12 @@
               "lod_primitive_index": 3,
               "source_material_index": 3
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
@@ -576,7 +1361,8 @@
               "lod_primitive_index": 3,
               "source_material_index": 3
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -607,26 +1393,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -657,26 +1443,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -697,52 +1483,70 @@
           "preserve_other_material_properties": true,
           "role": "hull",
           "variants": {
+            "original": [
+              0.5840784907341003,
+              0.5520114898681641,
+              0.44520124793052673,
+              1
+            ],
             "red": [
-              0.49074941873550415,
-              0.29540789127349854,
-              0.2873280346393585,
+              0.5775805115699768,
+              0.3467040956020355,
+              0.33716365694999695,
               1
             ],
             "blue": [
-              0.2913515865802765,
-              0.3882687985897064,
-              0.5129390954971313,
+              0.34191444516181946,
+              0.45641106367111206,
+              0.6038274168968201,
               1
             ],
             "green": [
-              0.31618183851242065,
-              0.44807636737823486,
-              0.3377840518951416,
+              0.37123778462409973,
+              0.5271152257919312,
+              0.39675530791282654,
               1
             ],
             "yellow": [
-              0.5414848327636719,
-              0.4852912724018097,
-              0.263868510723114,
+              0.6375969648361206,
+              0.5711249113082886,
+              0.30946895480155945,
               1
             ],
             "orange": [
-              0.553156316280365,
-              0.4027532935142517,
-              0.275452584028244,
+              0.6514056921005249,
+              0.4735315442085266,
+              0.32314324378967285,
               1
             ],
             "purple": [
-              0.4125818610191345,
-              0.33339694142341614,
-              0.5017727017402649,
+              0.48514997959136963,
+              0.3915725648403168,
+              0.590618908405304,
               1
             ],
             "cyan": [
-              0.275452584028244,
-              0.4744815528392792,
-              0.49074941873550415,
+              0.32314324378967285,
+              0.5583404898643494,
+              0.5775805115699768,
               1
             ],
             "pink": [
-              0.5414848327636719,
-              0.34220466017723083,
-              0.437760591506958,
+              0.6375969648361206,
+              0.40197786688804626,
+              0.51491779088974,
+              1
+            ],
+            "white_black": [
+              0.8387991189956665,
+              0.854992687702179,
+              0.8468732833862305,
+              1
+            ],
+            "black_white": [
+              0.015996292233467102,
+              0.019382361322641373,
+              0.02518685720860958,
               1
             ]
           }
@@ -813,26 +1617,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -863,26 +1667,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -913,14 +1717,14 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -951,26 +1755,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -1001,26 +1805,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -1051,26 +1855,26 @@
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
     },
@@ -1201,1203 +2005,28 @@
         {
           "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod1.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         },
         {
           "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb",
           "material_bindings": [],
-          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
           "primitive_bindings": [
             {
               "lod_mesh_index": 0,
               "lod_primitive_index": 0,
               "source_material_index": 0
             }
-          ]
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
         }
       ]
-    },
-    {
-      "id": "carrier",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Ion / blue",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 8
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Aperture / black",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 11
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 5,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 17
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 6,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 20
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 7,
-          "name": "Guidance / cyan",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 24
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 8,
-          "name": "Safety / amber",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 28
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_aux_reactor",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Ion / blue",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_fighter_operations",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 13
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 5,
-          "name": "Guidance / cyan",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 17
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_fire_control",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Guidance / cyan",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_heavy_beam",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Ion / blue",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 8
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 11
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 5,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 17
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_heavy_kinetic",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 13
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 5,
-          "name": "Aperture / black",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 16
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_medium_assault",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 13
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_missile_launcher",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Safety / amber",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_point_defense",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Squadron / vermilion",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 13
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_sensor_array",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Guidance / cyan",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 11
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
-    },
-    {
-      "id": "carrier_shield_generator",
-      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb",
-      "materials": [
-        {
-          "index": 0,
-          "name": "Armor / pale titanium",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 1
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 1,
-          "name": "Structure / graphite",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 4
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 2,
-          "name": "Machinery / brushed steel",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 7
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 3,
-          "name": "Ceramic / warm ivory",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 10
-          },
-          "texture_set": "carrier_shared"
-        },
-        {
-          "index": 4,
-          "name": "Ion / blue",
-          "original_base_color_factor": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "action": "replace_base_color_texture",
-          "preserve_other_material_properties": true,
-          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-          "texture_coordinate": 0,
-          "texture_info": {
-            "index": 14
-          },
-          "texture_set": "carrier_shared"
-        }
-      ],
-      "lods": []
     }
   ],
   "texture_sets": {
@@ -2410,9 +2039,17 @@
       "original": "textures/mothership/original.png",
       "hull_mask": "textures/mothership/hull_mask.png",
       "stripe_mask": "textures/mothership/stripe_mask.png",
+      "packed_mask": "textures/mothership/paint_mask.png",
+      "hull_mask_sha256": "bc9fa10198faddd62d44449ee7158a61da38bb5cd0afb8eff709258e629bc95c",
+      "stripe_mask_sha256": "9337a16916a4ed9d7807997a017d277ae9306702d61d4cae63c1d69848dfae6a",
+      "normalization": {
+        "hull": 0.738142728805542,
+        "detail": 0.27327293157577515
+      },
       "hull_coverage_fraction": 0.42606060206890106,
       "stripe_coverage_fraction": 0.02614717185497284,
       "variants": {
+        "original": "textures/mothership/standardized_original.png",
         "red": "textures/mothership/red.png",
         "blue": "textures/mothership/blue.png",
         "green": "textures/mothership/green.png",
@@ -2420,7 +2057,9 @@
         "orange": "textures/mothership/orange.png",
         "purple": "textures/mothership/purple.png",
         "cyan": "textures/mothership/cyan.png",
-        "pink": "textures/mothership/pink.png"
+        "pink": "textures/mothership/pink.png",
+        "white_black": "textures/mothership/white_black.png",
+        "black_white": "textures/mothership/black_white.png"
       }
     },
     "flak_corvette": {
@@ -2432,9 +2071,17 @@
       "original": "textures/flak_corvette/original.png",
       "hull_mask": "textures/flak_corvette/hull_mask.png",
       "stripe_mask": "textures/flak_corvette/stripe_mask.png",
+      "packed_mask": "textures/flak_corvette/paint_mask.png",
+      "hull_mask_sha256": "13aa417d6924d06b865225ca9b06196c7c953d721c67b220c1ecdafcb734abca",
+      "stripe_mask_sha256": "087329297d41d1ca41174cf7a3677dd4133c1b8de0268c29ffc4e886ea3eb4fb",
+      "normalization": {
+        "hull": 0.6338604092597961,
+        "detail": 0.326519250869751
+      },
       "hull_coverage_fraction": 0.5967789888381958,
       "stripe_coverage_fraction": 0.0316656231880188,
       "variants": {
+        "original": "textures/flak_corvette/standardized_original.png",
         "red": "textures/flak_corvette/red.png",
         "blue": "textures/flak_corvette/blue.png",
         "green": "textures/flak_corvette/green.png",
@@ -2442,7 +2089,9 @@
         "orange": "textures/flak_corvette/orange.png",
         "purple": "textures/flak_corvette/purple.png",
         "cyan": "textures/flak_corvette/cyan.png",
-        "pink": "textures/flak_corvette/pink.png"
+        "pink": "textures/flak_corvette/pink.png",
+        "white_black": "textures/flak_corvette/white_black.png",
+        "black_white": "textures/flak_corvette/black_white.png"
       }
     },
     "pd_corvette": {
@@ -2454,9 +2103,17 @@
       "original": "textures/pd_corvette/original.png",
       "hull_mask": "textures/pd_corvette/hull_mask.png",
       "stripe_mask": "textures/pd_corvette/stripe_mask.png",
+      "packed_mask": "textures/pd_corvette/paint_mask.png",
+      "hull_mask_sha256": "06303c0ab795969a97e5c3a9e6f022b8129aa77d7df487caabbdf40a64d7f577",
+      "stripe_mask_sha256": "2917d4f0bf29861752d2200eea1065319fc9b49e7211aa7fc0a770705e4c363e",
+      "normalization": {
+        "hull": 0.6327041983604431,
+        "detail": 0.2943694293498993
+      },
       "hull_coverage_fraction": 0.5454828143119812,
       "stripe_coverage_fraction": 0.015340626239776611,
       "variants": {
+        "original": "textures/pd_corvette/standardized_original.png",
         "red": "textures/pd_corvette/red.png",
         "blue": "textures/pd_corvette/blue.png",
         "green": "textures/pd_corvette/green.png",
@@ -2464,7 +2121,9 @@
         "orange": "textures/pd_corvette/orange.png",
         "purple": "textures/pd_corvette/purple.png",
         "cyan": "textures/pd_corvette/cyan.png",
-        "pink": "textures/pd_corvette/pink.png"
+        "pink": "textures/pd_corvette/pink.png",
+        "white_black": "textures/pd_corvette/white_black.png",
+        "black_white": "textures/pd_corvette/black_white.png"
       }
     },
     "heavy_fighter": {
@@ -2476,9 +2135,17 @@
       "original": "textures/heavy_fighter/original.png",
       "hull_mask": "textures/heavy_fighter/hull_mask.png",
       "stripe_mask": "textures/heavy_fighter/stripe_mask.png",
+      "packed_mask": "textures/heavy_fighter/paint_mask.png",
+      "hull_mask_sha256": "d319c5bf31b2a3f39b41e2b4afa07f5daf4a243a1ad87d98771fc0c6b5adf869",
+      "stripe_mask_sha256": "c0445848cff8059321748d5d9f5f9596192265c7dc42d107012207e81c98181e",
+      "normalization": {
+        "hull": 0.6978054642677307,
+        "detail": 0.3407161235809326
+      },
       "hull_coverage_fraction": 0.10849910974502563,
       "stripe_coverage_fraction": 0.004743039608001709,
       "variants": {
+        "original": "textures/heavy_fighter/standardized_original.png",
         "red": "textures/heavy_fighter/red.png",
         "blue": "textures/heavy_fighter/blue.png",
         "green": "textures/heavy_fighter/green.png",
@@ -2486,7 +2153,9 @@
         "orange": "textures/heavy_fighter/orange.png",
         "purple": "textures/heavy_fighter/purple.png",
         "cyan": "textures/heavy_fighter/cyan.png",
-        "pink": "textures/heavy_fighter/pink.png"
+        "pink": "textures/heavy_fighter/pink.png",
+        "white_black": "textures/heavy_fighter/white_black.png",
+        "black_white": "textures/heavy_fighter/black_white.png"
       }
     },
     "interceptor": {
@@ -2498,9 +2167,17 @@
       "original": "textures/interceptor/original.png",
       "hull_mask": "textures/interceptor/hull_mask.png",
       "stripe_mask": "textures/interceptor/stripe_mask.png",
+      "packed_mask": "textures/interceptor/paint_mask.png",
+      "hull_mask_sha256": "c89d4535b05880889ceb39fde1701cb7377f02e9968bb7d66b92dfae8a894187",
+      "stripe_mask_sha256": "82966d88002f10746b4c556b006994adf37105e6c229f5412b2fdd60d1c94327",
+      "normalization": {
+        "hull": 0.8140838742256165,
+        "detail": 0.3067827522754669
+      },
       "hull_coverage_fraction": 0.08424550294876099,
       "stripe_coverage_fraction": 0.0027984976768493652,
       "variants": {
+        "original": "textures/interceptor/standardized_original.png",
         "red": "textures/interceptor/red.png",
         "blue": "textures/interceptor/blue.png",
         "green": "textures/interceptor/green.png",
@@ -2508,7 +2185,9 @@
         "orange": "textures/interceptor/orange.png",
         "purple": "textures/interceptor/purple.png",
         "cyan": "textures/interceptor/cyan.png",
-        "pink": "textures/interceptor/pink.png"
+        "pink": "textures/interceptor/pink.png",
+        "white_black": "textures/interceptor/white_black.png",
+        "black_white": "textures/interceptor/black_white.png"
       }
     },
     "missile_fighter": {
@@ -2520,9 +2199,17 @@
       "original": "textures/missile_fighter/original.png",
       "hull_mask": "textures/missile_fighter/hull_mask.png",
       "stripe_mask": "textures/missile_fighter/stripe_mask.png",
+      "packed_mask": "textures/missile_fighter/paint_mask.png",
+      "hull_mask_sha256": "3e24336ecda1c9d81cb9b82bdce33e465422b20a8a5a992b571f97f22d4aa4d0",
+      "stripe_mask_sha256": "a7ea729bad3634dbe723d53c56dfa6db2426a666e7d096fad7d5a88446a2e31a",
+      "normalization": {
+        "hull": 0.7717960476875305,
+        "detail": 0.36057835817337036
+      },
       "hull_coverage_fraction": 0.16733700037002563,
       "stripe_coverage_fraction": 0.010203182697296143,
       "variants": {
+        "original": "textures/missile_fighter/standardized_original.png",
         "red": "textures/missile_fighter/red.png",
         "blue": "textures/missile_fighter/blue.png",
         "green": "textures/missile_fighter/green.png",
@@ -2530,7 +2217,9 @@
         "orange": "textures/missile_fighter/orange.png",
         "purple": "textures/missile_fighter/purple.png",
         "cyan": "textures/missile_fighter/cyan.png",
-        "pink": "textures/missile_fighter/pink.png"
+        "pink": "textures/missile_fighter/pink.png",
+        "white_black": "textures/missile_fighter/white_black.png",
+        "black_white": "textures/missile_fighter/black_white.png"
       }
     },
     "torpedo_bomber": {
@@ -2542,9 +2231,17 @@
       "original": "textures/torpedo_bomber/original.png",
       "hull_mask": "textures/torpedo_bomber/hull_mask.png",
       "stripe_mask": "textures/torpedo_bomber/stripe_mask.png",
+      "packed_mask": "textures/torpedo_bomber/paint_mask.png",
+      "hull_mask_sha256": "939b96ee25f3de8daa8eb283bc42bbf8e78adbbb94972cb2da4e9476c2f4f370",
+      "stripe_mask_sha256": "012f24740a510dd828a62b2734a1b07d9106bfa52a1bdbc8fc65ebba052d52a6",
+      "normalization": {
+        "hull": 0.5837811827659607,
+        "detail": 0.2764086127281189
+      },
       "hull_coverage_fraction": 0.707229733467102,
       "stripe_coverage_fraction": 0.020247220993041992,
       "variants": {
+        "original": "textures/torpedo_bomber/standardized_original.png",
         "red": "textures/torpedo_bomber/red.png",
         "blue": "textures/torpedo_bomber/blue.png",
         "green": "textures/torpedo_bomber/green.png",
@@ -2552,7 +2249,9 @@
         "orange": "textures/torpedo_bomber/orange.png",
         "purple": "textures/torpedo_bomber/purple.png",
         "cyan": "textures/torpedo_bomber/cyan.png",
-        "pink": "textures/torpedo_bomber/pink.png"
+        "pink": "textures/torpedo_bomber/pink.png",
+        "white_black": "textures/torpedo_bomber/white_black.png",
+        "black_white": "textures/torpedo_bomber/black_white.png"
       }
     },
     "beam_frigate": {
@@ -2564,9 +2263,17 @@
       "original": "textures/beam_frigate/original.png",
       "hull_mask": "textures/beam_frigate/hull_mask.png",
       "stripe_mask": "textures/beam_frigate/stripe_mask.png",
+      "packed_mask": "textures/beam_frigate/paint_mask.png",
+      "hull_mask_sha256": "e187d98403a37e2ac3d301e52556acba8c7bba1c4a4d25e7aa967abf30036dc3",
+      "stripe_mask_sha256": "0992b7d7cb027769fb67ccbaf9652363364d3d22eb42ddc071cfb22a2510af12",
+      "normalization": {
+        "hull": 0.500106692314148,
+        "detail": 0.20506903529167175
+      },
       "hull_coverage_fraction": 0.3674733638763428,
       "stripe_coverage_fraction": 0.017359912395477295,
       "variants": {
+        "original": "textures/beam_frigate/standardized_original.png",
         "red": "textures/beam_frigate/red.png",
         "blue": "textures/beam_frigate/blue.png",
         "green": "textures/beam_frigate/green.png",
@@ -2574,7 +2281,9 @@
         "orange": "textures/beam_frigate/orange.png",
         "purple": "textures/beam_frigate/purple.png",
         "cyan": "textures/beam_frigate/cyan.png",
-        "pink": "textures/beam_frigate/pink.png"
+        "pink": "textures/beam_frigate/pink.png",
+        "white_black": "textures/beam_frigate/white_black.png",
+        "black_white": "textures/beam_frigate/black_white.png"
       }
     },
     "supply_frigate": {
@@ -2586,9 +2295,17 @@
       "original": "textures/supply_frigate/original.png",
       "hull_mask": "textures/supply_frigate/hull_mask.png",
       "stripe_mask": "textures/supply_frigate/stripe_mask.png",
+      "packed_mask": "textures/supply_frigate/paint_mask.png",
+      "hull_mask_sha256": "287126d0a30c2658576a19775ef028f06d828eb32748641aed43f89189163140",
+      "stripe_mask_sha256": "58a2d547b11f26df3c8f7edfe5d601d5592f0fe38c2fe868ef54cf7b65bfb427",
+      "normalization": {
+        "hull": 0.6081129312515259,
+        "detail": 0.4563460052013397
+      },
       "hull_coverage_fraction": 0.7649227380752563,
       "stripe_coverage_fraction": 0.00022459030151367188,
       "variants": {
+        "original": "textures/supply_frigate/standardized_original.png",
         "red": "textures/supply_frigate/red.png",
         "blue": "textures/supply_frigate/blue.png",
         "green": "textures/supply_frigate/green.png",
@@ -2596,7 +2313,9 @@
         "orange": "textures/supply_frigate/orange.png",
         "purple": "textures/supply_frigate/purple.png",
         "cyan": "textures/supply_frigate/cyan.png",
-        "pink": "textures/supply_frigate/pink.png"
+        "pink": "textures/supply_frigate/pink.png",
+        "white_black": "textures/supply_frigate/white_black.png",
+        "black_white": "textures/supply_frigate/black_white.png"
       }
     },
     "cargo_pod": {
@@ -2608,9 +2327,17 @@
       "original": "textures/cargo_pod/original.png",
       "hull_mask": "textures/cargo_pod/hull_mask.png",
       "stripe_mask": "textures/cargo_pod/stripe_mask.png",
+      "packed_mask": "textures/cargo_pod/paint_mask.png",
+      "hull_mask_sha256": "c9851ece3c48f972ee2a37b357005d9c364eb895a1d818a41876288ed15bc43a",
+      "stripe_mask_sha256": "c18b0196d2224cc666d7527871f4c00067eabc34e543f4168b8e94e09497f8db",
+      "normalization": {
+        "hull": 0.5997866988182068,
+        "detail": 0.36022356152534485
+      },
       "hull_coverage_fraction": 0.7070116996765137,
       "stripe_coverage_fraction": 0.014686346054077148,
       "variants": {
+        "original": "textures/cargo_pod/standardized_original.png",
         "red": "textures/cargo_pod/red.png",
         "blue": "textures/cargo_pod/blue.png",
         "green": "textures/cargo_pod/green.png",
@@ -2618,7 +2345,9 @@
         "orange": "textures/cargo_pod/orange.png",
         "purple": "textures/cargo_pod/purple.png",
         "cyan": "textures/cargo_pod/cyan.png",
-        "pink": "textures/cargo_pod/pink.png"
+        "pink": "textures/cargo_pod/pink.png",
+        "white_black": "textures/cargo_pod/white_black.png",
+        "black_white": "textures/cargo_pod/black_white.png"
       }
     },
     "construction_drone": {
@@ -2630,9 +2359,17 @@
       "original": "textures/construction_drone/original.png",
       "hull_mask": "textures/construction_drone/hull_mask.png",
       "stripe_mask": "textures/construction_drone/stripe_mask.png",
+      "packed_mask": "textures/construction_drone/paint_mask.png",
+      "hull_mask_sha256": "07ef86c5e59f1e1e9c0b62da2a8516d5c2cbfbcd05bff1ce18889ec24cde81b7",
+      "stripe_mask_sha256": "bb038020f48acc805dbcedb0c37938bdf6d653ce4fcd13e802d5197449b3fa5f",
+      "normalization": {
+        "hull": 0.44971296191215515,
+        "detail": 0.2572023570537567
+      },
       "hull_coverage_fraction": 0.5796790719032288,
       "stripe_coverage_fraction": 0.014249980449676514,
       "variants": {
+        "original": "textures/construction_drone/standardized_original.png",
         "red": "textures/construction_drone/red.png",
         "blue": "textures/construction_drone/blue.png",
         "green": "textures/construction_drone/green.png",
@@ -2640,7 +2377,9 @@
         "orange": "textures/construction_drone/orange.png",
         "purple": "textures/construction_drone/purple.png",
         "cyan": "textures/construction_drone/cyan.png",
-        "pink": "textures/construction_drone/pink.png"
+        "pink": "textures/construction_drone/pink.png",
+        "white_black": "textures/construction_drone/white_black.png",
+        "black_white": "textures/construction_drone/black_white.png"
       }
     },
     "resource_collector": {
@@ -2652,9 +2391,17 @@
       "original": "textures/resource_collector/original.png",
       "hull_mask": "textures/resource_collector/hull_mask.png",
       "stripe_mask": "textures/resource_collector/stripe_mask.png",
+      "packed_mask": "textures/resource_collector/paint_mask.png",
+      "hull_mask_sha256": "978e04bf161a020c7676ca240be877d0f066728db0e7f9f1b3443b3a612425ad",
+      "stripe_mask_sha256": "f09ebf4ab56c4bfe7369464762df81dd6f1e9b093c2cf01f92f881685d0caeca",
+      "normalization": {
+        "hull": 0.5059834718704224,
+        "detail": 0.3522752821445465
+      },
       "hull_coverage_fraction": 0.7263684868812561,
       "stripe_coverage_fraction": 0.01598149538040161,
       "variants": {
+        "original": "textures/resource_collector/standardized_original.png",
         "red": "textures/resource_collector/red.png",
         "blue": "textures/resource_collector/blue.png",
         "green": "textures/resource_collector/green.png",
@@ -2662,7 +2409,9 @@
         "orange": "textures/resource_collector/orange.png",
         "purple": "textures/resource_collector/purple.png",
         "cyan": "textures/resource_collector/cyan.png",
-        "pink": "textures/resource_collector/pink.png"
+        "pink": "textures/resource_collector/pink.png",
+        "white_black": "textures/resource_collector/white_black.png",
+        "black_white": "textures/resource_collector/black_white.png"
       }
     },
     "supply_drone": {
@@ -2674,9 +2423,17 @@
       "original": "textures/supply_drone/original.png",
       "hull_mask": "textures/supply_drone/hull_mask.png",
       "stripe_mask": "textures/supply_drone/stripe_mask.png",
+      "packed_mask": "textures/supply_drone/paint_mask.png",
+      "hull_mask_sha256": "09d799acd11f017fe85bc2cad4f86518403053194c7568d60e7118ddd52eae79",
+      "stripe_mask_sha256": "3b695f83b3caf7737f783bc128ac37a19f07e7a23fb9464276dff89d0ac82fed",
+      "normalization": {
+        "hull": 0.6453686356544495,
+        "detail": 0.20633019506931305
+      },
       "hull_coverage_fraction": 0.4538004994392395,
       "stripe_coverage_fraction": 0.013169467449188232,
       "variants": {
+        "original": "textures/supply_drone/standardized_original.png",
         "red": "textures/supply_drone/red.png",
         "blue": "textures/supply_drone/blue.png",
         "green": "textures/supply_drone/green.png",
@@ -2684,7 +2441,9 @@
         "orange": "textures/supply_drone/orange.png",
         "purple": "textures/supply_drone/purple.png",
         "cyan": "textures/supply_drone/cyan.png",
-        "pink": "textures/supply_drone/pink.png"
+        "pink": "textures/supply_drone/pink.png",
+        "white_black": "textures/supply_drone/white_black.png",
+        "black_white": "textures/supply_drone/black_white.png"
       }
     },
     "flak_turret": {
@@ -2696,9 +2455,17 @@
       "original": "textures/flak_turret/original.png",
       "hull_mask": "textures/flak_turret/hull_mask.png",
       "stripe_mask": "textures/flak_turret/stripe_mask.png",
+      "packed_mask": "textures/flak_turret/paint_mask.png",
+      "hull_mask_sha256": "458e2c14019773eb4d51c1c6c494cbba117e93fa7875956608c62dfd858a0c1d",
+      "stripe_mask_sha256": "fd17ba569474a53267c13350fd9363d0dc340083b4cc9495ea64e424026a38c9",
+      "normalization": {
+        "hull": 0.624916136264801,
+        "detail": 0.32735297083854675
+      },
       "hull_coverage_fraction": 0.3763394355773926,
       "stripe_coverage_fraction": 0.012752771377563477,
       "variants": {
+        "original": "textures/flak_turret/standardized_original.png",
         "red": "textures/flak_turret/red.png",
         "blue": "textures/flak_turret/blue.png",
         "green": "textures/flak_turret/green.png",
@@ -2706,7 +2473,9 @@
         "orange": "textures/flak_turret/orange.png",
         "purple": "textures/flak_turret/purple.png",
         "cyan": "textures/flak_turret/cyan.png",
-        "pink": "textures/flak_turret/pink.png"
+        "pink": "textures/flak_turret/pink.png",
+        "white_black": "textures/flak_turret/white_black.png",
+        "black_white": "textures/flak_turret/black_white.png"
       }
     },
     "gatling_turret": {
@@ -2718,9 +2487,17 @@
       "original": "textures/gatling_turret/original.png",
       "hull_mask": "textures/gatling_turret/hull_mask.png",
       "stripe_mask": "textures/gatling_turret/stripe_mask.png",
+      "packed_mask": "textures/gatling_turret/paint_mask.png",
+      "hull_mask_sha256": "a43d75a8702b6e419db2413183521bd36e7a69a987ef3e75ae406f2d26a1b058",
+      "stripe_mask_sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "normalization": {
+        "hull": 0.6115152835845947,
+        "detail": 0.245
+      },
       "hull_coverage_fraction": 0.1273946762084961,
       "stripe_coverage_fraction": 0.0,
       "variants": {
+        "original": "textures/gatling_turret/standardized_original.png",
         "red": "textures/gatling_turret/red.png",
         "blue": "textures/gatling_turret/blue.png",
         "green": "textures/gatling_turret/green.png",
@@ -2728,7 +2505,9 @@
         "orange": "textures/gatling_turret/orange.png",
         "purple": "textures/gatling_turret/purple.png",
         "cyan": "textures/gatling_turret/cyan.png",
-        "pink": "textures/gatling_turret/pink.png"
+        "pink": "textures/gatling_turret/pink.png",
+        "white_black": "textures/gatling_turret/white_black.png",
+        "black_white": "textures/gatling_turret/black_white.png"
       }
     },
     "laser_turret": {
@@ -2740,9 +2519,17 @@
       "original": "textures/laser_turret/original.png",
       "hull_mask": "textures/laser_turret/hull_mask.png",
       "stripe_mask": "textures/laser_turret/stripe_mask.png",
+      "packed_mask": "textures/laser_turret/paint_mask.png",
+      "hull_mask_sha256": "6193fbda66a31029bd250a8574e7670cd26b2ff5a239b602b961fbce4b6ce3da",
+      "stripe_mask_sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "normalization": {
+        "hull": 0.6081600189208984,
+        "detail": 0.245
+      },
       "hull_coverage_fraction": 0.19931721687316895,
       "stripe_coverage_fraction": 0.0,
       "variants": {
+        "original": "textures/laser_turret/standardized_original.png",
         "red": "textures/laser_turret/red.png",
         "blue": "textures/laser_turret/blue.png",
         "green": "textures/laser_turret/green.png",
@@ -2750,7 +2537,9 @@
         "orange": "textures/laser_turret/orange.png",
         "purple": "textures/laser_turret/purple.png",
         "cyan": "textures/laser_turret/cyan.png",
-        "pink": "textures/laser_turret/pink.png"
+        "pink": "textures/laser_turret/pink.png",
+        "white_black": "textures/laser_turret/white_black.png",
+        "black_white": "textures/laser_turret/black_white.png"
       }
     },
     "quad_turret": {
@@ -2762,9 +2551,17 @@
       "original": "textures/quad_turret/original.png",
       "hull_mask": "textures/quad_turret/hull_mask.png",
       "stripe_mask": "textures/quad_turret/stripe_mask.png",
+      "packed_mask": "textures/quad_turret/paint_mask.png",
+      "hull_mask_sha256": "a048754d3163793d1cc162d01ff7c728ecb983b9ab7580ae2796d1dde00cded4",
+      "stripe_mask_sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "normalization": {
+        "hull": 0.5888352990150452,
+        "detail": 0.245
+      },
       "hull_coverage_fraction": 0.20823359489440918,
       "stripe_coverage_fraction": 0.0,
       "variants": {
+        "original": "textures/quad_turret/standardized_original.png",
         "red": "textures/quad_turret/red.png",
         "blue": "textures/quad_turret/blue.png",
         "green": "textures/quad_turret/green.png",
@@ -2772,29 +2569,9 @@
         "orange": "textures/quad_turret/orange.png",
         "purple": "textures/quad_turret/purple.png",
         "cyan": "textures/quad_turret/cyan.png",
-        "pink": "textures/quad_turret/pink.png"
-      }
-    },
-    "carrier_shared": {
-      "size": [
-        2048,
-        2048
-      ],
-      "source_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
-      "original": "textures/carrier_shared/original.png",
-      "hull_mask": "textures/carrier_shared/hull_mask.png",
-      "stripe_mask": "textures/carrier_shared/stripe_mask.png",
-      "hull_coverage_fraction": 0.125,
-      "stripe_coverage_fraction": 0.0625,
-      "variants": {
-        "red": "textures/carrier_shared/red.png",
-        "blue": "textures/carrier_shared/blue.png",
-        "green": "textures/carrier_shared/green.png",
-        "yellow": "textures/carrier_shared/yellow.png",
-        "orange": "textures/carrier_shared/orange.png",
-        "purple": "textures/carrier_shared/purple.png",
-        "cyan": "textures/carrier_shared/cyan.png",
-        "pink": "textures/carrier_shared/pink.png"
+        "pink": "textures/quad_turret/pink.png",
+        "white_black": "textures/quad_turret/white_black.png",
+        "black_white": "textures/quad_turret/black_white.png"
       }
     }
   },
@@ -2842,18 +2619,6 @@
     "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\quad\\quad_turret.glb": "491fa8137edce0e4e26b3e1be352a0f33590d648b38368e89fd0828db88abf63",
     "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship.glb": "0c4cb9e2f8359a32f651adfccc9fa56e5c18b215b836ab7e850f6e0cc1e51971",
     "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod1.glb": "b0d08cf053f7e2b759611d8bd9a7cdd6b7deb731990c0486bc2bb8b1c0bcc8cc",
-    "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb": "2caa11cde05a645062bfdfc870560fd3e33403a4109be72d86a8717fd9640efc",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb": "0aab3857df9cea21897b9f52cc60e1e71a61ffd7ee5db9d8e51b13a354fa6c00",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb": "1a19bd84a5f6d4a7aa71d57c6447aeaae726704aa5eab4ae3d729efdda80a1e6",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb": "2e807ac712eb69befc976d4ca64c7d6ad0c179cdd1e022dabd76c80646d1d01b",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb": "70fb61fbcae75497373325454381e5bb7dec440800300746bb6196f983533335",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb": "c3885b28952dbd61737cb5c92be7cd353635f71da3b53a1be76fb960697b060f",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb": "23ca0a09afc81129b2553dec35af3d3a93a99035180937a3a0c41bc5c3641edd",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb": "0caa5469608bc60940c2b3cc8a5ca4fa99fde047aa74b95404e774093909383c",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb": "8020c2cf512244ecff6d1007d3b095b186cb695b53ffcba7932ad7b33badf54f",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb": "5cbfad5bd2d747bdd7ede3f7f794e972ede3e340b6800bc8f044c08c7e19e8d6",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb": "14fc04d7f21f73f55757a12241bd60ca1921f3c7f19f689c0a1f60fbf7d8d84c",
-    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb": "d2c8fc3d9767e2eef87f024cfa683f8b584c877c136d370505c484fba67328b4",
-    "C:\\Dev\\BlenderMCP\\artwork\\carrier\\blender\\carrier_source.blend1": "e1df4e3399c2e830e759a5eb973473772d841883d15bc737d0edc7d05ccb548c"
+    "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb": "2caa11cde05a645062bfdfc870560fd3e33403a4109be72d86a8717fd9640efc"
   }
 }

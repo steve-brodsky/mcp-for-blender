@@ -5,6 +5,11 @@
     "exit_code": 0
   },
   {
+    "asset": "flak_corvette",
+    "ok": true,
+    "exit_code": 0
+  },
+  {
     "asset": "pd_corvette",
     "ok": true,
     "exit_code": 0
@@ -65,11 +70,6 @@
     "exit_code": 0
   },
   {
-    "asset": "flak_turret",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
     "asset": "gatling_turret",
     "ok": true,
     "exit_code": 0
@@ -86,61 +86,6 @@
   },
   {
     "asset": "supply_ship",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_aux_reactor",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_fighter_operations",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_fire_control",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_heavy_beam",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_heavy_kinetic",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_medium_assault",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_missile_launcher",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_point_defense",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_sensor_array",
-    "ok": true,
-    "exit_code": 0
-  },
-  {
-    "asset": "carrier_shield_generator",
     "ok": true,
     "exit_code": 0
   }

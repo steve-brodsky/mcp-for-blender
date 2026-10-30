@@ -1,0 +1,10 @@
+# Keep the reproducible pipeline despite the repository-wide scripts/ rule.
+!scripts/
+!scripts/*.py
+!tests/
+!tests/*.py
+!tests/*.cjs
+
+# Local engine/test caches; full-resolution art binaries follow the root rules.
+integration/.godot/
+integration/.userdata/

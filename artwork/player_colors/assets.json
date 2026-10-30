@@ -1,0 +1,10 @@
+{
+  "excluded_prefixes": ["carrier"],
+  "extra_sources": {},
+  "solid_roles": {
+    "Oxide red accents": "stripe",
+    "Hull matched hangar Starboard": "hull",
+    "Rack | warm hull ceramic": "hull"
+  },
+  "normalization_overrides": {}
+}

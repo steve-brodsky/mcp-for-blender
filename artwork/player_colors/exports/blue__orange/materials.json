@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "hull": "blue",
+  "detail": "orange",
+  "recipe_sha256": "0cb232505c305127e27d37073e3f8fe66d33877de1d58f1d3073885e234be6fe",
+  "asset_ids": [
+    "interceptor",
+    "torpedo_mounting_rack"
+  ],
+  "files": {
+    "textures/interceptor.png": "7e3135235fcae2cfd971120f2d2fbe2ac2abcb54823e1d1c6c8ab81c3fc6e8b7"
+  },
+  "texture_sets": {
+    "interceptor": "textures/interceptor.png"
+  },
+  "assets": [
+    {
+      "id": "interceptor",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor.glb",
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod1.glb",
+          "material_bindings": [],
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 1,
+              "source_material_index": 1
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 2,
+              "source_material_index": 2
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 3,
+              "source_material_index": 3
+            }
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb",
+          "material_bindings": [],
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 1,
+              "source_material_index": 1
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 2,
+              "source_material_index": 2
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 3,
+              "source_material_index": 3
+            }
+          ],
+          "usage": "Assign the LOD0 variant material to each listed mesh surface, including geometry-only LODs."
+        }
+      ],
+      "materials": [
+        {
+          "index": 0,
+          "name": "Interceptor_CleanPaint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "966a9eda85feb3030259a05acd243d42955e09dfc4ecb184b0260cef4f345b1f",
+          "texture_coordinate": 0,
+          "texture_set": "interceptor",
+          "albedo_texture": "textures/interceptor.png"
+        },
+        {
+          "index": 1,
+          "name": "Sealed attachment metal",
+          "original_base_color_factor": [
+            0.07000000029802322,
+            0.08500000089406967,
+            0.10000000149011612,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 2,
+          "name": "Engine coupling brushed titanium",
+          "original_base_color_factor": [
+            0.10499999672174454,
+            0.125,
+            0.15000000596046448,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 3,
+          "name": "Engine coupling retaining rings",
+          "original_base_color_factor": [
+            0.2199999988079071,
+            0.25,
+            0.28999999165534973,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        }
+      ]
+    },
+    {
+      "id": "torpedo_mounting_rack",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_mounting_rack.glb",
+      "lods": [],
+      "materials": [
+        {
+          "index": 0,
+          "name": "Rack | warm hull ceramic",
+          "original_base_color_factor": [
+            0.4300000071525574,
+            0.4050000011920929,
+            0.3449999988079071,
+            1
+          ],
+          "action": "replace_base_color_factor",
+          "preserve_other_material_properties": true,
+          "role": "hull",
+          "base_color_factor": [
+            0.34191444516181946,
+            0.45641106367111206,
+            0.6038274168968201,
+            1
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Rack | graphite titanium",
+          "original_base_color_factor": [
+            0.12999999523162842,
+            0.1550000011920929,
+            0.17000000178813934,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 2,
+          "name": "Rack | machined edges",
+          "original_base_color_factor": [
+            0.3400000035762787,
+            0.38499999046325684,
+            0.41999998688697815,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 3,
+          "name": "Rack | ochre release latch",
+          "original_base_color_factor": [
+            0.6200000047683716,
+            0.3499999940395355,
+            0.04500000178813934,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        }
+      ]
+    }
+  ]
+}

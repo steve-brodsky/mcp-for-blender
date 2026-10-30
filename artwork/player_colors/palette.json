@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "hull_colors": {
+    "ivory": {"label": "Original ivory", "srgb": "#c9c4b2"},
+    "red": {"label": "Red", "srgb": "#c89f9d"},
+    "blue": {"label": "Blue", "srgb": "#9eb4cc"},
+    "green": {"label": "Green", "srgb": "#a4c0a9"},
+    "yellow": {"label": "Yellow", "srgb": "#d1c797"},
+    "orange": {"label": "Orange", "srgb": "#d3b79a"},
+    "purple": {"label": "Purple", "srgb": "#b9a8ca"},
+    "cyan": {"label": "Cyan", "srgb": "#9ac5c8"},
+    "pink": {"label": "Pink", "srgb": "#d1aabe"},
+    "white": {"label": "White", "srgb": "#eceeed"},
+    "black": {"label": "Black", "srgb": "#22262c"}
+  },
+  "detail_colors": {
+    "oxide": {"label": "Original oxide red", "srgb": "#a13931"},
+    "red": {"label": "Red", "srgb": "#8b222b"},
+    "blue": {"label": "Blue", "srgb": "#244b9c"},
+    "green": {"label": "Green", "srgb": "#26703f"},
+    "yellow": {"label": "Yellow", "srgb": "#9b7b12"},
+    "orange": {"label": "Orange", "srgb": "#a94b17"},
+    "purple": {"label": "Purple", "srgb": "#693195"},
+    "cyan": {"label": "Cyan", "srgb": "#127489"},
+    "pink": {"label": "Pink", "srgb": "#a12b6b"},
+    "white": {"label": "White", "srgb": "#eceeed"},
+    "black": {"label": "Black", "srgb": "#181b21"}
+  },
+  "presets": {
+    "original": {"label": "Standardized original", "hull": "ivory", "detail": "oxide"},
+    "red": {"label": "Red", "hull": "red", "detail": "red"},
+    "blue": {"label": "Blue", "hull": "blue", "detail": "blue"},
+    "green": {"label": "Green", "hull": "green", "detail": "green"},
+    "yellow": {"label": "Yellow", "hull": "yellow", "detail": "yellow"},
+    "orange": {"label": "Orange", "hull": "orange", "detail": "orange"},
+    "purple": {"label": "Purple", "hull": "purple", "detail": "purple"},
+    "cyan": {"label": "Cyan", "hull": "cyan", "detail": "cyan"},
+    "pink": {"label": "Pink", "hull": "pink", "detail": "pink"},
+    "white_black": {"label": "White hull / black details", "hull": "white", "detail": "black"},
+    "black_white": {"label": "Black hull / white details", "hull": "black", "detail": "white"}
+  },
+  "normalization": {"percentile": 65, "mask_confidence": 200, "sample_stride": 4, "fallback_hull": 0.72, "fallback_detail": 0.245}
+}
