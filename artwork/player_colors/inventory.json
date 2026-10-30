@@ -1,0 +1,2398 @@
+[
+  {
+    "asset": "mothership",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\capital_ships\\mothership\\mothership.glb",
+    "sha256": "5cad4ec14a954b24eaaf926265e19b877186514365b6058e9ca72b7e40610d0d",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Hull_Detailed_Final",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          8192,
+          8192
+        ],
+        "image_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28"
+      },
+      {
+        "index": 1,
+        "name": "Cannon_Bore_Soot",
+        "pbr": {
+          "baseColorFactor": [
+            0.012000000104308128,
+            0.017999999225139618,
+            0.02500000037252903,
+            1
+          ],
+          "metallicFactor": 0.18000000715255737,
+          "roughnessFactor": 0.8299999833106995
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 2,
+        "name": "Hangar titanium",
+        "pbr": {
+          "baseColorFactor": [
+            0.054999999701976776,
+            0.07500000298023224,
+            0.10000000149011612,
+            1
+          ],
+          "metallicFactor": 0.6499999761581421,
+          "roughnessFactor": 0.3400000035762787
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 3,
+        "name": "Recessed bulkheads",
+        "pbr": {
+          "baseColorFactor": [
+            0.012000000104308128,
+            0.020999999716877937,
+            0.03200000151991844,
+            1
+          ],
+          "metallicFactor": 0.4000000059604645,
+          "roughnessFactor": 0.47999998927116394
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 4,
+        "name": "Ion blue guides",
+        "pbr": {
+          "baseColorFactor": [
+            0.019999999552965164,
+            0.23999999463558197,
+            0.6499999761581421,
+            1
+          ],
+          "metallicFactor": 0.20000000298023224,
+          "roughnessFactor": 0.23999999463558197
+        },
+        "emissiveFactor": [
+          0.014999999664723873,
+          0.3199999928474426,
+          1
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 5,
+        "name": "Machined edges",
+        "pbr": {
+          "baseColorFactor": [
+            0.27000001072883606,
+            0.3400000035762787,
+            0.38999998569488525,
+            1
+          ],
+          "metallicFactor": 0.800000011920929,
+          "roughnessFactor": 0.30000001192092896
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 6,
+        "name": "Safety ochre",
+        "pbr": {
+          "baseColorFactor": [
+            0.6499999761581421,
+            0.3799999952316284,
+            0.054999999701976776,
+            1
+          ],
+          "metallicFactor": 0.25,
+          "roughnessFactor": 0.4300000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 7,
+        "name": "Service lights",
+        "pbr": {
+          "baseColorFactor": [
+            0.8999999761581421,
+            0.550000011920929,
+            0.18000000715255737,
+            1
+          ],
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.30000001192092896
+        },
+        "emissiveFactor": [
+          1,
+          0.47999998927116394,
+          0.11999999731779099
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 8,
+        "name": "Oxide red accents",
+        "pbr": {
+          "baseColorFactor": [
+            0.3100000023841858,
+            0.04500000178813934,
+            0.027000000700354576,
+            1
+          ],
+          "metallicFactor": 0.25,
+          "roughnessFactor": 0.4300000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 9,
+        "name": "Forcefield blue membrane",
+        "pbr": {
+          "baseColorFactor": [
+            0.02500000037252903,
+            0.2199999988079071,
+            0.699999988079071,
+            0.10000000149011612
+          ],
+          "metallicFactor": 0.10000000149011612,
+          "roughnessFactor": 0.20000000298023224
+        },
+        "emissiveFactor": [
+          0.009749999424442657,
+          0.1170000003576277,
+          0.4224999690055853
+        ],
+        "alphaMode": "BLEND"
+      },
+      {
+        "index": 10,
+        "name": "Hull matched hangar Starboard",
+        "pbr": {
+          "baseColorFactor": [
+            0.6899999976158142,
+            0.6399999856948853,
+            0.5099999904632568,
+            1
+          ],
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 11,
+        "name": "Hull_Detailed_Final",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 1
+          },
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          8192,
+          8192
+        ],
+        "image_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28"
+      },
+      {
+        "index": 12,
+        "name": "Engine_Bridge_Cut_Interior",
+        "pbr": {
+          "baseColorFactor": [
+            0.026000000536441803,
+            0.029999999329447746,
+            0.03500000014901161,
+            1
+          ],
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      }
+    ]
+  },
+  {
+    "asset": "flak_corvette",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette.glb",
+    "sha256": "99bd61befe92cd0929b121df2ee7216768a008103a0aabc3af4a018d1d19fc5a",
+    "materials": [
+      {
+        "index": 0,
+        "name": "FlakCorvette_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "ecefa30191a591dfdadee9c859e755b658f5064c56bfa32d5b5ef6d08ad8cb44"
+      }
+    ]
+  },
+  {
+    "asset": "pd_corvette",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette.glb",
+    "sha256": "88bdd25653c46ca5f77cad830c534b4d49a141f23b2880dc82d85ef65848f2e2",
+    "materials": [
+      {
+        "index": 0,
+        "name": "PDCorvette_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "b0423d3a20c8b56ed9cee8331da1a281842477744f9351e4599bee43ae54278d"
+      }
+    ]
+  },
+  {
+    "asset": "heavy_fighter",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter.glb",
+    "sha256": "5cd59b72e4328336ba7038cf59a6ed6e10cb5006d1b07601b6f63bf936e26b9e",
+    "materials": [
+      {
+        "index": 0,
+        "name": "HeavyFighter_CleanPaint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "6146eae48e67efc90a80acc8f7e2fdb352a83a8955869e3c8bb1e595dd2b4197"
+      }
+    ]
+  },
+  {
+    "asset": "interceptor",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor.glb",
+    "sha256": "9ff55584053ffc1fec85aa04dde066588aa8d6b3be2c2e14b8bea9b5620d494c",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Interceptor_CleanPaint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "966a9eda85feb3030259a05acd243d42955e09dfc4ecb184b0260cef4f345b1f"
+      },
+      {
+        "index": 1,
+        "name": "Sealed attachment metal",
+        "pbr": {
+          "baseColorFactor": [
+            0.07000000029802322,
+            0.08500000089406967,
+            0.10000000149011612,
+            1
+          ],
+          "metallicFactor": 0.6499999761581421,
+          "roughnessFactor": 0.550000011920929
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 2,
+        "name": "Engine coupling brushed titanium",
+        "pbr": {
+          "baseColorFactor": [
+            0.10499999672174454,
+            0.125,
+            0.15000000596046448,
+            1
+          ],
+          "metallicFactor": 0.800000011920929,
+          "roughnessFactor": 0.36000001430511475
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 3,
+        "name": "Engine coupling retaining rings",
+        "pbr": {
+          "baseColorFactor": [
+            0.2199999988079071,
+            0.25,
+            0.28999999165534973,
+            1
+          ],
+          "metallicFactor": 0.8500000238418579,
+          "roughnessFactor": 0.33000001311302185
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      }
+    ]
+  },
+  {
+    "asset": "missile_fighter",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter.glb",
+    "sha256": "4809aaf283a2afa2ae57011a415c49a13f1625e968b68f3bd5dd40126ad57c87",
+    "materials": [
+      {
+        "index": 0,
+        "name": "MissileFighter_CleanPaint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.11999999731779099,
+          "roughnessFactor": 0.6800000071525574
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "f056dd517d9232cbcfaba9da77469cc2a912a3cf5abbeddee53e58cafd2fc7ad"
+      }
+    ]
+  },
+  {
+    "asset": "torpedo_bomber",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber.glb",
+    "sha256": "a60f85feee19f25c7a4ec37eb7e998593b2d7133b65c106eda806d3a4f8b19ef",
+    "materials": [
+      {
+        "index": 0,
+        "name": "TorpedoBomber_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "7a174e2bb23313c20970ca21ba507278f290b29ee2cbf707e9169e9c4db03724"
+      }
+    ]
+  },
+  {
+    "asset": "torpedo_mounting_rack",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_mounting_rack.glb",
+    "sha256": "7dab5c85510ad5d2f4701c0d8432eab2eefe6f781345aaeffd3d89efeef4556b",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Rack | warm hull ceramic",
+        "pbr": {
+          "baseColorFactor": [
+            0.4300000071525574,
+            0.4050000011920929,
+            0.3449999988079071,
+            1
+          ],
+          "metallicFactor": 0.5,
+          "roughnessFactor": 0.5799999833106995
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 1,
+        "name": "Rack | graphite titanium",
+        "pbr": {
+          "baseColorFactor": [
+            0.12999999523162842,
+            0.1550000011920929,
+            0.17000000178813934,
+            1
+          ],
+          "metallicFactor": 0.800000011920929,
+          "roughnessFactor": 0.3799999952316284
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 2,
+        "name": "Rack | machined edges",
+        "pbr": {
+          "baseColorFactor": [
+            0.3400000035762787,
+            0.38499999046325684,
+            0.41999998688697815,
+            1
+          ],
+          "metallicFactor": 0.8799999952316284,
+          "roughnessFactor": 0.28999999165534973
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "index": 3,
+        "name": "Rack | ochre release latch",
+        "pbr": {
+          "baseColorFactor": [
+            0.6200000047683716,
+            0.3499999940395355,
+            0.04500000178813934,
+            1
+          ],
+          "metallicFactor": 0.5,
+          "roughnessFactor": 0.4300000071525574
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE"
+      }
+    ]
+  },
+  {
+    "asset": "beam_frigate",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate.glb",
+    "sha256": "d89ecda0c007334fd5e22f57ffcc0eb88e04b91e158d44b9c54861db37059dfe",
+    "materials": [
+      {
+        "index": 0,
+        "name": "BeamFrigate_CleanPaint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "3fa3253bb456f0e280287f184200e326834085011bb4d60d229fbd4bbc136c88"
+      }
+    ]
+  },
+  {
+    "asset": "supply_frigate",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate.glb",
+    "sha256": "a153f3d0d84e255bf50cf9e1975e9749875bd5a951c0185c90ae74eb49f328db",
+    "materials": [
+      {
+        "index": 0,
+        "name": "SupplyFrigate_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "e41e85f800f7524aae3e56c63cafdc9cb9983c4076a4f1e8cb327ddd230b91dc"
+      }
+    ]
+  },
+  {
+    "asset": "cargo_pod",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod.glb",
+    "sha256": "cfe5bd09b6c77d4c9b16b24e261a8b2e83f74e2f6f66340a0761a3673c6938ac",
+    "materials": [
+      {
+        "index": 0,
+        "name": "CargoPod_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "47c6e49f760c773946f46607d8069dfec72d8b581a519cdcb2eaa0f5028fa97f"
+      }
+    ]
+  },
+  {
+    "asset": "construction_drone",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone.glb",
+    "sha256": "d0e472e7efb76d155cad146d1845b8d4f8cf5714381f2e4c7983eab2ba5573fb",
+    "materials": [
+      {
+        "index": 0,
+        "name": "ConstructionDrone_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "4d98e15d4b82fc9d99440ab3a66e1b8c1133d5ca4a626d077f47353087208912"
+      }
+    ]
+  },
+  {
+    "asset": "resource_collector",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector.glb",
+    "sha256": "a74150ff09223e0e37ad7280ce44390f2926f96a2f2f71783e3c44bad2116983",
+    "materials": [
+      {
+        "index": 0,
+        "name": "ResourceCollector_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "baa0a3031dd27505d0c0c4f04e9ae5dcd7db40cbbdf78c4eca059de682637268"
+      }
+    ]
+  },
+  {
+    "asset": "supply_drone",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone.glb",
+    "sha256": "a4323a914575af7484d1605017bda630e2f96c39a05327711e2bcbbfac7b4a4e",
+    "materials": [
+      {
+        "index": 0,
+        "name": "SupplyDrone_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "2ad1d5e8c9205ef5282eec659ea3c152886075966f6b6cc96400161c0ad8a6d7"
+      }
+    ]
+  },
+  {
+    "asset": "flak_turret",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\flak\\flak_turret.glb",
+    "sha256": "da48ea6086fd00144be033add5f62fa561b39a570cbde04fc9a95dc6bae28af8",
+    "materials": [
+      {
+        "index": 0,
+        "name": "FlakTurret_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "ddb7f933d63b6387d26e6772536b649ed0ecbc8ec42cd28105964ef26c3dcd49"
+      }
+    ]
+  },
+  {
+    "asset": "gatling_turret",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\gatling\\gatling_turret.glb",
+    "sha256": "6d9e8e5a0c35a7e598e981662d3eb358be975e42e14f1701d9eceaadd7b88a11",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Gatling_Turret_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "dcc3614a9d6e1a41eb61865c028dc3f51a54fa47b79bca1e596298f4f9f12f99"
+      }
+    ]
+  },
+  {
+    "asset": "laser_turret",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\laser\\laser_turret.glb",
+    "sha256": "a77c9fa6a7245d7f6388594a2a480aab07628d5d32d87c5b3677784e0db88239",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Laser_Turret_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "f506e5e3b5d575742ecc15f3a3b185971b768435ee4dc654daf1fcb0a3a5d974"
+      }
+    ]
+  },
+  {
+    "asset": "quad_turret",
+    "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\quad\\quad_turret.glb",
+    "sha256": "491fa8137edce0e4e26b3e1be352a0f33590d648b38368e89fd0828db88abf63",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Quad_Turret_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "89d787acb0e4a09d053ace25060607c9afcbf5f5e722fdad9398c4d18763ed91"
+      }
+    ]
+  },
+  {
+    "asset": "supply_ship",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship.glb",
+    "sha256": "0c4cb9e2f8359a32f651adfccc9fa56e5c18b215b836ab7e850f6e0cc1e51971",
+    "materials": [
+      {
+        "index": 0,
+        "name": "SupplyShip_Paint_PBR",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.15000000596046448,
+          "roughnessFactor": 0.6200000047683716
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          4096,
+          4096
+        ],
+        "image_sha256": "baa0a3031dd27505d0c0c4f04e9ae5dcd7db40cbbdf78c4eca059de682637268"
+      }
+    ]
+  },
+  {
+    "asset": "carrier",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb",
+    "sha256": "0aab3857df9cea21897b9f52cc60e1e71a61ffd7ee5db9d8e51b13a354fa6c00",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Ion / blue",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicRoughnessTexture": {
+            "index": 9
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Aperture / black",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 11
+          },
+          "metallicRoughnessTexture": {
+            "index": 12
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 5,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 6,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 20
+          },
+          "metallicRoughnessTexture": {
+            "index": 21
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 7,
+        "name": "Guidance / cyan",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 8,
+        "name": "Safety / amber",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 28
+          },
+          "metallicRoughnessTexture": {
+            "index": 29
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_aux_reactor",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb",
+    "sha256": "1a19bd84a5f6d4a7aa71d57c6447aeaae726704aa5eab4ae3d729efdda80a1e6",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Ion / blue",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_fighter_operations",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb",
+    "sha256": "2e807ac712eb69befc976d4ca64c7d6ad0c179cdd1e022dabd76c80646d1d01b",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 13
+          },
+          "metallicRoughnessTexture": {
+            "index": 14
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 5,
+        "name": "Guidance / cyan",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_fire_control",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb",
+    "sha256": "70fb61fbcae75497373325454381e5bb7dec440800300746bb6196f983533335",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Guidance / cyan",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_heavy_beam",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb",
+    "sha256": "c3885b28952dbd61737cb5c92be7cd353635f71da3b53a1be76fb960697b060f",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Ion / blue",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicRoughnessTexture": {
+            "index": 9
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 11
+          },
+          "metallicRoughnessTexture": {
+            "index": 12
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 5,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_heavy_kinetic",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb",
+    "sha256": "23ca0a09afc81129b2553dec35af3d3a93a99035180937a3a0c41bc5c3641edd",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 13
+          },
+          "metallicRoughnessTexture": {
+            "index": 14
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 5,
+        "name": "Aperture / black",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 16
+          },
+          "metallicRoughnessTexture": {
+            "index": 17
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_medium_assault",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb",
+    "sha256": "0caa5469608bc60940c2b3cc8a5ca4fa99fde047aa74b95404e774093909383c",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 13
+          },
+          "metallicRoughnessTexture": {
+            "index": 14
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_missile_launcher",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb",
+    "sha256": "8020c2cf512244ecff6d1007d3b095b186cb695b53ffcba7932ad7b33badf54f",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Safety / amber",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_point_defense",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb",
+    "sha256": "5cbfad5bd2d747bdd7ede3f7f794e972ede3e340b6800bc8f044c08c7e19e8d6",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Squadron / vermilion",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 13
+          },
+          "metallicRoughnessTexture": {
+            "index": 14
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_sensor_array",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb",
+    "sha256": "14fc04d7f21f73f55757a12241bd60ca1921f3c7f19f689c0a1f60fbf7d8d84c",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Guidance / cyan",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 11
+          },
+          "metallicRoughnessTexture": {
+            "index": 12
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  },
+  {
+    "asset": "carrier_shield_generator",
+    "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb",
+    "sha256": "d2c8fc3d9767e2eef87f024cfa683f8b584c877c136d370505c484fba67328b4",
+    "materials": [
+      {
+        "index": 0,
+        "name": "Armor / pale titanium",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 1,
+        "name": "Structure / graphite",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 2,
+        "name": "Machinery / brushed steel",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 3,
+        "name": "Ceramic / warm ivory",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      },
+      {
+        "index": 4,
+        "name": "Ion / blue",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "alphaMode": "OPAQUE",
+        "image_size": [
+          2048,
+          2048
+        ],
+        "image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321"
+      }
+    ]
+  }
+]

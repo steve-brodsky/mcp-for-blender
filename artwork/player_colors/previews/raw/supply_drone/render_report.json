@@ -1,0 +1,86 @@
+{
+  "asset": "supply_drone",
+  "seconds": 19.304182291030884,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\supply_drone\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\supply_drone\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\supply_drone\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\supply_drone\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\supply_drone\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\supply_drone\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "SupplyDrone_Paint_PBR": 0
+  },
+  "preview_blend": "previews\\blender\\supply_drone.blend"
+}

@@ -1,0 +1,89 @@
+{
+  "asset": "torpedo_mounting_rack",
+  "seconds": 15.384367227554321,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_mounting_rack\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\torpedo_mounting_rack\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\torpedo_mounting_rack\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\torpedo_mounting_rack\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\torpedo_mounting_rack\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\torpedo_mounting_rack\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "Rack | warm hull ceramic": 0,
+    "Rack | machined edges": 2,
+    "Rack | graphite titanium": 1,
+    "Rack | ochre release latch": 3
+  },
+  "preview_blend": "previews\\blender\\torpedo_mounting_rack.blend"
+}

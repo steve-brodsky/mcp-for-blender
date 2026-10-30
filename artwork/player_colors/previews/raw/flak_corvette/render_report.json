@@ -1,0 +1,86 @@
+{
+  "asset": "flak_corvette",
+  "seconds": 20.69885802268982,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\flak_corvette\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\flak_corvette\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\flak_corvette\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\flak_corvette\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\flak_corvette\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\flak_corvette\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "FlakCorvette_Paint_PBR": 0
+  },
+  "preview_blend": "previews\\blender\\flak_corvette.blend"
+}

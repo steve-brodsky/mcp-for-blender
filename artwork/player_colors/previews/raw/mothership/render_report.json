@@ -1,0 +1,98 @@
+{
+  "asset": "mothership",
+  "seconds": 30.06856632232666,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\mothership\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\mothership\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\mothership\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\mothership\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\mothership\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\mothership\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "Ion blue guides": 4,
+    "Service lights": 7,
+    "Oxide red accents": 8,
+    "Machined edges": 5,
+    "Engine_Bridge_Cut_Interior": 12,
+    "Hull_Detailed_Final": 0,
+    "Cannon_Bore_Soot": 1,
+    "Hangar titanium": 2,
+    "Forcefield blue membrane": 9,
+    "Hull_Detailed_Final.001": 0,
+    "Safety ochre": 6,
+    "Recessed bulkheads": 3,
+    "Hull matched hangar Starboard": 10
+  },
+  "preview_blend": "previews\\blender\\mothership.blend"
+}

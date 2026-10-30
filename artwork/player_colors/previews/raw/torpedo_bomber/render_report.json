@@ -1,0 +1,86 @@
+{
+  "asset": "torpedo_bomber",
+  "seconds": 18.869779348373413,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\torpedo_bomber\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\torpedo_bomber\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\torpedo_bomber\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\torpedo_bomber\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\torpedo_bomber\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\torpedo_bomber\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "TorpedoBomber_Paint_PBR": 0
+  },
+  "preview_blend": "previews\\blender\\torpedo_bomber.blend"
+}

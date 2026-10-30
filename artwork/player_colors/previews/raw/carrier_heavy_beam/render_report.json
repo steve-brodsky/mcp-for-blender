@@ -1,0 +1,91 @@
+{
+  "asset": "carrier_heavy_beam",
+  "seconds": 17.336332321166992,
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    480,
+    360
+  ],
+  "preview_texture_max_size": 2048,
+  "renders": [
+    {
+      "color": "original",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\original_overview.png"
+    },
+    {
+      "color": "red",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\red_overview.png"
+    },
+    {
+      "color": "blue",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\blue_overview.png"
+    },
+    {
+      "color": "green",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\green_overview.png"
+    },
+    {
+      "color": "yellow",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\yellow_overview.png"
+    },
+    {
+      "color": "orange",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\orange_overview.png"
+    },
+    {
+      "color": "purple",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\purple_overview.png"
+    },
+    {
+      "color": "cyan",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\cyan_overview.png"
+    },
+    {
+      "color": "pink",
+      "view": "overview",
+      "file": "previews\\raw\\carrier_heavy_beam\\pink_overview.png"
+    },
+    {
+      "color": "original",
+      "view": "top",
+      "file": "previews\\raw\\carrier_heavy_beam\\original_top.png"
+    },
+    {
+      "color": "original",
+      "view": "underside",
+      "file": "previews\\raw\\carrier_heavy_beam\\original_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "top",
+      "file": "previews\\raw\\carrier_heavy_beam\\blue_top.png"
+    },
+    {
+      "color": "blue",
+      "view": "underside",
+      "file": "previews\\raw\\carrier_heavy_beam\\blue_underside.png"
+    },
+    {
+      "color": "blue",
+      "view": "close",
+      "file": "previews\\raw\\carrier_heavy_beam\\blue_close.png"
+    }
+  ],
+  "material_bindings": {
+    "Machinery / brushed steel": 1,
+    "Squadron / vermilion": 5,
+    "Ion / blue": 2,
+    "Armor / pale titanium": 4,
+    "Ceramic / warm ivory": 3,
+    "Structure / graphite": 0
+  },
+  "preview_blend": "previews\\blender\\carrier_heavy_beam.blend"
+}

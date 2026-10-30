@@ -1,0 +1,2859 @@
+{
+  "version": 1,
+  "color_space": "Base-color PNGs are sRGB; baseColorFactor values are linear RGBA.",
+  "palettes": {
+    "red": {
+      "hull_srgb": "#c89f9d",
+      "stripe_srgb": "#8b222b"
+    },
+    "blue": {
+      "hull_srgb": "#9eb4cc",
+      "stripe_srgb": "#244b9c"
+    },
+    "green": {
+      "hull_srgb": "#a4c0a9",
+      "stripe_srgb": "#26703f"
+    },
+    "yellow": {
+      "hull_srgb": "#d1c797",
+      "stripe_srgb": "#9b7b12"
+    },
+    "orange": {
+      "hull_srgb": "#d3b79a",
+      "stripe_srgb": "#a94b17"
+    },
+    "purple": {
+      "hull_srgb": "#b9a8ca",
+      "stripe_srgb": "#693195"
+    },
+    "cyan": {
+      "hull_srgb": "#9ac5c8",
+      "stripe_srgb": "#127489"
+    },
+    "pink": {
+      "hull_srgb": "#d1aabe",
+      "stripe_srgb": "#a12b6b"
+    }
+  },
+  "assets": [
+    {
+      "id": "mothership",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\capital_ships\\mothership\\mothership.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Hull_Detailed_Final",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 0
+          },
+          "texture_set": "mothership"
+        },
+        {
+          "index": 1,
+          "name": "Cannon_Bore_Soot",
+          "original_base_color_factor": [
+            0.012000000104308128,
+            0.017999999225139618,
+            0.02500000037252903,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 2,
+          "name": "Hangar titanium",
+          "original_base_color_factor": [
+            0.054999999701976776,
+            0.07500000298023224,
+            0.10000000149011612,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 3,
+          "name": "Recessed bulkheads",
+          "original_base_color_factor": [
+            0.012000000104308128,
+            0.020999999716877937,
+            0.03200000151991844,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 4,
+          "name": "Ion blue guides",
+          "original_base_color_factor": [
+            0.019999999552965164,
+            0.23999999463558197,
+            0.6499999761581421,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 5,
+          "name": "Machined edges",
+          "original_base_color_factor": [
+            0.27000001072883606,
+            0.3400000035762787,
+            0.38999998569488525,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 6,
+          "name": "Safety ochre",
+          "original_base_color_factor": [
+            0.6499999761581421,
+            0.3799999952316284,
+            0.054999999701976776,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 7,
+          "name": "Service lights",
+          "original_base_color_factor": [
+            0.8999999761581421,
+            0.550000011920929,
+            0.18000000715255737,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 8,
+          "name": "Oxide red accents",
+          "original_base_color_factor": [
+            0.3100000023841858,
+            0.04500000178813934,
+            0.027000000700354576,
+            1
+          ],
+          "action": "replace_base_color_factor",
+          "preserve_other_material_properties": true,
+          "role": "stripe",
+          "variants": {
+            "red": [
+              0.42377835512161255,
+              0.023737099021673203,
+              0.03670303896069527,
+              1
+            ],
+            "blue": [
+              0.026336515322327614,
+              0.11177301406860352,
+              0.5481501817703247,
+              1
+            ],
+            "green": [
+              0.029094824567437172,
+              0.2633863389492035,
+              0.07799821346998215,
+              1
+            ],
+            "yellow": [
+              0.5403148531913757,
+              0.32339635491371155,
+              0.008317377418279648,
+              1
+            ],
+            "orange": [
+              0.6560620665550232,
+              0.11177301406860352,
+              0.012154628522694111,
+              1
+            ],
+            "purple": [
+              0.22888696193695068,
+              0.047221485525369644,
+              0.49467718601226807,
+              1
+            ],
+            "cyan": [
+              0.008317377418279648,
+              0.2843788266181946,
+              0.41036128997802734,
+              1
+            ],
+            "pink": [
+              0.5883184671401978,
+              0.03670303896069527,
+              0.23845629394054413,
+              1
+            ]
+          }
+        },
+        {
+          "index": 9,
+          "name": "Forcefield blue membrane",
+          "original_base_color_factor": [
+            0.02500000037252903,
+            0.2199999988079071,
+            0.699999988079071,
+            0.10000000149011612
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 10,
+          "name": "Hull matched hangar Starboard",
+          "original_base_color_factor": [
+            0.6899999976158142,
+            0.6399999856948853,
+            0.5099999904632568,
+            1
+          ],
+          "action": "replace_base_color_factor",
+          "preserve_other_material_properties": true,
+          "role": "hull",
+          "variants": {
+            "red": [
+              0.7766779065132141,
+              0.46406054496765137,
+              0.4511629641056061,
+              1
+            ],
+            "blue": [
+              0.45758530497550964,
+              0.6125048995018005,
+              0.8122634291648865,
+              1
+            ],
+            "green": [
+              0.4972366392612457,
+              0.7082790732383728,
+              0.531756579875946,
+              1
+            ],
+            "yellow": [
+              0.858058750629425,
+              0.7679265737533569,
+              0.4137355387210846,
+              1
+            ],
+            "orange": [
+              0.8767882585525513,
+              0.6356893181800842,
+              0.4322129786014557,
+              1
+            ],
+            "purple": [
+              0.6514255404472351,
+              0.52474445104599,
+              0.7943544387817383,
+              1
+            ],
+            "cyan": [
+              0.4322129786014557,
+              0.7505971193313599,
+              0.7766779065132141,
+              1
+            ],
+            "pink": [
+              0.858058750629425,
+              0.5388232469558716,
+              0.6917517781257629,
+              1
+            ]
+          }
+        },
+        {
+          "index": 11,
+          "name": "Hull_Detailed_Final",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
+          "texture_coordinate": 1,
+          "texture_info": {
+            "index": 0,
+            "texCoord": 1
+          },
+          "texture_set": "mothership"
+        },
+        {
+          "index": 12,
+          "name": "Engine_Bridge_Cut_Interior",
+          "original_base_color_factor": [
+            0.026000000536441803,
+            0.029999999329447746,
+            0.03500000014901161,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "flak_corvette",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "FlakCorvette_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "ecefa30191a591dfdadee9c859e755b658f5064c56bfa32d5b5ef6d08ad8cb44",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "flak_corvette"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pd_corvette",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "PDCorvette_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "b0423d3a20c8b56ed9cee8331da1a281842477744f9351e4599bee43ae54278d",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "pd_corvette"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy_fighter",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "HeavyFighter_CleanPaint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "6146eae48e67efc90a80acc8f7e2fdb352a83a8955869e3c8bb1e595dd2b4197",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "heavy_fighter"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interceptor",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Interceptor_CleanPaint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "966a9eda85feb3030259a05acd243d42955e09dfc4ecb184b0260cef4f345b1f",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 0
+          },
+          "texture_set": "interceptor"
+        },
+        {
+          "index": 1,
+          "name": "Sealed attachment metal",
+          "original_base_color_factor": [
+            0.07000000029802322,
+            0.08500000089406967,
+            0.10000000149011612,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 2,
+          "name": "Engine coupling brushed titanium",
+          "original_base_color_factor": [
+            0.10499999672174454,
+            0.125,
+            0.15000000596046448,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 3,
+          "name": "Engine coupling retaining rings",
+          "original_base_color_factor": [
+            0.2199999988079071,
+            0.25,
+            0.28999999165534973,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 1,
+              "source_material_index": 1
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 2,
+              "source_material_index": 2
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 3,
+              "source_material_index": 3
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 1,
+              "source_material_index": 1
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 2,
+              "source_material_index": 2
+            },
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 3,
+              "source_material_index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missile_fighter",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "MissileFighter_CleanPaint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "f056dd517d9232cbcfaba9da77469cc2a912a3cf5abbeddee53e58cafd2fc7ad",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "missile_fighter"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torpedo_bomber",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "TorpedoBomber_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "7a174e2bb23313c20970ca21ba507278f290b29ee2cbf707e9169e9c4db03724",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "torpedo_bomber"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torpedo_mounting_rack",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_mounting_rack.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Rack | warm hull ceramic",
+          "original_base_color_factor": [
+            0.4300000071525574,
+            0.4050000011920929,
+            0.3449999988079071,
+            1
+          ],
+          "action": "replace_base_color_factor",
+          "preserve_other_material_properties": true,
+          "role": "hull",
+          "variants": {
+            "red": [
+              0.49074941873550415,
+              0.29540789127349854,
+              0.2873280346393585,
+              1
+            ],
+            "blue": [
+              0.2913515865802765,
+              0.3882687985897064,
+              0.5129390954971313,
+              1
+            ],
+            "green": [
+              0.31618183851242065,
+              0.44807636737823486,
+              0.3377840518951416,
+              1
+            ],
+            "yellow": [
+              0.5414848327636719,
+              0.4852912724018097,
+              0.263868510723114,
+              1
+            ],
+            "orange": [
+              0.553156316280365,
+              0.4027532935142517,
+              0.275452584028244,
+              1
+            ],
+            "purple": [
+              0.4125818610191345,
+              0.33339694142341614,
+              0.5017727017402649,
+              1
+            ],
+            "cyan": [
+              0.275452584028244,
+              0.4744815528392792,
+              0.49074941873550415,
+              1
+            ],
+            "pink": [
+              0.5414848327636719,
+              0.34220466017723083,
+              0.437760591506958,
+              1
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "name": "Rack | graphite titanium",
+          "original_base_color_factor": [
+            0.12999999523162842,
+            0.1550000011920929,
+            0.17000000178813934,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 2,
+          "name": "Rack | machined edges",
+          "original_base_color_factor": [
+            0.3400000035762787,
+            0.38499999046325684,
+            0.41999998688697815,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        },
+        {
+          "index": 3,
+          "name": "Rack | ochre release latch",
+          "original_base_color_factor": [
+            0.6200000047683716,
+            0.3499999940395355,
+            0.04500000178813934,
+            1
+          ],
+          "action": "preserve",
+          "preserve_other_material_properties": true
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "beam_frigate",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "BeamFrigate_CleanPaint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "3fa3253bb456f0e280287f184200e326834085011bb4d60d229fbd4bbc136c88",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "beam_frigate"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply_frigate",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "SupplyFrigate_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "e41e85f800f7524aae3e56c63cafdc9cb9983c4076a4f1e8cb327ddd230b91dc",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "supply_frigate"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cargo_pod",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "CargoPod_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "47c6e49f760c773946f46607d8069dfec72d8b581a519cdcb2eaa0f5028fa97f",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "cargo_pod"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "construction_drone",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "ConstructionDrone_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "4d98e15d4b82fc9d99440ab3a66e1b8c1133d5ca4a626d077f47353087208912",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "construction_drone"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resource_collector",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "ResourceCollector_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "baa0a3031dd27505d0c0c4f04e9ae5dcd7db40cbbdf78c4eca059de682637268",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "resource_collector"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply_drone",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "SupplyDrone_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "2ad1d5e8c9205ef5282eec659ea3c152886075966f6b6cc96400161c0ad8a6d7",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "supply_drone"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flak_turret",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\flak\\flak_turret.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "FlakTurret_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "ddb7f933d63b6387d26e6772536b649ed0ecbc8ec42cd28105964ef26c3dcd49",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "flak_turret"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "gatling_turret",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\gatling\\gatling_turret.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Gatling_Turret_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "dcc3614a9d6e1a41eb61865c028dc3f51a54fa47b79bca1e596298f4f9f12f99",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "gatling_turret"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "laser_turret",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\laser\\laser_turret.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Laser_Turret_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "f506e5e3b5d575742ecc15f3a3b185971b768435ee4dc654daf1fcb0a3a5d974",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "laser_turret"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "quad_turret",
+      "source": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\quad\\quad_turret.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Quad_Turret_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "89d787acb0e4a09d053ace25060607c9afcbf5f5e722fdad9398c4d18763ed91",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "quad_turret"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "supply_ship",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "SupplyShip_Paint_PBR",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "baa0a3031dd27505d0c0c4f04e9ae5dcd7db40cbbdf78c4eca059de682637268",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "resource_collector"
+        }
+      ],
+      "lods": [
+        {
+          "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod1.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        },
+        {
+          "path": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb",
+          "material_bindings": [],
+          "usage": "Assign the matching LOD0 variant material to each listed mesh surface, including geometry-only LODs with no embedded materials.",
+          "primitive_bindings": [
+            {
+              "lod_mesh_index": 0,
+              "lod_primitive_index": 0,
+              "source_material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carrier",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Ion / blue",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 8
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Aperture / black",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 11
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 5,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 17
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 6,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 20
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 7,
+          "name": "Guidance / cyan",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 24
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 8,
+          "name": "Safety / amber",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 28
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_aux_reactor",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Ion / blue",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_fighter_operations",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 13
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 5,
+          "name": "Guidance / cyan",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 17
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_fire_control",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Guidance / cyan",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_heavy_beam",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Ion / blue",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 8
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 11
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 5,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 17
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_heavy_kinetic",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 13
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 5,
+          "name": "Aperture / black",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 16
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_medium_assault",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 13
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_missile_launcher",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Safety / amber",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_point_defense",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Squadron / vermilion",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 13
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_sensor_array",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Guidance / cyan",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 11
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    },
+    {
+      "id": "carrier_shield_generator",
+      "source": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Armor / pale titanium",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 1
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 1,
+          "name": "Structure / graphite",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 4
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 2,
+          "name": "Machinery / brushed steel",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 7
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 3,
+          "name": "Ceramic / warm ivory",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 10
+          },
+          "texture_set": "carrier_shared"
+        },
+        {
+          "index": 4,
+          "name": "Ion / blue",
+          "original_base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": "replace_base_color_texture",
+          "preserve_other_material_properties": true,
+          "original_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+          "texture_coordinate": 0,
+          "texture_info": {
+            "index": 14
+          },
+          "texture_set": "carrier_shared"
+        }
+      ],
+      "lods": []
+    }
+  ],
+  "texture_sets": {
+    "mothership": {
+      "size": [
+        8192,
+        8192
+      ],
+      "source_image_sha256": "91d9c093365a843c420f901b27438854bb3be95b4e22ff3796776fbae2a10d28",
+      "original": "textures/mothership/original.png",
+      "hull_mask": "textures/mothership/hull_mask.png",
+      "stripe_mask": "textures/mothership/stripe_mask.png",
+      "hull_coverage_fraction": 0.42606060206890106,
+      "stripe_coverage_fraction": 0.02614717185497284,
+      "variants": {
+        "red": "textures/mothership/red.png",
+        "blue": "textures/mothership/blue.png",
+        "green": "textures/mothership/green.png",
+        "yellow": "textures/mothership/yellow.png",
+        "orange": "textures/mothership/orange.png",
+        "purple": "textures/mothership/purple.png",
+        "cyan": "textures/mothership/cyan.png",
+        "pink": "textures/mothership/pink.png"
+      }
+    },
+    "flak_corvette": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "ecefa30191a591dfdadee9c859e755b658f5064c56bfa32d5b5ef6d08ad8cb44",
+      "original": "textures/flak_corvette/original.png",
+      "hull_mask": "textures/flak_corvette/hull_mask.png",
+      "stripe_mask": "textures/flak_corvette/stripe_mask.png",
+      "hull_coverage_fraction": 0.5967789888381958,
+      "stripe_coverage_fraction": 0.0316656231880188,
+      "variants": {
+        "red": "textures/flak_corvette/red.png",
+        "blue": "textures/flak_corvette/blue.png",
+        "green": "textures/flak_corvette/green.png",
+        "yellow": "textures/flak_corvette/yellow.png",
+        "orange": "textures/flak_corvette/orange.png",
+        "purple": "textures/flak_corvette/purple.png",
+        "cyan": "textures/flak_corvette/cyan.png",
+        "pink": "textures/flak_corvette/pink.png"
+      }
+    },
+    "pd_corvette": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "b0423d3a20c8b56ed9cee8331da1a281842477744f9351e4599bee43ae54278d",
+      "original": "textures/pd_corvette/original.png",
+      "hull_mask": "textures/pd_corvette/hull_mask.png",
+      "stripe_mask": "textures/pd_corvette/stripe_mask.png",
+      "hull_coverage_fraction": 0.5454828143119812,
+      "stripe_coverage_fraction": 0.015340626239776611,
+      "variants": {
+        "red": "textures/pd_corvette/red.png",
+        "blue": "textures/pd_corvette/blue.png",
+        "green": "textures/pd_corvette/green.png",
+        "yellow": "textures/pd_corvette/yellow.png",
+        "orange": "textures/pd_corvette/orange.png",
+        "purple": "textures/pd_corvette/purple.png",
+        "cyan": "textures/pd_corvette/cyan.png",
+        "pink": "textures/pd_corvette/pink.png"
+      }
+    },
+    "heavy_fighter": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "6146eae48e67efc90a80acc8f7e2fdb352a83a8955869e3c8bb1e595dd2b4197",
+      "original": "textures/heavy_fighter/original.png",
+      "hull_mask": "textures/heavy_fighter/hull_mask.png",
+      "stripe_mask": "textures/heavy_fighter/stripe_mask.png",
+      "hull_coverage_fraction": 0.10849910974502563,
+      "stripe_coverage_fraction": 0.004743039608001709,
+      "variants": {
+        "red": "textures/heavy_fighter/red.png",
+        "blue": "textures/heavy_fighter/blue.png",
+        "green": "textures/heavy_fighter/green.png",
+        "yellow": "textures/heavy_fighter/yellow.png",
+        "orange": "textures/heavy_fighter/orange.png",
+        "purple": "textures/heavy_fighter/purple.png",
+        "cyan": "textures/heavy_fighter/cyan.png",
+        "pink": "textures/heavy_fighter/pink.png"
+      }
+    },
+    "interceptor": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "966a9eda85feb3030259a05acd243d42955e09dfc4ecb184b0260cef4f345b1f",
+      "original": "textures/interceptor/original.png",
+      "hull_mask": "textures/interceptor/hull_mask.png",
+      "stripe_mask": "textures/interceptor/stripe_mask.png",
+      "hull_coverage_fraction": 0.08424550294876099,
+      "stripe_coverage_fraction": 0.0027984976768493652,
+      "variants": {
+        "red": "textures/interceptor/red.png",
+        "blue": "textures/interceptor/blue.png",
+        "green": "textures/interceptor/green.png",
+        "yellow": "textures/interceptor/yellow.png",
+        "orange": "textures/interceptor/orange.png",
+        "purple": "textures/interceptor/purple.png",
+        "cyan": "textures/interceptor/cyan.png",
+        "pink": "textures/interceptor/pink.png"
+      }
+    },
+    "missile_fighter": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "f056dd517d9232cbcfaba9da77469cc2a912a3cf5abbeddee53e58cafd2fc7ad",
+      "original": "textures/missile_fighter/original.png",
+      "hull_mask": "textures/missile_fighter/hull_mask.png",
+      "stripe_mask": "textures/missile_fighter/stripe_mask.png",
+      "hull_coverage_fraction": 0.16733700037002563,
+      "stripe_coverage_fraction": 0.010203182697296143,
+      "variants": {
+        "red": "textures/missile_fighter/red.png",
+        "blue": "textures/missile_fighter/blue.png",
+        "green": "textures/missile_fighter/green.png",
+        "yellow": "textures/missile_fighter/yellow.png",
+        "orange": "textures/missile_fighter/orange.png",
+        "purple": "textures/missile_fighter/purple.png",
+        "cyan": "textures/missile_fighter/cyan.png",
+        "pink": "textures/missile_fighter/pink.png"
+      }
+    },
+    "torpedo_bomber": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "7a174e2bb23313c20970ca21ba507278f290b29ee2cbf707e9169e9c4db03724",
+      "original": "textures/torpedo_bomber/original.png",
+      "hull_mask": "textures/torpedo_bomber/hull_mask.png",
+      "stripe_mask": "textures/torpedo_bomber/stripe_mask.png",
+      "hull_coverage_fraction": 0.707229733467102,
+      "stripe_coverage_fraction": 0.020247220993041992,
+      "variants": {
+        "red": "textures/torpedo_bomber/red.png",
+        "blue": "textures/torpedo_bomber/blue.png",
+        "green": "textures/torpedo_bomber/green.png",
+        "yellow": "textures/torpedo_bomber/yellow.png",
+        "orange": "textures/torpedo_bomber/orange.png",
+        "purple": "textures/torpedo_bomber/purple.png",
+        "cyan": "textures/torpedo_bomber/cyan.png",
+        "pink": "textures/torpedo_bomber/pink.png"
+      }
+    },
+    "beam_frigate": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "3fa3253bb456f0e280287f184200e326834085011bb4d60d229fbd4bbc136c88",
+      "original": "textures/beam_frigate/original.png",
+      "hull_mask": "textures/beam_frigate/hull_mask.png",
+      "stripe_mask": "textures/beam_frigate/stripe_mask.png",
+      "hull_coverage_fraction": 0.3674733638763428,
+      "stripe_coverage_fraction": 0.017359912395477295,
+      "variants": {
+        "red": "textures/beam_frigate/red.png",
+        "blue": "textures/beam_frigate/blue.png",
+        "green": "textures/beam_frigate/green.png",
+        "yellow": "textures/beam_frigate/yellow.png",
+        "orange": "textures/beam_frigate/orange.png",
+        "purple": "textures/beam_frigate/purple.png",
+        "cyan": "textures/beam_frigate/cyan.png",
+        "pink": "textures/beam_frigate/pink.png"
+      }
+    },
+    "supply_frigate": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "e41e85f800f7524aae3e56c63cafdc9cb9983c4076a4f1e8cb327ddd230b91dc",
+      "original": "textures/supply_frigate/original.png",
+      "hull_mask": "textures/supply_frigate/hull_mask.png",
+      "stripe_mask": "textures/supply_frigate/stripe_mask.png",
+      "hull_coverage_fraction": 0.7649227380752563,
+      "stripe_coverage_fraction": 0.00022459030151367188,
+      "variants": {
+        "red": "textures/supply_frigate/red.png",
+        "blue": "textures/supply_frigate/blue.png",
+        "green": "textures/supply_frigate/green.png",
+        "yellow": "textures/supply_frigate/yellow.png",
+        "orange": "textures/supply_frigate/orange.png",
+        "purple": "textures/supply_frigate/purple.png",
+        "cyan": "textures/supply_frigate/cyan.png",
+        "pink": "textures/supply_frigate/pink.png"
+      }
+    },
+    "cargo_pod": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "47c6e49f760c773946f46607d8069dfec72d8b581a519cdcb2eaa0f5028fa97f",
+      "original": "textures/cargo_pod/original.png",
+      "hull_mask": "textures/cargo_pod/hull_mask.png",
+      "stripe_mask": "textures/cargo_pod/stripe_mask.png",
+      "hull_coverage_fraction": 0.7070116996765137,
+      "stripe_coverage_fraction": 0.014686346054077148,
+      "variants": {
+        "red": "textures/cargo_pod/red.png",
+        "blue": "textures/cargo_pod/blue.png",
+        "green": "textures/cargo_pod/green.png",
+        "yellow": "textures/cargo_pod/yellow.png",
+        "orange": "textures/cargo_pod/orange.png",
+        "purple": "textures/cargo_pod/purple.png",
+        "cyan": "textures/cargo_pod/cyan.png",
+        "pink": "textures/cargo_pod/pink.png"
+      }
+    },
+    "construction_drone": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "4d98e15d4b82fc9d99440ab3a66e1b8c1133d5ca4a626d077f47353087208912",
+      "original": "textures/construction_drone/original.png",
+      "hull_mask": "textures/construction_drone/hull_mask.png",
+      "stripe_mask": "textures/construction_drone/stripe_mask.png",
+      "hull_coverage_fraction": 0.5796790719032288,
+      "stripe_coverage_fraction": 0.014249980449676514,
+      "variants": {
+        "red": "textures/construction_drone/red.png",
+        "blue": "textures/construction_drone/blue.png",
+        "green": "textures/construction_drone/green.png",
+        "yellow": "textures/construction_drone/yellow.png",
+        "orange": "textures/construction_drone/orange.png",
+        "purple": "textures/construction_drone/purple.png",
+        "cyan": "textures/construction_drone/cyan.png",
+        "pink": "textures/construction_drone/pink.png"
+      }
+    },
+    "resource_collector": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "baa0a3031dd27505d0c0c4f04e9ae5dcd7db40cbbdf78c4eca059de682637268",
+      "original": "textures/resource_collector/original.png",
+      "hull_mask": "textures/resource_collector/hull_mask.png",
+      "stripe_mask": "textures/resource_collector/stripe_mask.png",
+      "hull_coverage_fraction": 0.7263684868812561,
+      "stripe_coverage_fraction": 0.01598149538040161,
+      "variants": {
+        "red": "textures/resource_collector/red.png",
+        "blue": "textures/resource_collector/blue.png",
+        "green": "textures/resource_collector/green.png",
+        "yellow": "textures/resource_collector/yellow.png",
+        "orange": "textures/resource_collector/orange.png",
+        "purple": "textures/resource_collector/purple.png",
+        "cyan": "textures/resource_collector/cyan.png",
+        "pink": "textures/resource_collector/pink.png"
+      }
+    },
+    "supply_drone": {
+      "size": [
+        4096,
+        4096
+      ],
+      "source_image_sha256": "2ad1d5e8c9205ef5282eec659ea3c152886075966f6b6cc96400161c0ad8a6d7",
+      "original": "textures/supply_drone/original.png",
+      "hull_mask": "textures/supply_drone/hull_mask.png",
+      "stripe_mask": "textures/supply_drone/stripe_mask.png",
+      "hull_coverage_fraction": 0.4538004994392395,
+      "stripe_coverage_fraction": 0.013169467449188232,
+      "variants": {
+        "red": "textures/supply_drone/red.png",
+        "blue": "textures/supply_drone/blue.png",
+        "green": "textures/supply_drone/green.png",
+        "yellow": "textures/supply_drone/yellow.png",
+        "orange": "textures/supply_drone/orange.png",
+        "purple": "textures/supply_drone/purple.png",
+        "cyan": "textures/supply_drone/cyan.png",
+        "pink": "textures/supply_drone/pink.png"
+      }
+    },
+    "flak_turret": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "ddb7f933d63b6387d26e6772536b649ed0ecbc8ec42cd28105964ef26c3dcd49",
+      "original": "textures/flak_turret/original.png",
+      "hull_mask": "textures/flak_turret/hull_mask.png",
+      "stripe_mask": "textures/flak_turret/stripe_mask.png",
+      "hull_coverage_fraction": 0.3763394355773926,
+      "stripe_coverage_fraction": 0.012752771377563477,
+      "variants": {
+        "red": "textures/flak_turret/red.png",
+        "blue": "textures/flak_turret/blue.png",
+        "green": "textures/flak_turret/green.png",
+        "yellow": "textures/flak_turret/yellow.png",
+        "orange": "textures/flak_turret/orange.png",
+        "purple": "textures/flak_turret/purple.png",
+        "cyan": "textures/flak_turret/cyan.png",
+        "pink": "textures/flak_turret/pink.png"
+      }
+    },
+    "gatling_turret": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "dcc3614a9d6e1a41eb61865c028dc3f51a54fa47b79bca1e596298f4f9f12f99",
+      "original": "textures/gatling_turret/original.png",
+      "hull_mask": "textures/gatling_turret/hull_mask.png",
+      "stripe_mask": "textures/gatling_turret/stripe_mask.png",
+      "hull_coverage_fraction": 0.1273946762084961,
+      "stripe_coverage_fraction": 0.0,
+      "variants": {
+        "red": "textures/gatling_turret/red.png",
+        "blue": "textures/gatling_turret/blue.png",
+        "green": "textures/gatling_turret/green.png",
+        "yellow": "textures/gatling_turret/yellow.png",
+        "orange": "textures/gatling_turret/orange.png",
+        "purple": "textures/gatling_turret/purple.png",
+        "cyan": "textures/gatling_turret/cyan.png",
+        "pink": "textures/gatling_turret/pink.png"
+      }
+    },
+    "laser_turret": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "f506e5e3b5d575742ecc15f3a3b185971b768435ee4dc654daf1fcb0a3a5d974",
+      "original": "textures/laser_turret/original.png",
+      "hull_mask": "textures/laser_turret/hull_mask.png",
+      "stripe_mask": "textures/laser_turret/stripe_mask.png",
+      "hull_coverage_fraction": 0.19931721687316895,
+      "stripe_coverage_fraction": 0.0,
+      "variants": {
+        "red": "textures/laser_turret/red.png",
+        "blue": "textures/laser_turret/blue.png",
+        "green": "textures/laser_turret/green.png",
+        "yellow": "textures/laser_turret/yellow.png",
+        "orange": "textures/laser_turret/orange.png",
+        "purple": "textures/laser_turret/purple.png",
+        "cyan": "textures/laser_turret/cyan.png",
+        "pink": "textures/laser_turret/pink.png"
+      }
+    },
+    "quad_turret": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "89d787acb0e4a09d053ace25060607c9afcbf5f5e722fdad9398c4d18763ed91",
+      "original": "textures/quad_turret/original.png",
+      "hull_mask": "textures/quad_turret/hull_mask.png",
+      "stripe_mask": "textures/quad_turret/stripe_mask.png",
+      "hull_coverage_fraction": 0.20823359489440918,
+      "stripe_coverage_fraction": 0.0,
+      "variants": {
+        "red": "textures/quad_turret/red.png",
+        "blue": "textures/quad_turret/blue.png",
+        "green": "textures/quad_turret/green.png",
+        "yellow": "textures/quad_turret/yellow.png",
+        "orange": "textures/quad_turret/orange.png",
+        "purple": "textures/quad_turret/purple.png",
+        "cyan": "textures/quad_turret/cyan.png",
+        "pink": "textures/quad_turret/pink.png"
+      }
+    },
+    "carrier_shared": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source_image_sha256": "327923b0b6cf67fdc1b24d73687b19a00a81a1e5a54d4712dc86da69bf94d321",
+      "original": "textures/carrier_shared/original.png",
+      "hull_mask": "textures/carrier_shared/hull_mask.png",
+      "stripe_mask": "textures/carrier_shared/stripe_mask.png",
+      "hull_coverage_fraction": 0.125,
+      "stripe_coverage_fraction": 0.0625,
+      "variants": {
+        "red": "textures/carrier_shared/red.png",
+        "blue": "textures/carrier_shared/blue.png",
+        "green": "textures/carrier_shared/green.png",
+        "yellow": "textures/carrier_shared/yellow.png",
+        "orange": "textures/carrier_shared/orange.png",
+        "purple": "textures/carrier_shared/purple.png",
+        "cyan": "textures/carrier_shared/cyan.png",
+        "pink": "textures/carrier_shared/pink.png"
+      }
+    }
+  },
+  "source_files": {
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\capital_ships\\mothership\\mothership.glb": "5cad4ec14a954b24eaaf926265e19b877186514365b6058e9ca72b7e40610d0d",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette.glb": "99bd61befe92cd0929b121df2ee7216768a008103a0aabc3af4a018d1d19fc5a",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod1.glb": "ae0e077c8c65fb327c054edc9886f0fd46bde5e01465e7cd3340d715a74acccb",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod2.glb": "2edb325bcd28353bbf29d0d7c73bf004fb32a7c1d5dd150ac33b98d1a1bea48d",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette.glb": "88bdd25653c46ca5f77cad830c534b4d49a141f23b2880dc82d85ef65848f2e2",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod1.glb": "245618cafc16302369d82d6d12b47370e245d6774500e44e7672b41d22a249ed",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod2.glb": "0da69c326b79d092d91c875e8583c5a332db0e247927ff2dd827e46316ec60fe",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter.glb": "5cd59b72e4328336ba7038cf59a6ed6e10cb5006d1b07601b6f63bf936e26b9e",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod1.glb": "c1369c7aa8b383c26ba55ecf282d9df35b57b6e6383934da7ea95e9ce3afdeca",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod2.glb": "30a3a9ec681664dc61ca7958dda2f9d2e08be7c92608f9d222ffd9fca71b4f91",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor.glb": "9ff55584053ffc1fec85aa04dde066588aa8d6b3be2c2e14b8bea9b5620d494c",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod1.glb": "cfeccf26193ce43a51728da317c3e3abb4e93e0ec18dc93b42b15bc046ba3607",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb": "3d60b5f88575cde11702f3929deedcdb2666e854dfd1ed53137078c0d87823f8",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter.glb": "4809aaf283a2afa2ae57011a415c49a13f1625e968b68f3bd5dd40126ad57c87",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod1.glb": "02fd96da1cec0c9a10e91b42bffaa7e8fb767c651bf1a9ed4d6a98c3e49320e6",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod2.glb": "707b16283fb4aef4ec57cb62a457aea4142962c0c3b54348d80530cee386f4f0",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber.glb": "a60f85feee19f25c7a4ec37eb7e998593b2d7133b65c106eda806d3a4f8b19ef",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod1.glb": "e9aba034894aa611ff2b8f054b9c56041baf2e3450725d855161caf8833fd341",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod2.glb": "5becb8bab2b3a90d7ed03bf08f7623a708cdff2ed6bf2674a41fb1db94f9943e",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_mounting_rack.glb": "7dab5c85510ad5d2f4701c0d8432eab2eefe6f781345aaeffd3d89efeef4556b",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate.glb": "d89ecda0c007334fd5e22f57ffcc0eb88e04b91e158d44b9c54861db37059dfe",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod1.glb": "0bc7e27c081dfcbc4db23fba4f58ea6a2f9aba8fb6de6613c786ebcd296206fe",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod2.glb": "7855041f127f4846eb18deeef4f72d3d238f20aadf1f1710604d1c576fc5090f",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate.glb": "a153f3d0d84e255bf50cf9e1975e9749875bd5a951c0185c90ae74eb49f328db",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod1.glb": "a6f868403b1d2f9032cd36c74484770523d68956995cc4b637f81fe810594b22",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod2.glb": "89789cfd88ed0c3bf2d417d483e1ea840921909f8b3d849040f90fecd611a697",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod.glb": "cfe5bd09b6c77d4c9b16b24e261a8b2e83f74e2f6f66340a0761a3673c6938ac",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod_lod1.glb": "bc00145ad159a25e8c1bdf82b434589d3c431005262306712adb63b76692532b",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone.glb": "d0e472e7efb76d155cad146d1845b8d4f8cf5714381f2e4c7983eab2ba5573fb",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod1.glb": "12e6db669e658c5e7f17cce1114ee3083dd166f5999d289e7e52ddd0824ff1f8",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod2.glb": "ea0ce77e768374245002fb88dcb8f9eff533c58a97dc2aecdf662703e9382ea6",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector.glb": "a74150ff09223e0e37ad7280ce44390f2926f96a2f2f71783e3c44bad2116983",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod1.glb": "281863f1fed714326148a09de4b2a85efcdc4554019f3d9b51ad815fb42a0529",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod2.glb": "7f605c6ae6f78ea18b572d6eb25c2f5f305c49acd8c99c2394c087e685840fed",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone.glb": "a4323a914575af7484d1605017bda630e2f96c39a05327711e2bcbbfac7b4a4e",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod1.glb": "342d4038bea70b424f019b833e0adae7fdbb1a7a06e784267f2a2fcdbab0c1bb",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod2.glb": "96d2670ff28fcaeec9f9d4a0ea2af8403017a6491ec59f3ade8aac91aef324cf",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\flak\\flak_turret.glb": "da48ea6086fd00144be033add5f62fa561b39a570cbde04fc9a95dc6bae28af8",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\gatling\\gatling_turret.glb": "6d9e8e5a0c35a7e598e981662d3eb358be975e42e14f1701d9eceaadd7b88a11",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\laser\\laser_turret.glb": "a77c9fa6a7245d7f6388594a2a480aab07628d5d32d87c5b3677784e0db88239",
+    "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\weapons\\turrets\\quad\\quad_turret.glb": "491fa8137edce0e4e26b3e1be352a0f33590d648b38368e89fd0828db88abf63",
+    "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship.glb": "0c4cb9e2f8359a32f651adfccc9fa56e5c18b215b836ab7e850f6e0cc1e51971",
+    "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod1.glb": "b0d08cf053f7e2b759611d8bd9a7cdd6b7deb731990c0486bc2bb8b1c0bcc8cc",
+    "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb": "2caa11cde05a645062bfdfc870560fd3e33403a4109be72d86a8717fd9640efc",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb": "0aab3857df9cea21897b9f52cc60e1e71a61ffd7ee5db9d8e51b13a354fa6c00",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb": "1a19bd84a5f6d4a7aa71d57c6447aeaae726704aa5eab4ae3d729efdda80a1e6",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb": "2e807ac712eb69befc976d4ca64c7d6ad0c179cdd1e022dabd76c80646d1d01b",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb": "70fb61fbcae75497373325454381e5bb7dec440800300746bb6196f983533335",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb": "c3885b28952dbd61737cb5c92be7cd353635f71da3b53a1be76fb960697b060f",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb": "23ca0a09afc81129b2553dec35af3d3a93a99035180937a3a0c41bc5c3641edd",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb": "0caa5469608bc60940c2b3cc8a5ca4fa99fde047aa74b95404e774093909383c",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb": "8020c2cf512244ecff6d1007d3b095b186cb695b53ffcba7932ad7b33badf54f",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb": "5cbfad5bd2d747bdd7ede3f7f794e972ede3e340b6800bc8f044c08c7e19e8d6",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb": "14fc04d7f21f73f55757a12241bd60ca1921f3c7f19f689c0a1f60fbf7d8d84c",
+    "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb": "d2c8fc3d9767e2eef87f024cfa683f8b584c877c136d370505c484fba67328b4",
+    "C:\\Dev\\BlenderMCP\\artwork\\carrier\\blender\\carrier_source.blend1": "e1df4e3399c2e830e759a5eb973473772d841883d15bc737d0edc7d05ccb548c"
+  }
+}

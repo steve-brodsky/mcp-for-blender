@@ -1,0 +1,122 @@
+[
+  {
+    "asset": "flak_corvette",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\flak_corvette\\flak_corvette_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\flak_corvette_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "pd_corvette",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\corvettes\\pd_corvette\\pd_corvette_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\pd_corvette_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "heavy_fighter",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\heavy_fighter\\heavy_fighter_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\heavy_fighter_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "interceptor",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\interceptor\\interceptor_lod2.glb",
+    "source_material_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image": "previews\\lods\\interceptor_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "missile_fighter",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\missile_fighter\\missile_fighter_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\missile_fighter_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "torpedo_bomber",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\fighters\\torpedo_bomber\\torpedo_bomber_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\torpedo_bomber_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "beam_frigate",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\beam_frigate\\beam_frigate_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\beam_frigate_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "supply_frigate",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\frigates\\supply_frigate\\supply_frigate_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\supply_frigate_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "cargo_pod",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\cargo_pod\\cargo_pod_lod1.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\cargo_pod_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "construction_drone",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\construction_drone\\construction_drone_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\construction_drone_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "resource_collector",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\resource_collector\\resource_collector_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\resource_collector_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "supply_drone",
+    "lod": "C:\\Users\\stevi\\OneDrive\\Documents\\space-game-prototype\\assets\\ships\\logistics\\supply_drone\\supply_drone_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\supply_drone_blue.png",
+    "production_lod_unchanged": true
+  },
+  {
+    "asset": "supply_ship",
+    "lod": "C:\\Dev\\BlenderMCP\\artwork\\supply_ship\\godot\\assets\\supply_ship_lod2.glb",
+    "source_material_indices": [
+      0
+    ],
+    "image": "previews\\lods\\supply_ship_blue.png",
+    "production_lod_unchanged": true
+  }
+]

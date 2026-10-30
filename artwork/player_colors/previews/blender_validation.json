@@ -1,0 +1,242 @@
+[
+  {
+    "asset": "mothership",
+    "original_materials_retained": 13,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "flak_corvette",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "pd_corvette",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "heavy_fighter",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "interceptor",
+    "original_materials_retained": 4,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "missile_fighter",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "torpedo_bomber",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "torpedo_mounting_rack",
+    "original_materials_retained": 4,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "beam_frigate",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "supply_frigate",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "cargo_pod",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "construction_drone",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "resource_collector",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "supply_drone",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "flak_turret",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "gatling_turret",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "laser_turret",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "quad_turret",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "supply_ship",
+    "original_materials_retained": 1,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier",
+    "original_materials_retained": 9,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_aux_reactor",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_fighter_operations",
+    "original_materials_retained": 6,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_fire_control",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_heavy_beam",
+    "original_materials_retained": 6,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_heavy_kinetic",
+    "original_materials_retained": 6,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_medium_assault",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_missile_launcher",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_point_defense",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_sensor_array",
+    "original_materials_retained": 4,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  },
+  {
+    "asset": "carrier_shield_generator",
+    "original_materials_retained": 5,
+    "palette_helper_embedded": true,
+    "palette_switches_checked": 9,
+    "saved_file_reopened": true,
+    "relative_texture_links_valid": true
+  }
+]

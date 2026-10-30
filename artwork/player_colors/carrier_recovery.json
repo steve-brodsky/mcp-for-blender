@@ -1,0 +1,72 @@
+{
+  "source": "C:\\Dev\\BlenderMCP\\artwork\\carrier\\blender\\carrier_source.blend1",
+  "sha256": "e1df4e3399c2e830e759a5eb973473772d841883d15bc737d0edc7d05ccb548c",
+  "exports": [
+    {
+      "asset": "carrier",
+      "root": "CARRIER_ROOT",
+      "objects": 186,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier.glb"
+    },
+    {
+      "asset": "carrier_heavy_kinetic",
+      "root": "HEAVY_KINETIC",
+      "objects": 7,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_kinetic.glb"
+    },
+    {
+      "asset": "carrier_heavy_beam",
+      "root": "HEAVY_BEAM",
+      "objects": 9,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_heavy_beam.glb"
+    },
+    {
+      "asset": "carrier_medium_assault",
+      "root": "MEDIUM_ASSAULT",
+      "objects": 8,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_medium_assault.glb"
+    },
+    {
+      "asset": "carrier_point_defense",
+      "root": "POINT_DEFENSE",
+      "objects": 9,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_point_defense.glb"
+    },
+    {
+      "asset": "carrier_missile_launcher",
+      "root": "MISSILE_LAUNCHER",
+      "objects": 14,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_missile_launcher.glb"
+    },
+    {
+      "asset": "carrier_shield_generator",
+      "root": "SHIELD_GENERATOR",
+      "objects": 4,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_shield_generator.glb"
+    },
+    {
+      "asset": "carrier_sensor_array",
+      "root": "SENSOR_ARRAY",
+      "objects": 4,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_sensor_array.glb"
+    },
+    {
+      "asset": "carrier_fire_control",
+      "root": "FIRE_CONTROL",
+      "objects": 4,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fire_control.glb"
+    },
+    {
+      "asset": "carrier_fighter_operations",
+      "root": "FIGHTER_OPERATIONS",
+      "objects": 4,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_fighter_operations.glb"
+    },
+    {
+      "asset": "carrier_aux_reactor",
+      "root": "AUX_REACTOR",
+      "objects": 4,
+      "path": "C:\\Dev\\BlenderMCP\\artwork\\player_colors\\sources\\carrier\\carrier_aux_reactor.glb"
+    }
+  ]
+}
